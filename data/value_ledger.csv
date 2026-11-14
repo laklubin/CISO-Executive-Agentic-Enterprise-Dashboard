@@ -1,0 +1,1209 @@
+# SYNTHETIC SAMPLE DATA - generated deterministically by assets/js/data.js (seed CISO-EAED-SYNTHETIC-v1); not live enterprise metrics
+entry_id,month,tenant_id,business_unit,security_control,category,incident_id,gross_claim_aed,amount_aed,status,description
+INC-202411-RB06-LP1,2024-11,FIN-RB,FIN,AI Agents,loss_prevented,INC-202411-RB06,49217,24609,Approved,Payment fraud prevented (Medium)
+INC-202411-RB06-LP2,2024-11,FIN-RB,FIN,SOC,loss_prevented,INC-202411-RB06,49217,12304,Approved,Payment fraud prevented (Medium)
+INC-202411-RB06-LP3,2024-11,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202411-RB06,49217,12304,Approved,Payment fraud prevented (Medium)
+SAV-202411-PAY1,2024-11,FIN-PAY,FIN,Cloud Security,saving,,0,71156,Pending,Cloud posture fixes: idle resources removed
+SAV-202411-HOS1,2024-11,HLT-HOS,HLT,AI Agents,saving,,0,153103,Pending,Service-desk deflection: contractor seats released
+SAV-202411-LAB1,2024-11,HLT-LAB,HLT,AI Agents,saving,,0,123812,Approved,Service-desk deflection: contractor seats released
+INC-202411-PWR04-LP1,2024-11,ENR-PWR,ENR,DLP,loss_prevented,INC-202411-PWR04,344018,172008,Approved,Insider misuse prevented (Medium)
+INC-202411-PWR04-LP2,2024-11,ENR-PWR,ENR,IAM/PAM,loss_prevented,INC-202411-PWR04,344018,86005,Approved,Insider misuse prevented (Medium)
+INC-202411-PWR04-LP3,2024-11,ENR-PWR,ENR,SOC,loss_prevented,INC-202411-PWR04,344018,86005,Approved,Insider misuse prevented (Medium)
+INC-202411-OGS01-LP1,2024-11,ENR-OGS,ENR,DLP,loss_prevented,INC-202411-OGS01,43816,21908,Approved,Insider misuse prevented (Medium)
+INC-202411-OGS01-LP2,2024-11,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202411-OGS01,43816,21908,Approved,Insider misuse prevented (Medium)
+SAV-202411-OGS1,2024-11,ENR-OGS,ENR,NDR,saving,,0,228398,Pending,NDR sensor rationalisation
+SAV-202411-OGS2,2024-11,ENR-OGS,ENR,NDR,saving,,0,44477,Approved,NDR sensor rationalisation
+INC-202411-SSA02-LP1,2024-11,GOV-SSA,GOV,Cloud Security,loss_prevented,INC-202411-SSA02,142896,71448,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202411-SSA02-LP2,2024-11,GOV-SSA,GOV,CTEM,loss_prevented,INC-202411-SSA02,142896,35724,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202411-SSA02-LP3,2024-11,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202411-SSA02,142896,35724,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202411-SSA03-LP1,2024-11,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202411-SSA03,448378,224188,Approved,Ransomware attempt prevented (High)
+INC-202411-SSA03-LP2,2024-11,GOV-SSA,GOV,SOC,loss_prevented,INC-202411-SSA03,448378,112095,Approved,Ransomware attempt prevented (High)
+INC-202411-SSA03-LP3,2024-11,GOV-SSA,GOV,DFIR,loss_prevented,INC-202411-SSA03,448378,112095,Approved,Ransomware attempt prevented (High)
+INC-202411-SSA08-LP1,2024-11,GOV-SSA,GOV,Cloud Security,loss_prevented,INC-202411-SSA08,46217,23108,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202411-SSA08-LP2,2024-11,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202411-SSA08,46217,23109,Approved,Cloud misconfiguration exposure prevented (Medium)
+SAV-202411-MUN1,2024-11,GOV-MUN,GOV,Firewall,saving,,0,134024,Approved,Rule-base consolidation: hardware refresh deferred
+INC-202411-IT03-LP1,2024-11,GSS-IT,GSS,Vulnerability Mgmt,loss_prevented,INC-202411-IT03,68696,34349,Approved,Vulnerability exploitation prevented (Medium)
+INC-202411-IT03-LP2,2024-11,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202411-IT03,68696,11449,Approved,Vulnerability exploitation prevented (Medium)
+INC-202411-IT03-LP3,2024-11,GSS-IT,GSS,CTEM,loss_prevented,INC-202411-IT03,68696,11449,Approved,Vulnerability exploitation prevented (Medium)
+INC-202411-IT03-LP4,2024-11,GSS-IT,GSS,AppSec,loss_prevented,INC-202411-IT03,68696,11449,Approved,Vulnerability exploitation prevented (Medium)
+INC-202411-IT04-LP1,2024-11,GSS-IT,GSS,SOC,loss_prevented,INC-202411-IT04,99680,49840,Approved,Phishing / credential theft prevented (Low)
+INC-202411-IT04-LP2,2024-11,GSS-IT,GSS,SOAR,loss_prevented,INC-202411-IT04,99680,24920,Approved,Phishing / credential theft prevented (Low)
+INC-202411-IT04-LP3,2024-11,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202411-IT04,99680,24920,Approved,Phishing / credential theft prevented (Low)
+INC-202411-FHR01-LP1,2024-11,GSS-FHR,GSS,SOC,loss_prevented,INC-202411-FHR01,101526,50763,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR01-LP2,2024-11,GSS-FHR,GSS,AI Agents,loss_prevented,INC-202411-FHR01,101526,16921,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR01-LP3,2024-11,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202411-FHR01,101526,16921,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR01-LP4,2024-11,GSS-FHR,GSS,SOAR,loss_prevented,INC-202411-FHR01,101526,16921,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR03-LP1,2024-11,GSS-FHR,GSS,SOC,loss_prevented,INC-202411-FHR03,52101,26049,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR03-LP2,2024-11,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202411-FHR03,52101,8684,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR03-LP3,2024-11,GSS-FHR,GSS,SOAR,loss_prevented,INC-202411-FHR03,52101,8684,Approved,Phishing / credential theft prevented (Medium)
+INC-202411-FHR03-LP4,2024-11,GSS-FHR,GSS,AI Agents,loss_prevented,INC-202411-FHR03,52101,8684,Approved,Phishing / credential theft prevented (Medium)
+SAV-202411-FHR1,2024-11,GSS-FHR,GSS,GRC,saving,,0,50937,Approved,Automated evidence collection: external audit fees reduced
+INC-202412-RB02-LP1,2024-12,FIN-RB,FIN,WAF,loss_prevented,INC-202412-RB02,68722,34361,Approved,DDoS prevented (Medium)
+INC-202412-RB02-LP2,2024-12,FIN-RB,FIN,Firewall,loss_prevented,INC-202412-RB02,68722,34361,Approved,DDoS prevented (Medium)
+INC-202412-RB03-LP1,2024-12,FIN-RB,FIN,SOC,loss_prevented,INC-202412-RB03,55127,27563,Approved,Business email compromise prevented (Medium)
+INC-202412-RB03-LP2,2024-12,FIN-RB,FIN,SOAR,loss_prevented,INC-202412-RB03,55127,27564,Approved,Business email compromise prevented (Medium)
+INC-202412-RB07-LP1,2024-12,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202412-RB07,328531,164265,Approved,Malware prevented (High)
+INC-202412-RB07-LP2,2024-12,FIN-RB,FIN,SOC,loss_prevented,INC-202412-RB07,328531,82133,Approved,Malware prevented (High)
+INC-202412-RB07-LP3,2024-12,FIN-RB,FIN,DFIR,loss_prevented,INC-202412-RB07,328531,82133,Approved,Malware prevented (High)
+SAV-202412-PAY1,2024-12,FIN-PAY,FIN,AI Agents,saving,,0,144707,Approved,Reconciliation & invoice matching: temp staff released
+INC-202412-HOS01-LP1,2024-12,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202412-HOS01,93954,46976,Approved,Malware prevented (Medium)
+INC-202412-HOS01-LP2,2024-12,HLT-HOS,HLT,SOC,loss_prevented,INC-202412-HOS01,93954,23489,Approved,Malware prevented (Medium)
+INC-202412-HOS01-LP3,2024-12,HLT-HOS,HLT,SOAR,loss_prevented,INC-202412-HOS01,93954,23489,Approved,Malware prevented (Medium)
+INC-202412-HOS06-LP1,2024-12,HLT-HOS,HLT,SOC,loss_prevented,INC-202412-HOS06,81800,40900,Approved,Phishing / credential theft prevented (Medium)
+INC-202412-HOS06-LP2,2024-12,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202412-HOS06,81800,20450,Approved,Phishing / credential theft prevented (Medium)
+INC-202412-HOS06-LP3,2024-12,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202412-HOS06,81800,20450,Approved,Phishing / credential theft prevented (Medium)
+INC-202412-HOS08-LP1,2024-12,HLT-HOS,HLT,SOC,loss_prevented,INC-202412-HOS08,50412,25206,Approved,Business email compromise prevented (Low)
+INC-202412-HOS08-LP2,2024-12,HLT-HOS,HLT,SOAR,loss_prevented,INC-202412-HOS08,50412,8402,Approved,Business email compromise prevented (Low)
+INC-202412-HOS08-LP3,2024-12,HLT-HOS,HLT,DLP,loss_prevented,INC-202412-HOS08,50412,8402,Approved,Business email compromise prevented (Low)
+INC-202412-HOS08-LP4,2024-12,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202412-HOS08,50412,8402,Approved,Business email compromise prevented (Low)
+SAV-202412-HOS1,2024-12,HLT-HOS,HLT,AI Agents,saving,,0,96504,Approved,Service-desk deflection: contractor seats released
+INC-202412-PWR01-LP1,2024-12,ENR-PWR,ENR,SOC,loss_prevented,INC-202412-PWR01,76595,38297,Approved,Business email compromise prevented (Medium)
+INC-202412-PWR01-LP2,2024-12,ENR-PWR,ENR,DLP,loss_prevented,INC-202412-PWR01,76595,38298,Approved,Business email compromise prevented (Medium)
+INC-202412-OGS01-LP1,2024-12,ENR-OGS,ENR,Vulnerability Mgmt,loss_prevented,INC-202412-OGS01,186633,93315,Approved,Vulnerability exploitation prevented (Medium)
+INC-202412-OGS01-LP2,2024-12,ENR-OGS,ENR,AppSec,loss_prevented,INC-202412-OGS01,186633,31106,Approved,Vulnerability exploitation prevented (Medium)
+INC-202412-OGS01-LP3,2024-12,ENR-OGS,ENR,CTEM,loss_prevented,INC-202412-OGS01,186633,31106,Approved,Vulnerability exploitation prevented (Medium)
+INC-202412-OGS01-LP4,2024-12,ENR-OGS,ENR,WAF,loss_prevented,INC-202412-OGS01,186633,31106,Approved,Vulnerability exploitation prevented (Medium)
+INC-202412-OGS03-LP1,2024-12,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202412-OGS03,114300,57150,Approved,Malware prevented (Medium)
+INC-202412-OGS03-LP2,2024-12,ENR-OGS,ENR,SOAR,loss_prevented,INC-202412-OGS03,114300,57150,Approved,Malware prevented (Medium)
+INC-202412-OGS04-LP1,2024-12,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202412-OGS04,1478337,739169,Approved,Malware prevented (Critical)
+INC-202412-OGS04-LP2,2024-12,ENR-OGS,ENR,SOAR,loss_prevented,INC-202412-OGS04,1478337,369584,Approved,Malware prevented (Critical)
+INC-202412-OGS04-LP3,2024-12,ENR-OGS,ENR,DFIR,loss_prevented,INC-202412-OGS04,1478337,369584,Approved,Malware prevented (Critical)
+INC-202412-OGS05-LP1,2024-12,ENR-OGS,ENR,WAF,loss_prevented,INC-202412-OGS05,108653,54326,Approved,DDoS prevented (Medium)
+INC-202412-OGS05-LP2,2024-12,ENR-OGS,ENR,NDR,loss_prevented,INC-202412-OGS05,108653,54327,Approved,DDoS prevented (Medium)
+INC-202412-OGS06-LP1,2024-12,ENR-OGS,ENR,SOC,loss_prevented,INC-202412-OGS06,180784,90392,Approved,Phishing / credential theft prevented (High)
+INC-202412-OGS06-LP2,2024-12,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202412-OGS06,180784,22598,Approved,Phishing / credential theft prevented (High)
+INC-202412-OGS06-LP3,2024-12,ENR-OGS,ENR,SOAR,loss_prevented,INC-202412-OGS06,180784,22598,Approved,Phishing / credential theft prevented (High)
+INC-202412-OGS06-LP4,2024-12,ENR-OGS,ENR,AI Agents,loss_prevented,INC-202412-OGS06,180784,22598,Approved,Phishing / credential theft prevented (High)
+INC-202412-OGS06-LP5,2024-12,ENR-OGS,ENR,DFIR,loss_prevented,INC-202412-OGS06,180784,22598,Approved,Phishing / credential theft prevented (High)
+INC-202412-SSA01-LP1,2024-12,GOV-SSA,GOV,WAF,loss_prevented,INC-202412-SSA01,1035040,517519,Approved,DDoS prevented (High)
+INC-202412-SSA01-LP2,2024-12,GOV-SSA,GOV,Firewall,loss_prevented,INC-202412-SSA01,1035040,172507,Approved,DDoS prevented (High)
+INC-202412-SSA01-LP3,2024-12,GOV-SSA,GOV,NDR,loss_prevented,INC-202412-SSA01,1035040,172507,Approved,DDoS prevented (High)
+INC-202412-SSA01-LP4,2024-12,GOV-SSA,GOV,DFIR,loss_prevented,INC-202412-SSA01,1035040,172507,Approved,DDoS prevented (High)
+INC-202412-MUN01-LP1,2024-12,GOV-MUN,GOV,DLP,loss_prevented,INC-202412-MUN01,45423,22711,Approved,Data exfiltration attempt prevented (Medium)
+INC-202412-MUN01-LP2,2024-12,GOV-MUN,GOV,SOC,loss_prevented,INC-202412-MUN01,45423,22712,Approved,Data exfiltration attempt prevented (Medium)
+INC-202412-MUN02-LP1,2024-12,GOV-MUN,GOV,Cloud Security,loss_prevented,INC-202412-MUN02,52395,26197,Approved,Cloud misconfiguration exposure prevented (Low)
+INC-202412-MUN02-LP2,2024-12,GOV-MUN,GOV,CTEM,loss_prevented,INC-202412-MUN02,52395,26198,Approved,Cloud misconfiguration exposure prevented (Low)
+INC-202412-IT04-LP1,2024-12,GSS-IT,GSS,SOC,loss_prevented,INC-202412-IT04,55298,27649,Approved,Business email compromise prevented (Low)
+INC-202412-IT04-LP2,2024-12,GSS-IT,GSS,SOAR,loss_prevented,INC-202412-IT04,55298,27649,Approved,Business email compromise prevented (Low)
+SAV-202412-FHR1,2024-12,GSS-FHR,GSS,GRC,saving,,0,93948,Pending,Automated evidence collection: external audit fees reduced
+SAV-202501-RB1,2025-01,FIN-RB,FIN,SOAR,saving,,0,189644,Approved,Automated playbooks: overtime & on-call reduction
+SAV-202501-PAY1,2025-01,FIN-PAY,FIN,Cloud Security,saving,,0,57686,Approved,Cloud posture fixes: idle resources removed
+INC-202501-HOS01-LP1,2025-01,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202501-HOS01,52753,26377,Approved,Malware prevented (Medium)
+INC-202501-HOS01-LP2,2025-01,HLT-HOS,HLT,SOC,loss_prevented,INC-202501-HOS01,52753,13188,Approved,Malware prevented (Medium)
+INC-202501-HOS01-LP3,2025-01,HLT-HOS,HLT,SOAR,loss_prevented,INC-202501-HOS01,52753,13188,Approved,Malware prevented (Medium)
+INC-202501-HOS02-LP1,2025-01,HLT-HOS,HLT,SOC,loss_prevented,INC-202501-HOS02,109453,54727,Approved,Phishing / credential theft prevented (Medium)
+INC-202501-HOS02-LP2,2025-01,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202501-HOS02,109453,27363,Approved,Phishing / credential theft prevented (Medium)
+INC-202501-HOS02-LP3,2025-01,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202501-HOS02,109453,27363,Approved,Phishing / credential theft prevented (Medium)
+SAV-202501-HOS1,2025-01,HLT-HOS,HLT,SOC,saving,,0,225575,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+INC-202501-LAB01-LP1,2025-01,HLT-LAB,HLT,SOC,loss_prevented,INC-202501-LAB01,79737,39868,Approved,Phishing / credential theft prevented (Medium)
+INC-202501-LAB01-LP2,2025-01,HLT-LAB,HLT,AI Agents,loss_prevented,INC-202501-LAB01,79737,39869,Approved,Phishing / credential theft prevented (Medium)
+SAV-202501-LAB1,2025-01,HLT-LAB,HLT,AI Agents,saving,,0,128649,Approved,KYC / claims review outsourcing reduced
+SAV-202501-LAB2,2025-01,HLT-LAB,HLT,Backup,saving,,0,138124,Pending,Backup storage tiering & de-duplication
+INC-202501-PWR02-LP1,2025-01,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202501-PWR02,681563,340783,Approved,Ransomware attempt prevented (High)
+INC-202501-PWR02-LP2,2025-01,ENR-PWR,ENR,Backup,loss_prevented,INC-202501-PWR02,681563,85195,Approved,Ransomware attempt prevented (High)
+INC-202501-PWR02-LP3,2025-01,ENR-PWR,ENR,NDR,loss_prevented,INC-202501-PWR02,681563,85195,Approved,Ransomware attempt prevented (High)
+INC-202501-PWR02-LP4,2025-01,ENR-PWR,ENR,SOC,loss_prevented,INC-202501-PWR02,681563,85195,Approved,Ransomware attempt prevented (High)
+INC-202501-PWR02-LP5,2025-01,ENR-PWR,ENR,DFIR,loss_prevented,INC-202501-PWR02,681563,85195,Approved,Ransomware attempt prevented (High)
+INC-202501-OGS02-LP1,2025-01,ENR-OGS,ENR,SOC,loss_prevented,INC-202501-OGS02,83105,41553,Approved,Phishing / credential theft prevented (High)
+INC-202501-OGS02-LP2,2025-01,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202501-OGS02,83105,20776,Approved,Phishing / credential theft prevented (High)
+INC-202501-OGS02-LP3,2025-01,ENR-OGS,ENR,DFIR,loss_prevented,INC-202501-OGS02,83105,20776,Approved,Phishing / credential theft prevented (High)
+INC-202501-OGS06-LP1,2025-01,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202501-OGS06,607026,303512,Approved,Account takeover prevented (High)
+INC-202501-OGS06-LP2,2025-01,ENR-OGS,ENR,AI Agents,loss_prevented,INC-202501-OGS06,607026,151757,Approved,Account takeover prevented (High)
+INC-202501-OGS06-LP3,2025-01,ENR-OGS,ENR,DFIR,loss_prevented,INC-202501-OGS06,607026,151757,Approved,Account takeover prevented (High)
+INC-202501-SSA01-LP1,2025-01,GOV-SSA,GOV,DLP,loss_prevented,INC-202501-SSA01,60923,30461,Approved,Data exfiltration attempt prevented (Medium)
+INC-202501-SSA01-LP2,2025-01,GOV-SSA,GOV,NDR,loss_prevented,INC-202501-SSA01,60923,15231,Approved,Data exfiltration attempt prevented (Medium)
+INC-202501-SSA01-LP3,2025-01,GOV-SSA,GOV,Firewall,loss_prevented,INC-202501-SSA01,60923,15231,Approved,Data exfiltration attempt prevented (Medium)
+INC-202501-SSA05-LP1,2025-01,GOV-SSA,GOV,SOC,loss_prevented,INC-202501-SSA05,286214,143106,Approved,Business email compromise prevented (High)
+INC-202501-SSA05-LP2,2025-01,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202501-SSA05,286214,35777,Approved,Business email compromise prevented (High)
+INC-202501-SSA05-LP3,2025-01,GOV-SSA,GOV,SOAR,loss_prevented,INC-202501-SSA05,286214,35777,Approved,Business email compromise prevented (High)
+INC-202501-SSA05-LP4,2025-01,GOV-SSA,GOV,DLP,loss_prevented,INC-202501-SSA05,286214,35777,Approved,Business email compromise prevented (High)
+INC-202501-SSA05-LP5,2025-01,GOV-SSA,GOV,DFIR,loss_prevented,INC-202501-SSA05,286214,35777,Approved,Business email compromise prevented (High)
+SAV-202501-SSA1,2025-01,GOV-SSA,GOV,Cloud Security,saving,,0,61766,Approved,Cloud posture fixes: idle resources removed
+INC-202501-MUN01-LP1,2025-01,GOV-MUN,GOV,IAM/PAM,loss_prevented,INC-202501-MUN01,44425,22213,Approved,Account takeover prevented (Medium)
+INC-202501-MUN01-LP2,2025-01,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202501-MUN01,44425,11106,Approved,Account takeover prevented (Medium)
+INC-202501-MUN01-LP3,2025-01,GOV-MUN,GOV,SOC,loss_prevented,INC-202501-MUN01,44425,11106,Approved,Account takeover prevented (Medium)
+INC-202501-MUN04-LP1,2025-01,GOV-MUN,GOV,EDR/XDR,loss_prevented,INC-202501-MUN04,78461,39231,Approved,Malware prevented (Medium)
+INC-202501-MUN04-LP2,2025-01,GOV-MUN,GOV,SOAR,loss_prevented,INC-202501-MUN04,78461,19615,Approved,Malware prevented (Medium)
+INC-202501-MUN04-LP3,2025-01,GOV-MUN,GOV,SOC,loss_prevented,INC-202501-MUN04,78461,19615,Approved,Malware prevented (Medium)
+INC-202501-MUN06-LP1,2025-01,GOV-MUN,GOV,SOC,loss_prevented,INC-202501-MUN06,40003,20001,Approved,Business email compromise prevented (Medium)
+INC-202501-MUN06-LP2,2025-01,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202501-MUN06,40003,20002,Approved,Business email compromise prevented (Medium)
+INC-202501-MUN08-LP1,2025-01,GOV-MUN,GOV,SOC,loss_prevented,INC-202501-MUN08,52514,26257,Approved,Phishing / credential theft prevented (Medium)
+INC-202501-MUN08-LP2,2025-01,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202501-MUN08,52514,26257,Approved,Phishing / credential theft prevented (Medium)
+INC-202501-IT05-LP1,2025-01,GSS-IT,GSS,Vulnerability Mgmt,loss_prevented,INC-202501-IT05,118467,59233,Approved,Vulnerability exploitation prevented (Medium)
+INC-202501-IT05-LP2,2025-01,GSS-IT,GSS,CTEM,loss_prevented,INC-202501-IT05,118467,59234,Approved,Vulnerability exploitation prevented (Medium)
+SAV-202501-IT1,2025-01,GSS-IT,GSS,NDR,saving,,0,181030,Approved,NDR sensor rationalisation
+SAV-202501-IT2,2025-01,GSS-IT,GSS,AI Agents,saving,,0,39707,Approved,Service-desk deflection: contractor seats released
+SAV-202501-FHR1,2025-01,GSS-FHR,GSS,DLP,saving,,0,179263,Approved,DLP policy tuning: contractor reviewers released
+INC-202502-RB03-LP1,2025-02,FIN-RB,FIN,SOC,loss_prevented,INC-202502-RB03,48860,24431,Approved,Phishing / credential theft prevented (Medium)
+INC-202502-RB03-LP2,2025-02,FIN-RB,FIN,SOAR,loss_prevented,INC-202502-RB03,48860,8143,Approved,Phishing / credential theft prevented (Medium)
+INC-202502-RB03-LP3,2025-02,FIN-RB,FIN,AI Agents,loss_prevented,INC-202502-RB03,48860,8143,Approved,Phishing / credential theft prevented (Medium)
+INC-202502-RB03-LP4,2025-02,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202502-RB03,48860,8143,Approved,Phishing / credential theft prevented (Medium)
+INC-202502-PAY05-LP1,2025-02,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202502-PAY05,355645,177823,Approved,Payment fraud prevented (High)
+INC-202502-PAY05-LP2,2025-02,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202502-PAY05,355645,59274,Approved,Payment fraud prevented (High)
+INC-202502-PAY05-LP3,2025-02,FIN-PAY,FIN,SOC,loss_prevented,INC-202502-PAY05,355645,59274,Approved,Payment fraud prevented (High)
+INC-202502-PAY05-LP4,2025-02,FIN-PAY,FIN,DFIR,loss_prevented,INC-202502-PAY05,355645,59274,Approved,Payment fraud prevented (High)
+INC-202502-PAY06-LP1,2025-02,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202502-PAY06,82519,41259,Approved,Payment fraud prevented (Medium)
+INC-202502-PAY06-LP2,2025-02,FIN-PAY,FIN,SOC,loss_prevented,INC-202502-PAY06,82519,20630,Approved,Payment fraud prevented (Medium)
+INC-202502-PAY06-LP3,2025-02,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202502-PAY06,82519,20630,Approved,Payment fraud prevented (Medium)
+SAV-202502-PAY1,2025-02,FIN-PAY,FIN,AppSec,saving,,0,129553,Approved,Automated code review: external pen-test re-tests avoided
+INC-202502-HOS03-LP1,2025-02,HLT-HOS,HLT,DLP,loss_prevented,INC-202502-HOS03,116689,58345,Approved,Insider misuse prevented (Low)
+INC-202502-HOS03-LP2,2025-02,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202502-HOS03,116689,29172,Approved,Insider misuse prevented (Low)
+INC-202502-HOS03-LP3,2025-02,HLT-HOS,HLT,SOC,loss_prevented,INC-202502-HOS03,116689,29172,Approved,Insider misuse prevented (Low)
+INC-202502-HOS05-LP1,2025-02,HLT-HOS,HLT,SOC,loss_prevented,INC-202502-HOS05,55504,27752,Approved,Business email compromise prevented (Medium)
+INC-202502-HOS05-LP2,2025-02,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202502-HOS05,55504,13876,Approved,Business email compromise prevented (Medium)
+INC-202502-HOS05-LP3,2025-02,HLT-HOS,HLT,SOAR,loss_prevented,INC-202502-HOS05,55504,13876,Approved,Business email compromise prevented (Medium)
+INC-202502-HOS06-LP1,2025-02,HLT-HOS,HLT,SOC,loss_prevented,INC-202502-HOS06,232959,116478,Approved,Business email compromise prevented (Medium)
+INC-202502-HOS06-LP2,2025-02,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202502-HOS06,232959,38827,Approved,Business email compromise prevented (Medium)
+INC-202502-HOS06-LP3,2025-02,HLT-HOS,HLT,DLP,loss_prevented,INC-202502-HOS06,232959,38827,Approved,Business email compromise prevented (Medium)
+INC-202502-HOS06-LP4,2025-02,HLT-HOS,HLT,SOAR,loss_prevented,INC-202502-HOS06,232959,38827,Approved,Business email compromise prevented (Medium)
+SAV-202502-HOS1,2025-02,HLT-HOS,HLT,AI Agents,saving,,0,65558,Approved,Service-desk deflection: contractor seats released
+INC-202502-LAB04-LP1,2025-02,HLT-LAB,HLT,WAF,loss_prevented,INC-202502-LAB04,2875051,1437525,Approved,DDoS prevented (Critical)
+INC-202502-LAB04-LP2,2025-02,HLT-LAB,HLT,Firewall,loss_prevented,INC-202502-LAB04,2875051,718763,Approved,DDoS prevented (Critical)
+INC-202502-LAB04-LP3,2025-02,HLT-LAB,HLT,DFIR,loss_prevented,INC-202502-LAB04,2875051,718763,Approved,DDoS prevented (Critical)
+INC-202502-PWR01-LP1,2025-02,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202502-PWR01,512864,256432,Approved,Ransomware attempt prevented (High)
+INC-202502-PWR01-LP2,2025-02,ENR-PWR,ENR,SOC,loss_prevented,INC-202502-PWR01,512864,128216,Approved,Ransomware attempt prevented (High)
+INC-202502-PWR01-LP3,2025-02,ENR-PWR,ENR,DFIR,loss_prevented,INC-202502-PWR01,512864,128216,Approved,Ransomware attempt prevented (High)
+SAV-202502-OGS1,2025-02,ENR-OGS,ENR,NDR,saving,,0,59441,Approved,NDR sensor rationalisation
+INC-202502-SSA03-LP1,2025-02,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202502-SSA03,93365,46683,Approved,Malware prevented (Medium)
+INC-202502-SSA03-LP2,2025-02,GOV-SSA,GOV,SOAR,loss_prevented,INC-202502-SSA03,93365,23341,Approved,Malware prevented (Medium)
+INC-202502-SSA03-LP3,2025-02,GOV-SSA,GOV,SOC,loss_prevented,INC-202502-SSA03,93365,23341,Approved,Malware prevented (Medium)
+SAV-202502-SSA1,2025-02,GOV-SSA,GOV,Cloud Security,saving,,0,107465,Approved,Cloud posture fixes: idle resources removed
+SAV-202502-SSA2,2025-02,GOV-SSA,GOV,SOAR,saving,,0,55577,Approved,Automated playbooks: overtime & on-call reduction
+INC-202502-MUN03-LP1,2025-02,GOV-MUN,GOV,Vulnerability Mgmt,loss_prevented,INC-202502-MUN03,84198,42098,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-MUN03-LP2,2025-02,GOV-MUN,GOV,WAF,loss_prevented,INC-202502-MUN03,84198,21050,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-MUN03-LP3,2025-02,GOV-MUN,GOV,AppSec,loss_prevented,INC-202502-MUN03,84198,21050,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-MUN05-LP1,2025-02,GOV-MUN,GOV,EDR/XDR,loss_prevented,INC-202502-MUN05,87906,43953,Approved,Ransomware attempt prevented (Medium)
+INC-202502-MUN05-LP2,2025-02,GOV-MUN,GOV,NDR,loss_prevented,INC-202502-MUN05,87906,14651,Approved,Ransomware attempt prevented (Medium)
+INC-202502-MUN05-LP3,2025-02,GOV-MUN,GOV,Backup,loss_prevented,INC-202502-MUN05,87906,14651,Approved,Ransomware attempt prevented (Medium)
+INC-202502-MUN05-LP4,2025-02,GOV-MUN,GOV,SOC,loss_prevented,INC-202502-MUN05,87906,14651,Approved,Ransomware attempt prevented (Medium)
+SAV-202502-MUN1,2025-02,GOV-MUN,GOV,GRC,saving,,0,133868,Approved,Automated evidence collection: external audit fees reduced
+SAV-202502-MUN2,2025-02,GOV-MUN,GOV,AI Agents,saving,,0,134689,Approved,Service-desk deflection: contractor seats released
+INC-202502-IT04-LP1,2025-02,GSS-IT,GSS,Vulnerability Mgmt,loss_prevented,INC-202502-IT04,54976,27487,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-IT04-LP2,2025-02,GSS-IT,GSS,WAF,loss_prevented,INC-202502-IT04,54976,9163,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-IT04-LP3,2025-02,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202502-IT04,54976,9163,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-IT04-LP4,2025-02,GSS-IT,GSS,CTEM,loss_prevented,INC-202502-IT04,54976,9163,Approved,Vulnerability exploitation prevented (Medium)
+INC-202502-IT06-LP1,2025-02,GSS-IT,GSS,Cloud Security,loss_prevented,INC-202502-IT06,66600,33300,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202502-IT06-LP2,2025-02,GSS-IT,GSS,CTEM,loss_prevented,INC-202502-IT06,66600,33300,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202502-FHR02-LP1,2025-02,GSS-FHR,GSS,EDR/XDR,loss_prevented,INC-202502-FHR02,246165,123083,Approved,Ransomware attempt prevented (High)
+INC-202502-FHR02-LP2,2025-02,GSS-FHR,GSS,SOC,loss_prevented,INC-202502-FHR02,246165,61541,Approved,Ransomware attempt prevented (High)
+INC-202502-FHR02-LP3,2025-02,GSS-FHR,GSS,DFIR,loss_prevented,INC-202502-FHR02,246165,61541,Approved,Ransomware attempt prevented (High)
+INC-202503-RB04-LP1,2025-03,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202503-RB04,1069221,534611,Approved,Malware prevented (High)
+INC-202503-RB04-LP2,2025-03,FIN-RB,FIN,SOAR,loss_prevented,INC-202503-RB04,1069221,267305,Approved,Malware prevented (High)
+INC-202503-RB04-LP3,2025-03,FIN-RB,FIN,DFIR,loss_prevented,INC-202503-RB04,1069221,267305,Approved,Malware prevented (High)
+INC-202503-RB05-LP1,2025-03,FIN-RB,FIN,SOC,loss_prevented,INC-202503-RB05,248200,124100,Approved,Phishing / credential theft prevented (High)
+INC-202503-RB05-LP2,2025-03,FIN-RB,FIN,SOAR,loss_prevented,INC-202503-RB05,248200,62050,Approved,Phishing / credential theft prevented (High)
+INC-202503-RB05-LP3,2025-03,FIN-RB,FIN,DFIR,loss_prevented,INC-202503-RB05,248200,62050,Approved,Phishing / credential theft prevented (High)
+SAV-202503-RB1,2025-03,FIN-RB,FIN,GRC,saving,,0,62971,Pending,Automated evidence collection: external audit fees reduced
+INC-202503-PAY01-LP1,2025-03,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202503-PAY01,840182,420090,Approved,Account takeover prevented (High)
+INC-202503-PAY01-LP2,2025-03,FIN-PAY,FIN,SOC,loss_prevented,INC-202503-PAY01,840182,210046,Approved,Account takeover prevented (High)
+INC-202503-PAY01-LP3,2025-03,FIN-PAY,FIN,DFIR,loss_prevented,INC-202503-PAY01,840182,210046,Approved,Account takeover prevented (High)
+INC-202503-PAY02-LP1,2025-03,FIN-PAY,FIN,EDR/XDR,loss_prevented,INC-202503-PAY02,46975,23487,Approved,Malware prevented (Medium)
+INC-202503-PAY02-LP2,2025-03,FIN-PAY,FIN,SOAR,loss_prevented,INC-202503-PAY02,46975,11744,Approved,Malware prevented (Medium)
+INC-202503-PAY02-LP3,2025-03,FIN-PAY,FIN,SOC,loss_prevented,INC-202503-PAY02,46975,11744,Approved,Malware prevented (Medium)
+INC-202503-HOS02-LP1,2025-03,HLT-HOS,HLT,SOC,loss_prevented,INC-202503-HOS02,278977,139489,Approved,Business email compromise prevented (Medium)
+INC-202503-HOS02-LP2,2025-03,HLT-HOS,HLT,SOAR,loss_prevented,INC-202503-HOS02,278977,46496,Approved,Business email compromise prevented (Medium)
+INC-202503-HOS02-LP3,2025-03,HLT-HOS,HLT,DLP,loss_prevented,INC-202503-HOS02,278977,46496,Approved,Business email compromise prevented (Medium)
+INC-202503-HOS02-LP4,2025-03,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202503-HOS02,278977,46496,Approved,Business email compromise prevented (Medium)
+INC-202503-HOS03-LP1,2025-03,HLT-HOS,HLT,SOC,loss_prevented,INC-202503-HOS03,53306,26653,Approved,Business email compromise prevented (Medium)
+INC-202503-HOS03-LP2,2025-03,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202503-HOS03,53306,26653,Approved,Business email compromise prevented (Medium)
+SAV-202503-HOS1,2025-03,HLT-HOS,HLT,AI Agents,saving,,0,107855,Pending,KYC / claims review outsourcing reduced
+INC-202503-OGS01-LP1,2025-03,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202503-OGS01,43699,21849,Approved,Ransomware attempt prevented (Medium)
+INC-202503-OGS01-LP2,2025-03,ENR-OGS,ENR,SOC,loss_prevented,INC-202503-OGS01,43699,21850,Approved,Ransomware attempt prevented (Medium)
+INC-202503-SSA04-LP1,2025-03,GOV-SSA,GOV,SOC,loss_prevented,INC-202503-SSA04,552160,276080,Approved,Business email compromise prevented (High)
+INC-202503-SSA04-LP2,2025-03,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202503-SSA04,552160,138040,Approved,Business email compromise prevented (High)
+INC-202503-SSA04-LP3,2025-03,GOV-SSA,GOV,DFIR,loss_prevented,INC-202503-SSA04,552160,138040,Approved,Business email compromise prevented (High)
+INC-202503-SSA05-LP1,2025-03,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202503-SSA05,404686,202343,Approved,Vulnerability exploitation prevented (Medium)
+INC-202503-SSA05-LP2,2025-03,GOV-SSA,GOV,AppSec,loss_prevented,INC-202503-SSA05,404686,202343,Approved,Vulnerability exploitation prevented (Medium)
+INC-202503-SSA06-LP1,2025-03,GOV-SSA,GOV,DLP,loss_prevented,INC-202503-SSA06,705592,352795,Approved,Data exfiltration attempt prevented (High)
+INC-202503-SSA06-LP2,2025-03,GOV-SSA,GOV,SOC,loss_prevented,INC-202503-SSA06,705592,117599,Approved,Data exfiltration attempt prevented (High)
+INC-202503-SSA06-LP3,2025-03,GOV-SSA,GOV,NDR,loss_prevented,INC-202503-SSA06,705592,117599,Approved,Data exfiltration attempt prevented (High)
+INC-202503-SSA06-LP4,2025-03,GOV-SSA,GOV,DFIR,loss_prevented,INC-202503-SSA06,705592,117599,Approved,Data exfiltration attempt prevented (High)
+INC-202503-MUN01-LP1,2025-03,GOV-MUN,GOV,WAF,loss_prevented,INC-202503-MUN01,49703,24851,Approved,DDoS prevented (Medium)
+INC-202503-MUN01-LP2,2025-03,GOV-MUN,GOV,NDR,loss_prevented,INC-202503-MUN01,49703,24852,Approved,DDoS prevented (Medium)
+SAV-202503-MUN1,2025-03,GOV-MUN,GOV,Firewall,saving,,0,31466,Approved,Rule-base consolidation: hardware refresh deferred
+INC-202503-IT02-LP1,2025-03,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202503-IT02,54191,27095,Approved,Account takeover prevented (Medium)
+INC-202503-IT02-LP2,2025-03,GSS-IT,GSS,SOC,loss_prevented,INC-202503-IT02,54191,27096,Approved,Account takeover prevented (Medium)
+INC-202503-IT03-LP1,2025-03,GSS-IT,GSS,SOC,loss_prevented,INC-202503-IT03,266036,133016,Approved,Phishing / credential theft prevented (High)
+INC-202503-IT03-LP2,2025-03,GSS-IT,GSS,AI Agents,loss_prevented,INC-202503-IT03,266036,33255,Approved,Phishing / credential theft prevented (High)
+INC-202503-IT03-LP3,2025-03,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202503-IT03,266036,33255,Approved,Phishing / credential theft prevented (High)
+INC-202503-IT03-LP4,2025-03,GSS-IT,GSS,SOAR,loss_prevented,INC-202503-IT03,266036,33255,Approved,Phishing / credential theft prevented (High)
+INC-202503-IT03-LP5,2025-03,GSS-IT,GSS,DFIR,loss_prevented,INC-202503-IT03,266036,33255,Approved,Phishing / credential theft prevented (High)
+SAV-202503-IT1,2025-03,GSS-IT,GSS,DFIR,saving,,0,97833,Approved,DFIR retainer hours reduced
+INC-202504-RB02-LP1,2025-04,FIN-RB,FIN,AI Agents,loss_prevented,INC-202504-RB02,252237,126117,Approved,Payment fraud prevented (High)
+INC-202504-RB02-LP2,2025-04,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202504-RB02,252237,42040,Approved,Payment fraud prevented (High)
+INC-202504-RB02-LP3,2025-04,FIN-RB,FIN,SOC,loss_prevented,INC-202504-RB02,252237,42040,Approved,Payment fraud prevented (High)
+INC-202504-RB02-LP4,2025-04,FIN-RB,FIN,DFIR,loss_prevented,INC-202504-RB02,252237,42040,Approved,Payment fraud prevented (High)
+SAV-202504-PAY1,2025-04,FIN-PAY,FIN,WAF,saving,,0,123415,Approved,WAF managed-service renegotiation
+SAV-202504-PAY2,2025-04,FIN-PAY,FIN,AppSec,saving,,0,439041,Approved,Automated code review: external pen-test re-tests avoided
+SAV-202504-PAY3,2025-04,FIN-PAY,FIN,AppSec,saving,,0,147880,Approved,Automated code review: external pen-test re-tests avoided
+SAV-202504-PAY4,2025-04,FIN-PAY,FIN,AI Agents,saving,,0,111981,Approved,Reconciliation & invoice matching: temp staff released
+INC-202504-HOS03-LP1,2025-04,HLT-HOS,HLT,Cloud Security,loss_prevented,INC-202504-HOS03,4160145,2080071,Approved,Cloud misconfiguration exposure prevented (Critical)
+INC-202504-HOS03-LP2,2025-04,HLT-HOS,HLT,CTEM,loss_prevented,INC-202504-HOS03,4160145,693358,Approved,Cloud misconfiguration exposure prevented (Critical)
+INC-202504-HOS03-LP3,2025-04,HLT-HOS,HLT,Vulnerability Mgmt,loss_prevented,INC-202504-HOS03,4160145,693358,Approved,Cloud misconfiguration exposure prevented (Critical)
+INC-202504-HOS03-LP4,2025-04,HLT-HOS,HLT,DFIR,loss_prevented,INC-202504-HOS03,4160145,693358,Approved,Cloud misconfiguration exposure prevented (Critical)
+INC-202504-LAB02-LP1,2025-04,HLT-LAB,HLT,DLP,loss_prevented,INC-202504-LAB02,64708,32354,Approved,Insider misuse prevented (Low)
+INC-202504-LAB02-LP2,2025-04,HLT-LAB,HLT,IAM/PAM,loss_prevented,INC-202504-LAB02,64708,16177,Approved,Insider misuse prevented (Low)
+INC-202504-LAB02-LP3,2025-04,HLT-LAB,HLT,SOC,loss_prevented,INC-202504-LAB02,64708,16177,Approved,Insider misuse prevented (Low)
+INC-202504-PWR01-LP1,2025-04,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202504-PWR01,87046,43522,Approved,Malware prevented (Medium)
+INC-202504-PWR01-LP2,2025-04,ENR-PWR,ENR,SOC,loss_prevented,INC-202504-PWR01,87046,21762,Approved,Malware prevented (Medium)
+INC-202504-PWR01-LP3,2025-04,ENR-PWR,ENR,SOAR,loss_prevented,INC-202504-PWR01,87046,21762,Approved,Malware prevented (Medium)
+INC-202504-PWR04-LP1,2025-04,ENR-PWR,ENR,SOC,loss_prevented,INC-202504-PWR04,250789,125395,Approved,Business email compromise prevented (Medium)
+INC-202504-PWR04-LP2,2025-04,ENR-PWR,ENR,SOAR,loss_prevented,INC-202504-PWR04,250789,62697,Approved,Business email compromise prevented (Medium)
+INC-202504-PWR04-LP3,2025-04,ENR-PWR,ENR,AI Agents,loss_prevented,INC-202504-PWR04,250789,62697,Approved,Business email compromise prevented (Medium)
+INC-202504-SSA01-LP1,2025-04,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202504-SSA01,105328,52664,Approved,Malware prevented (Medium)
+INC-202504-SSA01-LP2,2025-04,GOV-SSA,GOV,SOAR,loss_prevented,INC-202504-SSA01,105328,52664,Approved,Malware prevented (Medium)
+INC-202504-SSA04-LP1,2025-04,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202504-SSA04,60921,30460,Approved,Malware prevented (Medium)
+INC-202504-SSA04-LP2,2025-04,GOV-SSA,GOV,SOC,loss_prevented,INC-202504-SSA04,60921,30461,Approved,Malware prevented (Medium)
+INC-202504-SSA05-LP1,2025-04,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202504-SSA05,41397,20698,Approved,Vulnerability exploitation prevented (Medium)
+INC-202504-SSA05-LP2,2025-04,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202504-SSA05,41397,20699,Approved,Vulnerability exploitation prevented (Medium)
+SAV-202504-MUN1,2025-04,GOV-MUN,GOV,AI Agents,saving,,0,44833,Rejected,Citizen-service backlog contractors released
+INC-202504-IT02-LP1,2025-04,GSS-IT,GSS,SOC,loss_prevented,INC-202504-IT02,717982,358990,Approved,Phishing / credential theft prevented (High)
+INC-202504-IT02-LP2,2025-04,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202504-IT02,717982,89748,Approved,Phishing / credential theft prevented (High)
+INC-202504-IT02-LP3,2025-04,GSS-IT,GSS,SOAR,loss_prevented,INC-202504-IT02,717982,89748,Approved,Phishing / credential theft prevented (High)
+INC-202504-IT02-LP4,2025-04,GSS-IT,GSS,AI Agents,loss_prevented,INC-202504-IT02,717982,89748,Approved,Phishing / credential theft prevented (High)
+INC-202504-IT02-LP5,2025-04,GSS-IT,GSS,DFIR,loss_prevented,INC-202504-IT02,717982,89748,Approved,Phishing / credential theft prevented (High)
+INC-202504-IT03-LP1,2025-04,GSS-IT,GSS,SOC,loss_prevented,INC-202504-IT03,71685,35841,Approved,Phishing / credential theft prevented (Medium)
+INC-202504-IT03-LP2,2025-04,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202504-IT03,71685,11948,Approved,Phishing / credential theft prevented (Medium)
+INC-202504-IT03-LP3,2025-04,GSS-IT,GSS,SOAR,loss_prevented,INC-202504-IT03,71685,11948,Approved,Phishing / credential theft prevented (Medium)
+INC-202504-IT03-LP4,2025-04,GSS-IT,GSS,AI Agents,loss_prevented,INC-202504-IT03,71685,11948,Approved,Phishing / credential theft prevented (Medium)
+INC-202504-IT04-LP1,2025-04,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202504-IT04,299226,149612,Approved,Malware prevented (High)
+INC-202504-IT04-LP2,2025-04,GSS-IT,GSS,SOAR,loss_prevented,INC-202504-IT04,299226,74807,Approved,Malware prevented (High)
+INC-202504-IT04-LP3,2025-04,GSS-IT,GSS,DFIR,loss_prevented,INC-202504-IT04,299226,74807,Approved,Malware prevented (High)
+INC-202504-IT05-LP1,2025-04,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202504-IT05,1639361,819681,Approved,Malware prevented (Critical)
+INC-202504-IT05-LP2,2025-04,GSS-IT,GSS,SOC,loss_prevented,INC-202504-IT05,1639361,409840,Approved,Malware prevented (Critical)
+INC-202504-IT05-LP3,2025-04,GSS-IT,GSS,DFIR,loss_prevented,INC-202504-IT05,1639361,409840,Approved,Malware prevented (Critical)
+SAV-202504-IT1,2025-04,GSS-IT,GSS,AppSec,saving,,0,79191,Pending,Automated code review: external pen-test re-tests avoided
+SAV-202504-IT2,2025-04,GSS-IT,GSS,Cloud Security,saving,,0,268118,Approved,Cloud posture fixes: idle resources removed
+SAV-202504-IT3,2025-04,GSS-IT,GSS,Cloud Security,saving,,0,150429,Approved,Cloud posture fixes: idle resources removed
+SAV-202504-FHR1,2025-04,GSS-FHR,GSS,DLP,saving,,0,55898,Approved,DLP policy tuning: contractor reviewers released
+INC-202505-RB03-LP1,2025-05,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202505-RB03,631068,315534,Approved,Malware prevented (High)
+INC-202505-RB03-LP2,2025-05,FIN-RB,FIN,SOC,loss_prevented,INC-202505-RB03,631068,105178,Approved,Malware prevented (High)
+INC-202505-RB03-LP3,2025-05,FIN-RB,FIN,SOAR,loss_prevented,INC-202505-RB03,631068,105178,Approved,Malware prevented (High)
+INC-202505-RB03-LP4,2025-05,FIN-RB,FIN,DFIR,loss_prevented,INC-202505-RB03,631068,105178,Approved,Malware prevented (High)
+INC-202505-RB07-LP1,2025-05,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202505-RB07,90892,45446,Approved,Account takeover prevented (Medium)
+INC-202505-RB07-LP2,2025-05,FIN-RB,FIN,AI Agents,loss_prevented,INC-202505-RB07,90892,22723,Approved,Account takeover prevented (Medium)
+INC-202505-RB07-LP3,2025-05,FIN-RB,FIN,SOC,loss_prevented,INC-202505-RB07,90892,22723,Approved,Account takeover prevented (Medium)
+INC-202505-RB08-LP1,2025-05,FIN-RB,FIN,DLP,loss_prevented,INC-202505-RB08,129170,64586,Approved,Data exfiltration attempt prevented (Medium)
+INC-202505-RB08-LP2,2025-05,FIN-RB,FIN,Firewall,loss_prevented,INC-202505-RB08,129170,21528,Approved,Data exfiltration attempt prevented (Medium)
+INC-202505-RB08-LP3,2025-05,FIN-RB,FIN,NDR,loss_prevented,INC-202505-RB08,129170,21528,Approved,Data exfiltration attempt prevented (Medium)
+INC-202505-RB08-LP4,2025-05,FIN-RB,FIN,SOC,loss_prevented,INC-202505-RB08,129170,21528,Approved,Data exfiltration attempt prevented (Medium)
+SAV-202505-RB1,2025-05,FIN-RB,FIN,GRC,saving,,0,243558,Approved,Automated evidence collection: external audit fees reduced
+SAV-202505-RB2,2025-05,FIN-RB,FIN,IAM/PAM,saving,,0,206117,Approved,Access-request automation: IAM contractor reduction
+INC-202505-PAY02-LP1,2025-05,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202505-PAY02,82245,41123,Approved,Account takeover prevented (Medium)
+INC-202505-PAY02-LP2,2025-05,FIN-PAY,FIN,SOC,loss_prevented,INC-202505-PAY02,82245,20561,Approved,Account takeover prevented (Medium)
+INC-202505-PAY02-LP3,2025-05,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202505-PAY02,82245,20561,Approved,Account takeover prevented (Medium)
+INC-202505-PAY03-LP1,2025-05,FIN-PAY,FIN,EDR/XDR,loss_prevented,INC-202505-PAY03,1358954,679476,Approved,Ransomware attempt prevented (Critical)
+INC-202505-PAY03-LP2,2025-05,FIN-PAY,FIN,Backup,loss_prevented,INC-202505-PAY03,1358954,339739,Approved,Ransomware attempt prevented (Critical)
+INC-202505-PAY03-LP3,2025-05,FIN-PAY,FIN,DFIR,loss_prevented,INC-202505-PAY03,1358954,339739,Approved,Ransomware attempt prevented (Critical)
+INC-202505-HOS01-LP1,2025-05,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202505-HOS01,43147,21573,Approved,Malware prevented (Medium)
+INC-202505-HOS01-LP2,2025-05,HLT-HOS,HLT,SOAR,loss_prevented,INC-202505-HOS01,43147,21574,Approved,Malware prevented (Medium)
+SAV-202505-LAB1,2025-05,HLT-LAB,HLT,AI Agents,saving,,0,174923,Approved,Service-desk deflection: contractor seats released
+SAV-202505-PWR1,2025-05,ENR-PWR,ENR,Vulnerability Mgmt,saving,,0,106847,Rejected,Scanner licence consolidation
+SAV-202505-OGS1,2025-05,ENR-OGS,ENR,NDR,saving,,0,64312,Approved,NDR sensor rationalisation
+SAV-202505-OGS2,2025-05,ENR-OGS,ENR,NDR,saving,,0,77874,Approved,NDR sensor rationalisation
+INC-202505-SSA01-LP1,2025-05,GOV-SSA,GOV,Cloud Security,loss_prevented,INC-202505-SSA01,167305,83653,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202505-SSA01-LP2,2025-05,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202505-SSA01,167305,27884,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202505-SSA01-LP3,2025-05,GOV-SSA,GOV,CTEM,loss_prevented,INC-202505-SSA01,167305,27884,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202505-SSA01-LP4,2025-05,GOV-SSA,GOV,DFIR,loss_prevented,INC-202505-SSA01,167305,27884,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202505-SSA04-LP1,2025-05,GOV-SSA,GOV,WAF,loss_prevented,INC-202505-SSA04,47018,23508,Approved,DDoS prevented (Medium)
+INC-202505-SSA04-LP2,2025-05,GOV-SSA,GOV,NDR,loss_prevented,INC-202505-SSA04,47018,11755,Approved,DDoS prevented (Medium)
+INC-202505-SSA04-LP3,2025-05,GOV-SSA,GOV,Firewall,loss_prevented,INC-202505-SSA04,47018,11755,Approved,DDoS prevented (Medium)
+INC-202505-SSA06-LP1,2025-05,GOV-SSA,GOV,DLP,loss_prevented,INC-202505-SSA06,349857,174929,Approved,Shadow AI data exposure prevented (High)
+INC-202505-SSA06-LP2,2025-05,GOV-SSA,GOV,GRC,loss_prevented,INC-202505-SSA06,349857,87464,Approved,Shadow AI data exposure prevented (High)
+INC-202505-SSA06-LP3,2025-05,GOV-SSA,GOV,DFIR,loss_prevented,INC-202505-SSA06,349857,87464,Approved,Shadow AI data exposure prevented (High)
+SAV-202505-MUN1,2025-05,GOV-MUN,GOV,AI Agents,saving,,0,81468,Approved,Citizen-service backlog contractors released
+INC-202505-IT03-LP1,2025-05,GSS-IT,GSS,SOC,loss_prevented,INC-202505-IT03,199297,99649,Approved,Phishing / credential theft prevented (Low)
+INC-202505-IT03-LP2,2025-05,GSS-IT,GSS,SOAR,loss_prevented,INC-202505-IT03,199297,49824,Approved,Phishing / credential theft prevented (Low)
+INC-202505-IT03-LP3,2025-05,GSS-IT,GSS,AI Agents,loss_prevented,INC-202505-IT03,199297,49824,Approved,Phishing / credential theft prevented (Low)
+SAV-202505-IT1,2025-05,GSS-IT,GSS,Firewall,saving,,0,53442,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202505-IT2,2025-05,GSS-IT,GSS,SIEM,saving,,0,78900,Pending,SIEM ingest optimisation & tiered retention
+INC-202506-PAY02-LP1,2025-06,FIN-PAY,FIN,SOC,loss_prevented,INC-202506-PAY02,63949,31975,Approved,Business email compromise prevented (Medium)
+INC-202506-PAY02-LP2,2025-06,FIN-PAY,FIN,DLP,loss_prevented,INC-202506-PAY02,63949,10658,Approved,Business email compromise prevented (Medium)
+INC-202506-PAY02-LP3,2025-06,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202506-PAY02,63949,10658,Approved,Business email compromise prevented (Medium)
+INC-202506-PAY02-LP4,2025-06,FIN-PAY,FIN,SOAR,loss_prevented,INC-202506-PAY02,63949,10658,Approved,Business email compromise prevented (Medium)
+INC-202506-PAY05-LP1,2025-06,FIN-PAY,FIN,DLP,loss_prevented,INC-202506-PAY05,765693,382845,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PAY05-LP2,2025-06,FIN-PAY,FIN,SOC,loss_prevented,INC-202506-PAY05,765693,95712,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PAY05-LP3,2025-06,FIN-PAY,FIN,Firewall,loss_prevented,INC-202506-PAY05,765693,95712,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PAY05-LP4,2025-06,FIN-PAY,FIN,NDR,loss_prevented,INC-202506-PAY05,765693,95712,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PAY05-LP5,2025-06,FIN-PAY,FIN,DFIR,loss_prevented,INC-202506-PAY05,765693,95712,Approved,Data exfiltration attempt prevented (High)
+INC-202506-HOS01-LP1,2025-06,HLT-HOS,HLT,DLP,loss_prevented,INC-202506-HOS01,551750,275876,Approved,Insider misuse prevented (High)
+INC-202506-HOS01-LP2,2025-06,HLT-HOS,HLT,SOC,loss_prevented,INC-202506-HOS01,551750,91958,Approved,Insider misuse prevented (High)
+INC-202506-HOS01-LP3,2025-06,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202506-HOS01,551750,91958,Approved,Insider misuse prevented (High)
+INC-202506-HOS01-LP4,2025-06,HLT-HOS,HLT,DFIR,loss_prevented,INC-202506-HOS01,551750,91958,Approved,Insider misuse prevented (High)
+INC-202506-HOS02-LP1,2025-06,HLT-HOS,HLT,SOC,loss_prevented,INC-202506-HOS02,248007,124003,Approved,Business email compromise prevented (High)
+INC-202506-HOS02-LP2,2025-06,HLT-HOS,HLT,DLP,loss_prevented,INC-202506-HOS02,248007,62002,Approved,Business email compromise prevented (High)
+INC-202506-HOS02-LP3,2025-06,HLT-HOS,HLT,DFIR,loss_prevented,INC-202506-HOS02,248007,62002,Approved,Business email compromise prevented (High)
+SAV-202506-HOS1,2025-06,HLT-HOS,HLT,IAM/PAM,saving,,0,177247,Approved,Access-request automation: IAM contractor reduction
+SAV-202506-HOS2,2025-06,HLT-HOS,HLT,IAM/PAM,saving,,0,137280,Approved,Access-request automation: IAM contractor reduction
+SAV-202506-LAB1,2025-06,HLT-LAB,HLT,AI Agents,saving,,0,64849,Approved,KYC / claims review outsourcing reduced
+INC-202506-PWR02-LP1,2025-06,ENR-PWR,ENR,DLP,loss_prevented,INC-202506-PWR02,460037,230017,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PWR02-LP2,2025-06,ENR-PWR,ENR,Firewall,loss_prevented,INC-202506-PWR02,460037,57505,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PWR02-LP3,2025-06,ENR-PWR,ENR,SOC,loss_prevented,INC-202506-PWR02,460037,57505,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PWR02-LP4,2025-06,ENR-PWR,ENR,NDR,loss_prevented,INC-202506-PWR02,460037,57505,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PWR02-LP5,2025-06,ENR-PWR,ENR,DFIR,loss_prevented,INC-202506-PWR02,460037,57505,Approved,Data exfiltration attempt prevented (High)
+INC-202506-PWR03-LP1,2025-06,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202506-PWR03,239163,119583,Approved,Ransomware attempt prevented (High)
+INC-202506-PWR03-LP2,2025-06,ENR-PWR,ENR,Backup,loss_prevented,INC-202506-PWR03,239163,29895,Approved,Ransomware attempt prevented (High)
+INC-202506-PWR03-LP3,2025-06,ENR-PWR,ENR,SOC,loss_prevented,INC-202506-PWR03,239163,29895,Approved,Ransomware attempt prevented (High)
+INC-202506-PWR03-LP4,2025-06,ENR-PWR,ENR,NDR,loss_prevented,INC-202506-PWR03,239163,29895,Approved,Ransomware attempt prevented (High)
+INC-202506-PWR03-LP5,2025-06,ENR-PWR,ENR,DFIR,loss_prevented,INC-202506-PWR03,239163,29895,Approved,Ransomware attempt prevented (High)
+SAV-202506-PWR1,2025-06,ENR-PWR,ENR,SOC,saving,,0,224246,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202506-PWR2,2025-06,ENR-PWR,ENR,SOC,saving,,0,83182,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+INC-202506-OGS02-LP1,2025-06,ENR-OGS,ENR,DLP,loss_prevented,INC-202506-OGS02,63497,31748,Approved,Insider misuse prevented (Medium)
+INC-202506-OGS02-LP2,2025-06,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202506-OGS02,63497,31749,Approved,Insider misuse prevented (Medium)
+INC-202506-OGS04-LP1,2025-06,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202506-OGS04,62639,31319,Approved,Malware prevented (Medium)
+INC-202506-OGS04-LP2,2025-06,ENR-OGS,ENR,SOAR,loss_prevented,INC-202506-OGS04,62639,15660,Approved,Malware prevented (Medium)
+INC-202506-OGS04-LP3,2025-06,ENR-OGS,ENR,SOC,loss_prevented,INC-202506-OGS04,62639,15660,Approved,Malware prevented (Medium)
+SAV-202506-OGS1,2025-06,ENR-OGS,ENR,NDR,saving,,0,57659,Approved,NDR sensor rationalisation
+SAV-202506-SSA1,2025-06,GOV-SSA,GOV,SOAR,saving,,0,105113,Rejected,Automated playbooks: overtime & on-call reduction
+INC-202506-MUN01-LP1,2025-06,GOV-MUN,GOV,DLP,loss_prevented,INC-202506-MUN01,41842,20920,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN01-LP2,2025-06,GOV-MUN,GOV,NDR,loss_prevented,INC-202506-MUN01,41842,6974,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN01-LP3,2025-06,GOV-MUN,GOV,Firewall,loss_prevented,INC-202506-MUN01,41842,6974,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN01-LP4,2025-06,GOV-MUN,GOV,SOC,loss_prevented,INC-202506-MUN01,41842,6974,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN02-LP1,2025-06,GOV-MUN,GOV,Cloud Security,loss_prevented,INC-202506-MUN02,100581,50290,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202506-MUN02-LP2,2025-06,GOV-MUN,GOV,CTEM,loss_prevented,INC-202506-MUN02,100581,50291,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202506-MUN04-LP1,2025-06,GOV-MUN,GOV,DLP,loss_prevented,INC-202506-MUN04,59448,29724,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN04-LP2,2025-06,GOV-MUN,GOV,NDR,loss_prevented,INC-202506-MUN04,59448,9908,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN04-LP3,2025-06,GOV-MUN,GOV,Firewall,loss_prevented,INC-202506-MUN04,59448,9908,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN04-LP4,2025-06,GOV-MUN,GOV,SOC,loss_prevented,INC-202506-MUN04,59448,9908,Approved,Data exfiltration attempt prevented (Medium)
+INC-202506-MUN05-LP1,2025-06,GOV-MUN,GOV,SOC,loss_prevented,INC-202506-MUN05,45261,22629,Approved,Phishing / credential theft prevented (Medium)
+INC-202506-MUN05-LP2,2025-06,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202506-MUN05,45261,7544,Approved,Phishing / credential theft prevented (Medium)
+INC-202506-MUN05-LP3,2025-06,GOV-MUN,GOV,IAM/PAM,loss_prevented,INC-202506-MUN05,45261,7544,Approved,Phishing / credential theft prevented (Medium)
+INC-202506-MUN05-LP4,2025-06,GOV-MUN,GOV,SOAR,loss_prevented,INC-202506-MUN05,45261,7544,Approved,Phishing / credential theft prevented (Medium)
+SAV-202506-MUN1,2025-06,GOV-MUN,GOV,GRC,saving,,0,158644,Approved,Automated evidence collection: external audit fees reduced
+SAV-202506-MUN2,2025-06,GOV-MUN,GOV,Backup,saving,,0,191373,Approved,Backup storage tiering & de-duplication
+INC-202506-IT05-LP1,2025-06,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202506-IT05,89186,44594,Approved,Malware prevented (High)
+INC-202506-IT05-LP2,2025-06,GSS-IT,GSS,SOC,loss_prevented,INC-202506-IT05,89186,14864,Approved,Malware prevented (High)
+INC-202506-IT05-LP3,2025-06,GSS-IT,GSS,SOAR,loss_prevented,INC-202506-IT05,89186,14864,Approved,Malware prevented (High)
+INC-202506-IT05-LP4,2025-06,GSS-IT,GSS,DFIR,loss_prevented,INC-202506-IT05,89186,14864,Approved,Malware prevented (High)
+INC-202506-IT07-LP1,2025-06,GSS-IT,GSS,SOC,loss_prevented,INC-202506-IT07,157896,78948,Approved,Phishing / credential theft prevented (Medium)
+INC-202506-IT07-LP2,2025-06,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202506-IT07,157896,78948,Approved,Phishing / credential theft prevented (Medium)
+SAV-202506-IT1,2025-06,GSS-IT,GSS,NDR,saving,,0,244077,Approved,NDR sensor rationalisation
+SAV-202506-FHR1,2025-06,GSS-FHR,GSS,GRC,saving,,0,67972,Approved,Automated evidence collection: external audit fees reduced
+SAV-202506-FHR2,2025-06,GSS-FHR,GSS,DLP,saving,,0,61166,Approved,DLP policy tuning: contractor reviewers released
+SAV-202506-FHR3,2025-06,GSS-FHR,GSS,DLP,saving,,0,81383,Approved,DLP policy tuning: contractor reviewers released
+INC-202507-RB01-LP1,2025-07,FIN-RB,FIN,SOC,loss_prevented,INC-202507-RB01,303098,151550,Approved,Business email compromise prevented (High)
+INC-202507-RB01-LP2,2025-07,FIN-RB,FIN,AI Agents,loss_prevented,INC-202507-RB01,303098,37887,Approved,Business email compromise prevented (High)
+INC-202507-RB01-LP3,2025-07,FIN-RB,FIN,DLP,loss_prevented,INC-202507-RB01,303098,37887,Approved,Business email compromise prevented (High)
+INC-202507-RB01-LP4,2025-07,FIN-RB,FIN,SOAR,loss_prevented,INC-202507-RB01,303098,37887,Approved,Business email compromise prevented (High)
+INC-202507-RB01-LP5,2025-07,FIN-RB,FIN,DFIR,loss_prevented,INC-202507-RB01,303098,37887,Approved,Business email compromise prevented (High)
+INC-202507-PAY02-LP1,2025-07,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202507-PAY02,303582,151790,Approved,Account takeover prevented (High)
+INC-202507-PAY02-LP2,2025-07,FIN-PAY,FIN,SOC,loss_prevented,INC-202507-PAY02,303582,75896,Approved,Account takeover prevented (High)
+INC-202507-PAY02-LP3,2025-07,FIN-PAY,FIN,DFIR,loss_prevented,INC-202507-PAY02,303582,75896,Approved,Account takeover prevented (High)
+INC-202507-PAY03-LP1,2025-07,FIN-PAY,FIN,SOC,loss_prevented,INC-202507-PAY03,50153,25076,Approved,Phishing / credential theft prevented (Medium)
+INC-202507-PAY03-LP2,2025-07,FIN-PAY,FIN,SOAR,loss_prevented,INC-202507-PAY03,50153,8359,Approved,Phishing / credential theft prevented (Medium)
+INC-202507-PAY03-LP3,2025-07,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202507-PAY03,50153,8359,Approved,Phishing / credential theft prevented (Medium)
+INC-202507-PAY03-LP4,2025-07,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202507-PAY03,50153,8359,Approved,Phishing / credential theft prevented (Medium)
+INC-202507-PAY06-LP1,2025-07,FIN-PAY,FIN,SOC,loss_prevented,INC-202507-PAY06,43277,21638,Approved,Phishing / credential theft prevented (Medium)
+INC-202507-PAY06-LP2,2025-07,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202507-PAY06,43277,21639,Approved,Phishing / credential theft prevented (Medium)
+SAV-202507-LAB1,2025-07,HLT-LAB,HLT,AI Agents,saving,,0,191400,Pending,Service-desk deflection: contractor seats released
+INC-202507-PWR02-LP1,2025-07,ENR-PWR,ENR,SOC,loss_prevented,INC-202507-PWR02,155704,77852,Approved,Phishing / credential theft prevented (Medium)
+INC-202507-PWR02-LP2,2025-07,ENR-PWR,ENR,SOAR,loss_prevented,INC-202507-PWR02,155704,77852,Approved,Phishing / credential theft prevented (Medium)
+SAV-202507-PWR1,2025-07,ENR-PWR,ENR,Firewall,saving,,0,155798,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202507-PWR2,2025-07,ENR-PWR,ENR,Vulnerability Mgmt,saving,,0,67247,Approved,Scanner licence consolidation
+INC-202507-OGS01-LP1,2025-07,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202507-OGS01,124375,62188,Approved,Ransomware attempt prevented (Medium)
+INC-202507-OGS01-LP2,2025-07,ENR-OGS,ENR,NDR,loss_prevented,INC-202507-OGS01,124375,20729,Approved,Ransomware attempt prevented (Medium)
+INC-202507-OGS01-LP3,2025-07,ENR-OGS,ENR,SOC,loss_prevented,INC-202507-OGS01,124375,20729,Approved,Ransomware attempt prevented (Medium)
+INC-202507-OGS01-LP4,2025-07,ENR-OGS,ENR,Backup,loss_prevented,INC-202507-OGS01,124375,20729,Approved,Ransomware attempt prevented (Medium)
+INC-202507-OGS02-LP1,2025-07,ENR-OGS,ENR,Vulnerability Mgmt,loss_prevented,INC-202507-OGS02,91690,45845,Approved,Vulnerability exploitation prevented (Medium)
+INC-202507-OGS02-LP2,2025-07,ENR-OGS,ENR,CTEM,loss_prevented,INC-202507-OGS02,91690,45845,Approved,Vulnerability exploitation prevented (Medium)
+SAV-202507-OGS1,2025-07,ENR-OGS,ENR,NDR,saving,,0,131162,Approved,NDR sensor rationalisation
+SAV-202507-OGS2,2025-07,ENR-OGS,ENR,NDR,saving,,0,75290,Approved,NDR sensor rationalisation
+INC-202507-SSA03-LP1,2025-07,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202507-SSA03,87115,43557,Approved,Vulnerability exploitation prevented (Medium)
+INC-202507-SSA03-LP2,2025-07,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202507-SSA03,87115,21779,Approved,Vulnerability exploitation prevented (Medium)
+INC-202507-SSA03-LP3,2025-07,GOV-SSA,GOV,AppSec,loss_prevented,INC-202507-SSA03,87115,21779,Approved,Vulnerability exploitation prevented (Medium)
+INC-202507-SSA04-LP1,2025-07,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202507-SSA04,132314,66157,Approved,Malware prevented (Medium)
+INC-202507-SSA04-LP2,2025-07,GOV-SSA,GOV,SOC,loss_prevented,INC-202507-SSA04,132314,66157,Approved,Malware prevented (Medium)
+SAV-202507-IT1,2025-07,GSS-IT,GSS,CTEM,saving,,0,54337,Approved,CTEM platform replacing point scanners
+SAV-202507-IT2,2025-07,GSS-IT,GSS,NDR,saving,,0,110129,Approved,NDR sensor rationalisation
+SAV-202507-IT3,2025-07,GSS-IT,GSS,SOC,saving,,0,73137,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202507-IT4,2025-07,GSS-IT,GSS,AI Agents,saving,,0,143045,Rejected,Service-desk deflection: contractor seats released
+INC-202507-FHR01-LP1,2025-07,GSS-FHR,GSS,AI Agents,loss_prevented,INC-202507-FHR01,278499,139248,Approved,Payment fraud prevented (High)
+INC-202507-FHR01-LP2,2025-07,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202507-FHR01,278499,46417,Approved,Payment fraud prevented (High)
+INC-202507-FHR01-LP3,2025-07,GSS-FHR,GSS,SOC,loss_prevented,INC-202507-FHR01,278499,46417,Approved,Payment fraud prevented (High)
+INC-202507-FHR01-LP4,2025-07,GSS-FHR,GSS,DFIR,loss_prevented,INC-202507-FHR01,278499,46417,Approved,Payment fraud prevented (High)
+INC-202508-RB04-LP1,2025-08,FIN-RB,FIN,SOC,loss_prevented,INC-202508-RB04,106684,53342,Approved,Business email compromise prevented (Medium)
+INC-202508-RB04-LP2,2025-08,FIN-RB,FIN,DLP,loss_prevented,INC-202508-RB04,106684,26671,Approved,Business email compromise prevented (Medium)
+INC-202508-RB04-LP3,2025-08,FIN-RB,FIN,AI Agents,loss_prevented,INC-202508-RB04,106684,26671,Approved,Business email compromise prevented (Medium)
+SAV-202508-RB1,2025-08,FIN-RB,FIN,AI Agents,saving,,0,142701,Rejected,Service-desk deflection: contractor seats released
+INC-202508-PAY01-LP1,2025-08,FIN-PAY,FIN,EDR/XDR,loss_prevented,INC-202508-PAY01,235470,117734,Approved,Malware prevented (High)
+INC-202508-PAY01-LP2,2025-08,FIN-PAY,FIN,SOC,loss_prevented,INC-202508-PAY01,235470,58868,Approved,Malware prevented (High)
+INC-202508-PAY01-LP3,2025-08,FIN-PAY,FIN,DFIR,loss_prevented,INC-202508-PAY01,235470,58868,Approved,Malware prevented (High)
+INC-202508-PAY03-LP1,2025-08,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202508-PAY03,58226,29113,Approved,Payment fraud prevented (Low)
+INC-202508-PAY03-LP2,2025-08,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202508-PAY03,58226,29113,Approved,Payment fraud prevented (Low)
+SAV-202508-PAY1,2025-08,FIN-PAY,FIN,AI Agents,saving,,0,31374,Approved,Reconciliation & invoice matching: temp staff released
+SAV-202508-PAY2,2025-08,FIN-PAY,FIN,AI Agents,saving,,0,71316,Pending,Reconciliation & invoice matching: temp staff released
+INC-202508-HOS03-LP1,2025-08,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202508-HOS03,74041,37021,Approved,Malware prevented (Medium)
+INC-202508-HOS03-LP2,2025-08,HLT-HOS,HLT,SOAR,loss_prevented,INC-202508-HOS03,74041,18510,Approved,Malware prevented (Medium)
+INC-202508-HOS03-LP3,2025-08,HLT-HOS,HLT,SOC,loss_prevented,INC-202508-HOS03,74041,18510,Approved,Malware prevented (Medium)
+INC-202508-HOS04-LP1,2025-08,HLT-HOS,HLT,SOC,loss_prevented,INC-202508-HOS04,445541,222771,Approved,Business email compromise prevented (High)
+INC-202508-HOS04-LP2,2025-08,HLT-HOS,HLT,DLP,loss_prevented,INC-202508-HOS04,445541,111385,Approved,Business email compromise prevented (High)
+INC-202508-HOS04-LP3,2025-08,HLT-HOS,HLT,DFIR,loss_prevented,INC-202508-HOS04,445541,111385,Approved,Business email compromise prevented (High)
+INC-202508-HOS06-LP1,2025-08,HLT-HOS,HLT,DLP,loss_prevented,INC-202508-HOS06,74896,37448,Approved,AI data leakage prevented (Medium)
+INC-202508-HOS06-LP2,2025-08,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202508-HOS06,74896,18724,Approved,AI data leakage prevented (Medium)
+INC-202508-HOS06-LP3,2025-08,HLT-HOS,HLT,GRC,loss_prevented,INC-202508-HOS06,74896,18724,Approved,AI data leakage prevented (Medium)
+SAV-202508-LAB1,2025-08,HLT-LAB,HLT,AI Agents,saving,,0,77678,Approved,Service-desk deflection: contractor seats released
+INC-202508-PWR01-LP1,2025-08,ENR-PWR,ENR,Vulnerability Mgmt,loss_prevented,INC-202508-PWR01,56714,28357,Approved,Vulnerability exploitation prevented (Medium)
+INC-202508-PWR01-LP2,2025-08,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202508-PWR01,56714,28357,Approved,Vulnerability exploitation prevented (Medium)
+SAV-202508-PWR1,2025-08,ENR-PWR,ENR,SOC,saving,,0,111965,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+INC-202508-OGS01-LP1,2025-08,ENR-OGS,ENR,DLP,loss_prevented,INC-202508-OGS01,257142,128570,Approved,Insider misuse prevented (Medium)
+INC-202508-OGS01-LP2,2025-08,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202508-OGS01,257142,64286,Approved,Insider misuse prevented (Medium)
+INC-202508-OGS01-LP3,2025-08,ENR-OGS,ENR,SOC,loss_prevented,INC-202508-OGS01,257142,64286,Approved,Insider misuse prevented (Medium)
+INC-202508-OGS02-LP1,2025-08,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202508-OGS02,77859,38929,Approved,Malware prevented (Medium)
+INC-202508-OGS02-LP2,2025-08,ENR-OGS,ENR,SOAR,loss_prevented,INC-202508-OGS02,77859,38930,Approved,Malware prevented (Medium)
+INC-202508-IT04-LP1,2025-08,GSS-IT,GSS,DLP,loss_prevented,INC-202508-IT04,39262,19630,Approved,AI data leakage prevented (Low)
+INC-202508-IT04-LP2,2025-08,GSS-IT,GSS,AI Agents,loss_prevented,INC-202508-IT04,39262,9816,Approved,AI data leakage prevented (Low)
+INC-202508-IT04-LP3,2025-08,GSS-IT,GSS,GRC,loss_prevented,INC-202508-IT04,39262,9816,Approved,AI data leakage prevented (Low)
+INC-202508-IT05-LP1,2025-08,GSS-IT,GSS,Cloud Security,loss_prevented,INC-202508-IT05,113230,56615,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202508-IT05-LP2,2025-08,GSS-IT,GSS,Vulnerability Mgmt,loss_prevented,INC-202508-IT05,113230,56615,Approved,Cloud misconfiguration exposure prevented (Medium)
+SAV-202508-IT1,2025-08,GSS-IT,GSS,Cloud Security,saving,,0,162283,Approved,Cloud posture fixes: idle resources removed
+SAV-202508-IT2,2025-08,GSS-IT,GSS,IAM/PAM,saving,,0,387450,Pending,Access-request automation: IAM contractor reduction
+SAV-202508-IT3,2025-08,GSS-IT,GSS,CTEM,saving,,0,78894,Pending,CTEM platform replacing point scanners
+INC-202509-RB01-LP1,2025-09,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202509-RB01,96871,48435,Approved,Malware prevented (Medium)
+INC-202509-RB01-LP2,2025-09,FIN-RB,FIN,SOAR,loss_prevented,INC-202509-RB01,96871,24218,Approved,Malware prevented (Medium)
+INC-202509-RB01-LP3,2025-09,FIN-RB,FIN,SOC,loss_prevented,INC-202509-RB01,96871,24218,Approved,Malware prevented (Medium)
+INC-202509-RB02-LP1,2025-09,FIN-RB,FIN,SOC,loss_prevented,INC-202509-RB02,63717,31858,Approved,Business email compromise prevented (Medium)
+INC-202509-RB02-LP2,2025-09,FIN-RB,FIN,SOAR,loss_prevented,INC-202509-RB02,63717,31859,Approved,Business email compromise prevented (Medium)
+SAV-202509-RB1,2025-09,FIN-RB,FIN,IAM/PAM,saving,,0,188254,Approved,Access-request automation: IAM contractor reduction
+INC-202509-PAY03-LP1,2025-09,FIN-PAY,FIN,DLP,loss_prevented,INC-202509-PAY03,231825,115911,Approved,AI data leakage prevented (High)
+INC-202509-PAY03-LP2,2025-09,FIN-PAY,FIN,GRC,loss_prevented,INC-202509-PAY03,231825,38638,Approved,AI data leakage prevented (High)
+INC-202509-PAY03-LP3,2025-09,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202509-PAY03,231825,38638,Approved,AI data leakage prevented (High)
+INC-202509-PAY03-LP4,2025-09,FIN-PAY,FIN,DFIR,loss_prevented,INC-202509-PAY03,231825,38638,Approved,AI data leakage prevented (High)
+SAV-202509-LAB1,2025-09,HLT-LAB,HLT,AI Agents,saving,,0,163706,Approved,KYC / claims review outsourcing reduced
+SAV-202509-LAB2,2025-09,HLT-LAB,HLT,AI Agents,saving,,0,80668,Approved,Service-desk deflection: contractor seats released
+INC-202509-PWR02-LP1,2025-09,ENR-PWR,ENR,DLP,loss_prevented,INC-202509-PWR02,135682,67841,Approved,Insider misuse prevented (Medium)
+INC-202509-PWR02-LP2,2025-09,ENR-PWR,ENR,IAM/PAM,loss_prevented,INC-202509-PWR02,135682,67841,Approved,Insider misuse prevented (Medium)
+SAV-202509-PWR1,2025-09,ENR-PWR,ENR,SOC,saving,,0,90921,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+INC-202509-SSA03-LP1,2025-09,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202509-SSA03,80891,40445,Approved,Malware prevented (Medium)
+INC-202509-SSA03-LP2,2025-09,GOV-SSA,GOV,SOAR,loss_prevented,INC-202509-SSA03,80891,20223,Approved,Malware prevented (Medium)
+INC-202509-SSA03-LP3,2025-09,GOV-SSA,GOV,SOC,loss_prevented,INC-202509-SSA03,80891,20223,Approved,Malware prevented (Medium)
+INC-202509-SSA05-LP1,2025-09,GOV-SSA,GOV,SOC,loss_prevented,INC-202509-SSA05,210487,105243,Approved,Phishing / credential theft prevented (Medium)
+INC-202509-SSA05-LP2,2025-09,GOV-SSA,GOV,IAM/PAM,loss_prevented,INC-202509-SSA05,210487,105244,Approved,Phishing / credential theft prevented (Medium)
+SAV-202509-SSA1,2025-09,GOV-SSA,GOV,SOC,saving,,0,112169,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202509-SSA2,2025-09,GOV-SSA,GOV,SOC,saving,,0,144098,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202509-MUN1,2025-09,GOV-MUN,GOV,AI Agents,saving,,0,168101,Approved,Citizen-service backlog contractors released
+SAV-202509-MUN2,2025-09,GOV-MUN,GOV,AI Agents,saving,,0,135929,Approved,Service-desk deflection: contractor seats released
+SAV-202509-IT1,2025-09,GSS-IT,GSS,AI Agents,saving,,0,238561,Approved,Service-desk deflection: contractor seats released
+SAV-202509-IT2,2025-09,GSS-IT,GSS,Backup,saving,,0,200549,Pending,Backup storage tiering & de-duplication
+INC-202509-FHR01-LP1,2025-09,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202509-FHR01,100159,50079,Approved,Account takeover prevented (Medium)
+INC-202509-FHR01-LP2,2025-09,GSS-FHR,GSS,AI Agents,loss_prevented,INC-202509-FHR01,100159,25040,Approved,Account takeover prevented (Medium)
+INC-202509-FHR01-LP3,2025-09,GSS-FHR,GSS,SOC,loss_prevented,INC-202509-FHR01,100159,25040,Approved,Account takeover prevented (Medium)
+SAV-202509-FHR1,2025-09,GSS-FHR,GSS,GRC,saving,,0,61371,Approved,Automated evidence collection: external audit fees reduced
+INC-202510-RB03-LP1,2025-10,FIN-RB,FIN,Vulnerability Mgmt,loss_prevented,INC-202510-RB03,69824,34912,Approved,Vulnerability exploitation prevented (Medium)
+INC-202510-RB03-LP2,2025-10,FIN-RB,FIN,CTEM,loss_prevented,INC-202510-RB03,69824,34912,Approved,Vulnerability exploitation prevented (Medium)
+INC-202510-RB04-LP1,2025-10,FIN-RB,FIN,DLP,loss_prevented,INC-202510-RB04,146562,73280,Approved,AI data leakage prevented (Medium)
+INC-202510-RB04-LP2,2025-10,FIN-RB,FIN,GRC,loss_prevented,INC-202510-RB04,146562,36641,Approved,AI data leakage prevented (Medium)
+INC-202510-RB04-LP3,2025-10,FIN-RB,FIN,AI Agents,loss_prevented,INC-202510-RB04,146562,36641,Approved,AI data leakage prevented (Medium)
+SAV-202510-RB1,2025-10,FIN-RB,FIN,SOAR,saving,,0,216024,Approved,Automated playbooks: overtime & on-call reduction
+INC-202510-HOS02-LP1,2025-10,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202510-HOS02,99158,49578,Approved,AI prompt injection prevented (Medium)
+INC-202510-HOS02-LP2,2025-10,HLT-HOS,HLT,SOC,loss_prevented,INC-202510-HOS02,99158,24790,Approved,AI prompt injection prevented (Medium)
+INC-202510-HOS02-LP3,2025-10,HLT-HOS,HLT,AppSec,loss_prevented,INC-202510-HOS02,99158,24790,Approved,AI prompt injection prevented (Medium)
+SAV-202510-LAB1,2025-10,HLT-LAB,HLT,AI Agents,saving,,0,95253,Approved,KYC / claims review outsourcing reduced
+INC-202510-PWR01-LP1,2025-10,ENR-PWR,ENR,DLP,loss_prevented,INC-202510-PWR01,105812,52907,Approved,Shadow AI data exposure prevented (High)
+INC-202510-PWR01-LP2,2025-10,ENR-PWR,ENR,GRC,loss_prevented,INC-202510-PWR01,105812,17635,Approved,Shadow AI data exposure prevented (High)
+INC-202510-PWR01-LP3,2025-10,ENR-PWR,ENR,Cloud Security,loss_prevented,INC-202510-PWR01,105812,17635,Approved,Shadow AI data exposure prevented (High)
+INC-202510-PWR01-LP4,2025-10,ENR-PWR,ENR,DFIR,loss_prevented,INC-202510-PWR01,105812,17635,Approved,Shadow AI data exposure prevented (High)
+INC-202510-PWR03-LP1,2025-10,ENR-PWR,ENR,DLP,loss_prevented,INC-202510-PWR03,45258,22629,Approved,Data exfiltration attempt prevented (Medium)
+INC-202510-PWR03-LP2,2025-10,ENR-PWR,ENR,SOC,loss_prevented,INC-202510-PWR03,45258,22629,Approved,Data exfiltration attempt prevented (Medium)
+INC-202510-PWR07-LP1,2025-10,ENR-PWR,ENR,Vulnerability Mgmt,loss_prevented,INC-202510-PWR07,1481260,740629,Approved,Vulnerability exploitation prevented (Critical)
+INC-202510-PWR07-LP2,2025-10,ENR-PWR,ENR,AppSec,loss_prevented,INC-202510-PWR07,1481260,246877,Approved,Vulnerability exploitation prevented (Critical)
+INC-202510-PWR07-LP3,2025-10,ENR-PWR,ENR,CTEM,loss_prevented,INC-202510-PWR07,1481260,246877,Approved,Vulnerability exploitation prevented (Critical)
+INC-202510-PWR07-LP4,2025-10,ENR-PWR,ENR,DFIR,loss_prevented,INC-202510-PWR07,1481260,246877,Approved,Vulnerability exploitation prevented (Critical)
+INC-202510-OGS02-LP1,2025-10,ENR-OGS,ENR,SOC,loss_prevented,INC-202510-OGS02,232431,116214,Approved,Business email compromise prevented (Medium)
+INC-202510-OGS02-LP2,2025-10,ENR-OGS,ENR,AI Agents,loss_prevented,INC-202510-OGS02,232431,38739,Approved,Business email compromise prevented (Medium)
+INC-202510-OGS02-LP3,2025-10,ENR-OGS,ENR,SOAR,loss_prevented,INC-202510-OGS02,232431,38739,Approved,Business email compromise prevented (Medium)
+INC-202510-OGS02-LP4,2025-10,ENR-OGS,ENR,DLP,loss_prevented,INC-202510-OGS02,232431,38739,Approved,Business email compromise prevented (Medium)
+SAV-202510-OGS1,2025-10,ENR-OGS,ENR,NDR,saving,,0,77670,Approved,NDR sensor rationalisation
+SAV-202510-OGS2,2025-10,ENR-OGS,ENR,NDR,saving,,0,136619,Approved,NDR sensor rationalisation
+INC-202510-SSA01-LP1,2025-10,GOV-SSA,GOV,SOC,loss_prevented,INC-202510-SSA01,326976,163488,Approved,Phishing / credential theft prevented (High)
+INC-202510-SSA01-LP2,2025-10,GOV-SSA,GOV,IAM/PAM,loss_prevented,INC-202510-SSA01,326976,81744,Approved,Phishing / credential theft prevented (High)
+INC-202510-SSA01-LP3,2025-10,GOV-SSA,GOV,DFIR,loss_prevented,INC-202510-SSA01,326976,81744,Approved,Phishing / credential theft prevented (High)
+INC-202510-SSA03-LP1,2025-10,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202510-SSA03,58286,29144,Approved,Ransomware attempt prevented (Medium)
+INC-202510-SSA03-LP2,2025-10,GOV-SSA,GOV,NDR,loss_prevented,INC-202510-SSA03,58286,9714,Approved,Ransomware attempt prevented (Medium)
+INC-202510-SSA03-LP3,2025-10,GOV-SSA,GOV,Backup,loss_prevented,INC-202510-SSA03,58286,9714,Approved,Ransomware attempt prevented (Medium)
+INC-202510-SSA03-LP4,2025-10,GOV-SSA,GOV,SOC,loss_prevented,INC-202510-SSA03,58286,9714,Approved,Ransomware attempt prevented (Medium)
+SAV-202510-SSA1,2025-10,GOV-SSA,GOV,Cloud Security,saving,,0,111415,Approved,Cloud posture fixes: idle resources removed
+SAV-202510-SSA2,2025-10,GOV-SSA,GOV,SOAR,saving,,0,111672,Approved,Automated playbooks: overtime & on-call reduction
+INC-202510-MUN01-LP1,2025-10,GOV-MUN,GOV,DLP,loss_prevented,INC-202510-MUN01,50705,25353,Approved,Data exfiltration attempt prevented (Medium)
+INC-202510-MUN01-LP2,2025-10,GOV-MUN,GOV,SOC,loss_prevented,INC-202510-MUN01,50705,12676,Approved,Data exfiltration attempt prevented (Medium)
+INC-202510-MUN01-LP3,2025-10,GOV-MUN,GOV,NDR,loss_prevented,INC-202510-MUN01,50705,12676,Approved,Data exfiltration attempt prevented (Medium)
+INC-202510-MUN05-LP1,2025-10,GOV-MUN,GOV,SOC,loss_prevented,INC-202510-MUN05,105663,52830,Approved,Phishing / credential theft prevented (Medium)
+INC-202510-MUN05-LP2,2025-10,GOV-MUN,GOV,IAM/PAM,loss_prevented,INC-202510-MUN05,105663,17611,Approved,Phishing / credential theft prevented (Medium)
+INC-202510-MUN05-LP3,2025-10,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202510-MUN05,105663,17611,Approved,Phishing / credential theft prevented (Medium)
+INC-202510-MUN05-LP4,2025-10,GOV-MUN,GOV,SOAR,loss_prevented,INC-202510-MUN05,105663,17611,Approved,Phishing / credential theft prevented (Medium)
+SAV-202510-MUN1,2025-10,GOV-MUN,GOV,GRC,saving,,0,28874,Pending,Automated evidence collection: external audit fees reduced
+SAV-202510-MUN2,2025-10,GOV-MUN,GOV,AI Agents,saving,,0,108096,Approved,Citizen-service backlog contractors released
+INC-202510-FHR01-LP1,2025-10,GSS-FHR,GSS,SOC,loss_prevented,INC-202510-FHR01,216626,108314,Approved,Phishing / credential theft prevented (High)
+INC-202510-FHR01-LP2,2025-10,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202510-FHR01,216626,36104,Approved,Phishing / credential theft prevented (High)
+INC-202510-FHR01-LP3,2025-10,GSS-FHR,GSS,SOAR,loss_prevented,INC-202510-FHR01,216626,36104,Approved,Phishing / credential theft prevented (High)
+INC-202510-FHR01-LP4,2025-10,GSS-FHR,GSS,DFIR,loss_prevented,INC-202510-FHR01,216626,36104,Approved,Phishing / credential theft prevented (High)
+SAV-202510-FHR1,2025-10,GSS-FHR,GSS,DLP,saving,,0,87787,Approved,DLP policy tuning: contractor reviewers released
+INC-202511-RB01-LP1,2025-11,FIN-RB,FIN,SOC,loss_prevented,INC-202511-RB01,66282,33141,Approved,Business email compromise prevented (Medium)
+INC-202511-RB01-LP2,2025-11,FIN-RB,FIN,SOAR,loss_prevented,INC-202511-RB01,66282,33141,Approved,Business email compromise prevented (Medium)
+SAV-202511-RB1,2025-11,FIN-RB,FIN,DLP,saving,,0,232280,Approved,DLP policy tuning: contractor reviewers released
+INC-202511-PAY06-LP1,2025-11,FIN-PAY,FIN,SOC,loss_prevented,INC-202511-PAY06,72289,36145,Approved,Business email compromise prevented (Medium)
+INC-202511-PAY06-LP2,2025-11,FIN-PAY,FIN,DLP,loss_prevented,INC-202511-PAY06,72289,18072,Approved,Business email compromise prevented (Medium)
+INC-202511-PAY06-LP3,2025-11,FIN-PAY,FIN,SOAR,loss_prevented,INC-202511-PAY06,72289,18072,Approved,Business email compromise prevented (Medium)
+INC-202511-PAY08-LP1,2025-11,FIN-PAY,FIN,EDR/XDR,loss_prevented,INC-202511-PAY08,698301,349149,Approved,Ransomware attempt prevented (High)
+INC-202511-PAY08-LP2,2025-11,FIN-PAY,FIN,Backup,loss_prevented,INC-202511-PAY08,698301,116384,Approved,Ransomware attempt prevented (High)
+INC-202511-PAY08-LP3,2025-11,FIN-PAY,FIN,SOC,loss_prevented,INC-202511-PAY08,698301,116384,Approved,Ransomware attempt prevented (High)
+INC-202511-PAY08-LP4,2025-11,FIN-PAY,FIN,DFIR,loss_prevented,INC-202511-PAY08,698301,116384,Approved,Ransomware attempt prevented (High)
+SAV-202511-PAY1,2025-11,FIN-PAY,FIN,AppSec,saving,,0,115427,Approved,Automated code review: external pen-test re-tests avoided
+SAV-202511-PAY2,2025-11,FIN-PAY,FIN,WAF,saving,,0,128221,Pending,WAF managed-service renegotiation
+INC-202511-HOS02-LP1,2025-11,HLT-HOS,HLT,SOC,loss_prevented,INC-202511-HOS02,781360,390680,Approved,Phishing / credential theft prevented (High)
+INC-202511-HOS02-LP2,2025-11,HLT-HOS,HLT,SOAR,loss_prevented,INC-202511-HOS02,781360,97670,Approved,Phishing / credential theft prevented (High)
+INC-202511-HOS02-LP3,2025-11,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202511-HOS02,781360,97670,Approved,Phishing / credential theft prevented (High)
+INC-202511-HOS02-LP4,2025-11,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202511-HOS02,781360,97670,Approved,Phishing / credential theft prevented (High)
+INC-202511-HOS02-LP5,2025-11,HLT-HOS,HLT,DFIR,loss_prevented,INC-202511-HOS02,781360,97670,Approved,Phishing / credential theft prevented (High)
+SAV-202511-HOS1,2025-11,HLT-HOS,HLT,IAM/PAM,saving,,0,191794,Approved,Access-request automation: IAM contractor reduction
+SAV-202511-HOS2,2025-11,HLT-HOS,HLT,AI Agents,saving,,0,196626,Approved,Service-desk deflection: contractor seats released
+SAV-202511-HOS3,2025-11,HLT-HOS,HLT,AI Agents,saving,,0,270009,Approved,Service-desk deflection: contractor seats released
+SAV-202511-LAB1,2025-11,HLT-LAB,HLT,AI Agents,saving,,0,58504,Approved,Service-desk deflection: contractor seats released
+SAV-202511-PWR1,2025-11,ENR-PWR,ENR,AI Agents,saving,,0,70036,Approved,Service-desk deflection: contractor seats released
+INC-202511-OGS01-LP1,2025-11,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202511-OGS01,105133,52567,Approved,Ransomware attempt prevented (Medium)
+INC-202511-OGS01-LP2,2025-11,ENR-OGS,ENR,SOC,loss_prevented,INC-202511-OGS01,105133,26283,Approved,Ransomware attempt prevented (Medium)
+INC-202511-OGS01-LP3,2025-11,ENR-OGS,ENR,Backup,loss_prevented,INC-202511-OGS01,105133,26283,Approved,Ransomware attempt prevented (Medium)
+INC-202511-OGS02-LP1,2025-11,ENR-OGS,ENR,AI Agents,loss_prevented,INC-202511-OGS02,224788,112393,Approved,AI prompt injection prevented (High)
+INC-202511-OGS02-LP2,2025-11,ENR-OGS,ENR,SOC,loss_prevented,INC-202511-OGS02,224788,37465,Approved,AI prompt injection prevented (High)
+INC-202511-OGS02-LP3,2025-11,ENR-OGS,ENR,AppSec,loss_prevented,INC-202511-OGS02,224788,37465,Approved,AI prompt injection prevented (High)
+INC-202511-OGS02-LP4,2025-11,ENR-OGS,ENR,DFIR,loss_prevented,INC-202511-OGS02,224788,37465,Approved,AI prompt injection prevented (High)
+SAV-202511-OGS1,2025-11,ENR-OGS,ENR,NDR,saving,,0,82944,Approved,NDR sensor rationalisation
+INC-202511-SSA02-LP1,2025-11,GOV-SSA,GOV,Cloud Security,loss_prevented,INC-202511-SSA02,65526,32762,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202511-SSA02-LP2,2025-11,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202511-SSA02,65526,16382,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202511-SSA02-LP3,2025-11,GOV-SSA,GOV,CTEM,loss_prevented,INC-202511-SSA02,65526,16382,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202511-SSA04-LP1,2025-11,GOV-SSA,GOV,SOC,loss_prevented,INC-202511-SSA04,78880,39439,Approved,Business email compromise prevented (Medium)
+INC-202511-SSA04-LP2,2025-11,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202511-SSA04,78880,13147,Approved,Business email compromise prevented (Medium)
+INC-202511-SSA04-LP3,2025-11,GOV-SSA,GOV,DLP,loss_prevented,INC-202511-SSA04,78880,13147,Approved,Business email compromise prevented (Medium)
+INC-202511-SSA04-LP4,2025-11,GOV-SSA,GOV,SOAR,loss_prevented,INC-202511-SSA04,78880,13147,Approved,Business email compromise prevented (Medium)
+SAV-202511-SSA1,2025-11,GOV-SSA,GOV,AI Agents,saving,,0,83200,Approved,Citizen-service backlog contractors released
+INC-202511-MUN01-LP1,2025-11,GOV-MUN,GOV,SOC,loss_prevented,INC-202511-MUN01,62239,31120,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-MUN01-LP2,2025-11,GOV-MUN,GOV,IAM/PAM,loss_prevented,INC-202511-MUN01,62239,10373,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-MUN01-LP3,2025-11,GOV-MUN,GOV,SOAR,loss_prevented,INC-202511-MUN01,62239,10373,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-MUN01-LP4,2025-11,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202511-MUN01,62239,10373,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-MUN02-LP1,2025-11,GOV-MUN,GOV,SOC,loss_prevented,INC-202511-MUN02,4664374,2332186,Approved,Business email compromise prevented (Critical)
+INC-202511-MUN02-LP2,2025-11,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202511-MUN02,4664374,777396,Approved,Business email compromise prevented (Critical)
+INC-202511-MUN02-LP3,2025-11,GOV-MUN,GOV,DLP,loss_prevented,INC-202511-MUN02,4664374,777396,Approved,Business email compromise prevented (Critical)
+INC-202511-MUN02-LP4,2025-11,GOV-MUN,GOV,DFIR,loss_prevented,INC-202511-MUN02,4664374,777396,Approved,Business email compromise prevented (Critical)
+SAV-202511-MUN1,2025-11,GOV-MUN,GOV,Firewall,saving,,0,71433,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202511-MUN2,2025-11,GOV-MUN,GOV,AI Agents,saving,,0,175040,Approved,Service-desk deflection: contractor seats released
+SAV-202511-MUN3,2025-11,GOV-MUN,GOV,AI Agents,saving,,0,149753,Pending,Service-desk deflection: contractor seats released
+SAV-202511-MUN4,2025-11,GOV-MUN,GOV,GRC,saving,,0,23256,Approved,Automated evidence collection: external audit fees reduced
+SAV-202511-MUN5,2025-11,GOV-MUN,GOV,Backup,saving,,0,100451,Pending,Backup storage tiering & de-duplication
+INC-202511-IT01-LP1,2025-11,GSS-IT,GSS,Vulnerability Mgmt,loss_prevented,INC-202511-IT01,130266,65133,Approved,Vulnerability exploitation prevented (Medium)
+INC-202511-IT01-LP2,2025-11,GSS-IT,GSS,AppSec,loss_prevented,INC-202511-IT01,130266,21711,Approved,Vulnerability exploitation prevented (Medium)
+INC-202511-IT01-LP3,2025-11,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202511-IT01,130266,21711,Approved,Vulnerability exploitation prevented (Medium)
+INC-202511-IT01-LP4,2025-11,GSS-IT,GSS,WAF,loss_prevented,INC-202511-IT01,130266,21711,Approved,Vulnerability exploitation prevented (Medium)
+INC-202511-IT05-LP1,2025-11,GSS-IT,GSS,SOC,loss_prevented,INC-202511-IT05,56808,28404,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-IT05-LP2,2025-11,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202511-IT05,56808,9468,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-IT05-LP3,2025-11,GSS-IT,GSS,SOAR,loss_prevented,INC-202511-IT05,56808,9468,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-IT05-LP4,2025-11,GSS-IT,GSS,AI Agents,loss_prevented,INC-202511-IT05,56808,9468,Approved,Phishing / credential theft prevented (Medium)
+INC-202511-IT06-LP1,2025-11,GSS-IT,GSS,SOC,loss_prevented,INC-202511-IT06,673635,336817,Approved,Phishing / credential theft prevented (High)
+INC-202511-IT06-LP2,2025-11,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202511-IT06,673635,168409,Approved,Phishing / credential theft prevented (High)
+INC-202511-IT06-LP3,2025-11,GSS-IT,GSS,DFIR,loss_prevented,INC-202511-IT06,673635,168409,Approved,Phishing / credential theft prevented (High)
+INC-202511-IT07-LP1,2025-11,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202511-IT07,86643,43321,Approved,Malware prevented (Medium)
+INC-202511-IT07-LP2,2025-11,GSS-IT,GSS,SOAR,loss_prevented,INC-202511-IT07,86643,21661,Approved,Malware prevented (Medium)
+INC-202511-IT07-LP3,2025-11,GSS-IT,GSS,SOC,loss_prevented,INC-202511-IT07,86643,21661,Approved,Malware prevented (Medium)
+SAV-202511-IT1,2025-11,GSS-IT,GSS,Cloud Security,saving,,0,113607,Approved,Cloud posture fixes: idle resources removed
+SAV-202511-FHR1,2025-11,GSS-FHR,GSS,DLP,saving,,0,130876,Approved,DLP policy tuning: contractor reviewers released
+INC-202512-RB01-LP1,2025-12,FIN-RB,FIN,DLP,loss_prevented,INC-202512-RB01,666596,333299,Approved,Shadow AI data exposure prevented (High)
+INC-202512-RB01-LP2,2025-12,FIN-RB,FIN,GRC,loss_prevented,INC-202512-RB01,666596,111099,Approved,Shadow AI data exposure prevented (High)
+INC-202512-RB01-LP3,2025-12,FIN-RB,FIN,Cloud Security,loss_prevented,INC-202512-RB01,666596,111099,Approved,Shadow AI data exposure prevented (High)
+INC-202512-RB01-LP4,2025-12,FIN-RB,FIN,DFIR,loss_prevented,INC-202512-RB01,666596,111099,Approved,Shadow AI data exposure prevented (High)
+INC-202512-RB05-LP1,2025-12,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202512-RB05,40307,20153,Approved,Account takeover prevented (Medium)
+INC-202512-RB05-LP2,2025-12,FIN-RB,FIN,AI Agents,loss_prevented,INC-202512-RB05,40307,20154,Approved,Account takeover prevented (Medium)
+SAV-202512-RB1,2025-12,FIN-RB,FIN,AI Agents,saving,,0,258630,Approved,KYC / claims review outsourcing reduced
+SAV-202512-RB2,2025-12,FIN-RB,FIN,AI Agents,saving,,0,140614,Approved,KYC / claims review outsourcing reduced
+INC-202512-PAY02-LP1,2025-12,FIN-PAY,FIN,Vulnerability Mgmt,loss_prevented,INC-202512-PAY02,478399,239200,Approved,Vulnerability exploitation prevented (High)
+INC-202512-PAY02-LP2,2025-12,FIN-PAY,FIN,WAF,loss_prevented,INC-202512-PAY02,478399,79733,Approved,Vulnerability exploitation prevented (High)
+INC-202512-PAY02-LP3,2025-12,FIN-PAY,FIN,AppSec,loss_prevented,INC-202512-PAY02,478399,79733,Approved,Vulnerability exploitation prevented (High)
+INC-202512-PAY02-LP4,2025-12,FIN-PAY,FIN,DFIR,loss_prevented,INC-202512-PAY02,478399,79733,Approved,Vulnerability exploitation prevented (High)
+INC-202512-PAY04-LP1,2025-12,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202512-PAY04,77794,38896,Approved,Account takeover prevented (Medium)
+INC-202512-PAY04-LP2,2025-12,FIN-PAY,FIN,SOC,loss_prevented,INC-202512-PAY04,77794,19449,Approved,Account takeover prevented (Medium)
+INC-202512-PAY04-LP3,2025-12,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202512-PAY04,77794,19449,Approved,Account takeover prevented (Medium)
+SAV-202512-PAY1,2025-12,FIN-PAY,FIN,AI Agents,saving,,0,185718,Approved,KYC / claims review outsourcing reduced
+INC-202512-HOS02-LP1,2025-12,HLT-HOS,HLT,SOC,loss_prevented,INC-202512-HOS02,158310,79155,Approved,Business email compromise prevented (High)
+INC-202512-HOS02-LP2,2025-12,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202512-HOS02,158310,26385,Approved,Business email compromise prevented (High)
+INC-202512-HOS02-LP3,2025-12,HLT-HOS,HLT,DLP,loss_prevented,INC-202512-HOS02,158310,26385,Approved,Business email compromise prevented (High)
+INC-202512-HOS02-LP4,2025-12,HLT-HOS,HLT,DFIR,loss_prevented,INC-202512-HOS02,158310,26385,Approved,Business email compromise prevented (High)
+SAV-202512-HOS1,2025-12,HLT-HOS,HLT,EDR/XDR,saving,,0,50291,Approved,EDR/XDR licence consolidation
+SAV-202512-LAB1,2025-12,HLT-LAB,HLT,Backup,saving,,0,109668,Pending,Backup storage tiering & de-duplication
+SAV-202512-LAB2,2025-12,HLT-LAB,HLT,Backup,saving,,0,130852,Pending,Backup storage tiering & de-duplication
+INC-202512-OGS02-LP1,2025-12,ENR-OGS,ENR,SOC,loss_prevented,INC-202512-OGS02,779136,389568,Approved,Phishing / credential theft prevented (High)
+INC-202512-OGS02-LP2,2025-12,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202512-OGS02,779136,194784,Approved,Phishing / credential theft prevented (High)
+INC-202512-OGS02-LP3,2025-12,ENR-OGS,ENR,DFIR,loss_prevented,INC-202512-OGS02,779136,194784,Approved,Phishing / credential theft prevented (High)
+INC-202512-OGS04-LP1,2025-12,ENR-OGS,ENR,Cloud Security,loss_prevented,INC-202512-OGS04,65096,32548,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202512-OGS04-LP2,2025-12,ENR-OGS,ENR,CTEM,loss_prevented,INC-202512-OGS04,65096,16274,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202512-OGS04-LP3,2025-12,ENR-OGS,ENR,Vulnerability Mgmt,loss_prevented,INC-202512-OGS04,65096,16274,Approved,Cloud misconfiguration exposure prevented (Medium)
+SAV-202512-OGS1,2025-12,ENR-OGS,ENR,NDR,saving,,0,39640,Pending,NDR sensor rationalisation
+INC-202512-SSA01-LP1,2025-12,GOV-SSA,GOV,DLP,loss_prevented,INC-202512-SSA01,629179,314589,Approved,Insider misuse prevented (High)
+INC-202512-SSA01-LP2,2025-12,GOV-SSA,GOV,IAM/PAM,loss_prevented,INC-202512-SSA01,629179,157295,Approved,Insider misuse prevented (High)
+INC-202512-SSA01-LP3,2025-12,GOV-SSA,GOV,DFIR,loss_prevented,INC-202512-SSA01,629179,157295,Approved,Insider misuse prevented (High)
+INC-202512-SSA02-LP1,2025-12,GOV-SSA,GOV,WAF,loss_prevented,INC-202512-SSA02,43983,21991,Approved,DDoS prevented (Medium)
+INC-202512-SSA02-LP2,2025-12,GOV-SSA,GOV,Firewall,loss_prevented,INC-202512-SSA02,43983,10996,Approved,DDoS prevented (Medium)
+INC-202512-SSA02-LP3,2025-12,GOV-SSA,GOV,NDR,loss_prevented,INC-202512-SSA02,43983,10996,Approved,DDoS prevented (Medium)
+INC-202512-SSA04-LP1,2025-12,GOV-SSA,GOV,SOC,loss_prevented,INC-202512-SSA04,175302,87651,Approved,Phishing / credential theft prevented (Medium)
+INC-202512-SSA04-LP2,2025-12,GOV-SSA,GOV,SOAR,loss_prevented,INC-202512-SSA04,175302,87651,Approved,Phishing / credential theft prevented (Medium)
+INC-202512-SSA05-LP1,2025-12,GOV-SSA,GOV,DLP,loss_prevented,INC-202512-SSA05,73690,36845,Approved,AI data leakage prevented (Medium)
+INC-202512-SSA05-LP2,2025-12,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202512-SSA05,73690,36845,Approved,AI data leakage prevented (Medium)
+INC-202512-MUN03-LP1,2025-12,GOV-MUN,GOV,EDR/XDR,loss_prevented,INC-202512-MUN03,86015,43007,Approved,Ransomware attempt prevented (Medium)
+INC-202512-MUN03-LP2,2025-12,GOV-MUN,GOV,Backup,loss_prevented,INC-202512-MUN03,86015,14336,Approved,Ransomware attempt prevented (Medium)
+INC-202512-MUN03-LP3,2025-12,GOV-MUN,GOV,NDR,loss_prevented,INC-202512-MUN03,86015,14336,Approved,Ransomware attempt prevented (Medium)
+INC-202512-MUN03-LP4,2025-12,GOV-MUN,GOV,SOC,loss_prevented,INC-202512-MUN03,86015,14336,Approved,Ransomware attempt prevented (Medium)
+SAV-202512-MUN1,2025-12,GOV-MUN,GOV,AI Agents,saving,,0,110746,Approved,Service-desk deflection: contractor seats released
+SAV-202512-IT1,2025-12,GSS-IT,GSS,Vulnerability Mgmt,saving,,0,231864,Approved,Scanner licence consolidation
+SAV-202512-IT2,2025-12,GSS-IT,GSS,EDR/XDR,saving,,0,69949,Approved,EDR/XDR licence consolidation
+SAV-202512-IT3,2025-12,GSS-IT,GSS,EDR/XDR,saving,,0,212965,Approved,EDR/XDR licence consolidation
+SAV-202512-FHR1,2025-12,GSS-FHR,GSS,DLP,saving,,0,175179,Pending,DLP policy tuning: contractor reviewers released
+INC-202601-RB03-LP1,2026-01,FIN-RB,FIN,WAF,loss_prevented,INC-202601-RB03,61182,30590,Approved,DDoS prevented (Medium)
+INC-202601-RB03-LP2,2026-01,FIN-RB,FIN,NDR,loss_prevented,INC-202601-RB03,61182,15296,Approved,DDoS prevented (Medium)
+INC-202601-RB03-LP3,2026-01,FIN-RB,FIN,Firewall,loss_prevented,INC-202601-RB03,61182,15296,Approved,DDoS prevented (Medium)
+INC-202601-RB05-LP1,2026-01,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202601-RB05,89874,44936,Approved,Account takeover prevented (Medium)
+INC-202601-RB05-LP2,2026-01,FIN-RB,FIN,AI Agents,loss_prevented,INC-202601-RB05,89874,22469,Approved,Account takeover prevented (Medium)
+INC-202601-RB05-LP3,2026-01,FIN-RB,FIN,SOC,loss_prevented,INC-202601-RB05,89874,22469,Approved,Account takeover prevented (Medium)
+SAV-202601-RB1,2026-01,FIN-RB,FIN,AI Agents,saving,,0,201171,Approved,Service-desk deflection: contractor seats released
+SAV-202601-RB2,2026-01,FIN-RB,FIN,IAM/PAM,saving,,0,151138,Approved,Access-request automation: IAM contractor reduction
+SAV-202601-RB3,2026-01,FIN-RB,FIN,AI Agents,saving,,0,136796,Approved,KYC / claims review outsourcing reduced
+SAV-202601-PAY1,2026-01,FIN-PAY,FIN,AI Agents,saving,,0,188216,Approved,KYC / claims review outsourcing reduced
+SAV-202601-PAY2,2026-01,FIN-PAY,FIN,WAF,saving,,0,23705,Approved,WAF managed-service renegotiation
+SAV-202601-PAY3,2026-01,FIN-PAY,FIN,AI Agents,saving,,0,82435,Approved,Reconciliation & invoice matching: temp staff released
+SAV-202601-PAY4,2026-01,FIN-PAY,FIN,AI Agents,saving,,0,96782,Approved,Reconciliation & invoice matching: temp staff released
+SAV-202601-PAY5,2026-01,FIN-PAY,FIN,Cloud Security,saving,,0,77673,Approved,Cloud posture fixes: idle resources removed
+INC-202601-HOS01-LP1,2026-01,HLT-HOS,HLT,SOC,loss_prevented,INC-202601-HOS01,53238,26618,Approved,Business email compromise prevented (Medium)
+INC-202601-HOS01-LP2,2026-01,HLT-HOS,HLT,SOAR,loss_prevented,INC-202601-HOS01,53238,13310,Approved,Business email compromise prevented (Medium)
+INC-202601-HOS01-LP3,2026-01,HLT-HOS,HLT,DLP,loss_prevented,INC-202601-HOS01,53238,13310,Approved,Business email compromise prevented (Medium)
+SAV-202601-HOS1,2026-01,HLT-HOS,HLT,AI Agents,saving,,0,85839,Approved,Service-desk deflection: contractor seats released
+SAV-202601-HOS2,2026-01,HLT-HOS,HLT,AI Agents,saving,,0,101651,Approved,Service-desk deflection: contractor seats released
+SAV-202601-LAB1,2026-01,HLT-LAB,HLT,AI Agents,saving,,0,104108,Approved,KYC / claims review outsourcing reduced
+SAV-202601-OGS1,2026-01,ENR-OGS,ENR,NDR,saving,,0,79815,Approved,NDR sensor rationalisation
+SAV-202601-OGS2,2026-01,ENR-OGS,ENR,NDR,saving,,0,135686,Pending,NDR sensor rationalisation
+INC-202601-SSA03-LP1,2026-01,GOV-SSA,GOV,SOC,loss_prevented,INC-202601-SSA03,47863,23932,Approved,Business email compromise prevented (Medium)
+INC-202601-SSA03-LP2,2026-01,GOV-SSA,GOV,DLP,loss_prevented,INC-202601-SSA03,47863,7977,Approved,Business email compromise prevented (Medium)
+INC-202601-SSA03-LP3,2026-01,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202601-SSA03,47863,7977,Approved,Business email compromise prevented (Medium)
+INC-202601-SSA03-LP4,2026-01,GOV-SSA,GOV,SOAR,loss_prevented,INC-202601-SSA03,47863,7977,Approved,Business email compromise prevented (Medium)
+SAV-202601-SSA1,2026-01,GOV-SSA,GOV,SOC,saving,,0,86410,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202601-SSA2,2026-01,GOV-SSA,GOV,AI Agents,saving,,0,86162,Rejected,Citizen-service backlog contractors released
+SAV-202601-MUN1,2026-01,GOV-MUN,GOV,AI Agents,saving,,0,60576,Approved,Service-desk deflection: contractor seats released
+INC-202601-IT02-LP1,2026-01,GSS-IT,GSS,SOC,loss_prevented,INC-202601-IT02,38768,19385,Approved,Business email compromise prevented (Medium)
+INC-202601-IT02-LP2,2026-01,GSS-IT,GSS,DLP,loss_prevented,INC-202601-IT02,38768,6461,Approved,Business email compromise prevented (Medium)
+INC-202601-IT02-LP3,2026-01,GSS-IT,GSS,SOAR,loss_prevented,INC-202601-IT02,38768,6461,Approved,Business email compromise prevented (Medium)
+INC-202601-IT02-LP4,2026-01,GSS-IT,GSS,AI Agents,loss_prevented,INC-202601-IT02,38768,6461,Approved,Business email compromise prevented (Medium)
+SAV-202601-IT1,2026-01,GSS-IT,GSS,CTEM,saving,,0,51524,Pending,CTEM platform replacing point scanners
+SAV-202601-IT2,2026-01,GSS-IT,GSS,Firewall,saving,,0,325242,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202601-IT3,2026-01,GSS-IT,GSS,AI Agents,saving,,0,113273,Approved,Service-desk deflection: contractor seats released
+SAV-202601-FHR1,2026-01,GSS-FHR,GSS,GRC,saving,,0,37840,Approved,Automated evidence collection: external audit fees reduced
+SAV-202602-RB1,2026-02,FIN-RB,FIN,AI Agents,saving,,0,59594,Approved,Service-desk deflection: contractor seats released
+INC-202602-HOS01-LP1,2026-02,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202602-HOS01,125458,62729,Approved,Malware prevented (Medium)
+INC-202602-HOS01-LP2,2026-02,HLT-HOS,HLT,SOAR,loss_prevented,INC-202602-HOS01,125458,62729,Approved,Malware prevented (Medium)
+SAV-202602-HOS1,2026-02,HLT-HOS,HLT,IAM/PAM,saving,,0,142960,Approved,Access-request automation: IAM contractor reduction
+INC-202602-LAB01-LP1,2026-02,HLT-LAB,HLT,DLP,loss_prevented,INC-202602-LAB01,62858,31430,Approved,Data exfiltration attempt prevented (Medium)
+INC-202602-LAB01-LP2,2026-02,HLT-LAB,HLT,Firewall,loss_prevented,INC-202602-LAB01,62858,10476,Approved,Data exfiltration attempt prevented (Medium)
+INC-202602-LAB01-LP3,2026-02,HLT-LAB,HLT,NDR,loss_prevented,INC-202602-LAB01,62858,10476,Approved,Data exfiltration attempt prevented (Medium)
+INC-202602-LAB01-LP4,2026-02,HLT-LAB,HLT,SOC,loss_prevented,INC-202602-LAB01,62858,10476,Approved,Data exfiltration attempt prevented (Medium)
+INC-202602-LAB05-LP1,2026-02,HLT-LAB,HLT,SOC,loss_prevented,INC-202602-LAB05,69307,34654,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-LAB05-LP2,2026-02,HLT-LAB,HLT,IAM/PAM,loss_prevented,INC-202602-LAB05,69307,11551,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-LAB05-LP3,2026-02,HLT-LAB,HLT,SOAR,loss_prevented,INC-202602-LAB05,69307,11551,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-LAB05-LP4,2026-02,HLT-LAB,HLT,AI Agents,loss_prevented,INC-202602-LAB05,69307,11551,Approved,Phishing / credential theft prevented (Medium)
+SAV-202602-LAB1,2026-02,HLT-LAB,HLT,Backup,saving,,0,153261,Approved,Backup storage tiering & de-duplication
+SAV-202602-LAB2,2026-02,HLT-LAB,HLT,AI Agents,saving,,0,117604,Approved,KYC / claims review outsourcing reduced
+SAV-202602-LAB3,2026-02,HLT-LAB,HLT,AI Agents,saving,,0,48952,Approved,KYC / claims review outsourcing reduced
+SAV-202602-LAB4,2026-02,HLT-LAB,HLT,Backup,saving,,0,68186,Approved,Backup storage tiering & de-duplication
+SAV-202602-LAB5,2026-02,HLT-LAB,HLT,Backup,saving,,0,180918,Approved,Backup storage tiering & de-duplication
+INC-202602-PWR04-LP1,2026-02,ENR-PWR,ENR,SOC,loss_prevented,INC-202602-PWR04,38753,19376,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-PWR04-LP2,2026-02,ENR-PWR,ENR,AI Agents,loss_prevented,INC-202602-PWR04,38753,6459,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-PWR04-LP3,2026-02,ENR-PWR,ENR,SOAR,loss_prevented,INC-202602-PWR04,38753,6459,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-PWR04-LP4,2026-02,ENR-PWR,ENR,IAM/PAM,loss_prevented,INC-202602-PWR04,38753,6459,Approved,Phishing / credential theft prevented (Medium)
+SAV-202602-PWR1,2026-02,ENR-PWR,ENR,AI Agents,saving,,0,172376,Pending,Service-desk deflection: contractor seats released
+SAV-202602-PWR2,2026-02,ENR-PWR,ENR,Firewall,saving,,0,154087,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202602-PWR3,2026-02,ENR-PWR,ENR,Firewall,saving,,0,172096,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202602-PWR4,2026-02,ENR-PWR,ENR,AI Agents,saving,,0,188454,Approved,Service-desk deflection: contractor seats released
+SAV-202602-OGS1,2026-02,ENR-OGS,ENR,NDR,saving,,0,207441,Approved,NDR sensor rationalisation
+INC-202602-SSA01-LP1,2026-02,GOV-SSA,GOV,SOC,loss_prevented,INC-202602-SSA01,814429,407215,Approved,Business email compromise prevented (High)
+INC-202602-SSA01-LP2,2026-02,GOV-SSA,GOV,DLP,loss_prevented,INC-202602-SSA01,814429,135738,Approved,Business email compromise prevented (High)
+INC-202602-SSA01-LP3,2026-02,GOV-SSA,GOV,SOAR,loss_prevented,INC-202602-SSA01,814429,135738,Approved,Business email compromise prevented (High)
+INC-202602-SSA01-LP4,2026-02,GOV-SSA,GOV,DFIR,loss_prevented,INC-202602-SSA01,814429,135738,Approved,Business email compromise prevented (High)
+INC-202602-SSA07-LP1,2026-02,GOV-SSA,GOV,SOC,loss_prevented,INC-202602-SSA07,134613,67307,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-SSA07-LP2,2026-02,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202602-SSA07,134613,33653,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-SSA07-LP3,2026-02,GOV-SSA,GOV,SOAR,loss_prevented,INC-202602-SSA07,134613,33653,Approved,Phishing / credential theft prevented (Medium)
+INC-202602-SSA09-LP1,2026-02,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202602-SSA09,1849682,924842,Approved,Vulnerability exploitation prevented (Critical)
+INC-202602-SSA09-LP2,2026-02,GOV-SSA,GOV,AppSec,loss_prevented,INC-202602-SSA09,1849682,308280,Approved,Vulnerability exploitation prevented (Critical)
+INC-202602-SSA09-LP3,2026-02,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202602-SSA09,1849682,308280,Approved,Vulnerability exploitation prevented (Critical)
+INC-202602-SSA09-LP4,2026-02,GOV-SSA,GOV,DFIR,loss_prevented,INC-202602-SSA09,1849682,308280,Approved,Vulnerability exploitation prevented (Critical)
+SAV-202602-SSA1,2026-02,GOV-SSA,GOV,SOC,saving,,0,91682,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202602-SSA2,2026-02,GOV-SSA,GOV,SOAR,saving,,0,76225,Pending,Automated playbooks: overtime & on-call reduction
+SAV-202602-SSA3,2026-02,GOV-SSA,GOV,AI Agents,saving,,0,134384,Approved,Citizen-service backlog contractors released
+SAV-202602-SSA4,2026-02,GOV-SSA,GOV,SOC,saving,,0,45333,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202602-MUN1,2026-02,GOV-MUN,GOV,GRC,saving,,0,156984,Approved,Automated evidence collection: external audit fees reduced
+SAV-202602-MUN2,2026-02,GOV-MUN,GOV,Backup,saving,,0,121101,Approved,Backup storage tiering & de-duplication
+SAV-202602-MUN3,2026-02,GOV-MUN,GOV,GRC,saving,,0,57466,Approved,Automated evidence collection: external audit fees reduced
+INC-202602-IT02-LP1,2026-02,GSS-IT,GSS,SOC,loss_prevented,INC-202602-IT02,71134,35566,Approved,Business email compromise prevented (Medium)
+INC-202602-IT02-LP2,2026-02,GSS-IT,GSS,SOAR,loss_prevented,INC-202602-IT02,71134,11856,Approved,Business email compromise prevented (Medium)
+INC-202602-IT02-LP3,2026-02,GSS-IT,GSS,DLP,loss_prevented,INC-202602-IT02,71134,11856,Approved,Business email compromise prevented (Medium)
+INC-202602-IT02-LP4,2026-02,GSS-IT,GSS,AI Agents,loss_prevented,INC-202602-IT02,71134,11856,Approved,Business email compromise prevented (Medium)
+SAV-202602-IT1,2026-02,GSS-IT,GSS,IAM/PAM,saving,,0,141209,Approved,Access-request automation: IAM contractor reduction
+SAV-202602-IT2,2026-02,GSS-IT,GSS,AppSec,saving,,0,204892,Approved,Automated code review: external pen-test re-tests avoided
+SAV-202602-FHR1,2026-02,GSS-FHR,GSS,AI Agents,saving,,0,77592,Approved,Reconciliation & invoice matching: temp staff released
+SAV-202602-FHR2,2026-02,GSS-FHR,GSS,GRC,saving,,0,433382,Approved,Automated evidence collection: external audit fees reduced
+SAV-202602-FHR3,2026-02,GSS-FHR,GSS,GRC,saving,,0,91009,Approved,Automated evidence collection: external audit fees reduced
+INC-202603-RB01-LP1,2026-03,FIN-RB,FIN,DLP,loss_prevented,INC-202603-RB01,108116,54058,Approved,Insider misuse prevented (Medium)
+INC-202603-RB01-LP2,2026-03,FIN-RB,FIN,SOC,loss_prevented,INC-202603-RB01,108116,54058,Approved,Insider misuse prevented (Medium)
+INC-202603-RB02-LP1,2026-03,FIN-RB,FIN,SOC,loss_prevented,INC-202603-RB02,3049998,1524999,Approved,Business email compromise prevented (Critical)
+INC-202603-RB02-LP2,2026-03,FIN-RB,FIN,SOAR,loss_prevented,INC-202603-RB02,3049998,508333,Approved,Business email compromise prevented (Critical)
+INC-202603-RB02-LP3,2026-03,FIN-RB,FIN,AI Agents,loss_prevented,INC-202603-RB02,3049998,508333,Approved,Business email compromise prevented (Critical)
+INC-202603-RB02-LP4,2026-03,FIN-RB,FIN,DFIR,loss_prevented,INC-202603-RB02,3049998,508333,Approved,Business email compromise prevented (Critical)
+INC-202603-RB05-LP1,2026-03,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202603-RB05,2413804,1206901,Approved,Malware prevented (High)
+INC-202603-RB05-LP2,2026-03,FIN-RB,FIN,SOC,loss_prevented,INC-202603-RB05,2413804,402301,Approved,Malware prevented (High)
+INC-202603-RB05-LP3,2026-03,FIN-RB,FIN,SOAR,loss_prevented,INC-202603-RB05,2413804,402301,Approved,Malware prevented (High)
+INC-202603-RB05-LP4,2026-03,FIN-RB,FIN,DFIR,loss_prevented,INC-202603-RB05,2413804,402301,Approved,Malware prevented (High)
+INC-202603-RB07-LP1,2026-03,FIN-RB,FIN,WAF,loss_prevented,INC-202603-RB07,59633,29816,Approved,DDoS prevented (High)
+INC-202603-RB07-LP2,2026-03,FIN-RB,FIN,Firewall,loss_prevented,INC-202603-RB07,59633,9939,Approved,DDoS prevented (High)
+INC-202603-RB07-LP3,2026-03,FIN-RB,FIN,NDR,loss_prevented,INC-202603-RB07,59633,9939,Approved,DDoS prevented (High)
+INC-202603-RB07-LP4,2026-03,FIN-RB,FIN,DFIR,loss_prevented,INC-202603-RB07,59633,9939,Approved,DDoS prevented (High)
+INC-202603-RB08-LP1,2026-03,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202603-RB08,60472,30236,Approved,Ransomware attempt prevented (Medium)
+INC-202603-RB08-LP2,2026-03,FIN-RB,FIN,SOC,loss_prevented,INC-202603-RB08,60472,30236,Approved,Ransomware attempt prevented (Medium)
+SAV-202603-RB1,2026-03,FIN-RB,FIN,SOC,saving,,0,113211,Pending,Tier-1 MSSP monitoring scope reduced (AI triage)
+INC-202603-PAY06-LP1,2026-03,FIN-PAY,FIN,SOC,loss_prevented,INC-202603-PAY06,799708,399852,Approved,Business email compromise prevented (High)
+INC-202603-PAY06-LP2,2026-03,FIN-PAY,FIN,DLP,loss_prevented,INC-202603-PAY06,799708,99964,Approved,Business email compromise prevented (High)
+INC-202603-PAY06-LP3,2026-03,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202603-PAY06,799708,99964,Approved,Business email compromise prevented (High)
+INC-202603-PAY06-LP4,2026-03,FIN-PAY,FIN,SOAR,loss_prevented,INC-202603-PAY06,799708,99964,Approved,Business email compromise prevented (High)
+INC-202603-PAY06-LP5,2026-03,FIN-PAY,FIN,DFIR,loss_prevented,INC-202603-PAY06,799708,99964,Approved,Business email compromise prevented (High)
+INC-202603-HOS02-LP1,2026-03,HLT-HOS,HLT,Vulnerability Mgmt,loss_prevented,INC-202603-HOS02,616864,308431,Approved,Vulnerability exploitation prevented (High)
+INC-202603-HOS02-LP2,2026-03,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202603-HOS02,616864,102811,Approved,Vulnerability exploitation prevented (High)
+INC-202603-HOS02-LP3,2026-03,HLT-HOS,HLT,AppSec,loss_prevented,INC-202603-HOS02,616864,102811,Approved,Vulnerability exploitation prevented (High)
+INC-202603-HOS02-LP4,2026-03,HLT-HOS,HLT,DFIR,loss_prevented,INC-202603-HOS02,616864,102811,Approved,Vulnerability exploitation prevented (High)
+INC-202603-HOS04-LP1,2026-03,HLT-HOS,HLT,Vulnerability Mgmt,loss_prevented,INC-202603-HOS04,39508,19754,Approved,Vulnerability exploitation prevented (Medium)
+INC-202603-HOS04-LP2,2026-03,HLT-HOS,HLT,WAF,loss_prevented,INC-202603-HOS04,39508,9877,Approved,Vulnerability exploitation prevented (Medium)
+INC-202603-HOS04-LP3,2026-03,HLT-HOS,HLT,AppSec,loss_prevented,INC-202603-HOS04,39508,9877,Approved,Vulnerability exploitation prevented (Medium)
+INC-202603-HOS05-LP1,2026-03,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202603-HOS05,70832,35416,Approved,Payment fraud prevented (Low)
+INC-202603-HOS05-LP2,2026-03,HLT-HOS,HLT,SOC,loss_prevented,INC-202603-HOS05,70832,35416,Approved,Payment fraud prevented (Low)
+INC-202603-HOS06-LP1,2026-03,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202603-HOS06,48293,24147,Approved,Account takeover prevented (Medium)
+INC-202603-HOS06-LP2,2026-03,HLT-HOS,HLT,SOC,loss_prevented,INC-202603-HOS06,48293,12073,Approved,Account takeover prevented (Medium)
+INC-202603-HOS06-LP3,2026-03,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202603-HOS06,48293,12073,Approved,Account takeover prevented (Medium)
+SAV-202603-HOS1,2026-03,HLT-HOS,HLT,IAM/PAM,saving,,0,67485,Pending,Access-request automation: IAM contractor reduction
+SAV-202603-HOS2,2026-03,HLT-HOS,HLT,IAM/PAM,saving,,0,51714,Approved,Access-request automation: IAM contractor reduction
+INC-202603-LAB02-LP1,2026-03,HLT-LAB,HLT,EDR/XDR,loss_prevented,INC-202603-LAB02,96244,48122,Approved,Malware prevented (Medium)
+INC-202603-LAB02-LP2,2026-03,HLT-LAB,HLT,SOAR,loss_prevented,INC-202603-LAB02,96244,24061,Approved,Malware prevented (Medium)
+INC-202603-LAB02-LP3,2026-03,HLT-LAB,HLT,SOC,loss_prevented,INC-202603-LAB02,96244,24061,Approved,Malware prevented (Medium)
+INC-202603-PWR04-LP1,2026-03,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202603-PWR04,498351,249174,Approved,Malware prevented (High)
+INC-202603-PWR04-LP2,2026-03,ENR-PWR,ENR,SOAR,loss_prevented,INC-202603-PWR04,498351,83059,Approved,Malware prevented (High)
+INC-202603-PWR04-LP3,2026-03,ENR-PWR,ENR,SOC,loss_prevented,INC-202603-PWR04,498351,83059,Approved,Malware prevented (High)
+INC-202603-PWR04-LP4,2026-03,ENR-PWR,ENR,DFIR,loss_prevented,INC-202603-PWR04,498351,83059,Approved,Malware prevented (High)
+INC-202603-PWR07-LP1,2026-03,ENR-PWR,ENR,SOC,loss_prevented,INC-202603-PWR07,40232,20116,Approved,Phishing / credential theft prevented (Medium)
+INC-202603-PWR07-LP2,2026-03,ENR-PWR,ENR,IAM/PAM,loss_prevented,INC-202603-PWR07,40232,10058,Approved,Phishing / credential theft prevented (Medium)
+INC-202603-PWR07-LP3,2026-03,ENR-PWR,ENR,AI Agents,loss_prevented,INC-202603-PWR07,40232,10058,Approved,Phishing / credential theft prevented (Medium)
+SAV-202603-PWR1,2026-03,ENR-PWR,ENR,IAM/PAM,saving,,0,39376,Rejected,Access-request automation: IAM contractor reduction
+SAV-202603-PWR2,2026-03,ENR-PWR,ENR,AI Agents,saving,,0,53087,Approved,Service-desk deflection: contractor seats released
+INC-202603-OGS01-LP1,2026-03,ENR-OGS,ENR,SOC,loss_prevented,INC-202603-OGS01,150736,75367,Approved,Phishing / credential theft prevented (High)
+INC-202603-OGS01-LP2,2026-03,ENR-OGS,ENR,IAM/PAM,loss_prevented,INC-202603-OGS01,150736,25123,Approved,Phishing / credential theft prevented (High)
+INC-202603-OGS01-LP3,2026-03,ENR-OGS,ENR,SOAR,loss_prevented,INC-202603-OGS01,150736,25123,Approved,Phishing / credential theft prevented (High)
+INC-202603-OGS01-LP4,2026-03,ENR-OGS,ENR,DFIR,loss_prevented,INC-202603-OGS01,150736,25123,Approved,Phishing / credential theft prevented (High)
+SAV-202603-OGS1,2026-03,ENR-OGS,ENR,NDR,saving,,0,384737,Approved,NDR sensor rationalisation
+INC-202603-SSA01-LP1,2026-03,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202603-SSA01,473504,236752,Approved,Ransomware attempt prevented (High)
+INC-202603-SSA01-LP2,2026-03,GOV-SSA,GOV,NDR,loss_prevented,INC-202603-SSA01,473504,59188,Approved,Ransomware attempt prevented (High)
+INC-202603-SSA01-LP3,2026-03,GOV-SSA,GOV,SOC,loss_prevented,INC-202603-SSA01,473504,59188,Approved,Ransomware attempt prevented (High)
+INC-202603-SSA01-LP4,2026-03,GOV-SSA,GOV,Backup,loss_prevented,INC-202603-SSA01,473504,59188,Approved,Ransomware attempt prevented (High)
+INC-202603-SSA01-LP5,2026-03,GOV-SSA,GOV,DFIR,loss_prevented,INC-202603-SSA01,473504,59188,Approved,Ransomware attempt prevented (High)
+INC-202603-SSA03-LP1,2026-03,GOV-SSA,GOV,SOC,loss_prevented,INC-202603-SSA03,70705,35352,Approved,Phishing / credential theft prevented (Medium)
+INC-202603-SSA03-LP2,2026-03,GOV-SSA,GOV,SOAR,loss_prevented,INC-202603-SSA03,70705,35353,Approved,Phishing / credential theft prevented (Medium)
+SAV-202603-SSA1,2026-03,GOV-SSA,GOV,SOC,saving,,0,121511,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202603-MUN1,2026-03,GOV-MUN,GOV,AI Agents,saving,,0,68372,Pending,Citizen-service backlog contractors released
+SAV-202603-MUN2,2026-03,GOV-MUN,GOV,AI Agents,saving,,0,51858,Approved,Citizen-service backlog contractors released
+INC-202603-IT05-LP1,2026-03,GSS-IT,GSS,SOC,loss_prevented,INC-202603-IT05,219672,109836,Approved,Business email compromise prevented (Medium)
+INC-202603-IT05-LP2,2026-03,GSS-IT,GSS,DLP,loss_prevented,INC-202603-IT05,219672,109836,Approved,Business email compromise prevented (Medium)
+INC-202603-IT10-LP1,2026-03,GSS-IT,GSS,AI Agents,loss_prevented,INC-202603-IT10,120484,60242,Approved,Payment fraud prevented (Medium)
+INC-202603-IT10-LP2,2026-03,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202603-IT10,120484,60242,Approved,Payment fraud prevented (Medium)
+SAV-202603-IT1,2026-03,GSS-IT,GSS,AppSec,saving,,0,101442,Approved,Automated code review: external pen-test re-tests avoided
+SAV-202603-IT2,2026-03,GSS-IT,GSS,EDR/XDR,saving,,0,150875,Pending,EDR/XDR licence consolidation
+SAV-202603-FHR1,2026-03,GSS-FHR,GSS,AI Agents,saving,,0,191039,Approved,Reconciliation & invoice matching: temp staff released
+INC-202604-RB01-LP1,2026-04,FIN-RB,FIN,WAF,loss_prevented,INC-202604-RB01,91750,45874,Approved,DDoS prevented (Medium)
+INC-202604-RB01-LP2,2026-04,FIN-RB,FIN,NDR,loss_prevented,INC-202604-RB01,91750,22938,Approved,DDoS prevented (Medium)
+INC-202604-RB01-LP3,2026-04,FIN-RB,FIN,Firewall,loss_prevented,INC-202604-RB01,91750,22938,Approved,DDoS prevented (Medium)
+INC-202604-RB02-LP1,2026-04,FIN-RB,FIN,AI Agents,loss_prevented,INC-202604-RB02,253674,126836,Approved,Payment fraud prevented (Medium)
+INC-202604-RB02-LP2,2026-04,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202604-RB02,253674,63419,Approved,Payment fraud prevented (Medium)
+INC-202604-RB02-LP3,2026-04,FIN-RB,FIN,SOC,loss_prevented,INC-202604-RB02,253674,63419,Approved,Payment fraud prevented (Medium)
+SAV-202604-RB1,2026-04,FIN-RB,FIN,AI Agents,saving,,0,159615,Approved,KYC / claims review outsourcing reduced
+SAV-202604-RB2,2026-04,FIN-RB,FIN,DLP,saving,,0,39990,Approved,DLP policy tuning: contractor reviewers released
+INC-202604-PAY03-LP1,2026-04,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202604-PAY03,84011,42005,Approved,Payment fraud prevented (Medium)
+INC-202604-PAY03-LP2,2026-04,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202604-PAY03,84011,42006,Approved,Payment fraud prevented (Medium)
+INC-202604-HOS02-LP1,2026-04,HLT-HOS,HLT,DLP,loss_prevented,INC-202604-HOS02,197227,98614,Approved,Insider misuse prevented (High)
+INC-202604-HOS02-LP2,2026-04,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202604-HOS02,197227,32871,Approved,Insider misuse prevented (High)
+INC-202604-HOS02-LP3,2026-04,HLT-HOS,HLT,SOC,loss_prevented,INC-202604-HOS02,197227,32871,Approved,Insider misuse prevented (High)
+INC-202604-HOS02-LP4,2026-04,HLT-HOS,HLT,DFIR,loss_prevented,INC-202604-HOS02,197227,32871,Approved,Insider misuse prevented (High)
+INC-202604-HOS08-LP1,2026-04,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202604-HOS08,385379,192689,Approved,Payment fraud prevented (High)
+INC-202604-HOS08-LP2,2026-04,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202604-HOS08,385379,64230,Approved,Payment fraud prevented (High)
+INC-202604-HOS08-LP3,2026-04,HLT-HOS,HLT,SOC,loss_prevented,INC-202604-HOS08,385379,64230,Approved,Payment fraud prevented (High)
+INC-202604-HOS08-LP4,2026-04,HLT-HOS,HLT,DFIR,loss_prevented,INC-202604-HOS08,385379,64230,Approved,Payment fraud prevented (High)
+SAV-202604-HOS1,2026-04,HLT-HOS,HLT,IAM/PAM,saving,,0,31660,Approved,Access-request automation: IAM contractor reduction
+SAV-202604-HOS2,2026-04,HLT-HOS,HLT,SOC,saving,,0,107749,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202604-PWR1,2026-04,ENR-PWR,ENR,Vulnerability Mgmt,saving,,0,87047,Approved,Scanner licence consolidation
+SAV-202604-PWR2,2026-04,ENR-PWR,ENR,IAM/PAM,saving,,0,96639,Approved,Access-request automation: IAM contractor reduction
+SAV-202604-OGS1,2026-04,ENR-OGS,ENR,NDR,saving,,0,96064,Approved,NDR sensor rationalisation
+SAV-202604-OGS2,2026-04,ENR-OGS,ENR,NDR,saving,,0,43966,Approved,NDR sensor rationalisation
+INC-202604-SSA01-LP1,2026-04,GOV-SSA,GOV,Vulnerability Mgmt,loss_prevented,INC-202604-SSA01,61787,30893,Approved,Vulnerability exploitation prevented (Medium)
+INC-202604-SSA01-LP2,2026-04,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202604-SSA01,61787,10298,Approved,Vulnerability exploitation prevented (Medium)
+INC-202604-SSA01-LP3,2026-04,GOV-SSA,GOV,CTEM,loss_prevented,INC-202604-SSA01,61787,10298,Approved,Vulnerability exploitation prevented (Medium)
+INC-202604-SSA01-LP4,2026-04,GOV-SSA,GOV,AppSec,loss_prevented,INC-202604-SSA01,61787,10298,Approved,Vulnerability exploitation prevented (Medium)
+INC-202604-SSA02-LP1,2026-04,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202604-SSA02,1543113,771555,Approved,Ransomware attempt prevented (Critical)
+INC-202604-SSA02-LP2,2026-04,GOV-SSA,GOV,SOC,loss_prevented,INC-202604-SSA02,1543113,257186,Approved,Ransomware attempt prevented (Critical)
+INC-202604-SSA02-LP3,2026-04,GOV-SSA,GOV,NDR,loss_prevented,INC-202604-SSA02,1543113,257186,Approved,Ransomware attempt prevented (Critical)
+INC-202604-SSA02-LP4,2026-04,GOV-SSA,GOV,DFIR,loss_prevented,INC-202604-SSA02,1543113,257186,Approved,Ransomware attempt prevented (Critical)
+INC-202604-MUN02-LP1,2026-04,GOV-MUN,GOV,IAM/PAM,loss_prevented,INC-202604-MUN02,67157,33578,Approved,Account takeover prevented (Medium)
+INC-202604-MUN02-LP2,2026-04,GOV-MUN,GOV,SOC,loss_prevented,INC-202604-MUN02,67157,33579,Approved,Account takeover prevented (Medium)
+INC-202604-MUN03-LP1,2026-04,GOV-MUN,GOV,DLP,loss_prevented,INC-202604-MUN03,64526,32262,Approved,Data exfiltration attempt prevented (Medium)
+INC-202604-MUN03-LP2,2026-04,GOV-MUN,GOV,NDR,loss_prevented,INC-202604-MUN03,64526,16132,Approved,Data exfiltration attempt prevented (Medium)
+INC-202604-MUN03-LP3,2026-04,GOV-MUN,GOV,Firewall,loss_prevented,INC-202604-MUN03,64526,16132,Approved,Data exfiltration attempt prevented (Medium)
+SAV-202604-MUN1,2026-04,GOV-MUN,GOV,AI Agents,saving,,0,65964,Approved,Service-desk deflection: contractor seats released
+SAV-202604-MUN2,2026-04,GOV-MUN,GOV,AI Agents,saving,,0,152594,Approved,Service-desk deflection: contractor seats released
+INC-202604-IT01-LP1,2026-04,GSS-IT,GSS,SOC,loss_prevented,INC-202604-IT01,405350,202674,Approved,Phishing / credential theft prevented (High)
+INC-202604-IT01-LP2,2026-04,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202604-IT01,405350,101338,Approved,Phishing / credential theft prevented (High)
+INC-202604-IT01-LP3,2026-04,GSS-IT,GSS,DFIR,loss_prevented,INC-202604-IT01,405350,101338,Approved,Phishing / credential theft prevented (High)
+SAV-202604-IT1,2026-04,GSS-IT,GSS,CTEM,saving,,0,92958,Pending,CTEM platform replacing point scanners
+INC-202604-FHR02-LP1,2026-04,GSS-FHR,GSS,Vulnerability Mgmt,loss_prevented,INC-202604-FHR02,89351,44675,Approved,Vulnerability exploitation prevented (Medium)
+INC-202604-FHR02-LP2,2026-04,GSS-FHR,GSS,CTEM,loss_prevented,INC-202604-FHR02,89351,22338,Approved,Vulnerability exploitation prevented (Medium)
+INC-202604-FHR02-LP3,2026-04,GSS-FHR,GSS,EDR/XDR,loss_prevented,INC-202604-FHR02,89351,22338,Approved,Vulnerability exploitation prevented (Medium)
+SAV-202604-FHR1,2026-04,GSS-FHR,GSS,DLP,saving,,0,72266,Approved,DLP policy tuning: contractor reviewers released
+SAV-202604-FHR2,2026-04,GSS-FHR,GSS,GRC,saving,,0,43070,Approved,Automated evidence collection: external audit fees reduced
+SAV-202604-FHR3,2026-04,GSS-FHR,GSS,AI Agents,saving,,0,62798,Approved,Reconciliation & invoice matching: temp staff released
+SAV-202604-FHR4,2026-04,GSS-FHR,GSS,DLP,saving,,0,61011,Approved,DLP policy tuning: contractor reviewers released
+INC-202605-RB01-LP1,2026-05,FIN-RB,FIN,Vulnerability Mgmt,loss_prevented,INC-202605-RB01,87642,43820,Approved,Vulnerability exploitation prevented (Medium)
+INC-202605-RB01-LP2,2026-05,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202605-RB01,87642,21911,Approved,Vulnerability exploitation prevented (Medium)
+INC-202605-RB01-LP3,2026-05,FIN-RB,FIN,AppSec,loss_prevented,INC-202605-RB01,87642,21911,Approved,Vulnerability exploitation prevented (Medium)
+INC-202605-RB02-LP1,2026-05,FIN-RB,FIN,Vulnerability Mgmt,loss_prevented,INC-202605-RB02,460434,230218,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB02-LP2,2026-05,FIN-RB,FIN,AppSec,loss_prevented,INC-202605-RB02,460434,57554,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB02-LP3,2026-05,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202605-RB02,460434,57554,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB02-LP4,2026-05,FIN-RB,FIN,CTEM,loss_prevented,INC-202605-RB02,460434,57554,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB02-LP5,2026-05,FIN-RB,FIN,DFIR,loss_prevented,INC-202605-RB02,460434,57554,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB05-LP1,2026-05,FIN-RB,FIN,WAF,loss_prevented,INC-202605-RB05,60902,30450,Approved,DDoS prevented (Medium)
+INC-202605-RB05-LP2,2026-05,FIN-RB,FIN,Firewall,loss_prevented,INC-202605-RB05,60902,15226,Approved,DDoS prevented (Medium)
+INC-202605-RB05-LP3,2026-05,FIN-RB,FIN,NDR,loss_prevented,INC-202605-RB05,60902,15226,Approved,DDoS prevented (Medium)
+INC-202605-RB06-LP1,2026-05,FIN-RB,FIN,Vulnerability Mgmt,loss_prevented,INC-202605-RB06,465176,232589,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB06-LP2,2026-05,FIN-RB,FIN,WAF,loss_prevented,INC-202605-RB06,465176,77529,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB06-LP3,2026-05,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202605-RB06,465176,77529,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB06-LP4,2026-05,FIN-RB,FIN,DFIR,loss_prevented,INC-202605-RB06,465176,77529,Approved,Vulnerability exploitation prevented (High)
+INC-202605-RB07-LP1,2026-05,FIN-RB,FIN,Vulnerability Mgmt,loss_prevented,INC-202605-RB07,117634,58816,Approved,Vulnerability exploitation prevented (Low)
+INC-202605-RB07-LP2,2026-05,FIN-RB,FIN,CTEM,loss_prevented,INC-202605-RB07,117634,29409,Approved,Vulnerability exploitation prevented (Low)
+INC-202605-RB07-LP3,2026-05,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202605-RB07,117634,29409,Approved,Vulnerability exploitation prevented (Low)
+SAV-202605-RB1,2026-05,FIN-RB,FIN,SOAR,saving,,0,69611,Rejected,Automated playbooks: overtime & on-call reduction
+SAV-202605-RB2,2026-05,FIN-RB,FIN,GRC,saving,,0,193065,Pending,Automated evidence collection: external audit fees reduced
+INC-202605-PAY02-LP1,2026-05,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202605-PAY02,1224597,612297,Approved,Payment fraud prevented (High)
+INC-202605-PAY02-LP2,2026-05,FIN-PAY,FIN,IAM/PAM,loss_prevented,INC-202605-PAY02,1224597,204100,Approved,Payment fraud prevented (High)
+INC-202605-PAY02-LP3,2026-05,FIN-PAY,FIN,SOC,loss_prevented,INC-202605-PAY02,1224597,204100,Approved,Payment fraud prevented (High)
+INC-202605-PAY02-LP4,2026-05,FIN-PAY,FIN,DFIR,loss_prevented,INC-202605-PAY02,1224597,204100,Approved,Payment fraud prevented (High)
+SAV-202605-PAY1,2026-05,FIN-PAY,FIN,Cloud Security,saving,,0,104217,Approved,Cloud posture fixes: idle resources removed
+INC-202605-HOS01-LP1,2026-05,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202605-HOS01,48118,24058,Approved,AI prompt injection prevented (Medium)
+INC-202605-HOS01-LP2,2026-05,HLT-HOS,HLT,AppSec,loss_prevented,INC-202605-HOS01,48118,12030,Approved,AI prompt injection prevented (Medium)
+INC-202605-HOS01-LP3,2026-05,HLT-HOS,HLT,SOC,loss_prevented,INC-202605-HOS01,48118,12030,Approved,AI prompt injection prevented (Medium)
+SAV-202605-HOS1,2026-05,HLT-HOS,HLT,SOC,saving,,0,103257,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202605-HOS2,2026-05,HLT-HOS,HLT,EDR/XDR,saving,,0,179032,Approved,EDR/XDR licence consolidation
+SAV-202605-HOS3,2026-05,HLT-HOS,HLT,AI Agents,saving,,0,43957,Approved,KYC / claims review outsourcing reduced
+SAV-202605-LAB1,2026-05,HLT-LAB,HLT,Backup,saving,,0,66951,Approved,Backup storage tiering & de-duplication
+SAV-202605-LAB2,2026-05,HLT-LAB,HLT,AI Agents,saving,,0,303598,Rejected,Service-desk deflection: contractor seats released
+SAV-202605-LAB3,2026-05,HLT-LAB,HLT,Backup,saving,,0,149178,Approved,Backup storage tiering & de-duplication
+SAV-202605-LAB4,2026-05,HLT-LAB,HLT,Backup,saving,,0,128382,Approved,Backup storage tiering & de-duplication
+INC-202605-PWR01-LP1,2026-05,ENR-PWR,ENR,Vulnerability Mgmt,loss_prevented,INC-202605-PWR01,295638,147818,Approved,Vulnerability exploitation prevented (High)
+INC-202605-PWR01-LP2,2026-05,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202605-PWR01,295638,73910,Approved,Vulnerability exploitation prevented (High)
+INC-202605-PWR01-LP3,2026-05,ENR-PWR,ENR,DFIR,loss_prevented,INC-202605-PWR01,295638,73910,Approved,Vulnerability exploitation prevented (High)
+INC-202605-SSA05-LP1,2026-05,GOV-SSA,GOV,IAM/PAM,loss_prevented,INC-202605-SSA05,218041,109021,Approved,Account takeover prevented (Medium)
+INC-202605-SSA05-LP2,2026-05,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202605-SSA05,218041,54510,Approved,Account takeover prevented (Medium)
+INC-202605-SSA05-LP3,2026-05,GOV-SSA,GOV,SOC,loss_prevented,INC-202605-SSA05,218041,54510,Approved,Account takeover prevented (Medium)
+SAV-202605-SSA1,2026-05,GOV-SSA,GOV,AI Agents,saving,,0,153950,Approved,Citizen-service backlog contractors released
+INC-202605-MUN01-LP1,2026-05,GOV-MUN,GOV,DLP,loss_prevented,INC-202605-MUN01,506728,253364,Approved,Insider misuse prevented (High)
+INC-202605-MUN01-LP2,2026-05,GOV-MUN,GOV,SOC,loss_prevented,INC-202605-MUN01,506728,126682,Approved,Insider misuse prevented (High)
+INC-202605-MUN01-LP3,2026-05,GOV-MUN,GOV,DFIR,loss_prevented,INC-202605-MUN01,506728,126682,Approved,Insider misuse prevented (High)
+SAV-202605-MUN1,2026-05,GOV-MUN,GOV,Firewall,saving,,0,189715,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202605-MUN2,2026-05,GOV-MUN,GOV,GRC,saving,,0,70986,Pending,Automated evidence collection: external audit fees reduced
+INC-202605-IT03-LP1,2026-05,GSS-IT,GSS,SOC,loss_prevented,INC-202605-IT03,1764161,882080,Approved,Business email compromise prevented (Critical)
+INC-202605-IT03-LP2,2026-05,GSS-IT,GSS,DLP,loss_prevented,INC-202605-IT03,1764161,294027,Approved,Business email compromise prevented (Critical)
+INC-202605-IT03-LP3,2026-05,GSS-IT,GSS,AI Agents,loss_prevented,INC-202605-IT03,1764161,294027,Approved,Business email compromise prevented (Critical)
+INC-202605-IT03-LP4,2026-05,GSS-IT,GSS,DFIR,loss_prevented,INC-202605-IT03,1764161,294027,Approved,Business email compromise prevented (Critical)
+INC-202605-IT08-LP1,2026-05,GSS-IT,GSS,SOC,loss_prevented,INC-202605-IT08,469250,234626,Approved,Phishing / credential theft prevented (High)
+INC-202605-IT08-LP2,2026-05,GSS-IT,GSS,IAM/PAM,loss_prevented,INC-202605-IT08,469250,78208,Approved,Phishing / credential theft prevented (High)
+INC-202605-IT08-LP3,2026-05,GSS-IT,GSS,SOAR,loss_prevented,INC-202605-IT08,469250,78208,Approved,Phishing / credential theft prevented (High)
+INC-202605-IT08-LP4,2026-05,GSS-IT,GSS,DFIR,loss_prevented,INC-202605-IT08,469250,78208,Approved,Phishing / credential theft prevented (High)
+SAV-202605-IT1,2026-05,GSS-IT,GSS,IAM/PAM,saving,,0,54839,Approved,Access-request automation: IAM contractor reduction
+SAV-202605-FHR1,2026-05,GSS-FHR,GSS,GRC,saving,,0,55158,Pending,Automated evidence collection: external audit fees reduced
+SAV-202605-FHR2,2026-05,GSS-FHR,GSS,GRC,saving,,0,71150,Approved,Automated evidence collection: external audit fees reduced
+SAV-202605-FHR3,2026-05,GSS-FHR,GSS,GRC,saving,,0,33785,Pending,Automated evidence collection: external audit fees reduced
+INC-202606-RB01-LP1,2026-06,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202606-RB01,97482,48740,Approved,Account takeover prevented (Medium)
+INC-202606-RB01-LP2,2026-06,FIN-RB,FIN,SOC,loss_prevented,INC-202606-RB01,97482,24371,Approved,Account takeover prevented (Medium)
+INC-202606-RB01-LP3,2026-06,FIN-RB,FIN,AI Agents,loss_prevented,INC-202606-RB01,97482,24371,Approved,Account takeover prevented (Medium)
+INC-202606-RB03-LP1,2026-06,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202606-RB03,70638,35319,Approved,Account takeover prevented (Medium)
+INC-202606-RB03-LP2,2026-06,FIN-RB,FIN,AI Agents,loss_prevented,INC-202606-RB03,70638,35319,Approved,Account takeover prevented (Medium)
+INC-202606-RB04-LP1,2026-06,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202606-RB04,56310,28154,Approved,Account takeover prevented (Medium)
+INC-202606-RB04-LP2,2026-06,FIN-RB,FIN,AI Agents,loss_prevented,INC-202606-RB04,56310,14078,Approved,Account takeover prevented (Medium)
+INC-202606-RB04-LP3,2026-06,FIN-RB,FIN,SOC,loss_prevented,INC-202606-RB04,56310,14078,Approved,Account takeover prevented (Medium)
+SAV-202606-RB1,2026-06,FIN-RB,FIN,GRC,saving,,0,112739,Approved,Automated evidence collection: external audit fees reduced
+SAV-202606-RB2,2026-06,FIN-RB,FIN,AI Agents,saving,,0,230190,Approved,Service-desk deflection: contractor seats released
+SAV-202606-RB3,2026-06,FIN-RB,FIN,IAM/PAM,saving,,0,233079,Approved,Access-request automation: IAM contractor reduction
+INC-202606-PAY01-LP1,2026-06,FIN-PAY,FIN,Vulnerability Mgmt,loss_prevented,INC-202606-PAY01,488952,244476,Approved,Vulnerability exploitation prevented (High)
+INC-202606-PAY01-LP2,2026-06,FIN-PAY,FIN,AppSec,loss_prevented,INC-202606-PAY01,488952,61119,Approved,Vulnerability exploitation prevented (High)
+INC-202606-PAY01-LP3,2026-06,FIN-PAY,FIN,CTEM,loss_prevented,INC-202606-PAY01,488952,61119,Approved,Vulnerability exploitation prevented (High)
+INC-202606-PAY01-LP4,2026-06,FIN-PAY,FIN,EDR/XDR,loss_prevented,INC-202606-PAY01,488952,61119,Approved,Vulnerability exploitation prevented (High)
+INC-202606-PAY01-LP5,2026-06,FIN-PAY,FIN,DFIR,loss_prevented,INC-202606-PAY01,488952,61119,Approved,Vulnerability exploitation prevented (High)
+INC-202606-HOS02-LP1,2026-06,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202606-HOS02,65256,32628,Approved,Ransomware attempt prevented (Medium)
+INC-202606-HOS02-LP2,2026-06,HLT-HOS,HLT,SOC,loss_prevented,INC-202606-HOS02,65256,32628,Approved,Ransomware attempt prevented (Medium)
+INC-202606-HOS03-LP1,2026-06,HLT-HOS,HLT,DLP,loss_prevented,INC-202606-HOS03,62363,31181,Approved,Shadow AI data exposure prevented (Medium)
+INC-202606-HOS03-LP2,2026-06,HLT-HOS,HLT,Cloud Security,loss_prevented,INC-202606-HOS03,62363,31182,Approved,Shadow AI data exposure prevented (Medium)
+SAV-202606-HOS1,2026-06,HLT-HOS,HLT,IAM/PAM,saving,,0,137101,Approved,Access-request automation: IAM contractor reduction
+SAV-202606-HOS2,2026-06,HLT-HOS,HLT,IAM/PAM,saving,,0,211890,Approved,Access-request automation: IAM contractor reduction
+SAV-202606-LAB1,2026-06,HLT-LAB,HLT,AI Agents,saving,,0,45420,Approved,Service-desk deflection: contractor seats released
+SAV-202606-LAB2,2026-06,HLT-LAB,HLT,AI Agents,saving,,0,90226,Approved,KYC / claims review outsourcing reduced
+SAV-202606-LAB3,2026-06,HLT-LAB,HLT,Backup,saving,,0,68435,Approved,Backup storage tiering & de-duplication
+INC-202606-PWR02-LP1,2026-06,ENR-PWR,ENR,Vulnerability Mgmt,loss_prevented,INC-202606-PWR02,60630,30314,Approved,Vulnerability exploitation prevented (Low)
+INC-202606-PWR02-LP2,2026-06,ENR-PWR,ENR,AppSec,loss_prevented,INC-202606-PWR02,60630,15158,Approved,Vulnerability exploitation prevented (Low)
+INC-202606-PWR02-LP3,2026-06,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202606-PWR02,60630,15158,Approved,Vulnerability exploitation prevented (Low)
+INC-202606-PWR03-LP1,2026-06,ENR-PWR,ENR,SOC,loss_prevented,INC-202606-PWR03,145517,72758,Approved,Phishing / credential theft prevented (Medium)
+INC-202606-PWR03-LP2,2026-06,ENR-PWR,ENR,IAM/PAM,loss_prevented,INC-202606-PWR03,145517,72759,Approved,Phishing / credential theft prevented (Medium)
+INC-202606-PWR04-LP1,2026-06,ENR-PWR,ENR,AI Agents,loss_prevented,INC-202606-PWR04,43288,21644,Approved,AI prompt injection prevented (Medium)
+INC-202606-PWR04-LP2,2026-06,ENR-PWR,ENR,SOC,loss_prevented,INC-202606-PWR04,43288,21644,Approved,AI prompt injection prevented (Medium)
+SAV-202606-PWR1,2026-06,ENR-PWR,ENR,SOC,saving,,0,29249,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202606-PWR2,2026-06,ENR-PWR,ENR,IAM/PAM,saving,,0,77529,Pending,Access-request automation: IAM contractor reduction
+SAV-202606-OGS1,2026-06,ENR-OGS,ENR,NDR,saving,,0,406419,Pending,NDR sensor rationalisation
+INC-202606-SSA03-LP1,2026-06,GOV-SSA,GOV,SOC,loss_prevented,INC-202606-SSA03,55791,27894,Approved,Phishing / credential theft prevented (Low)
+INC-202606-SSA03-LP2,2026-06,GOV-SSA,GOV,IAM/PAM,loss_prevented,INC-202606-SSA03,55791,9299,Approved,Phishing / credential theft prevented (Low)
+INC-202606-SSA03-LP3,2026-06,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202606-SSA03,55791,9299,Approved,Phishing / credential theft prevented (Low)
+INC-202606-SSA03-LP4,2026-06,GOV-SSA,GOV,SOAR,loss_prevented,INC-202606-SSA03,55791,9299,Approved,Phishing / credential theft prevented (Low)
+SAV-202606-MUN1,2026-06,GOV-MUN,GOV,Firewall,saving,,0,142514,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202606-MUN2,2026-06,GOV-MUN,GOV,Backup,saving,,0,35624,Approved,Backup storage tiering & de-duplication
+SAV-202606-MUN3,2026-06,GOV-MUN,GOV,Firewall,saving,,0,42116,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202606-MUN4,2026-06,GOV-MUN,GOV,GRC,saving,,0,65500,Approved,Automated evidence collection: external audit fees reduced
+SAV-202606-MUN5,2026-06,GOV-MUN,GOV,AI Agents,saving,,0,107129,Approved,Service-desk deflection: contractor seats released
+INC-202606-IT03-LP1,2026-06,GSS-IT,GSS,Cloud Security,loss_prevented,INC-202606-IT03,960159,480078,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202606-IT03-LP2,2026-06,GSS-IT,GSS,Vulnerability Mgmt,loss_prevented,INC-202606-IT03,960159,160027,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202606-IT03-LP3,2026-06,GSS-IT,GSS,CTEM,loss_prevented,INC-202606-IT03,960159,160027,Approved,Cloud misconfiguration exposure prevented (High)
+INC-202606-IT03-LP4,2026-06,GSS-IT,GSS,DFIR,loss_prevented,INC-202606-IT03,960159,160027,Approved,Cloud misconfiguration exposure prevented (High)
+SAV-202606-IT1,2026-06,GSS-IT,GSS,IAM/PAM,saving,,0,192822,Approved,Access-request automation: IAM contractor reduction
+SAV-202606-IT2,2026-06,GSS-IT,GSS,SOC,saving,,0,80091,Pending,Tier-1 MSSP monitoring scope reduced (AI triage)
+SAV-202606-IT3,2026-06,GSS-IT,GSS,SIEM,saving,,0,426778,Approved,SIEM ingest optimisation & tiered retention
+SAV-202606-IT4,2026-06,GSS-IT,GSS,Firewall,saving,,0,88344,Pending,Rule-base consolidation: hardware refresh deferred
+SAV-202606-IT5,2026-06,GSS-IT,GSS,DFIR,saving,,0,136537,Approved,DFIR retainer hours reduced
+SAV-202606-IT6,2026-06,GSS-IT,GSS,DFIR,saving,,0,405878,Approved,DFIR retainer hours reduced
+SAV-202606-FHR1,2026-06,GSS-FHR,GSS,AI Agents,saving,,0,231023,Approved,Reconciliation & invoice matching: temp staff released
+SAV-202606-FHR2,2026-06,GSS-FHR,GSS,DLP,saving,,0,182400,Pending,DLP policy tuning: contractor reviewers released
+INC-202607-RB04-LP1,2026-07,FIN-RB,FIN,SOC,loss_prevented,INC-202607-RB04,43900,21949,Approved,Business email compromise prevented (Low)
+INC-202607-RB04-LP2,2026-07,FIN-RB,FIN,AI Agents,loss_prevented,INC-202607-RB04,43900,7317,Approved,Business email compromise prevented (Low)
+INC-202607-RB04-LP3,2026-07,FIN-RB,FIN,DLP,loss_prevented,INC-202607-RB04,43900,7317,Approved,Business email compromise prevented (Low)
+INC-202607-RB04-LP4,2026-07,FIN-RB,FIN,SOAR,loss_prevented,INC-202607-RB04,43900,7317,Approved,Business email compromise prevented (Low)
+INC-202607-RB05-LP1,2026-07,FIN-RB,FIN,SOC,loss_prevented,INC-202607-RB05,221867,110933,Approved,Business email compromise prevented (High)
+INC-202607-RB05-LP2,2026-07,FIN-RB,FIN,AI Agents,loss_prevented,INC-202607-RB05,221867,55467,Approved,Business email compromise prevented (High)
+INC-202607-RB05-LP3,2026-07,FIN-RB,FIN,DFIR,loss_prevented,INC-202607-RB05,221867,55467,Approved,Business email compromise prevented (High)
+INC-202607-RB06-LP1,2026-07,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202607-RB06,76184,38092,Approved,Malware prevented (Medium)
+INC-202607-RB06-LP2,2026-07,FIN-RB,FIN,SOAR,loss_prevented,INC-202607-RB06,76184,38092,Approved,Malware prevented (Medium)
+SAV-202607-RB1,2026-07,FIN-RB,FIN,DLP,saving,,0,199108,Approved,DLP policy tuning: contractor reviewers released
+SAV-202607-RB2,2026-07,FIN-RB,FIN,DLP,saving,,0,55876,Approved,DLP policy tuning: contractor reviewers released
+INC-202607-HOS01-LP1,2026-07,HLT-HOS,HLT,Vulnerability Mgmt,loss_prevented,INC-202607-HOS01,321312,160656,Approved,Vulnerability exploitation prevented (Medium)
+INC-202607-HOS01-LP2,2026-07,HLT-HOS,HLT,CTEM,loss_prevented,INC-202607-HOS01,321312,80328,Approved,Vulnerability exploitation prevented (Medium)
+INC-202607-HOS01-LP3,2026-07,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202607-HOS01,321312,80328,Approved,Vulnerability exploitation prevented (Medium)
+INC-202607-HOS05-LP1,2026-07,HLT-HOS,HLT,Vulnerability Mgmt,loss_prevented,INC-202607-HOS05,65138,32570,Approved,Vulnerability exploitation prevented (Medium)
+INC-202607-HOS05-LP2,2026-07,HLT-HOS,HLT,WAF,loss_prevented,INC-202607-HOS05,65138,10856,Approved,Vulnerability exploitation prevented (Medium)
+INC-202607-HOS05-LP3,2026-07,HLT-HOS,HLT,CTEM,loss_prevented,INC-202607-HOS05,65138,10856,Approved,Vulnerability exploitation prevented (Medium)
+INC-202607-HOS05-LP4,2026-07,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202607-HOS05,65138,10856,Approved,Vulnerability exploitation prevented (Medium)
+SAV-202607-HOS1,2026-07,HLT-HOS,HLT,EDR/XDR,saving,,0,197305,Approved,EDR/XDR licence consolidation
+SAV-202607-HOS2,2026-07,HLT-HOS,HLT,SOC,saving,,0,310803,Approved,Tier-1 MSSP monitoring scope reduced (AI triage)
+INC-202607-LAB01-LP1,2026-07,HLT-LAB,HLT,IAM/PAM,loss_prevented,INC-202607-LAB01,82376,41188,Approved,Account takeover prevented (Medium)
+INC-202607-LAB01-LP2,2026-07,HLT-LAB,HLT,AI Agents,loss_prevented,INC-202607-LAB01,82376,20594,Approved,Account takeover prevented (Medium)
+INC-202607-LAB01-LP3,2026-07,HLT-LAB,HLT,SOC,loss_prevented,INC-202607-LAB01,82376,20594,Approved,Account takeover prevented (Medium)
+SAV-202607-LAB1,2026-07,HLT-LAB,HLT,Backup,saving,,0,139323,Approved,Backup storage tiering & de-duplication
+SAV-202607-LAB2,2026-07,HLT-LAB,HLT,AI Agents,saving,,0,59240,Pending,KYC / claims review outsourcing reduced
+SAV-202607-LAB3,2026-07,HLT-LAB,HLT,AI Agents,saving,,0,46076,Pending,KYC / claims review outsourcing reduced
+INC-202607-PWR02-LP1,2026-07,ENR-PWR,ENR,DLP,loss_prevented,INC-202607-PWR02,81001,40501,Approved,AI data leakage prevented (Medium)
+INC-202607-PWR02-LP2,2026-07,ENR-PWR,ENR,AI Agents,loss_prevented,INC-202607-PWR02,81001,20250,Approved,AI data leakage prevented (Medium)
+INC-202607-PWR02-LP3,2026-07,ENR-PWR,ENR,GRC,loss_prevented,INC-202607-PWR02,81001,20250,Approved,AI data leakage prevented (Medium)
+INC-202607-PWR03-LP1,2026-07,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202607-PWR03,122783,61391,Approved,Ransomware attempt prevented (Medium)
+INC-202607-PWR03-LP2,2026-07,ENR-PWR,ENR,NDR,loss_prevented,INC-202607-PWR03,122783,30696,Approved,Ransomware attempt prevented (Medium)
+INC-202607-PWR03-LP3,2026-07,ENR-PWR,ENR,SOC,loss_prevented,INC-202607-PWR03,122783,30696,Approved,Ransomware attempt prevented (Medium)
+SAV-202607-PWR1,2026-07,ENR-PWR,ENR,Vulnerability Mgmt,saving,,0,93786,Pending,Scanner licence consolidation
+SAV-202607-OGS1,2026-07,ENR-OGS,ENR,NDR,saving,,0,177274,Approved,NDR sensor rationalisation
+SAV-202607-OGS2,2026-07,ENR-OGS,ENR,NDR,saving,,0,68788,Approved,NDR sensor rationalisation
+SAV-202607-OGS3,2026-07,ENR-OGS,ENR,NDR,saving,,0,371023,Approved,NDR sensor rationalisation
+INC-202607-SSA01-LP1,2026-07,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202607-SSA01,340745,170372,Approved,Malware prevented (High)
+INC-202607-SSA01-LP2,2026-07,GOV-SSA,GOV,SOC,loss_prevented,INC-202607-SSA01,340745,56791,Approved,Malware prevented (High)
+INC-202607-SSA01-LP3,2026-07,GOV-SSA,GOV,SOAR,loss_prevented,INC-202607-SSA01,340745,56791,Approved,Malware prevented (High)
+INC-202607-SSA01-LP4,2026-07,GOV-SSA,GOV,DFIR,loss_prevented,INC-202607-SSA01,340745,56791,Approved,Malware prevented (High)
+INC-202607-SSA02-LP1,2026-07,GOV-SSA,GOV,SOC,loss_prevented,INC-202607-SSA02,644286,322142,Approved,Business email compromise prevented (High)
+INC-202607-SSA02-LP2,2026-07,GOV-SSA,GOV,SOAR,loss_prevented,INC-202607-SSA02,644286,161072,Approved,Business email compromise prevented (High)
+INC-202607-SSA02-LP3,2026-07,GOV-SSA,GOV,DFIR,loss_prevented,INC-202607-SSA02,644286,161072,Approved,Business email compromise prevented (High)
+INC-202607-SSA03-LP1,2026-07,GOV-SSA,GOV,DLP,loss_prevented,INC-202607-SSA03,154498,77248,Approved,Data exfiltration attempt prevented (Medium)
+INC-202607-SSA03-LP2,2026-07,GOV-SSA,GOV,NDR,loss_prevented,INC-202607-SSA03,154498,25750,Approved,Data exfiltration attempt prevented (Medium)
+INC-202607-SSA03-LP3,2026-07,GOV-SSA,GOV,SOC,loss_prevented,INC-202607-SSA03,154498,25750,Approved,Data exfiltration attempt prevented (Medium)
+INC-202607-SSA03-LP4,2026-07,GOV-SSA,GOV,Firewall,loss_prevented,INC-202607-SSA03,154498,25750,Approved,Data exfiltration attempt prevented (Medium)
+INC-202607-IT01-LP1,2026-07,GSS-IT,GSS,AI Agents,loss_prevented,INC-202607-IT01,94393,47196,Approved,Payment fraud prevented (Medium)
+INC-202607-IT01-LP2,2026-07,GSS-IT,GSS,SOC,loss_prevented,INC-202607-IT01,94393,47197,Approved,Payment fraud prevented (Medium)
+INC-202607-IT06-LP1,2026-07,GSS-IT,GSS,AI Agents,loss_prevented,INC-202607-IT06,695064,347532,Approved,AI prompt injection prevented (High)
+INC-202607-IT06-LP2,2026-07,GSS-IT,GSS,AppSec,loss_prevented,INC-202607-IT06,695064,173766,Approved,AI prompt injection prevented (High)
+INC-202607-IT06-LP3,2026-07,GSS-IT,GSS,DFIR,loss_prevented,INC-202607-IT06,695064,173766,Approved,AI prompt injection prevented (High)
+SAV-202607-IT1,2026-07,GSS-IT,GSS,Backup,saving,,0,183851,Approved,Backup storage tiering & de-duplication
+SAV-202607-IT2,2026-07,GSS-IT,GSS,DFIR,saving,,0,103888,Approved,DFIR retainer hours reduced
+SAV-202607-IT3,2026-07,GSS-IT,GSS,CTEM,saving,,0,98494,Approved,CTEM platform replacing point scanners
+SAV-202607-IT4,2026-07,GSS-IT,GSS,CTEM,saving,,0,154121,Approved,CTEM platform replacing point scanners
+INC-202607-FHR03-LP1,2026-07,GSS-FHR,GSS,AI Agents,loss_prevented,INC-202607-FHR03,174719,87359,Approved,Payment fraud prevented (High)
+INC-202607-FHR03-LP2,2026-07,GSS-FHR,GSS,SOC,loss_prevented,INC-202607-FHR03,174719,43680,Approved,Payment fraud prevented (High)
+INC-202607-FHR03-LP3,2026-07,GSS-FHR,GSS,DFIR,loss_prevented,INC-202607-FHR03,174719,43680,Approved,Payment fraud prevented (High)
+SAV-202607-FHR1,2026-07,GSS-FHR,GSS,DLP,saving,,0,71183,Approved,DLP policy tuning: contractor reviewers released
+SAV-202607-FHR2,2026-07,GSS-FHR,GSS,GRC,saving,,0,171310,Approved,Automated evidence collection: external audit fees reduced
+INC-202608-RB01-LP1,2026-08,FIN-RB,FIN,AI Agents,loss_prevented,INC-202608-RB01,51596,25798,Approved,Payment fraud prevented (Low)
+INC-202608-RB01-LP2,2026-08,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202608-RB01,51596,25798,Approved,Payment fraud prevented (Low)
+SAV-202608-RB1,2026-08,FIN-RB,FIN,GRC,saving,,0,230537,Approved,Automated evidence collection: external audit fees reduced
+SAV-202608-RB2,2026-08,FIN-RB,FIN,AI Agents,saving,,0,124317,Approved,KYC / claims review outsourcing reduced
+INC-202608-PAY04-LP1,2026-08,FIN-PAY,FIN,WAF,loss_prevented,INC-202608-PAY04,223510,111754,Approved,DDoS prevented (Medium)
+INC-202608-PAY04-LP2,2026-08,FIN-PAY,FIN,NDR,loss_prevented,INC-202608-PAY04,223510,55878,Approved,DDoS prevented (Medium)
+INC-202608-PAY04-LP3,2026-08,FIN-PAY,FIN,Firewall,loss_prevented,INC-202608-PAY04,223510,55878,Approved,DDoS prevented (Medium)
+SAV-202608-PAY1,2026-08,FIN-PAY,FIN,WAF,saving,,0,158076,Approved,WAF managed-service renegotiation
+SAV-202608-PAY2,2026-08,FIN-PAY,FIN,AppSec,saving,,0,30092,Approved,Automated code review: external pen-test re-tests avoided
+SAV-202608-PAY3,2026-08,FIN-PAY,FIN,Cloud Security,saving,,0,83737,Approved,Cloud posture fixes: idle resources removed
+SAV-202608-PAY4,2026-08,FIN-PAY,FIN,WAF,saving,,0,28638,Approved,WAF managed-service renegotiation
+SAV-202608-PAY5,2026-08,FIN-PAY,FIN,AI Agents,saving,,0,60021,Approved,KYC / claims review outsourcing reduced
+INC-202608-LAB01-LP1,2026-08,HLT-LAB,HLT,Cloud Security,loss_prevented,INC-202608-LAB01,131541,65770,Approved,Cloud misconfiguration exposure prevented (Medium)
+INC-202608-LAB01-LP2,2026-08,HLT-LAB,HLT,Vulnerability Mgmt,loss_prevented,INC-202608-LAB01,131541,65771,Approved,Cloud misconfiguration exposure prevented (Medium)
+SAV-202608-LAB1,2026-08,HLT-LAB,HLT,AI Agents,saving,,0,103628,Pending,KYC / claims review outsourcing reduced
+SAV-202608-LAB2,2026-08,HLT-LAB,HLT,AI Agents,saving,,0,72913,Approved,Service-desk deflection: contractor seats released
+SAV-202608-PWR1,2026-08,ENR-PWR,ENR,Firewall,saving,,0,138485,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202608-PWR2,2026-08,ENR-PWR,ENR,AI Agents,saving,,0,53096,Pending,Service-desk deflection: contractor seats released
+INC-202608-OGS02-LP1,2026-08,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202608-OGS02,126776,63388,Approved,Ransomware attempt prevented (High)
+INC-202608-OGS02-LP2,2026-08,ENR-OGS,ENR,NDR,loss_prevented,INC-202608-OGS02,126776,31694,Approved,Ransomware attempt prevented (High)
+INC-202608-OGS02-LP3,2026-08,ENR-OGS,ENR,DFIR,loss_prevented,INC-202608-OGS02,126776,31694,Approved,Ransomware attempt prevented (High)
+INC-202608-OGS03-LP1,2026-08,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202608-OGS03,94779,47389,Approved,Ransomware attempt prevented (Medium)
+INC-202608-OGS03-LP2,2026-08,ENR-OGS,ENR,SOC,loss_prevented,INC-202608-OGS03,94779,23695,Approved,Ransomware attempt prevented (Medium)
+INC-202608-OGS03-LP3,2026-08,ENR-OGS,ENR,NDR,loss_prevented,INC-202608-OGS03,94779,23695,Approved,Ransomware attempt prevented (Medium)
+INC-202608-SSA03-LP1,2026-08,GOV-SSA,GOV,SOC,loss_prevented,INC-202608-SSA03,51662,25830,Approved,Phishing / credential theft prevented (Medium)
+INC-202608-SSA03-LP2,2026-08,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202608-SSA03,51662,12916,Approved,Phishing / credential theft prevented (Medium)
+INC-202608-SSA03-LP3,2026-08,GOV-SSA,GOV,IAM/PAM,loss_prevented,INC-202608-SSA03,51662,12916,Approved,Phishing / credential theft prevented (Medium)
+SAV-202608-SSA1,2026-08,GOV-SSA,GOV,SOAR,saving,,0,103836,Approved,Automated playbooks: overtime & on-call reduction
+SAV-202608-SSA2,2026-08,GOV-SSA,GOV,SOAR,saving,,0,89879,Pending,Automated playbooks: overtime & on-call reduction
+SAV-202608-MUN1,2026-08,GOV-MUN,GOV,Backup,saving,,0,217576,Approved,Backup storage tiering & de-duplication
+INC-202608-IT01-LP1,2026-08,GSS-IT,GSS,DLP,loss_prevented,INC-202608-IT01,77929,38964,Approved,Data exfiltration attempt prevented (Medium)
+INC-202608-IT01-LP2,2026-08,GSS-IT,GSS,SOC,loss_prevented,INC-202608-IT01,77929,38965,Approved,Data exfiltration attempt prevented (Medium)
+SAV-202608-IT1,2026-08,GSS-IT,GSS,Firewall,saving,,0,74446,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202608-IT2,2026-08,GSS-IT,GSS,SIEM,saving,,0,156575,Approved,SIEM ingest optimisation & tiered retention
+SAV-202608-IT3,2026-08,GSS-IT,GSS,NDR,saving,,0,211529,Approved,NDR sensor rationalisation
+SAV-202608-IT4,2026-08,GSS-IT,GSS,Vulnerability Mgmt,saving,,0,138701,Approved,Scanner licence consolidation
+SAV-202608-IT5,2026-08,GSS-IT,GSS,CTEM,saving,,0,140547,Pending,CTEM platform replacing point scanners
+SAV-202608-FHR1,2026-08,GSS-FHR,GSS,DLP,saving,,0,139338,Approved,DLP policy tuning: contractor reviewers released
+SAV-202608-FHR2,2026-08,GSS-FHR,GSS,AI Agents,saving,,0,132053,Approved,Reconciliation & invoice matching: temp staff released
+INC-202609-RB02-LP1,2026-09,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202609-RB02,66237,33117,Approved,Ransomware attempt prevented (Medium)
+INC-202609-RB02-LP2,2026-09,FIN-RB,FIN,SOC,loss_prevented,INC-202609-RB02,66237,11040,Approved,Ransomware attempt prevented (Medium)
+INC-202609-RB02-LP3,2026-09,FIN-RB,FIN,Backup,loss_prevented,INC-202609-RB02,66237,11040,Approved,Ransomware attempt prevented (Medium)
+INC-202609-RB02-LP4,2026-09,FIN-RB,FIN,NDR,loss_prevented,INC-202609-RB02,66237,11040,Approved,Ransomware attempt prevented (Medium)
+INC-202609-RB03-LP1,2026-09,FIN-RB,FIN,SOC,loss_prevented,INC-202609-RB03,223810,111906,Approved,Business email compromise prevented (High)
+INC-202609-RB03-LP2,2026-09,FIN-RB,FIN,AI Agents,loss_prevented,INC-202609-RB03,223810,27976,Approved,Business email compromise prevented (High)
+INC-202609-RB03-LP3,2026-09,FIN-RB,FIN,DLP,loss_prevented,INC-202609-RB03,223810,27976,Approved,Business email compromise prevented (High)
+INC-202609-RB03-LP4,2026-09,FIN-RB,FIN,SOAR,loss_prevented,INC-202609-RB03,223810,27976,Approved,Business email compromise prevented (High)
+INC-202609-RB03-LP5,2026-09,FIN-RB,FIN,DFIR,loss_prevented,INC-202609-RB03,223810,27976,Approved,Business email compromise prevented (High)
+INC-202609-RB04-LP1,2026-09,FIN-RB,FIN,AI Agents,loss_prevented,INC-202609-RB04,65814,32906,Approved,Payment fraud prevented (Medium)
+INC-202609-RB04-LP2,2026-09,FIN-RB,FIN,SOC,loss_prevented,INC-202609-RB04,65814,16454,Approved,Payment fraud prevented (Medium)
+INC-202609-RB04-LP3,2026-09,FIN-RB,FIN,IAM/PAM,loss_prevented,INC-202609-RB04,65814,16454,Approved,Payment fraud prevented (Medium)
+INC-202609-RB07-LP1,2026-09,FIN-RB,FIN,EDR/XDR,loss_prevented,INC-202609-RB07,835977,417989,Approved,Malware prevented (High)
+INC-202609-RB07-LP2,2026-09,FIN-RB,FIN,SOC,loss_prevented,INC-202609-RB07,835977,208994,Approved,Malware prevented (High)
+INC-202609-RB07-LP3,2026-09,FIN-RB,FIN,DFIR,loss_prevented,INC-202609-RB07,835977,208994,Approved,Malware prevented (High)
+INC-202609-PAY01-LP1,2026-09,FIN-PAY,FIN,SOC,loss_prevented,INC-202609-PAY01,138696,69348,Approved,Business email compromise prevented (High)
+INC-202609-PAY01-LP2,2026-09,FIN-PAY,FIN,DLP,loss_prevented,INC-202609-PAY01,138696,23116,Approved,Business email compromise prevented (High)
+INC-202609-PAY01-LP3,2026-09,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202609-PAY01,138696,23116,Approved,Business email compromise prevented (High)
+INC-202609-PAY01-LP4,2026-09,FIN-PAY,FIN,DFIR,loss_prevented,INC-202609-PAY01,138696,23116,Approved,Business email compromise prevented (High)
+INC-202609-PAY04-LP1,2026-09,FIN-PAY,FIN,AI Agents,loss_prevented,INC-202609-PAY04,197347,98674,Approved,AI prompt injection prevented (High)
+INC-202609-PAY04-LP2,2026-09,FIN-PAY,FIN,SOC,loss_prevented,INC-202609-PAY04,197347,32891,Approved,AI prompt injection prevented (High)
+INC-202609-PAY04-LP3,2026-09,FIN-PAY,FIN,AppSec,loss_prevented,INC-202609-PAY04,197347,32891,Approved,AI prompt injection prevented (High)
+INC-202609-PAY04-LP4,2026-09,FIN-PAY,FIN,DFIR,loss_prevented,INC-202609-PAY04,197347,32891,Approved,AI prompt injection prevented (High)
+SAV-202609-PAY1,2026-09,FIN-PAY,FIN,WAF,saving,,0,52494,Rejected,WAF managed-service renegotiation
+INC-202609-HOS02-LP1,2026-09,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202609-HOS02,3356590,1678294,Approved,Malware prevented (Critical)
+INC-202609-HOS02-LP2,2026-09,HLT-HOS,HLT,SOC,loss_prevented,INC-202609-HOS02,3356590,839148,Approved,Malware prevented (Critical)
+INC-202609-HOS02-LP3,2026-09,HLT-HOS,HLT,DFIR,loss_prevented,INC-202609-HOS02,3356590,839148,Approved,Malware prevented (Critical)
+INC-202609-HOS04-LP1,2026-09,HLT-HOS,HLT,EDR/XDR,loss_prevented,INC-202609-HOS04,524142,262071,Approved,Ransomware attempt prevented (High)
+INC-202609-HOS04-LP2,2026-09,HLT-HOS,HLT,Backup,loss_prevented,INC-202609-HOS04,524142,87357,Approved,Ransomware attempt prevented (High)
+INC-202609-HOS04-LP3,2026-09,HLT-HOS,HLT,SOC,loss_prevented,INC-202609-HOS04,524142,87357,Approved,Ransomware attempt prevented (High)
+INC-202609-HOS04-LP4,2026-09,HLT-HOS,HLT,DFIR,loss_prevented,INC-202609-HOS04,524142,87357,Approved,Ransomware attempt prevented (High)
+INC-202609-HOS05-LP1,2026-09,HLT-HOS,HLT,IAM/PAM,loss_prevented,INC-202609-HOS05,134493,67247,Approved,Account takeover prevented (High)
+INC-202609-HOS05-LP2,2026-09,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202609-HOS05,134493,33623,Approved,Account takeover prevented (High)
+INC-202609-HOS05-LP3,2026-09,HLT-HOS,HLT,DFIR,loss_prevented,INC-202609-HOS05,134493,33623,Approved,Account takeover prevented (High)
+INC-202609-PWR02-LP1,2026-09,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202609-PWR02,423264,211632,Approved,Ransomware attempt prevented (High)
+INC-202609-PWR02-LP2,2026-09,ENR-PWR,ENR,NDR,loss_prevented,INC-202609-PWR02,423264,70544,Approved,Ransomware attempt prevented (High)
+INC-202609-PWR02-LP3,2026-09,ENR-PWR,ENR,Backup,loss_prevented,INC-202609-PWR02,423264,70544,Approved,Ransomware attempt prevented (High)
+INC-202609-PWR02-LP4,2026-09,ENR-PWR,ENR,DFIR,loss_prevented,INC-202609-PWR02,423264,70544,Approved,Ransomware attempt prevented (High)
+SAV-202609-PWR1,2026-09,ENR-PWR,ENR,Vulnerability Mgmt,saving,,0,132925,Approved,Scanner licence consolidation
+INC-202609-OGS02-LP1,2026-09,ENR-OGS,ENR,Vulnerability Mgmt,loss_prevented,INC-202609-OGS02,256472,128236,Approved,Vulnerability exploitation prevented (High)
+INC-202609-OGS02-LP2,2026-09,ENR-OGS,ENR,WAF,loss_prevented,INC-202609-OGS02,256472,64118,Approved,Vulnerability exploitation prevented (High)
+INC-202609-OGS02-LP3,2026-09,ENR-OGS,ENR,DFIR,loss_prevented,INC-202609-OGS02,256472,64118,Approved,Vulnerability exploitation prevented (High)
+INC-202609-OGS03-LP1,2026-09,ENR-OGS,ENR,DLP,loss_prevented,INC-202609-OGS03,587842,293920,Approved,Insider misuse prevented (High)
+INC-202609-OGS03-LP2,2026-09,ENR-OGS,ENR,SOC,loss_prevented,INC-202609-OGS03,587842,146961,Approved,Insider misuse prevented (High)
+INC-202609-OGS03-LP3,2026-09,ENR-OGS,ENR,DFIR,loss_prevented,INC-202609-OGS03,587842,146961,Approved,Insider misuse prevented (High)
+SAV-202609-OGS1,2026-09,ENR-OGS,ENR,NDR,saving,,0,20412,Approved,NDR sensor rationalisation
+SAV-202609-OGS2,2026-09,ENR-OGS,ENR,NDR,saving,,0,50217,Approved,NDR sensor rationalisation
+INC-202609-SSA02-LP1,2026-09,GOV-SSA,GOV,EDR/XDR,loss_prevented,INC-202609-SSA02,2115812,1057907,Approved,Malware prevented (Critical)
+INC-202609-SSA02-LP2,2026-09,GOV-SSA,GOV,SOC,loss_prevented,INC-202609-SSA02,2115812,352635,Approved,Malware prevented (Critical)
+INC-202609-SSA02-LP3,2026-09,GOV-SSA,GOV,SOAR,loss_prevented,INC-202609-SSA02,2115812,352635,Approved,Malware prevented (Critical)
+INC-202609-SSA02-LP4,2026-09,GOV-SSA,GOV,DFIR,loss_prevented,INC-202609-SSA02,2115812,352635,Approved,Malware prevented (Critical)
+INC-202609-SSA03-LP1,2026-09,GOV-SSA,GOV,SOC,loss_prevented,INC-202609-SSA03,788888,394444,Approved,Business email compromise prevented (High)
+INC-202609-SSA03-LP2,2026-09,GOV-SSA,GOV,SOAR,loss_prevented,INC-202609-SSA03,788888,197222,Approved,Business email compromise prevented (High)
+INC-202609-SSA03-LP3,2026-09,GOV-SSA,GOV,DFIR,loss_prevented,INC-202609-SSA03,788888,197222,Approved,Business email compromise prevented (High)
+SAV-202609-SSA1,2026-09,GOV-SSA,GOV,Cloud Security,saving,,0,78239,Approved,Cloud posture fixes: idle resources removed
+INC-202609-MUN03-LP1,2026-09,GOV-MUN,GOV,IAM/PAM,loss_prevented,INC-202609-MUN03,53080,26540,Approved,Account takeover prevented (Medium)
+INC-202609-MUN03-LP2,2026-09,GOV-MUN,GOV,AI Agents,loss_prevented,INC-202609-MUN03,53080,26540,Approved,Account takeover prevented (Medium)
+INC-202609-MUN06-LP1,2026-09,GOV-MUN,GOV,EDR/XDR,loss_prevented,INC-202609-MUN06,151535,75767,Approved,Malware prevented (Medium)
+INC-202609-MUN06-LP2,2026-09,GOV-MUN,GOV,SOC,loss_prevented,INC-202609-MUN06,151535,37884,Approved,Malware prevented (Medium)
+INC-202609-MUN06-LP3,2026-09,GOV-MUN,GOV,SOAR,loss_prevented,INC-202609-MUN06,151535,37884,Approved,Malware prevented (Medium)
+SAV-202609-MUN1,2026-09,GOV-MUN,GOV,GRC,saving,,0,90231,Approved,Automated evidence collection: external audit fees reduced
+INC-202609-IT01-LP1,2026-09,GSS-IT,GSS,SOC,loss_prevented,INC-202609-IT01,416473,208237,Approved,Business email compromise prevented (High)
+INC-202609-IT01-LP2,2026-09,GSS-IT,GSS,AI Agents,loss_prevented,INC-202609-IT01,416473,69412,Approved,Business email compromise prevented (High)
+INC-202609-IT01-LP3,2026-09,GSS-IT,GSS,DLP,loss_prevented,INC-202609-IT01,416473,69412,Approved,Business email compromise prevented (High)
+INC-202609-IT01-LP4,2026-09,GSS-IT,GSS,DFIR,loss_prevented,INC-202609-IT01,416473,69412,Approved,Business email compromise prevented (High)
+INC-202609-IT04-LP1,2026-09,GSS-IT,GSS,EDR/XDR,loss_prevented,INC-202609-IT04,173480,86740,Approved,Malware prevented (Medium)
+INC-202609-IT04-LP2,2026-09,GSS-IT,GSS,SOC,loss_prevented,INC-202609-IT04,173480,86740,Approved,Malware prevented (Medium)
+INC-202609-IT05-LP1,2026-09,GSS-IT,GSS,WAF,loss_prevented,INC-202609-IT05,43142,21571,Approved,DDoS prevented (Medium)
+INC-202609-IT05-LP2,2026-09,GSS-IT,GSS,NDR,loss_prevented,INC-202609-IT05,43142,21571,Approved,DDoS prevented (Medium)
+SAV-202609-IT1,2026-09,GSS-IT,GSS,Firewall,saving,,0,287112,Approved,Rule-base consolidation: hardware refresh deferred
+SAV-202609-IT2,2026-09,GSS-IT,GSS,AppSec,saving,,0,86559,Pending,Automated code review: external pen-test re-tests avoided
+SAV-202609-IT3,2026-09,GSS-IT,GSS,EDR/XDR,saving,,0,47548,Approved,EDR/XDR licence consolidation
+SAV-202609-IT4,2026-09,GSS-IT,GSS,Firewall,saving,,0,102961,Approved,Rule-base consolidation: hardware refresh deferred
+INC-202609-FHR04-LP1,2026-09,GSS-FHR,GSS,SOC,loss_prevented,INC-202609-FHR04,49763,24881,Approved,Phishing / credential theft prevented (Medium)
+INC-202609-FHR04-LP2,2026-09,GSS-FHR,GSS,SOAR,loss_prevented,INC-202609-FHR04,49763,8294,Approved,Phishing / credential theft prevented (Medium)
+INC-202609-FHR04-LP3,2026-09,GSS-FHR,GSS,AI Agents,loss_prevented,INC-202609-FHR04,49763,8294,Approved,Phishing / credential theft prevented (Medium)
+INC-202609-FHR04-LP4,2026-09,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202609-FHR04,49763,8294,Approved,Phishing / credential theft prevented (Medium)
+SAV-202609-FHR1,2026-09,GSS-FHR,GSS,GRC,saving,,0,195491,Approved,Automated evidence collection: external audit fees reduced
+SAV-202610-RB1,2026-10,FIN-RB,FIN,DLP,saving,,0,146108,Rejected,DLP policy tuning: contractor reviewers released
+INC-202610-PAY04-LP1,2026-10,FIN-PAY,FIN,WAF,loss_prevented,INC-202610-PAY04,275610,137805,Approved,DDoS prevented (High)
+INC-202610-PAY04-LP2,2026-10,FIN-PAY,FIN,Firewall,loss_prevented,INC-202610-PAY04,275610,45935,Approved,DDoS prevented (High)
+INC-202610-PAY04-LP3,2026-10,FIN-PAY,FIN,NDR,loss_prevented,INC-202610-PAY04,275610,45935,Approved,DDoS prevented (High)
+INC-202610-PAY04-LP4,2026-10,FIN-PAY,FIN,DFIR,loss_prevented,INC-202610-PAY04,275610,45935,Approved,DDoS prevented (High)
+SAV-202610-PAY1,2026-10,FIN-PAY,FIN,WAF,saving,,0,81489,Approved,WAF managed-service renegotiation
+INC-202610-HOS05-LP1,2026-10,HLT-HOS,HLT,SOC,loss_prevented,INC-202610-HOS05,52268,26134,Approved,Phishing / credential theft prevented (Medium)
+INC-202610-HOS05-LP2,2026-10,HLT-HOS,HLT,AI Agents,loss_prevented,INC-202610-HOS05,52268,26134,Approved,Phishing / credential theft prevented (Medium)
+SAV-202610-HOS1,2026-10,HLT-HOS,HLT,IAM/PAM,saving,,0,77574,Approved,Access-request automation: IAM contractor reduction
+INC-202610-LAB01-LP1,2026-10,HLT-LAB,HLT,Vulnerability Mgmt,loss_prevented,INC-202610-LAB01,264786,132392,Approved,Vulnerability exploitation prevented (High)
+INC-202610-LAB01-LP2,2026-10,HLT-LAB,HLT,AppSec,loss_prevented,INC-202610-LAB01,264786,66197,Approved,Vulnerability exploitation prevented (High)
+INC-202610-LAB01-LP3,2026-10,HLT-LAB,HLT,DFIR,loss_prevented,INC-202610-LAB01,264786,66197,Approved,Vulnerability exploitation prevented (High)
+INC-202610-LAB02-LP1,2026-10,HLT-LAB,HLT,EDR/XDR,loss_prevented,INC-202610-LAB02,1501997,750999,Approved,Ransomware attempt prevented (Critical)
+INC-202610-LAB02-LP2,2026-10,HLT-LAB,HLT,Backup,loss_prevented,INC-202610-LAB02,1501997,375499,Approved,Ransomware attempt prevented (Critical)
+INC-202610-LAB02-LP3,2026-10,HLT-LAB,HLT,DFIR,loss_prevented,INC-202610-LAB02,1501997,375499,Approved,Ransomware attempt prevented (Critical)
+SAV-202610-LAB1,2026-10,HLT-LAB,HLT,AI Agents,saving,,0,233544,Approved,Service-desk deflection: contractor seats released
+INC-202610-PWR02-LP1,2026-10,ENR-PWR,ENR,DLP,loss_prevented,INC-202610-PWR02,536720,268361,Approved,Insider misuse prevented (High)
+INC-202610-PWR02-LP2,2026-10,ENR-PWR,ENR,IAM/PAM,loss_prevented,INC-202610-PWR02,536720,89453,Approved,Insider misuse prevented (High)
+INC-202610-PWR02-LP3,2026-10,ENR-PWR,ENR,SOC,loss_prevented,INC-202610-PWR02,536720,89453,Approved,Insider misuse prevented (High)
+INC-202610-PWR02-LP4,2026-10,ENR-PWR,ENR,DFIR,loss_prevented,INC-202610-PWR02,536720,89453,Approved,Insider misuse prevented (High)
+INC-202610-PWR04-LP1,2026-10,ENR-PWR,ENR,EDR/XDR,loss_prevented,INC-202610-PWR04,244556,122279,Approved,Ransomware attempt prevented (High)
+INC-202610-PWR04-LP2,2026-10,ENR-PWR,ENR,Backup,loss_prevented,INC-202610-PWR04,244556,40759,Approved,Ransomware attempt prevented (High)
+INC-202610-PWR04-LP3,2026-10,ENR-PWR,ENR,SOC,loss_prevented,INC-202610-PWR04,244556,40759,Approved,Ransomware attempt prevented (High)
+INC-202610-PWR04-LP4,2026-10,ENR-PWR,ENR,DFIR,loss_prevented,INC-202610-PWR04,244556,40759,Approved,Ransomware attempt prevented (High)
+SAV-202610-PWR1,2026-10,ENR-PWR,ENR,AI Agents,saving,,0,55385,Approved,Service-desk deflection: contractor seats released
+SAV-202610-PWR2,2026-10,ENR-PWR,ENR,IAM/PAM,saving,,0,101390,Approved,Access-request automation: IAM contractor reduction
+INC-202610-OGS02-LP1,2026-10,ENR-OGS,ENR,EDR/XDR,loss_prevented,INC-202610-OGS02,81664,40832,Approved,Malware prevented (Medium)
+INC-202610-OGS02-LP2,2026-10,ENR-OGS,ENR,SOC,loss_prevented,INC-202610-OGS02,81664,40832,Approved,Malware prevented (Medium)
+SAV-202610-OGS1,2026-10,ENR-OGS,ENR,NDR,saving,,0,152713,Approved,NDR sensor rationalisation
+SAV-202610-OGS2,2026-10,ENR-OGS,ENR,NDR,saving,,0,74311,Approved,NDR sensor rationalisation
+SAV-202610-OGS3,2026-10,ENR-OGS,ENR,NDR,saving,,0,189087,Approved,NDR sensor rationalisation
+INC-202610-SSA01-LP1,2026-10,GOV-SSA,GOV,SOC,loss_prevented,INC-202610-SSA01,1511671,755835,Approved,Business email compromise prevented (High)
+INC-202610-SSA01-LP2,2026-10,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202610-SSA01,1511671,377918,Approved,Business email compromise prevented (High)
+INC-202610-SSA01-LP3,2026-10,GOV-SSA,GOV,DFIR,loss_prevented,INC-202610-SSA01,1511671,377918,Approved,Business email compromise prevented (High)
+INC-202610-SSA03-LP1,2026-10,GOV-SSA,GOV,SOC,loss_prevented,INC-202610-SSA03,99003,49501,Approved,Phishing / credential theft prevented (Medium)
+INC-202610-SSA03-LP2,2026-10,GOV-SSA,GOV,AI Agents,loss_prevented,INC-202610-SSA03,99003,49502,Approved,Phishing / credential theft prevented (Medium)
+SAV-202610-SSA1,2026-10,GOV-SSA,GOV,SOAR,saving,,0,102331,Approved,Automated playbooks: overtime & on-call reduction
+SAV-202610-SSA2,2026-10,GOV-SSA,GOV,Cloud Security,saving,,0,101055,Approved,Cloud posture fixes: idle resources removed
+SAV-202610-SSA3,2026-10,GOV-SSA,GOV,SOAR,saving,,0,115187,Approved,Automated playbooks: overtime & on-call reduction
+SAV-202610-SSA4,2026-10,GOV-SSA,GOV,SOAR,saving,,0,80527,Approved,Automated playbooks: overtime & on-call reduction
+SAV-202610-SSA5,2026-10,GOV-SSA,GOV,SOAR,saving,,0,208835,Approved,Automated playbooks: overtime & on-call reduction
+INC-202610-MUN03-LP1,2026-10,GOV-MUN,GOV,DLP,loss_prevented,INC-202610-MUN03,51591,25795,Approved,Data exfiltration attempt prevented (Medium)
+INC-202610-MUN03-LP2,2026-10,GOV-MUN,GOV,Firewall,loss_prevented,INC-202610-MUN03,51591,25796,Approved,Data exfiltration attempt prevented (Medium)
+INC-202610-MUN05-LP1,2026-10,GOV-MUN,GOV,DLP,loss_prevented,INC-202610-MUN05,122246,61122,Approved,Shadow AI data exposure prevented (Medium)
+INC-202610-MUN05-LP2,2026-10,GOV-MUN,GOV,GRC,loss_prevented,INC-202610-MUN05,122246,30562,Approved,Shadow AI data exposure prevented (Medium)
+INC-202610-MUN05-LP3,2026-10,GOV-MUN,GOV,Cloud Security,loss_prevented,INC-202610-MUN05,122246,30562,Approved,Shadow AI data exposure prevented (Medium)
+SAV-202610-MUN1,2026-10,GOV-MUN,GOV,Backup,saving,,0,261139,Pending,Backup storage tiering & de-duplication
+SAV-202610-IT1,2026-10,GSS-IT,GSS,AppSec,saving,,0,94476,Approved,Automated code review: external pen-test re-tests avoided
+INC-202610-FHR03-LP1,2026-10,GSS-FHR,GSS,SOC,loss_prevented,INC-202610-FHR03,59430,29715,Approved,Phishing / credential theft prevented (Medium)
+INC-202610-FHR03-LP2,2026-10,GSS-FHR,GSS,IAM/PAM,loss_prevented,INC-202610-FHR03,59430,29715,Approved,Phishing / credential theft prevented (Medium)
+SAV-202610-FHR1,2026-10,GSS-FHR,GSS,DLP,saving,,0,68457,Approved,DLP policy tuning: contractor reviewers released

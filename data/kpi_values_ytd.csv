@@ -1,0 +1,172 @@
+# SYNTHETIC SAMPLE DATA - generated deterministically by assets/js/data.js (seed CISO-EAED-SYNTHETIC-v1); not live enterprise metrics
+kpi_id,domain,name,unit,value,target,warning,critical,status,formula
+1,A,Total Realized Cost Savings,AED,18410670,16000000,13000000,10000000,On target,Σ Finance-approved actual cost reductions in the period
+2,A,Confirmed Financial Loss Prevented,AED,42742805,30000000,22000000,15000000,On target,Σ verified prevented loss per incident = gross control claims − duplicate claims
+3,A,Estimated Cyber Loss Avoidance,AED,284628123.5,250000000,200000000,150000000,On target,Baseline expected annual loss − Residual expected annual loss
+4,A,Expected Annual Cyber Loss,AED,125371876.5,120000000,150000000,200000000,Watch,Σ over risk scenarios (residual LEF × residual LM)
+5,A,Net Realized Financial Benefit,AED,44134256.68,25000000,15000000,0,On target,Realized savings + Verified prevented financial losses − Incremental programme costs
+6,A,Enterprise Productivity Value,AED,87770515.11,70000000,50000000,30000000,On target,Σ (Human hours saved × BU fully loaded hourly rate)
+7,A,Total Automation Operating Cost,AED,17019218.32,17500000,19000000,21000000,On target,Total AI operating spend + Automation platform cost + Automation engineering labour
+8,A,Automation ROI,%,259.32,200,100,0,On target,Net realized financial benefit ÷ Total automation operating cost × 100
+9,A,Estimated Downtime Loss Avoided,AED,456554,150000,50000,0,On target,Σ (avoided outage minutes × business cost per minute of affected workflows)
+10,A,Actual Outage Financial Loss,AED,40269,200000,500000,1200000,On target,Σ Finance-validated actual loss from model and infrastructure outages
+11,A,Fraud Loss Prevented,AED,14291805,8000000,5000000,2500000,On target,Σ verified prevented loss for fraud incidents (gross claims − duplicate claims)
+12,A,DLP Data Transfers Prevented,count,5201,,,,No target,DLP blocked transfers − False positives
+13,A,Cost per Security Incident,AED,35597.99,35000,50000,75000,Watch,(Σ response cost + Σ actual loss) ÷ Number of incidents
+14,A,Incident Mitigation Rate,%,93.67,95,90,85,Watch,Incidents mitigated before material impact ÷ Total incidents × 100
+15,A,Average DFIR Containment Time,hd,6.6,6,8,12,Watch,Σ containment hours (High + Critical) ÷ Number of High + Critical incidents contained
+16,A,Security Automation Payback Period,months,8.61,18,24,36,On target,Cumulative programme investment ÷ Average monthly net realized benefit
+17,A,Financial Value by Security Control,AED,61153475,47000000,36000000,25000000,On target,Σ over controls (approved savings + attributed loss prevented); must equal KPI 1 + KPI 2
+18,A,Risk Reduction per AED Invested,ratio,2.96,2.5,1.5,1,On target,Estimated cyber loss avoidance ÷ Annual security & AI security investment
+19,A,Total Financial Exposure from AI Incidents,AED,2652600,18000000,26000000,36000000,On target,Σ potential loss of AI-related incidents (realised loss and response cost shown separately)
+20,B,Total Registered AI Agents,count,60,58,51,44,On target,Count of registry agents with status ≠ decommissioned at period end
+21,B,Active Agent Percentage,%,93.33,95,90,80,Watch,Agents with ≥ 1 task in the last month ÷ Registered agents × 100
+22,B,Tasks Completed by Agents,count,1609854,1450000,1200000,950000,On target,Σ successfully completed agent tasks
+23,B,Successful Task Completion Rate,%,93.33,95,90,85,Watch,Successful agent tasks ÷ Total initiated agent tasks × 100
+24,B,Manual Baseline Time,min,26,,,,No target,Σ manual baseline minutes for comparable tasks ÷ Comparable tasks
+25,B,Agent Execution Time,min,2.53,3,4,5,On target,Σ agent execution minutes ÷ Comparable tasks
+26,B,End-to-End Agent Time,min,8.96,10,13,16,On target,(Execution + Human review + Waiting + Retries + Rework minutes) ÷ Comparable tasks
+27,B,Agentic Efficiency Gain,%,65.55,60,45,30,On target,(Manual baseline duration − Agent end-to-end duration) ÷ Manual baseline duration × 100
+28,B,Manual-to-Agent Speed Improvement,x,2.9,2.5,2,1.5,On target,Manual baseline duration ÷ Agent end-to-end duration
+29,B,Human Hours Saved,h,425192.37,350000,260000,180000,On target,(Σ comparable manual task minutes − Σ agent-assisted end-to-end task minutes) ÷ 60
+30,B,Analyst Productivity Increase,%,41.55,35,20,10,On target,(Cases closed ÷ Analyst FTE-months − Baseline cases per FTE-month) ÷ Baseline × 100
+31,B,Autonomous Completion Rate,%,77.77,75,65,50,On target,Eligible tasks completed autonomously ÷ Total eligible tasks × 100
+32,B,AI-Assisted Completion Rate,%,44.9,,,,No target,(Completed tasks − Autonomous completions) ÷ Completed tasks × 100
+33,B,Human Intervention Rate,%,9.02,8,12,18,Watch,Tasks with unplanned human intervention ÷ Initiated tasks × 100
+34,B,Human Approval Compliance,%,98.95,99.5,98,95,Watch,High-risk actions executed with required approval ÷ High-risk actions requiring approval × 100
+35,B,Agent-to-Human Escalation Rate,%,3,3,5,8,Watch,Escalated tasks ÷ Initiated tasks × 100
+36,B,First-Time-Right Rate,%,90.04,90,85,80,On target,Tasks completed without retry or rework ÷ Completed tasks × 100
+37,B,Agent Rework Rate,%,5.48,5,8,12,Watch,Tasks requiring rework ÷ Completed tasks × 100
+38,B,Agent Failure Rate,%,3.66,3,5,8,Watch,Failed tasks ÷ Initiated tasks × 100
+39,B,Agent Recovery Rate,%,90.26,92,88,80,Watch,Recovered error events ÷ Execution error events × 100
+40,B,Agent Throughput,perday,5295.57,4500,3800,3000,On target,Completed tasks ÷ Calendar days in period
+41,B,AI SLA Achievement,%,94.92,97,94,90,Watch,Tasks completed within SLA ÷ SLA-bound tasks × 100
+42,B,Agent Automation Coverage,%,45.5,60,45,30,Watch,Automated in-scope workflows ÷ In-scope automatable workflows × 100
+43,C,Total Tokens Used,tokens,290771081570,323986068125.38,340185371531.65,372583978344.19,On target,"Input tokens + Output tokens (cached ⊂ input, reasoning ⊂ output, never added again)"
+44,C,Input Tokens,tokens,269208828287,,,,No target,Σ input tokens (uncached + cached)
+45,C,Output Tokens,tokens,21562253283,,,,No target,Σ output tokens (visible + reasoning)
+46,C,Reasoning Tokens,tokens,4085630870,,,,No target,Σ reasoning tokens (subset of output tokens)
+47,C,Cached Input Tokens,tokens,100077537008,40,30,20,Watch,Σ cached input tokens; rated on cache-hit ratio = cached ÷ input × 100
+48,C,Token Usage per Agent,tokens,4846184692.83,,,,No target,Total tokens ÷ Agents with model usage
+49,C,Average Tokens per Task,tokens,168576.63,175000,195000,220000,On target,Total tokens ÷ Initiated tasks
+50,C,P95 Tokens per Task,tokens,717727,600000,750000,900000,Watch,Nearest-rank 95th percentile of per-task token counts
+51,C,Token Waste,tokens,20991958166,14538554078.5,23261686525.6,34892529788.4,Watch,"Σ tokens attributable to failed, retried or redundant work"
+52,C,Token Waste Percentage,%,7.22,5,8,12,Watch,Tokens attributable to avoidable failed / retried / redundant work ÷ Total consumed tokens × 100
+53,C,Token Growth Rate,%,187.57,188.03,198.03,213.03,On target,(Tokens this period − Tokens comparison period) ÷ Tokens comparison period × 100
+54,C,Token Budget Utilization,%,89.75,95,100,110,On target,Tokens accounted against budget ÷ Approved token budget × 100
+55,C,Token Budget Exceeded Count,count,0,0,5,15,On target,Count of tenant-months where tokens > token budget
+56,C,Context Window Exceeded Rate,%,0.39,0.25,0.5,1,Watch,Context Window Exceeded events ÷ Total model requests × 100
+57,C,Output Token Limit Hit Rate,%,0.07,0.1,0.2,0.5,On target,Output Token Limit Hit events ÷ Total model requests × 100
+58,C,Token Rate-Limit Hit Rate,%,0.07,0.2,0.5,1,On target,Token-Limit Hit Rate events ÷ Total model requests × 100
+59,C,Requests per Minute Utilization,%,88.91,75,90,100,Watch,Peak observed RPM ÷ Provisioned RPM limit × 100 (busiest deployment-month)
+60,C,Tokens per Minute Utilization,%,96,75,90,100,Warning,Peak observed TPM ÷ Provisioned TPM limit × 100 (busiest deployment-month)
+61,C,Total AI Inference Spend,AED,1997703.75,,,,No target,Σ models (uncached input × input price + cached input × cache price + output × output price) ÷ 10⁶
+62,C,Total AI Infrastructure Spend,AED,5062818.92,,,,No target,Σ AI infrastructure cost allocated by token share
+63,C,Total AI Operating Spend,AED,8223566.15,8662142.6,8922006.88,9528356.86,On target,Inference spend + Infrastructure spend + AI platform licences
+64,C,Cost per Successful Task,AED2,5.11,6,7,8.5,On target,Total attributable AI operating cost ÷ Successfully completed tasks
+65,C,Cost per Million Tokens,AED2,24.28,22,27,33,Watch,(Inference spend + Infrastructure spend) ÷ Total tokens × 10⁶
+66,C,Cost per Agent,AED,137059.44,150000,180000,220000,On target,Total AI operating spend ÷ Agents with model usage
+67,C,AI Budget Utilization,%,94.94,98,102,110,On target,Total AI operating spend ÷ Approved AI budget × 100
+68,C,AI Cost Overrun Percentage,%,1.64,1,3,6,Watch,"Σ max(0, Spend − Budget) per tenant-month ÷ Σ Budget × 100"
+69,C,AI Spend Forecast,AED,2924999.81,2806317.12,2946632.97,3227264.68,Watch,"Σ for t = 7..9 of (a + b·t), where a, b are fitted on monthly KPI 63 for the last 6 months (t = 1..6)"
+70,C,Cache Cost Saving,AED,509516.15,499425.94,299655.56,159816.3,On target,Σ models (cached input tokens × (input price − cache price)) ÷ 10⁶
+71,D,Model Availability Percentage,%,99.9,99.9,99.5,99,On target,Successful eligible inference requests ÷ Total eligible inference requests × 100
+72,D,Model Outage Count,count,7,10,20,30,On target,Count of model outage records
+73,D,Model Downtime,hd,6.37,15,30,60,On target,Σ outage duration (minutes) ÷ 60
+74,D,Mean Time to Detect Outage,mins,7.57,5,10,15,Watch,Σ detection minutes ÷ Number of outages
+75,D,Mean Time to Recover Model,mins,47,35,50,75,Watch,Σ recovery minutes (detection → recovery) ÷ Number of outages
+76,D,Model API Error Rate,%,0.1,0.1,0.5,1,On target,Failed eligible model requests ÷ Total eligible model requests × 100
+77,D,Model Server Error Rate,%,0.07,0.08,0.3,0.8,On target,(Provider 5xx + Internal serving 5xx) ÷ Eligible requests × 100
+78,D,Model Timeout Rate,%,0.03,0.03,0.1,0.3,On target,Timed-out requests ÷ Eligible requests × 100
+79,D,Model Latency P95,ms,4010,4500,6000,8000,On target,Nearest-rank 95th percentile of request end-to-end latency
+80,D,Time to First Token P95,ms,1347,1500,2000,3000,On target,Nearest-rank 95th percentile of request time to first token
+81,D,Model Throughput,tps,65.12,50,40,30,On target,Σ output tokens ÷ Σ generation seconds
+82,D,Model Fallback Success,%,95.17,98,95,90,Watch,Successful fallback executions ÷ Eligible fallback attempts × 100
+83,D,Model Fallback Coverage,%,82.76,100,90,75,Warning,Critical-workflow agents with tested fallback ÷ Critical-workflow agents × 100
+84,D,Model Dependency Concentration,%,71.97,50,60,75,Warning,Tokens of the largest provider on critical workflows ÷ All critical-workflow tokens × 100
+85,D,Model Outage Business Impact,AED,92785,600000,1200000,2500000,On target,Σ outages (impact minutes × business cost per minute of affected workflows)
+86,D,Model SLA/SLO Breach Count,count,5,0,1,10,Warning,"Count of (deployment, month) with availability < SLO"
+87,D,Model Version Change Risk,%,6.06,5,10,20,Watch,Changes without completed evaluation ÷ Total model version changes × 100
+88,D,Failed Model Migration Rate,%,12.5,5,10,20,Warning,Failed or rolled-back migrations ÷ Total migrations × 100
+89,D,Model Quality Regression Rate,%,4.45,3,5,8,Watch,Evaluation runs with significant regression ÷ Total evaluation runs × 100
+90,E,Context Limit Exceeded Events,count,161970,104165.35,208330.71,416661.41,Watch,Σ context-limit-exceeded events
+91,E,TPM Exceeded Events,count,2168,1200,2500,4500,Watch,Σ TPM throttling episodes
+92,E,RPM Exceeded Events,count,1693,1200,2500,4500,Watch,Σ RPM throttling episodes
+93,E,Provider Quota Exhaustion,count,2,0,1,3,Warning,Count of deployment-months with consumption > committed quota
+94,E,Token Threshold Breaches,count,167,150,200,250,Watch,Σ tenant-months of [tokens ≥ 80% budget] + [≥ 90%] + [≥ 100%]
+95,E,Excessive Token Consumption,count,1217,1034.92,1552.37,2242.32,Watch,Σ sessions with tokens > 3 × agent P95 baseline
+96,E,Runaway Agent Loops,count,174,137.99,206.98,344.97,Watch,Σ sessions terminated by loop detectors
+97,E,Token Exhaustion Risk,%,103.7,85,95,100,Critical,(Tokens used MTD ÷ Days elapsed × Days in month) ÷ Committed monthly quota × 100
+98,E,Token Utilization Spike,count,94,80,120,200,Watch,Σ spike days (daily tokens > 1.5 × 7-day moving average)
+99,E,Rate-Limit Recovery Success,%,97.79,98,95,90,Watch,Throttled requests later served ÷ Throttled requests × 100
+100,E,Token Exceedance Business Impact,AED,74494.85,150000,400000,900000,On target,(Unrecovered throttled requests ÷ Requests per task) × Manual cost per task + Quota-exhaustion impact
+101,F,AI Infrastructure Availability,%,99.96,99.95,99.9,99.5,On target,Successful eligible AI platform service requests ÷ Total eligible service requests × 100
+102,F,Infrastructure Outage Count,count,10,10,20,30,On target,Count of infrastructure outage records
+103,F,Total Infrastructure Downtime,hd,9.43,10,25,50,On target,Σ infrastructure outage minutes ÷ 60
+104,F,GPU Availability,%,99.62,99,98,96,On target,Available GPU-hours ÷ Scheduled GPU-hours × 100
+105,F,GPU Failure Rate,%,1.17,1,1.5,2.5,Watch,GPU failures ÷ GPU-months × 100
+106,F,GPU Utilization,%,67.73,65,50,40,On target,Busy GPU-hours ÷ Available GPU-hours × 100
+107,F,GPU Memory Pressure,%,8.07,10,15,25,On target,GPU-hours with memory > 90% ÷ Available GPU-hours × 100
+108,F,GPU Saturation Events,count,314,250,400,600,Watch,Σ saturation windows
+109,F,Compute Capacity Headroom,%,16.93,30,20,10,Warning,(GPU capacity − Peak GPU demand) ÷ GPU capacity × 100
+110,F,AI Infrastructure Capacity Risk,months,5.61,12,6,3,Warning,ln(Capacity ÷ Peak demand) ÷ ln(1 + Monthly demand growth)
+111,F,Kubernetes Node Availability,%,99.7,99.7,99.5,99,On target,Ready node-hours ÷ Scheduled node-hours × 100
+112,F,Container/Pod Failure Rate,%,1.65,1.5,2,3,Watch,Pod failures ÷ Pod starts × 100
+113,F,AI Gateway Availability,%,99.96,99.95,99.9,99.5,On target,Successful requests ÷ Total requests × 100 (AI gateway)
+114,F,Network Availability,%,100,99.99,99.95,99.9,On target,Successful requests ÷ Total requests × 100 (DC network & WAN)
+115,F,Storage Availability,%,99.99,99.99,99.95,99.9,Watch,Successful requests ÷ Total requests × 100 (Object & block storage)
+116,F,Vector Database Availability,%,99.89,99.95,99.9,99.5,Warning,Successful requests ÷ Total requests × 100 (Vector database cluster)
+117,F,AI Queue Latency P95,ms,686,600,900,1500,Watch,Nearest-rank 95th percentile of queue wait times
+118,F,Infrastructure Failover Success,%,96.3,95,90,80,On target,(Successful failover tests + Successful real failovers) ÷ (Failover tests + Real failover attempts) × 100
+119,F,RTO Compliance,%,85.71,95,90,80,Warning,Recoveries meeting RTO ÷ Recoveries tested × 100
+120,F,RPO Compliance,%,100,98,95,90,On target,Recoveries meeting RPO ÷ Recoveries tested × 100
+121,F,Single Point of Failure Exposure,count,1,0,2,5,Watch,Count of critical dependencies with an unmitigated single point of failure
+122,F,Untested DR Dependency Rate,%,5.56,5,15,30,Watch,Critical dependencies without passed DR test in 12 months ÷ Critical dependencies × 100
+123,F,Infrastructure Monitoring Coverage,%,97.62,98,95,90,Watch,Monitored AI infrastructure assets ÷ AI infrastructure assets in CMDB × 100
+124,F,Infrastructure Outage Financial Exposure,AED,396563,500000,1000000,2000000,On target,Σ outages (impact minutes × cost per minute of affected workflows)
+125,G,Shadow AI Applications,count,19,10,20,35,Watch,"Count of discovered, unresolved shadow AI applications at period end"
+126,G,Shadow AI Agents,count,8,0,3,10,Warning,"Count of discovered, unresolved unregistered agents at period end"
+127,G,Shadow AI Exposure Rate,%,5.4,3,5,10,Warning,Users accessing shadow AI ÷ Total users × 100
+128,G,Unauthorized Tool Calls,count,9169,4822.94,9645.87,19291.74,Watch,Σ tool-call attempts outside authorised scope
+129,G,Successful Unauthorized Tool Calls,count,4,0,1,10,Warning,Σ executed tool calls outside authorised scope
+130,G,Tool Authorization Compliance,%,100,100,100,99.99,On target,Authorized executed tool calls ÷ All executed tool calls × 100
+131,G,High-Risk Actions Blocked,count,587,,,,No target,Σ blocked high-risk unauthorized actions
+132,G,High-Risk Block Effectiveness,%,99.32,99,97,95,On target,Blocked high-risk unauthorized actions ÷ High-risk unauthorized attempts × 100
+133,G,Successful Prompt Injection,count,7,0,1,10,Warning,Σ confirmed successful prompt injections
+134,G,Prompt Injection Resistance,%,99.96,99.9,99.5,99,On target,(Detected attempts − Successful injections) ÷ Detected attempts × 100
+135,G,Sensitive Data Exposure to AI,count,28747,19907.8,29861.7,44792.55,Watch,Σ requests with unredacted sensitive data reaching a model or tool
+136,G,Sensitive Data Policy Violation Rate,%,0.39,0.2,0.4,0.8,Watch,Sensitive-data policy violations ÷ Requests containing sensitive data × 100
+137,G,Excess Privilege Agents,count,5,0,3,6,Warning,Count of agents with open excess-privilege findings at period end
+138,G,Privilege Exposure Rate,%,8.33,2,5,10,Warning,Excess-privilege agents ÷ Registered agents × 100
+139,G,Unregistered MCP Servers,count,4,0,1,5,Warning,"Count of active, unregistered MCP servers at period end"
+140,G,Unauthorized Agent-to-Agent Delegation,count,21,0,20,50,Warning,Σ delegations without an approved delegation policy
+141,G,Agents Without Kill Switch,count,6,0,2,6,Critical,Count of registered agents with no implemented kill switch
+142,G,Agent Kill Switch Coverage,%,88.33,100,95,85,Warning,Agents with kill switch and no failed latest drill ÷ Registered agents × 100
+143,G,Agents Without Owners,count,2,0,1,3,Warning,Count of registered agents with no current owner
+144,G,Agent Identity Coverage,%,95,100,95,90,Warning,Agents with managed workload identity ÷ Registered agents × 100
+145,G,Agent Trace Coverage,%,98.85,99,97,95,Watch,Agent runs with complete required trace ÷ All observed agent runs × 100
+146,G,Cross-Border AI Data Transfers,count,328520,0,1,1,Critical,Σ sensitive-data requests to non-UAE model endpoints (rated on those without an approved transfer mechanism)
+147,G,RAG/Memory Poisoning Incidents,count,0,0,1,5,On target,Count of confirmed RAG / memory poisoning incidents
+148,G,Agent Security Evaluation Pass Rate,%,80,95,90,80,Critical,Agents whose latest security evaluation passed ÷ Agents evaluated × 100
+149,G,Critical Agent Security Gaps,count,3,0,2,5,Warning,Count of open Critical agent security findings at period end
+150,G,Unsafe Autonomous Execution Rate,%,0.03,0.01,0.03,0.05,Watch,Unsafe autonomous executions ÷ Autonomous executions × 100
+151,H,AI Governance Coverage,%,82.35,95,85,75,Warning,Governed agents ÷ (Registered agents + Active shadow agents) × 100
+152,H,Agent Risk Assessment Coverage,%,96.67,100,95,85,Watch,Agents with current (≤ 12 months) risk assessment ÷ Registered agents × 100
+153,H,Agent Threat Modeling Coverage,%,73.33,95,85,70,Warning,Agents with approved threat model ÷ Registered agents × 100
+154,H,Agent Security Control Implementation,%,88.64,95,85,75,Watch,Implemented applicable control instances ÷ Applicable control instances × 100
+155,H,Agent Control Effectiveness,%,93.01,90,80,70,On target,Control instances tested effective ÷ Control instances tested × 100
+156,H,AI Compliance Gap Rate,%,17.05,10,20,30,Watch,(Not implemented + Implemented but tested ineffective) ÷ Applicable control instances × 100
+157,H,AI Audit Finding Closure,%,86.79,90,80,70,Watch,Findings closed on time ÷ Findings due in period × 100
+158,H,AI Third-Party Assessment Coverage,%,88.46,100,90,80,Warning,AI third parties assessed ÷ AI third parties onboarded × 100
+159,H,AI Incident Response Readiness,%,80,90,75,60,Watch,Readiness items completed ÷ Required readiness items × 100
+160,H,Security Telemetry Coverage,%,96.67,98,95,90,Watch,Agents with SIEM telemetry ÷ Registered agents × 100
+161,H,Detection Coverage for AI Threats,%,63.33,80,65,50,Warning,Techniques with validated detection ÷ Applicable techniques × 100
+162,H,AI Supply Chain Assurance,%,75,90,80,65,Warning,Components with verified provenance ÷ AI supply-chain components × 100
+163,H,AI Control Drift Rate,%,5.13,4,10,20,Watch,Implemented control instances with drift in period ÷ Implemented control instances × 100
+164,H,AI Exception Aging,days,74.5,45,75,120,Watch,Σ age of open exceptions (days) ÷ Open exceptions
+X6,X,Agentic Security Risk Score,score,56.15,30,50,70,Warning,Σ (normalised risk of KRI × weight) ÷ Σ weights
+X2,X,Agentic Enterprise Risk Index,score,44.29,30,45,60,Watch,Σ (group risk × weight) ÷ Σ weights; group risk = mean normalised risk of its KPIs
+X1,X,Enterprise Cyber Risk Score,score,25.17,20,40,60,Watch,Σ (group risk × weight) ÷ Σ weights
+X3,X,Major Cyber Incidents Mitigated,count,16,95,90,80,Watch,Count of major incidents mitigated (rated on mitigated ÷ total major × 100)
+X4,X,Token Quota Exceeded Events,count,2,0,5,15,Watch,Token budget exceeded count (KPI 55) + Provider quota exhaustion (KPI 93)
+X5,X,High-Risk Unauthorized Agent Actions,count,4,0,1,10,Warning,High-risk unauthorized attempts − Blocked

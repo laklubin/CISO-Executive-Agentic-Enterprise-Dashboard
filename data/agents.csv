@@ -1,0 +1,63 @@
+# SYNTHETIC SAMPLE DATA - generated deterministically by assets/js/data.js (seed CISO-EAED-SYNTHETIC-v1); not live enterprise metrics
+agent_id,name,tenant_id,business_unit,application_id,workflow_id,primary_model,fallback_model,first_month,last_month,autonomy,risk_tier,owner,kill_switch_from,identity_from,trace_from,siem_from,threat_model_from
+GSS-SOC-TRIAGE,SOC Alert Triage Agent,GSS-IT,GSS,APP-SOC,WF-TRIAGE,AZ-MINI,OP-70B,2024-11,,L3 - autonomous within guardrails,High,Head of SOC (GSS-IT),10,8,8,3,5
+GSS-PHISH,Phishing Response Agent,GSS-IT,GSS,APP-SOAR,WF-PHISH,AZ-FRONTIER,BR-LARGE,2024-11,,L3 - autonomous within guardrails,High,SOAR Engineering Lead (GSS-IT),5,5,3,2,0
+GSS-LEGACY,Legacy Helpdesk Bot,GSS-IT,GSS,APP-ITSM,WF-ITSD,AZ-MINI,,2024-11,2025-11,L3 - autonomous within guardrails,Low,IT Service Manager (GSS-IT),8,11,4,1,7
+GSS-CTI,Threat Intel Enrichment Agent,GSS-IT,GSS,APP-SOC,WF-CTI,OP-70B,AZ-MINI,2024-12,,L3 - autonomous within guardrails,Medium,Head of SOC (GSS-IT),4,10,3,4,5
+GSS-ITSD,IT Service Desk Agent,GSS-IT,GSS,APP-ITSM,WF-ITSD,AZ-MINI,OP-70B,2024-12,,L3 - autonomous within guardrails,Low,IT Service Manager (GSS-IT),12,13,7,2,5
+GSS-IAM,Access Request Agent,GSS-IT,GSS,APP-IAM,WF-IAM,AZ-MINI,OP-70B,2025-01,,L2 - supervised autonomy,High,IAM Lead (GSS-IT),13,8,7,3,11
+GSS-CONTAIN,Containment Orchestrator,GSS-IT,GSS,APP-SOAR,WF-CONTAIN,AZ-FRONTIER,OP-70B,2025-02,,L1 - human-approved actions,High,SOAR Engineering Lead (GSS-IT),13,5,11,4,8
+GSS-VULN,Vulnerability Prioritisation Agent,GSS-IT,GSS,APP-SOC,WF-VULN,AZ-FRONTIER,,2025-03,,L2 - supervised autonomy,Medium,Head of SOC (GSS-IT),13,9,11,4,15
+GSS-APPSEC,Secure Code Review Agent,GSS-IT,GSS,APP-DEV,WF-APPSEC,AZ-FRONTIER,BR-LARGE,2025-05,,L1 - human-approved actions,Medium,Head of AppSec (GSS-IT),18,8,11,9,17
+GSS-GRC,Control Evidence Agent,GSS-IT,GSS,APP-GRC,WF-GRC,AZ-MINI,,2025-07,,L3 - autonomous within guardrails,Low,Head of GRC (GSS-IT),20,9,8,9,18
+GSS-DETENG,Detection Engineering Copilot,GSS-IT,GSS,APP-SOC,WF-CTI,AZ-FRONTIER,,2026-01,,L3 - autonomous within guardrails,Medium,Head of SOC (GSS-IT),14,16,14,14,
+GSS-PATCH,Patch Orchestration Agent,GSS-IT,GSS,APP-ITSM,WF-VULN,OP-70B,AZ-MINI,2026-04,,L2 - supervised autonomy,Medium,IT Service Manager (GSS-IT),17,18,18,18,18
+GSS-AIREDTEAM,AI Red-Team Agent,GSS-IT,GSS,APP-DEV,WF-APPSEC,AZ-FRONTIER,,2026-07,,L1 - human-approved actions,Medium,Head of AppSec (GSS-IT),20,22,22,21,21
+GSS-FINOPS,AI FinOps Agent,GSS-IT,GSS,APP-ERP,WF-RECON,AZ-MINI,,2026-10,,L2 - supervised autonomy,Medium,Financial Controller (GSS-IT),23,25,25,25,32
+FHR-RECON,Reconciliation Agent,GSS-FHR,GSS,APP-ERP,WF-RECON,AZ-FRONTIER,OP-70B,2025-04,,L2 - supervised autonomy,Medium,Financial Controller (GSS-FHR),10,11,8,6,10
+FHR-CONTRACT,Contract Review Agent,GSS-FHR,GSS,APP-PROC,WF-CONTRACT,BR-LARGE,AZ-FRONTIER,2025-06,,L1 - human-approved actions,Medium,Head of Procurement (GSS-FHR),14,9,16,7,
+FHR-HRDESK,HR Policy Assistant,GSS-FHR,GSS,APP-ITSM,WF-ITSD,AZ-MINI,,2025-08,,L3 - autonomous within guardrails,Low,IT Service Manager (GSS-FHR),16,9,9,9,9
+FHR-INVOICE,Invoice Matching Agent,GSS-FHR,GSS,APP-ERP,WF-RECON,OP-70B,,2025-11,,L2 - supervised autonomy,Medium,Financial Controller (GSS-FHR),12,13,12,15,21
+FHR-TPRM,Third-Party Risk Agent,GSS-FHR,GSS,APP-GRC,WF-GRC,AZ-FRONTIER,,2026-02,,L3 - autonomous within guardrails,Low,Head of GRC (GSS-FHR),15,16,15,16,15
+RB-KYC,KYC Document Review Agent,FIN-RB,FIN,APP-KYC,WF-KYC,AZ-FRONTIER,OP-70B,2025-01,,L1 - human-approved actions,High,Head of KYC Operations (FIN-RB),13,13,7,4,5
+RB-SOC,Bank SOC Triage Agent,FIN-RB,FIN,APP-SOC,WF-TRIAGE,AZ-MINI,OP-70B,2025-02,,L3 - autonomous within guardrails,High,Head of SOC (FIN-RB),6,10,11,4,5
+RB-FRAUD,Fraud Investigation Agent,FIN-RB,FIN,APP-FRAUD,WF-FRAUD,AZ-FRONTIER,BR-LARGE,2025-03,,L1 - human-approved actions,High,Head of Fraud Risk (FIN-RB),,12,10,4,
+RB-ITSD,Branch Service Desk Agent,FIN-RB,FIN,APP-ITSM,WF-ITSD,AZ-MINI,,2025-05,,L3 - autonomous within guardrails,Low,IT Service Manager (FIN-RB),18,16,12,8,17
+RB-IAM,Banking Access Request Agent,FIN-RB,FIN,APP-IAM,WF-IAM,AZ-MINI,OP-70B,2025-09,,L2 - supervised autonomy,High,IAM Lead (FIN-RB),13,10,10,10,13
+RB-PHISH,Bank Phishing Response Agent,FIN-RB,FIN,APP-SOAR,WF-PHISH,AZ-MINI,OP-70B,2025-10,,L3 - autonomous within guardrails,High,SOAR Engineering Lead (FIN-RB),19,12,12,11,18
+RB-COMPL,Regulatory Evidence Agent,FIN-RB,FIN,APP-GRC,WF-GRC,AZ-MINI,,2026-03,,L3 - autonomous within guardrails,Low,Head of GRC (FIN-RB),16,16,18,18,25
+RB-RECON,Bank Reconciliation Agent,FIN-RB,FIN,APP-ERP,WF-RECON,AZ-FRONTIER,,2026-08,,L2 - supervised autonomy,Medium,Financial Controller (FIN-RB),21,23,21,24,
+PAY-FRAUD,Payment Fraud Agent,FIN-PAY,FIN,APP-FRAUD,WF-FRAUD,AZ-FRONTIER,OP-70B,2025-05,,L1 - human-approved actions,High,Head of Fraud Risk (FIN-PAY),11,13,14,7,13
+PAY-PHISH,Payments Phishing Agent,FIN-PAY,FIN,APP-SOAR,WF-PHISH,AZ-MINI,OP-70B,2025-07,,L3 - autonomous within guardrails,High,SOAR Engineering Lead (FIN-PAY),20,8,10,9,19
+PAY-KYC,Merchant KYC Agent,FIN-PAY,FIN,APP-KYC,WF-KYC,BR-LARGE,,2025-08,,L1 - human-approved actions,High,Head of KYC Operations (FIN-PAY),,11,10,10,19
+PAY-DISPUTE,Dispute Resolution Agent,FIN-PAY,FIN,APP-FRAUD,WF-RECON,AZ-FRONTIER,OP-70B,2025-12,,L2 - supervised autonomy,Medium,Head of Fraud Risk (FIN-PAY),13,15,15,14,15
+PAY-CODE,Payments Code Review Agent,FIN-PAY,FIN,APP-DEV,WF-APPSEC,AZ-FRONTIER,,2026-05,,L1 - human-approved actions,Medium,Head of AppSec (FIN-PAY),18,20,18,21,
+HOS-CLAIMS,Claims Pre-authorisation Agent,HLT-HOS,HLT,APP-CLAIMS,WF-CLAIMS,AZ-FRONTIER,OP-70B,2025-04,,L1 - human-approved actions,High,Claims Operations Director (HLT-HOS),14,11,10,6,12
+HOS-CODING,Clinical Coding Assistant,HLT-HOS,HLT,APP-EHR,WF-CODING,OP-70B,,2025-06,,L2 - supervised autonomy,Medium,Chief Medical Information Officer (HLT-HOS),10,7,9,8,15
+HOS-SOC,Hospital SOC Triage Agent,HLT-HOS,HLT,APP-SOC,WF-TRIAGE,AZ-MINI,OP-70B,2025-08,,L3 - autonomous within guardrails,High,Head of SOC (HLT-HOS),16,9,11,9,13
+HOS-ITSD,Patient & Staff Service Desk,HLT-HOS,HLT,APP-ITSM,WF-ITSD,AZ-MINI,OP-70B,2025-09,,L3 - autonomous within guardrails,Low,IT Service Manager (HLT-HOS),13,11,12,13,18
+HOS-IAM,Clinical Access Agent,HLT-HOS,HLT,APP-IAM,WF-IAM,AZ-MINI,OP-70B,2026-01,,L2 - supervised autonomy,High,IAM Lead (HLT-HOS),14,16,14,14,21
+HOS-PHISH,Hospital Phishing Agent,HLT-HOS,HLT,APP-SOAR,WF-PHISH,AZ-MINI,OP-70B,2026-06,,L3 - autonomous within guardrails,High,SOAR Engineering Lead (HLT-HOS),19,19,21,21,25
+HOS-CONTAIN,Hospital Containment Agent,HLT-HOS,HLT,APP-SOAR,WF-CONTAIN,AZ-FRONTIER,OP-70B,2026-08,,L1 - human-approved actions,High,SOAR Engineering Lead (HLT-HOS),21,22,22,21,22
+LAB-CODING,Lab Results Coding Agent,HLT-LAB,HLT,APP-EHR,WF-CODING,OP-70B,,2025-11,,L2 - supervised autonomy,Medium,Chief Medical Information Officer (HLT-LAB),,14,12,15,18
+LAB-CLAIMS,Lab Claims Agent,HLT-LAB,HLT,APP-CLAIMS,WF-CLAIMS,AZ-MINI,OP-70B,2026-01,,L1 - human-approved actions,High,Claims Operations Director (HLT-LAB),14,14,14,15,18
+LAB-ITSD,Lab Service Desk Agent,HLT-LAB,HLT,APP-ITSM,WF-ITSD,AZ-MINI,,2026-07,,L3 - autonomous within guardrails,Low,IT Service Manager (HLT-LAB),20,21,22,21,24
+PWR-MAINT,Grid Maintenance Planner,ENR-PWR,ENR,APP-OT,WF-OTMAINT,AZ-FRONTIER,OP-70B,2025-05,,L1 - human-approved actions,High,Head of Asset Management (ENR-PWR),9,16,11,9,14
+PWR-OTVULN,OT Vulnerability Agent,ENR-PWR,ENR,APP-SOC,WF-VULN,OP-70B,,2025-07,,L2 - supervised autonomy,Medium,Head of SOC (ENR-PWR),17,9,9,9,
+PWR-SOC,Utility SOC Triage Agent,ENR-PWR,ENR,APP-SOC,WF-TRIAGE,OP-70B,AZ-MINI,2025-09,,L3 - autonomous within guardrails,High,Head of SOC (ENR-PWR),13,11,12,12,10
+PWR-ITSD,Field Service Desk Agent,ENR-PWR,ENR,APP-ITSM,WF-ITSD,AZ-MINI,,2025-10,,L3 - autonomous within guardrails,Low,IT Service Manager (ENR-PWR),17,12,12,13,12
+PWR-IAM,Contractor Access Agent,ENR-PWR,ENR,APP-IAM,WF-IAM,AZ-MINI,OP-70B,2026-02,,L2 - supervised autonomy,High,IAM Lead (ENR-PWR),15,15,16,16,24
+OGS-MAINT,Asset Integrity Planner,ENR-OGS,ENR,APP-OT,WF-OTMAINT,OP-70B,,2025-09,,L1 - human-approved actions,High,Head of Asset Management (ENR-OGS),14,12,12,10,20
+OGS-IAM,Contractor Access Agent (OGS),ENR-OGS,ENR,APP-IAM,WF-IAM,AZ-MINI,OP-70B,2025-12,,L2 - supervised autonomy,High,IAM Lead (ENR-OGS),13,14,15,15,19
+OGS-CONTRACT,Supplier Contract Agent,ENR-OGS,ENR,APP-PROC,WF-CONTRACT,AZ-FRONTIER,,2026-03,,L1 - human-approved actions,Medium,Head of Procurement (ENR-OGS),16,18,18,18,25
+OGS-SOC,OGS SOC Triage Agent,ENR-OGS,ENR,APP-SOC,WF-TRIAGE,OP-70B,,2026-09,,L3 - autonomous within guardrails,High,Head of SOC (ENR-OGS),,24,24,23,26
+SSA-CITIZEN,Citizen Request Agent,GOV-SSA,GOV,APP-CITIZEN,WF-CITIZEN,AZ-MINI,OP-70B,2025-02,,L2 - supervised autonomy,High,Digital Services Director (GOV-SSA),15,10,11,6,5
+SSA-SOC,Government SOC Triage Agent,GOV-SSA,GOV,APP-SOC,WF-TRIAGE,OP-70B,AZ-MINI,2025-04,,L3 - autonomous within guardrails,High,Head of SOC (GOV-SSA),17,8,7,8,14
+SSA-DOCVER,Document Verification Agent,GOV-SSA,GOV,APP-CITIZEN,WF-CITIZEN,AZ-FRONTIER,OP-70B,2025-06,,L2 - supervised autonomy,High,Digital Services Director (GOV-SSA),17,7,14,8,12
+SSA-PHISH,Government Phishing Agent,GOV-SSA,GOV,APP-SOAR,WF-PHISH,OP-70B,AZ-MINI,2025-11,,L3 - autonomous within guardrails,High,SOAR Engineering Lead (GOV-SSA),12,14,12,13,
+SSA-CONTAIN,Government Containment Agent,GOV-SSA,GOV,APP-SOAR,WF-CONTAIN,AZ-FRONTIER,,2026-05,,L1 - human-approved actions,High,SOAR Engineering Lead (GOV-SSA),18,20,20,19,23
+MUN-PERMIT,Permit Processing Agent,GOV-MUN,GOV,APP-CITIZEN,WF-CITIZEN,AZ-MINI,OP-70B,2025-08,,L2 - supervised autonomy,High,Digital Services Director (GOV-MUN),,9,11,9,11
+MUN-PROC,Municipal Procurement Agent,GOV-MUN,GOV,APP-PROC,WF-CONTRACT,AZ-FRONTIER,,2025-11,,L1 - human-approved actions,Medium,Head of Procurement (GOV-MUN),12,14,14,15,17
+MUN-ITSD,Municipal Service Desk Agent,GOV-MUN,GOV,APP-ITSM,WF-ITSD,AZ-MINI,,2026-02,,L3 - autonomous within guardrails,Low,IT Service Manager (GOV-MUN),15,15,16,18,21
+MUN-GRC,Municipal Evidence Agent,GOV-MUN,GOV,APP-GRC,WF-GRC,AZ-MINI,,2026-06,,L3 - autonomous within guardrails,Low,Head of GRC (GOV-MUN),19,19,20,20,25
+MUN-CHAT,Municipal Chat Agent,GOV-MUN,GOV,APP-CITIZEN,WF-CITIZEN,AZ-MINI,,2026-09,,L2 - supervised autonomy,High,Digital Services Director (GOV-MUN),,24,24,23,24

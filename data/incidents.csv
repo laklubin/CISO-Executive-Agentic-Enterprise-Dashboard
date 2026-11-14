@@ -1,0 +1,934 @@
+# SYNTHETIC SAMPLE DATA - generated deterministically by assets/js/data.js (seed CISO-EAED-SYNTHETIC-v1); not live enterprise metrics
+incident_id,month,day,tenant_id,business_unit,severity,type,ai_related,fraud,major,mitigated,finance_verified,potential_loss_aed,prevented_loss_aed,actual_loss_aed,response_cost_aed,detect_hours,contain_hours,controls_and_weights
+INC-202411-RB01,2024-11,8,FIN-RB,FIN,Medium,Phishing / credential theft,false,false,false,true,false,140533,0,0,6040,1.52,4.7,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202411-RB02,2024-11,28,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,9288,0,0,1722,1.85,2.93,AI Agents:0.500 IAM/PAM:0.500
+INC-202411-RB03,2024-11,6,FIN-RB,FIN,Medium,Phishing / credential theft,false,false,false,false,false,148471,0,39520,12796,1.04,4.67,SOC:0.500 IAM/PAM:0.500
+INC-202411-RB04,2024-11,5,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,23639,0,0,14920,1.16,4.32,SOC:0.500 AI Agents:0.500
+INC-202411-RB05,2024-11,26,FIN-RB,FIN,Low,Cloud misconfiguration exposure,false,false,false,true,false,5965,0,0,3494,4.35,1.32,Cloud Security:0.500 CTEM:0.500
+INC-202411-RB06,2024-11,17,FIN-RB,FIN,Medium,Payment fraud,false,true,false,true,true,64620,49217,0,6902,1.78,3.18,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202411-RB07,2024-11,13,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,40000,0,0,4753,3.36,6.62,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202411-RB08,2024-11,20,FIN-RB,FIN,Low,Cloud misconfiguration exposure,false,false,false,true,false,16327,0,0,1956,2.45,2.83,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202411-RB09,2024-11,11,FIN-RB,FIN,Medium,Insider misuse,false,false,false,true,false,27717,0,0,12320,4.46,6.41,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202411-RB10,2024-11,22,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,45368,0,0,20275,1.84,4.57,SOC:0.500 AI Agents:0.500
+INC-202411-RB11,2024-11,9,FIN-RB,FIN,Low,Data exfiltration attempt,false,false,false,true,false,12582,0,0,1286,2.3,3.83,DLP:0.500 Firewall:0.250 SOC:0.250
+INC-202411-RB12,2024-11,13,FIN-RB,FIN,High,Phishing / credential theft,false,false,false,true,false,162459,0,0,159979,4.06,6.12,SOC:0.500 AI Agents:0.167 SOAR:0.167 DFIR:0.167
+INC-202411-PAY01,2024-11,7,FIN-PAY,FIN,Low,Account takeover,false,true,false,true,false,20113,0,0,5195,1.86,4.04,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202411-PAY02,2024-11,15,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,27574,0,0,15305,0.9,8.52,AI Agents:0.500 SOC:0.500
+INC-202411-HOS01,2024-11,18,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,false,91426,0,0,6811,3.44,3.3,Vulnerability Mgmt:0.500 WAF:0.167 AppSec:0.167 CTEM:0.167
+INC-202411-HOS02,2024-11,24,HLT-HOS,HLT,Low,Vulnerability exploitation,false,false,false,true,false,20397,0,0,3509,5.11,2.8,Vulnerability Mgmt:0.500 AppSec:0.250 WAF:0.250
+INC-202411-HOS03,2024-11,25,HLT-HOS,HLT,Low,Malware,false,false,false,false,false,8681,0,2767,3516,3.2,3.68,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202411-PWR01,2024-11,6,ENR-PWR,ENR,Low,Insider misuse,false,false,false,true,false,56377,0,0,1637,2.43,4.26,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202411-PWR02,2024-11,9,ENR-PWR,ENR,Medium,Account takeover,false,true,false,true,false,30904,0,0,12549,2.96,2.29,IAM/PAM:0.500 SOC:0.500
+INC-202411-PWR03,2024-11,3,ENR-PWR,ENR,Medium,Account takeover,false,true,false,true,false,41059,0,0,4524,1.53,4.22,IAM/PAM:0.500 AI Agents:0.500
+INC-202411-PWR04,2024-11,10,ENR-PWR,ENR,Medium,Insider misuse,false,false,false,true,true,393270,344018,0,12574,1.59,16.57,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202411-OGS01,2024-11,29,ENR-OGS,ENR,Medium,Insider misuse,false,false,false,true,true,55582,43816,0,8586,1.25,2.85,DLP:0.500 IAM/PAM:0.500
+INC-202411-OGS02,2024-11,12,ENR-OGS,ENR,Medium,Phishing / credential theft,false,false,false,true,false,208339,0,0,13723,0.43,3.62,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202411-OGS03,2024-11,25,ENR-OGS,ENR,Low,Business email compromise,false,true,false,true,false,5824,0,0,2102,4.15,1.58,SOC:0.500 DLP:0.500
+INC-202411-OGS04,2024-11,19,ENR-OGS,ENR,Medium,Phishing / credential theft,false,false,false,true,false,23806,0,0,11483,2.28,3.6,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202411-OGS05,2024-11,21,ENR-OGS,ENR,Low,Malware,false,false,false,true,false,7026,0,0,2759,1.36,2.45,EDR/XDR:0.500 SOC:0.500
+INC-202411-SSA01,2024-11,23,GOV-SSA,GOV,Medium,Business email compromise,false,true,false,false,false,26457,0,7990,22001,3.86,6.79,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202411-SSA02,2024-11,20,GOV-SSA,GOV,Medium,Cloud misconfiguration exposure,false,false,false,true,true,153774,142896,0,7877,1.07,5.71,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202411-SSA03,2024-11,21,GOV-SSA,GOV,High,Ransomware attempt,false,false,false,true,true,504324,448378,0,71544,1.24,6.06,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202411-SSA04,2024-11,15,GOV-SSA,GOV,Medium,Cloud misconfiguration exposure,false,false,false,false,false,57278,0,16242,23699,1.81,4.9,Cloud Security:0.500 CTEM:0.500
+INC-202411-SSA05,2024-11,12,GOV-SSA,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,5483,0,0,1390,3.6,1.29,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202411-SSA06,2024-11,2,GOV-SSA,GOV,Low,Business email compromise,false,true,false,true,false,27707,0,0,3004,3.08,2.48,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202411-SSA07,2024-11,2,GOV-SSA,GOV,Medium,Account takeover,false,true,false,true,false,25450,0,0,15490,2.87,9.47,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202411-SSA08,2024-11,17,GOV-SSA,GOV,Medium,Cloud misconfiguration exposure,false,false,false,true,true,53386,46217,0,7797,1.52,2.9,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202411-MUN01,2024-11,8,GOV-MUN,GOV,Low,Phishing / credential theft,false,false,false,false,false,11821,0,2752,2389,3.33,1.32,SOC:0.500 SOAR:0.500
+INC-202411-MUN02,2024-11,13,GOV-MUN,GOV,Medium,Account takeover,false,true,false,true,false,34065,0,0,8507,7.73,2.63,IAM/PAM:0.500 AI Agents:0.500
+INC-202411-IT01,2024-11,30,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,false,false,479054,0,280696,82442,1.19,5.74,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 DFIR:0.167
+INC-202411-IT02,2024-11,22,GSS-IT,GSS,Low,Business email compromise,false,true,false,false,false,18792,0,8034,2033,2.75,2.43,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202411-IT03,2024-11,24,GSS-IT,GSS,Medium,Vulnerability exploitation,false,false,false,true,true,76454,68696,0,19351,2.69,5.69,Vulnerability Mgmt:0.500 EDR/XDR:0.167 CTEM:0.167 AppSec:0.167
+INC-202411-IT04,2024-11,28,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,true,119519,99680,0,2445,2.8,2.18,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202411-IT05,2024-11,30,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,12956,0,0,2041,3.39,4.98,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202411-FHR01,2024-11,12,GSS-FHR,GSS,Medium,Phishing / credential theft,false,false,false,true,true,119031,101526,0,11178,1.53,1.21,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202411-FHR02,2024-11,23,GSS-FHR,GSS,Medium,Business email compromise,false,true,false,true,false,48285,0,0,17348,1.23,4.13,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202411-FHR03,2024-11,21,GSS-FHR,GSS,Medium,Phishing / credential theft,false,false,false,true,true,68987,52101,0,10112,1.93,5.63,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202412-RB01,2024-12,16,FIN-RB,FIN,Medium,Malware,false,false,false,false,false,23508,0,13654,5185,1.27,6.56,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202412-RB02,2024-12,15,FIN-RB,FIN,Medium,DDoS,false,false,false,true,true,82166,68722,0,8217,1.88,7.44,WAF:0.500 Firewall:0.500
+INC-202412-RB03,2024-12,7,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,true,72748,55127,0,12625,1.81,2.51,SOC:0.500 SOAR:0.500
+INC-202412-RB04,2024-12,1,FIN-RB,FIN,Medium,Data exfiltration attempt,false,false,false,false,false,344412,0,74033,7869,2.73,5.43,DLP:0.500 Firewall:0.500
+INC-202412-RB05,2024-12,13,FIN-RB,FIN,Low,Malware,false,false,false,true,false,5516,0,0,2719,2.79,4.57,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202412-RB06,2024-12,16,FIN-RB,FIN,Low,Account takeover,false,true,false,true,false,8390,0,0,1863,1.23,4.49,IAM/PAM:0.500 SOC:0.500
+INC-202412-RB07,2024-12,22,FIN-RB,FIN,High,Malware,false,false,false,true,true,335699,328531,0,91993,9.29,7.02,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202412-RB08,2024-12,31,FIN-RB,FIN,Low,Account takeover,false,true,false,true,false,25298,0,0,2892,0.72,2.13,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202412-RB09,2024-12,4,FIN-RB,FIN,Low,Malware,false,false,false,true,false,19352,0,0,3435,3.31,4.62,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202412-RB10,2024-12,21,FIN-RB,FIN,Medium,DDoS,false,false,false,true,false,38954,0,0,27893,1.19,6.01,WAF:0.500 Firewall:0.500
+INC-202412-PAY01,2024-12,30,FIN-PAY,FIN,Low,Phishing / credential theft,false,false,false,false,false,19608,0,4161,3251,1.41,2.4,SOC:0.500 SOAR:0.500
+INC-202412-PAY02,2024-12,5,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,19583,0,0,1959,2.05,2.26,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202412-HOS01,2024-12,19,HLT-HOS,HLT,Medium,Malware,false,false,false,true,true,130633,93954,0,8698,2.25,11.03,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202412-HOS02,2024-12,12,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,74493,0,0,34743,1.54,4.16,SOC:0.500 IAM/PAM:0.250 SOAR:0.250
+INC-202412-HOS03,2024-12,19,HLT-HOS,HLT,Medium,Account takeover,false,true,false,true,false,23042,0,0,6267,5.67,9.54,IAM/PAM:0.500 AI Agents:0.500
+INC-202412-HOS04,2024-12,21,HLT-HOS,HLT,Low,Business email compromise,false,true,false,true,false,4858,0,0,3340,1.2,3.75,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202412-HOS05,2024-12,25,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,false,66446,0,0,5186,2.26,2.64,Vulnerability Mgmt:0.500 EDR/XDR:0.500
+INC-202412-HOS06,2024-12,27,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,true,109337,81800,0,15719,1.48,5.36,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202412-HOS07,2024-12,22,HLT-HOS,HLT,Medium,Ransomware attempt,false,false,false,true,false,45431,0,0,12461,1.12,9.17,EDR/XDR:0.500 NDR:0.500
+INC-202412-HOS08,2024-12,8,HLT-HOS,HLT,Low,Business email compromise,false,true,false,true,true,60599,50412,0,3237,1.17,3,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202412-PWR01,2024-12,20,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,true,79097,76595,0,10327,0.52,3.68,SOC:0.500 DLP:0.500
+INC-202412-PWR02,2024-12,25,ENR-PWR,ENR,Low,Account takeover,false,true,false,true,false,39159,0,0,4435,2.41,0.92,IAM/PAM:0.500 SOC:0.500
+INC-202412-OGS01,2024-12,26,ENR-OGS,ENR,Medium,Vulnerability exploitation,false,false,false,true,true,187021,186633,0,14562,1.82,5.45,Vulnerability Mgmt:0.500 AppSec:0.167 CTEM:0.167 WAF:0.167
+INC-202412-OGS02,2024-12,11,ENR-OGS,ENR,Low,Data exfiltration attempt,false,false,false,true,false,35634,0,0,2304,1.47,3.15,DLP:0.500 Firewall:0.167 NDR:0.167 SOC:0.167
+INC-202412-OGS03,2024-12,1,ENR-OGS,ENR,Medium,Malware,false,false,false,true,true,116151,114300,0,8807,0.5,2.02,EDR/XDR:0.500 SOAR:0.500
+INC-202412-OGS04,2024-12,9,ENR-OGS,ENR,Critical,Malware,false,false,true,true,true,1561501,1478337,0,238022,1.28,8.58,EDR/XDR:0.500 SOAR:0.250 DFIR:0.250
+INC-202412-OGS05,2024-12,25,ENR-OGS,ENR,Medium,DDoS,false,false,false,true,true,117091,108653,0,15704,1.84,2.35,WAF:0.500 NDR:0.500
+INC-202412-OGS06,2024-12,14,ENR-OGS,ENR,High,Phishing / credential theft,false,false,false,true,true,251664,180784,0,52848,1.97,12.28,SOC:0.500 IAM/PAM:0.125 SOAR:0.125 AI Agents:0.125 DFIR:0.125
+INC-202412-SSA01,2024-12,26,GOV-SSA,GOV,High,DDoS,false,false,true,true,true,1200605,1035040,0,35442,2.21,16.42,WAF:0.500 Firewall:0.167 NDR:0.167 DFIR:0.167
+INC-202412-SSA02,2024-12,26,GOV-SSA,GOV,Medium,Malware,false,false,false,true,false,21603,0,0,15186,2.32,4.41,EDR/XDR:0.500 SOC:0.500
+INC-202412-SSA03,2024-12,27,GOV-SSA,GOV,Low,Cloud misconfiguration exposure,false,false,false,false,false,6990,0,4087,2993,1.1,2.17,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202412-SSA04,2024-12,5,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,false,false,39284,0,10144,13239,1.93,4.94,SOC:0.500 AI Agents:0.500
+INC-202412-SSA05,2024-12,4,GOV-SSA,GOV,Low,AI prompt injection,true,false,false,true,false,6470,0,0,3324,4.45,1.69,AI Agents:0.500 SOC:0.250 AppSec:0.250
+INC-202412-SSA06,2024-12,28,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,false,46496,0,0,10580,1.9,5.19,SOC:0.500 AI Agents:0.500
+INC-202412-MUN01,2024-12,10,GOV-MUN,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,56072,45423,0,7908,1.12,3.13,DLP:0.500 SOC:0.500
+INC-202412-MUN02,2024-12,16,GOV-MUN,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,true,60397,52395,0,4075,0.92,3.86,Cloud Security:0.500 CTEM:0.500
+INC-202412-MUN03,2024-12,31,GOV-MUN,GOV,Low,Malware,false,false,false,true,false,12837,0,0,5270,1.56,2.85,EDR/XDR:0.500 SOAR:0.500
+INC-202412-MUN04,2024-12,6,GOV-MUN,GOV,Low,Malware,false,false,false,false,false,2653,0,1176,13311,12.01,1.84,EDR/XDR:0.500 SOAR:0.500
+INC-202412-MUN05,2024-12,14,GOV-MUN,GOV,Low,Account takeover,false,true,false,true,false,4652,0,0,1993,1.51,1.62,IAM/PAM:0.500 AI Agents:0.500
+INC-202412-IT01,2024-12,31,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,true,false,398734,0,0,27603,1.55,5.2,SOC:0.500 AI Agents:0.250 DFIR:0.250
+INC-202412-IT02,2024-12,28,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,27395,0,0,3064,1.03,3.64,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202412-IT03,2024-12,9,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,19177,0,0,2510,6.77,1.97,SOC:0.500 DLP:0.167 AI Agents:0.167 SOAR:0.167
+INC-202412-IT04,2024-12,19,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,true,56700,55298,0,2647,1.21,2.77,SOC:0.500 SOAR:0.500
+INC-202412-IT05,2024-12,1,GSS-IT,GSS,Critical,Business email compromise,false,true,true,true,false,1964885,0,0,397757,1.12,15.4,SOC:0.500 AI Agents:0.167 DLP:0.167 DFIR:0.167
+INC-202412-IT06,2024-12,25,GSS-IT,GSS,High,Payment fraud,false,true,false,false,false,122409,0,50972,50754,3.04,7.51,AI Agents:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202412-IT07,2024-12,16,GSS-IT,GSS,Medium,Data exfiltration attempt,false,false,false,true,false,77910,0,0,11715,1.73,6.58,DLP:0.500 SOC:0.500
+INC-202412-FHR01,2024-12,24,GSS-FHR,GSS,Medium,Payment fraud,false,true,false,true,false,47355,0,0,9338,0.59,7.28,AI Agents:0.500 SOC:0.500
+INC-202501-RB01,2025-01,6,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,23677,0,0,4164,3.38,1.8,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202501-RB02,2025-01,11,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,false,45627,0,0,8426,1.45,3.12,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202501-RB03,2025-01,11,FIN-RB,FIN,Low,Account takeover,false,true,false,true,false,2635,0,0,2335,5.45,2.02,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202501-PAY01,2025-01,1,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,false,false,241575,0,100441,35477,1.67,4.9,SOC:0.500 SOAR:0.167 AI Agents:0.167 DLP:0.167
+INC-202501-HOS01,2025-01,12,HLT-HOS,HLT,Medium,Malware,false,false,false,true,true,53148,52753,0,8534,1.28,6.66,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202501-HOS02,2025-01,8,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,true,140321,109453,0,32111,0.4,16.98,SOC:0.500 IAM/PAM:0.250 AI Agents:0.250
+INC-202501-HOS03,2025-01,26,HLT-HOS,HLT,Low,Data exfiltration attempt,false,false,false,true,false,32535,0,0,8691,3.19,1.64,DLP:0.500 SOC:0.167 NDR:0.167 Firewall:0.167
+INC-202501-HOS04,2025-01,5,HLT-HOS,HLT,Medium,Cloud misconfiguration exposure,false,false,false,false,false,29710,0,16623,13822,1.31,2.52,Cloud Security:0.500 CTEM:0.500
+INC-202501-HOS05,2025-01,19,HLT-HOS,HLT,High,Business email compromise,false,true,true,false,false,1359090,0,364927,97601,1.24,10.04,SOC:0.500 SOAR:0.250 DFIR:0.250
+INC-202501-LAB01,2025-01,27,HLT-LAB,HLT,Medium,Phishing / credential theft,false,false,false,true,true,85988,79737,0,8388,4.74,2.38,SOC:0.500 AI Agents:0.500
+INC-202501-LAB02,2025-01,18,HLT-LAB,HLT,Low,Vulnerability exploitation,false,false,false,true,false,6730,0,0,2683,1.37,2.81,Vulnerability Mgmt:0.500 AppSec:0.500
+INC-202501-PWR01,2025-01,13,ENR-PWR,ENR,High,Malware,false,false,false,true,false,130441,0,0,34888,0.67,4.81,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202501-PWR02,2025-01,6,ENR-PWR,ENR,High,Ransomware attempt,false,false,false,true,true,753361,681563,0,52320,0.74,6.54,EDR/XDR:0.500 Backup:0.125 NDR:0.125 SOC:0.125 DFIR:0.125
+INC-202501-PWR03,2025-01,30,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,false,false,78780,0,30286,19640,1.06,4.58,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202501-PWR04,2025-01,10,ENR-PWR,ENR,Low,Malware,false,false,false,true,false,3592,0,0,4418,1.47,1.8,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202501-PWR05,2025-01,18,ENR-PWR,ENR,High,Phishing / credential theft,false,false,false,true,false,852277,0,0,37667,2.19,7.4,SOC:0.500 IAM/PAM:0.125 SOAR:0.125 AI Agents:0.125 DFIR:0.125
+INC-202501-PWR06,2025-01,12,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,false,25326,0,0,8742,0.89,2.93,SOC:0.500 SOAR:0.500
+INC-202501-PWR07,2025-01,30,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,false,38062,0,0,9480,1.98,3.59,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202501-PWR08,2025-01,20,ENR-PWR,ENR,High,Cloud misconfiguration exposure,false,false,false,true,false,456257,0,0,48646,1.94,2.91,Cloud Security:0.500 Vulnerability Mgmt:0.167 CTEM:0.167 DFIR:0.167
+INC-202501-OGS01,2025-01,5,ENR-OGS,ENR,Medium,Insider misuse,false,false,false,true,false,47905,0,0,10030,0.99,11.37,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202501-OGS02,2025-01,22,ENR-OGS,ENR,High,Phishing / credential theft,false,false,false,true,true,110202,83105,0,145474,1.45,8.89,SOC:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202501-OGS03,2025-01,19,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,false,false,12304,0,2147,4869,3.16,3.46,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202501-OGS04,2025-01,16,ENR-OGS,ENR,Low,Ransomware attempt,false,false,false,true,false,20092,0,0,10611,3.11,2.65,EDR/XDR:0.500 Backup:0.167 NDR:0.167 SOC:0.167
+INC-202501-OGS05,2025-01,7,ENR-OGS,ENR,High,Phishing / credential theft,false,false,false,false,false,268555,0,57427,51429,3.74,7.51,SOC:0.500 SOAR:0.125 AI Agents:0.125 IAM/PAM:0.125 DFIR:0.125
+INC-202501-OGS06,2025-01,6,ENR-OGS,ENR,High,Account takeover,false,true,false,true,true,680017,607026,0,73692,0.79,2.44,IAM/PAM:0.500 AI Agents:0.250 DFIR:0.250
+INC-202501-SSA01,2025-01,13,GOV-SSA,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,70077,60923,0,5490,0.46,7.66,DLP:0.500 NDR:0.250 Firewall:0.250
+INC-202501-SSA02,2025-01,29,GOV-SSA,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,18071,0,0,2996,2.1,1.9,Cloud Security:0.500 Vulnerability Mgmt:0.250 CTEM:0.250
+INC-202501-SSA03,2025-01,13,GOV-SSA,GOV,High,AI prompt injection,true,false,false,false,false,110590,0,53728,44940,0.74,15.49,AI Agents:0.500 SOC:0.167 AppSec:0.167 DFIR:0.167
+INC-202501-SSA04,2025-01,3,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,false,61509,0,0,8585,2.09,5.34,SOC:0.500 AI Agents:0.167 SOAR:0.167 IAM/PAM:0.167
+INC-202501-SSA05,2025-01,28,GOV-SSA,GOV,High,Business email compromise,false,true,false,true,true,376305,286214,0,51720,4.19,3.57,SOC:0.500 AI Agents:0.125 SOAR:0.125 DLP:0.125 DFIR:0.125
+INC-202501-MUN01,2025-01,24,GOV-MUN,GOV,Medium,Account takeover,false,true,false,true,true,51512,44425,0,6399,3.31,2.48,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202501-MUN02,2025-01,13,GOV-MUN,GOV,Low,Business email compromise,false,true,false,true,false,7592,0,0,3788,0.65,1.99,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202501-MUN03,2025-01,2,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,false,52983,0,0,23198,1.69,7.04,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202501-MUN04,2025-01,12,GOV-MUN,GOV,Medium,Malware,false,false,false,true,true,82964,78461,0,8279,1.16,4.58,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202501-MUN05,2025-01,2,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,false,44912,0,0,14274,1.6,3.11,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202501-MUN06,2025-01,22,GOV-MUN,GOV,Medium,Business email compromise,false,true,false,true,true,51850,40003,0,9309,2.89,3.14,SOC:0.500 AI Agents:0.500
+INC-202501-MUN07,2025-01,17,GOV-MUN,GOV,Low,Account takeover,false,true,false,true,false,12624,0,0,4776,1.33,2.05,IAM/PAM:0.500 AI Agents:0.500
+INC-202501-MUN08,2025-01,8,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,true,55332,52514,0,7774,1.65,3.58,SOC:0.500 AI Agents:0.500
+INC-202501-IT01,2025-01,24,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,10141,0,0,11010,0.84,3.3,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202501-IT02,2025-01,17,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,34401,0,0,11299,1.55,4.53,SOC:0.500 DLP:0.167 AI Agents:0.167 SOAR:0.167
+INC-202501-IT03,2025-01,6,GSS-IT,GSS,Medium,Account takeover,false,true,false,true,false,47923,0,0,23942,2.97,7,IAM/PAM:0.500 SOC:0.500
+INC-202501-IT04,2025-01,25,GSS-IT,GSS,Medium,Insider misuse,false,false,false,true,false,33109,0,0,9546,0.75,6.75,DLP:0.500 SOC:0.500
+INC-202501-IT05,2025-01,5,GSS-IT,GSS,Medium,Vulnerability exploitation,false,false,false,true,true,129348,118467,0,5616,1.4,4.65,Vulnerability Mgmt:0.500 CTEM:0.500
+INC-202501-IT06,2025-01,12,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,49113,0,0,4045,0.8,1.69,SOC:0.500 AI Agents:0.500
+INC-202501-IT07,2025-01,7,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,46691,0,0,22790,5.77,8.13,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202501-IT08,2025-01,10,GSS-IT,GSS,Medium,AI data leakage,true,false,false,true,false,30035,0,0,7527,1.96,5.34,DLP:0.500 AI Agents:0.250 GRC:0.250
+INC-202501-IT09,2025-01,26,GSS-IT,GSS,Medium,Malware,false,false,false,true,false,26819,0,0,14109,0.67,7.51,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202501-FHR01,2025-01,25,GSS-FHR,GSS,Medium,Vulnerability exploitation,false,false,false,true,false,34923,0,0,10513,2.2,2.88,Vulnerability Mgmt:0.500 WAF:0.167 CTEM:0.167 EDR/XDR:0.167
+INC-202502-RB01,2025-02,26,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,66662,0,0,10860,0.7,6.92,SOC:0.500 AI Agents:0.500
+INC-202502-RB02,2025-02,5,FIN-RB,FIN,Low,Business email compromise,false,true,false,true,false,13593,0,0,2188,2.89,1.63,SOC:0.500 AI Agents:0.500
+INC-202502-RB03,2025-02,11,FIN-RB,FIN,Medium,Phishing / credential theft,false,false,false,true,true,53410,48860,0,5126,5.35,4.97,SOC:0.500 SOAR:0.167 AI Agents:0.167 IAM/PAM:0.167
+INC-202502-RB04,2025-02,9,FIN-RB,FIN,Medium,Data exfiltration attempt,false,false,false,true,false,7667,0,0,4088,2.32,21.88,DLP:0.500 Firewall:0.250 SOC:0.250
+INC-202502-PAY01,2025-02,16,FIN-PAY,FIN,Low,Account takeover,false,true,false,true,false,10941,0,0,1648,2.13,3.27,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202502-PAY02,2025-02,20,FIN-PAY,FIN,Low,Business email compromise,false,true,false,true,false,25103,0,0,4857,2.98,3.22,SOC:0.500 SOAR:0.167 AI Agents:0.167 DLP:0.167
+INC-202502-PAY03,2025-02,7,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,false,false,42739,0,12299,11316,1.08,3.95,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202502-PAY04,2025-02,3,FIN-PAY,FIN,Medium,Data exfiltration attempt,false,false,false,true,false,175773,0,0,6555,1.79,10.61,DLP:0.500 Firewall:0.250 SOC:0.250
+INC-202502-PAY05,2025-02,27,FIN-PAY,FIN,High,Payment fraud,false,true,false,true,true,436273,355645,0,51156,2.91,16.11,AI Agents:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202502-PAY06,2025-02,5,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,true,82603,82519,0,11837,2.74,5.68,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202502-PAY07,2025-02,12,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,9633,0,0,4327,1.33,2.77,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202502-HOS01,2025-02,20,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,10993,0,0,8063,3.55,11.45,SOC:0.500 AI Agents:0.500
+INC-202502-HOS02,2025-02,13,HLT-HOS,HLT,Low,Malware,false,false,false,true,false,4130,0,0,1283,2.57,4.75,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202502-HOS03,2025-02,4,HLT-HOS,HLT,Low,Insider misuse,false,false,false,true,true,131806,116689,0,1292,0.94,1.77,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202502-HOS04,2025-02,8,HLT-HOS,HLT,Medium,Malware,false,false,false,false,false,38165,0,15308,6830,1.23,3.05,EDR/XDR:0.500 SOAR:0.500
+INC-202502-HOS05,2025-02,24,HLT-HOS,HLT,Medium,Business email compromise,false,true,false,true,true,71254,55504,0,9694,1.06,3.24,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202502-HOS06,2025-02,9,HLT-HOS,HLT,Medium,Business email compromise,false,true,false,true,true,241727,232959,0,10051,3.14,5.07,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202502-LAB01,2025-02,14,HLT-LAB,HLT,High,Data exfiltration attempt,false,false,false,false,false,218036,0,47201,71458,3.9,10.76,DLP:0.500 SOC:0.167 Firewall:0.167 DFIR:0.167
+INC-202502-LAB02,2025-02,6,HLT-LAB,HLT,Medium,Phishing / credential theft,false,false,false,false,false,23259,0,8188,10428,1.24,2.5,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202502-LAB03,2025-02,6,HLT-LAB,HLT,Medium,Business email compromise,false,true,false,true,false,36381,0,0,11227,8.75,11.08,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202502-LAB04,2025-02,3,HLT-LAB,HLT,Critical,DDoS,false,false,true,true,true,3458504,2875051,0,396217,4.13,16.19,WAF:0.500 Firewall:0.250 DFIR:0.250
+INC-202502-LAB05,2025-02,25,HLT-LAB,HLT,Low,Malware,false,false,false,true,false,31985,0,0,2362,1.79,2.58,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202502-PWR01,2025-02,12,ENR-PWR,ENR,High,Ransomware attempt,false,false,false,true,true,535356,512864,0,50611,2.16,3.26,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202502-PWR02,2025-02,18,ENR-PWR,ENR,Low,Business email compromise,false,true,false,true,false,33408,0,0,1489,2.17,1.94,SOC:0.500 AI Agents:0.250 DLP:0.250
+INC-202502-OGS01,2025-02,26,ENR-OGS,ENR,High,Cloud misconfiguration exposure,false,false,false,false,false,537511,0,159084,26533,2.43,9.85,Cloud Security:0.500 Vulnerability Mgmt:0.250 DFIR:0.250
+INC-202502-OGS02,2025-02,25,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,29708,0,0,5922,2.2,2.97,SOC:0.500 IAM/PAM:0.500
+INC-202502-OGS03,2025-02,9,ENR-OGS,ENR,Medium,Phishing / credential theft,false,false,false,true,false,35443,0,0,27317,1.19,5.9,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202502-OGS04,2025-02,6,ENR-OGS,ENR,Low,Data exfiltration attempt,false,false,false,true,false,12505,0,0,1839,1.22,3.58,DLP:0.500 Firewall:0.500
+INC-202502-SSA01,2025-02,13,GOV-SSA,GOV,Low,Phishing / credential theft,false,false,false,true,false,6715,0,0,2078,0.59,2.99,SOC:0.500 IAM/PAM:0.500
+INC-202502-SSA02,2025-02,7,GOV-SSA,GOV,Low,Phishing / credential theft,false,false,false,true,false,27143,0,0,1150,1.25,1.87,SOC:0.500 AI Agents:0.500
+INC-202502-SSA03,2025-02,15,GOV-SSA,GOV,Medium,Malware,false,false,false,true,true,102997,93365,0,13992,0.95,5.74,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202502-SSA04,2025-02,15,GOV-SSA,GOV,Low,Agent unauthorized action,true,false,false,true,false,30778,0,0,5153,2.55,2.98,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202502-SSA05,2025-02,10,GOV-SSA,GOV,Medium,DDoS,false,false,false,true,false,79036,0,0,12354,2.53,4.97,WAF:0.500 Firewall:0.500
+INC-202502-MUN01,2025-02,8,GOV-MUN,GOV,Low,Business email compromise,false,true,false,false,false,50021,0,27947,2487,1.11,3.49,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202502-MUN02,2025-02,15,GOV-MUN,GOV,Low,AI prompt injection,true,false,false,true,false,8781,0,0,1337,2.42,1.85,AI Agents:0.500 AppSec:0.250 SOC:0.250
+INC-202502-MUN03,2025-02,19,GOV-MUN,GOV,Medium,Vulnerability exploitation,false,false,false,true,true,88140,84198,0,11461,2.66,1.36,Vulnerability Mgmt:0.500 WAF:0.250 AppSec:0.250
+INC-202502-MUN04,2025-02,23,GOV-MUN,GOV,Medium,Malware,false,false,false,true,false,20608,0,0,23476,2.85,3.99,EDR/XDR:0.500 SOAR:0.500
+INC-202502-MUN05,2025-02,28,GOV-MUN,GOV,Medium,Ransomware attempt,false,false,false,true,true,125358,87906,0,16733,1.91,16.02,EDR/XDR:0.500 NDR:0.167 Backup:0.167 SOC:0.167
+INC-202502-IT01,2025-02,16,GSS-IT,GSS,Low,Vulnerability exploitation,false,false,false,false,false,5787,0,3011,2800,2.29,1.15,Vulnerability Mgmt:0.500 EDR/XDR:0.250 WAF:0.250
+INC-202502-IT02,2025-02,20,GSS-IT,GSS,Medium,Business email compromise,false,true,false,false,false,49073,0,12898,10636,1.53,4.87,SOC:0.500 AI Agents:0.500
+INC-202502-IT03,2025-02,20,GSS-IT,GSS,Medium,Cloud misconfiguration exposure,false,false,false,true,false,10766,0,0,26274,1.25,6.85,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202502-IT04,2025-02,2,GSS-IT,GSS,Medium,Vulnerability exploitation,false,false,false,true,true,76072,54976,0,9607,0.85,5.87,Vulnerability Mgmt:0.500 WAF:0.167 EDR/XDR:0.167 CTEM:0.167
+INC-202502-IT05,2025-02,18,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,3846,0,0,4969,0.81,3.22,SOC:0.500 DLP:0.500
+INC-202502-IT06,2025-02,14,GSS-IT,GSS,Medium,Cloud misconfiguration exposure,false,false,false,true,true,92269,66600,0,23739,3.04,3.24,Cloud Security:0.500 CTEM:0.500
+INC-202502-IT07,2025-02,2,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,4701,0,0,1288,3.71,2.36,SOC:0.500 SOAR:0.167 AI Agents:0.167 IAM/PAM:0.167
+INC-202502-IT08,2025-02,22,GSS-IT,GSS,Low,Payment fraud,false,true,false,true,false,7851,0,0,4047,4.42,1.68,AI Agents:0.500 IAM/PAM:0.500
+INC-202502-FHR01,2025-02,2,GSS-FHR,GSS,Medium,Phishing / credential theft,false,false,false,true,false,47671,0,0,7818,7.95,11.48,SOC:0.500 AI Agents:0.500
+INC-202502-FHR02,2025-02,6,GSS-FHR,GSS,High,Ransomware attempt,false,false,false,true,true,297693,246165,0,76714,2.63,6.03,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202503-RB01,2025-03,18,FIN-RB,FIN,Low,DDoS,false,false,false,true,false,4097,0,0,5977,0.69,1.36,WAF:0.500 Firewall:0.500
+INC-202503-RB02,2025-03,30,FIN-RB,FIN,Medium,Malware,false,false,false,false,false,87449,0,51061,18297,2.92,2.83,EDR/XDR:0.500 SOAR:0.500
+INC-202503-RB03,2025-03,29,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,25758,0,0,2819,3.32,2.5,AI Agents:0.500 SOC:0.500
+INC-202503-RB04,2025-03,22,FIN-RB,FIN,High,Malware,false,false,true,true,true,1177173,1069221,0,36093,1.26,6.75,EDR/XDR:0.500 SOAR:0.250 DFIR:0.250
+INC-202503-RB05,2025-03,25,FIN-RB,FIN,High,Phishing / credential theft,false,false,false,true,true,253109,248200,0,74612,0.51,12.62,SOC:0.500 SOAR:0.250 DFIR:0.250
+INC-202503-RB06,2025-03,3,FIN-RB,FIN,Low,Business email compromise,false,true,false,true,false,3225,0,0,2396,2.9,2.81,SOC:0.500 DLP:0.500
+INC-202503-PAY01,2025-03,24,FIN-PAY,FIN,High,Account takeover,false,true,true,true,true,1126928,840182,0,58284,0.58,5.32,IAM/PAM:0.500 SOC:0.250 DFIR:0.250
+INC-202503-PAY02,2025-03,27,FIN-PAY,FIN,Medium,Malware,false,false,false,true,true,50179,46975,0,21662,1.87,6.64,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202503-PAY03,2025-03,2,FIN-PAY,FIN,Low,Data exfiltration attempt,false,false,false,true,false,3870,0,0,1856,1.52,2.37,DLP:0.500 NDR:0.250 Firewall:0.250
+INC-202503-HOS01,2025-03,31,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,false,false,12711,0,5012,2999,2.19,1.23,SOC:0.500 SOAR:0.500
+INC-202503-HOS02,2025-03,25,HLT-HOS,HLT,Medium,Business email compromise,false,true,false,true,true,292548,278977,0,25394,0.95,9.36,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202503-HOS03,2025-03,13,HLT-HOS,HLT,Medium,Business email compromise,false,true,false,true,true,60948,53306,0,4152,2.72,8.76,SOC:0.500 AI Agents:0.500
+INC-202503-HOS04,2025-03,31,HLT-HOS,HLT,Low,Account takeover,false,true,false,true,false,16833,0,0,7195,0.75,2.34,IAM/PAM:0.500 SOC:0.500
+INC-202503-HOS05,2025-03,24,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,37680,0,0,10402,1.21,6.71,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202503-LAB01,2025-03,31,HLT-LAB,HLT,Medium,Business email compromise,false,true,false,true,false,16252,0,0,3793,0.55,3.75,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202503-LAB02,2025-03,4,HLT-LAB,HLT,High,Account takeover,false,true,false,true,false,119217,0,0,50319,0.94,5.43,IAM/PAM:0.500 SOC:0.167 AI Agents:0.167 DFIR:0.167
+INC-202503-PWR01,2025-03,26,ENR-PWR,ENR,Low,Data exfiltration attempt,false,false,false,true,false,18533,0,0,2277,2.07,1.75,DLP:0.500 SOC:0.250 NDR:0.250
+INC-202503-PWR02,2025-03,28,ENR-PWR,ENR,Low,Business email compromise,false,true,false,true,false,25417,0,0,1891,1.65,5.7,SOC:0.500 AI Agents:0.250 DLP:0.250
+INC-202503-OGS01,2025-03,15,ENR-OGS,ENR,Medium,Ransomware attempt,false,false,false,true,true,55289,43699,0,12325,3.84,3.51,EDR/XDR:0.500 SOC:0.500
+INC-202503-SSA01,2025-03,11,GOV-SSA,GOV,Low,Account takeover,false,true,false,true,false,12422,0,0,5909,0.95,1.81,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202503-SSA02,2025-03,31,GOV-SSA,GOV,Low,Account takeover,false,true,false,false,false,3273,0,1450,3054,1.97,2.15,IAM/PAM:0.500 AI Agents:0.500
+INC-202503-SSA03,2025-03,20,GOV-SSA,GOV,Low,Malware,false,false,false,true,false,10703,0,0,3244,1.95,3.95,EDR/XDR:0.500 SOC:0.500
+INC-202503-SSA04,2025-03,4,GOV-SSA,GOV,High,Business email compromise,false,true,false,true,true,560862,552160,0,43308,1.17,7.36,SOC:0.500 AI Agents:0.250 DFIR:0.250
+INC-202503-SSA05,2025-03,29,GOV-SSA,GOV,Medium,Vulnerability exploitation,false,false,false,true,true,506275,404686,0,7521,1.62,9.77,Vulnerability Mgmt:0.500 AppSec:0.500
+INC-202503-SSA06,2025-03,14,GOV-SSA,GOV,High,Data exfiltration attempt,false,false,false,true,true,793279,705592,0,119559,0.98,7.83,DLP:0.500 SOC:0.167 NDR:0.167 DFIR:0.167
+INC-202503-SSA07,2025-03,16,GOV-SSA,GOV,Low,Account takeover,false,true,false,true,false,20071,0,0,1727,1.64,1.99,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202503-SSA08,2025-03,10,GOV-SSA,GOV,Medium,Business email compromise,false,true,false,true,false,59501,0,0,9803,2.2,11.44,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202503-MUN01,2025-03,16,GOV-MUN,GOV,Medium,DDoS,false,false,false,true,true,68230,49703,0,6331,1.32,3.42,WAF:0.500 NDR:0.500
+INC-202503-IT01,2025-03,15,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,true,false,42939,0,0,7528,1.22,2.41,SOC:0.500 SOAR:0.500
+INC-202503-IT02,2025-03,27,GSS-IT,GSS,Medium,Account takeover,false,true,false,true,true,55116,54191,0,6131,2.13,4.18,IAM/PAM:0.500 SOC:0.500
+INC-202503-IT03,2025-03,27,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,true,true,336353,266036,0,17574,1.83,5.63,SOC:0.500 AI Agents:0.125 IAM/PAM:0.125 SOAR:0.125 DFIR:0.125
+INC-202503-FHR01,2025-03,8,GSS-FHR,GSS,Medium,Business email compromise,false,true,false,true,false,32205,0,0,8583,1.5,9.1,SOC:0.500 SOAR:0.500
+INC-202503-FHR02,2025-03,18,GSS-FHR,GSS,Low,Phishing / credential theft,false,false,false,true,false,32576,0,0,3538,2.73,5.03,SOC:0.500 IAM/PAM:0.250 SOAR:0.250
+INC-202504-RB01,2025-04,22,FIN-RB,FIN,Medium,Ransomware attempt,false,false,false,true,false,189508,0,0,16180,0.41,3.01,EDR/XDR:0.500 Backup:0.500
+INC-202504-RB02,2025-04,2,FIN-RB,FIN,High,Payment fraud,false,true,false,true,true,256273,252237,0,108763,1.68,4.19,AI Agents:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202504-RB03,2025-04,16,FIN-RB,FIN,Medium,Insider misuse,false,false,false,true,false,55247,0,0,8651,4.04,4.38,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202504-RB04,2025-04,18,FIN-RB,FIN,Medium,Malware,false,false,false,false,false,129879,0,73712,11778,0.54,4.82,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202504-RB05,2025-04,28,FIN-RB,FIN,Critical,Malware,false,false,true,false,false,5923849,0,2911662,200117,1.5,5.88,EDR/XDR:0.500 SOAR:0.250 DFIR:0.250
+INC-202504-RB06,2025-04,18,FIN-RB,FIN,Medium,Payment fraud,false,true,false,false,false,27932,0,5055,31166,3.55,3.16,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202504-PAY01,2025-04,28,FIN-PAY,FIN,Medium,DDoS,false,false,false,true,false,22390,0,0,6272,3.02,7.82,WAF:0.500 Firewall:0.250 NDR:0.250
+INC-202504-PAY02,2025-04,2,FIN-PAY,FIN,Medium,Insider misuse,false,false,false,true,false,13240,0,0,6784,1.66,2.32,DLP:0.500 IAM/PAM:0.500
+INC-202504-PAY03,2025-04,3,FIN-PAY,FIN,Medium,Malware,false,false,false,true,false,75212,0,0,20022,2.06,8.99,EDR/XDR:0.500 SOC:0.500
+INC-202504-PAY04,2025-04,27,FIN-PAY,FIN,Low,Account takeover,false,true,false,true,false,11894,0,0,1735,0.46,6.88,IAM/PAM:0.500 SOC:0.500
+INC-202504-PAY05,2025-04,13,FIN-PAY,FIN,Medium,Ransomware attempt,false,false,false,true,false,88014,0,0,14784,1.34,4.43,EDR/XDR:0.500 Backup:0.250 SOC:0.250
+INC-202504-HOS01,2025-04,15,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,30684,0,0,5068,1.28,6.8,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202504-HOS02,2025-04,28,HLT-HOS,HLT,Medium,Malware,false,false,false,true,false,103564,0,0,23138,1.41,10.5,EDR/XDR:0.500 SOC:0.500
+INC-202504-HOS03,2025-04,1,HLT-HOS,HLT,Critical,Cloud misconfiguration exposure,false,false,true,true,true,5698268,4160145,0,294184,2.08,5.75,Cloud Security:0.500 CTEM:0.167 Vulnerability Mgmt:0.167 DFIR:0.167
+INC-202504-HOS04,2025-04,30,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,21768,0,0,4736,2.25,2.87,SOC:0.500 IAM/PAM:0.500
+INC-202504-LAB01,2025-04,10,HLT-LAB,HLT,Medium,Insider misuse,false,false,false,true,false,194591,0,0,16272,1.66,4.27,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202504-LAB02,2025-04,5,HLT-LAB,HLT,Low,Insider misuse,false,false,false,true,true,66866,64708,0,4394,2.37,1.62,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202504-LAB03,2025-04,12,HLT-LAB,HLT,Low,Business email compromise,false,true,false,true,false,8242,0,0,3653,5.39,3.18,SOC:0.500 SOAR:0.250 DLP:0.250
+INC-202504-PWR01,2025-04,1,ENR-PWR,ENR,Medium,Malware,false,false,false,true,true,87625,87046,0,7191,1.78,3.32,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202504-PWR02,2025-04,4,ENR-PWR,ENR,Low,Cloud misconfiguration exposure,false,false,false,true,false,25971,0,0,6539,3.04,2.21,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202504-PWR03,2025-04,12,ENR-PWR,ENR,Low,Malware,false,false,false,true,false,14094,0,0,6278,1.14,1.08,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202504-PWR04,2025-04,21,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,true,314876,250789,0,9161,2.54,9.47,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202504-PWR05,2025-04,2,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,3024,0,0,4751,1.11,2.3,SOC:0.500 AI Agents:0.500
+INC-202504-PWR06,2025-04,8,ENR-PWR,ENR,Low,Insider misuse,false,false,false,true,false,4716,0,0,2103,4.89,1.8,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202504-OGS01,2025-04,3,ENR-OGS,ENR,Medium,Payment fraud,false,true,false,true,false,8685,0,0,7160,0.8,5.78,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202504-SSA01,2025-04,1,GOV-SSA,GOV,Medium,Malware,false,false,false,true,true,124671,105328,0,11225,3.75,14.56,EDR/XDR:0.500 SOAR:0.500
+INC-202504-SSA02,2025-04,26,GOV-SSA,GOV,Low,Malware,false,false,false,true,false,6658,0,0,2006,1.84,1.85,EDR/XDR:0.500 SOAR:0.500
+INC-202504-SSA03,2025-04,23,GOV-SSA,GOV,Medium,Business email compromise,false,true,false,true,false,129554,0,0,19184,1.41,3.09,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202504-SSA04,2025-04,12,GOV-SSA,GOV,Medium,Malware,false,false,false,true,true,76781,60921,0,19195,1.55,3.06,EDR/XDR:0.500 SOC:0.500
+INC-202504-SSA05,2025-04,1,GOV-SSA,GOV,Medium,Vulnerability exploitation,false,false,false,true,true,51057,41397,0,16433,1.55,10.69,Vulnerability Mgmt:0.500 EDR/XDR:0.500
+INC-202504-SSA06,2025-04,14,GOV-SSA,GOV,High,Account takeover,false,true,false,true,false,271117,0,0,43312,1.14,13.12,IAM/PAM:0.500 SOC:0.250 DFIR:0.250
+INC-202504-MUN01,2025-04,29,GOV-MUN,GOV,Low,Malware,false,false,false,true,false,9232,0,0,3478,0.82,5.95,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202504-MUN02,2025-04,22,GOV-MUN,GOV,Medium,AI data leakage,true,false,false,true,false,283822,0,0,19508,2.22,3.57,DLP:0.500 AI Agents:0.250 GRC:0.250
+INC-202504-MUN03,2025-04,24,GOV-MUN,GOV,Low,Payment fraud,false,true,false,true,false,3041,0,0,1066,0.57,0.92,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202504-IT01,2025-04,22,GSS-IT,GSS,Low,Malware,false,false,false,true,false,4774,0,0,1855,0.93,2.53,EDR/XDR:0.500 SOAR:0.500
+INC-202504-IT02,2025-04,9,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,true,true,751804,717982,0,58733,4.38,10.91,SOC:0.500 IAM/PAM:0.125 SOAR:0.125 AI Agents:0.125 DFIR:0.125
+INC-202504-IT03,2025-04,24,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,true,true,73901,71685,0,6819,1.49,2.87,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202504-IT04,2025-04,30,GSS-IT,GSS,High,Malware,false,false,false,true,true,403801,299226,0,42000,1.57,5.74,EDR/XDR:0.500 SOAR:0.250 DFIR:0.250
+INC-202504-IT05,2025-04,8,GSS-IT,GSS,Critical,Malware,false,false,true,true,true,1945541,1639361,0,182211,2.3,5.64,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202505-RB01,2025-05,30,FIN-RB,FIN,Low,Payment fraud,false,true,false,false,false,23530,0,13041,6310,0.79,1.77,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202505-RB02,2025-05,27,FIN-RB,FIN,Low,Malware,false,false,false,true,false,12070,0,0,2284,4.06,5.5,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202505-RB03,2025-05,9,FIN-RB,FIN,High,Malware,false,false,false,true,true,660159,631068,0,20469,8.64,8.78,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202505-RB04,2025-05,21,FIN-RB,FIN,Low,DDoS,false,false,false,true,false,12389,0,0,5715,0.86,0.98,WAF:0.500 Firewall:0.500
+INC-202505-RB05,2025-05,30,FIN-RB,FIN,Medium,Payment fraud,false,true,false,true,false,36827,0,0,20311,2.46,6.45,AI Agents:0.500 IAM/PAM:0.500
+INC-202505-RB06,2025-05,6,FIN-RB,FIN,Low,Vulnerability exploitation,false,false,false,true,false,9427,0,0,1953,0.76,4.23,Vulnerability Mgmt:0.500 AppSec:0.250 CTEM:0.250
+INC-202505-RB07,2025-05,14,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,true,94433,90892,0,11623,3.87,3.78,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202505-RB08,2025-05,15,FIN-RB,FIN,Medium,Data exfiltration attempt,false,false,false,true,true,156266,129170,0,19875,1.37,8.04,DLP:0.500 Firewall:0.167 NDR:0.167 SOC:0.167
+INC-202505-RB09,2025-05,18,FIN-RB,FIN,Low,AI data leakage,true,false,false,true,false,18071,0,0,3170,3.76,3.33,DLP:0.500 AI Agents:0.250 GRC:0.250
+INC-202505-PAY01,2025-05,8,FIN-PAY,FIN,Medium,Account takeover,false,true,false,true,false,126076,0,0,12132,1.92,5.72,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202505-PAY02,2025-05,4,FIN-PAY,FIN,Medium,Account takeover,false,true,false,true,true,92517,82245,0,8942,0.64,3.97,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202505-PAY03,2025-05,13,FIN-PAY,FIN,Critical,Ransomware attempt,false,false,true,true,true,1435055,1358954,0,94826,2.39,21.77,EDR/XDR:0.500 Backup:0.250 DFIR:0.250
+INC-202505-HOS01,2025-05,5,HLT-HOS,HLT,Medium,Malware,false,false,false,true,true,58104,43147,0,37817,1.35,3.65,EDR/XDR:0.500 SOAR:0.500
+INC-202505-HOS02,2025-05,21,HLT-HOS,HLT,Medium,Malware,false,false,false,true,false,172837,0,0,9710,1.95,4.95,EDR/XDR:0.500 SOC:0.500
+INC-202505-HOS03,2025-05,17,HLT-HOS,HLT,Medium,Ransomware attempt,false,false,false,false,false,54661,0,15680,37293,2.21,8.88,EDR/XDR:0.500 SOC:0.250 Backup:0.250
+INC-202505-HOS04,2025-05,19,HLT-HOS,HLT,Medium,Shadow AI data exposure,true,false,false,false,false,73308,0,11659,8071,1.65,10.16,DLP:0.500 GRC:0.250 Cloud Security:0.250
+INC-202505-PWR01,2025-05,31,ENR-PWR,ENR,Medium,Malware,false,false,false,true,false,84790,0,0,18953,5.14,3.11,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202505-PWR02,2025-05,4,ENR-PWR,ENR,Medium,Account takeover,false,true,false,true,false,20013,0,0,11423,2.52,5,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202505-PWR03,2025-05,30,ENR-PWR,ENR,Low,Ransomware attempt,false,false,false,true,false,7523,0,0,4044,2.97,1.54,EDR/XDR:0.500 SOC:0.500
+INC-202505-PWR04,2025-05,11,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,16444,0,0,3703,0.83,1.44,SOC:0.500 AI Agents:0.500
+INC-202505-OGS01,2025-05,31,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,9788,0,0,4608,1.14,1.88,SOC:0.500 IAM/PAM:0.500
+INC-202505-OGS02,2025-05,14,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,23150,0,0,6327,0.9,1.88,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202505-OGS03,2025-05,4,ENR-OGS,ENR,Medium,Data exfiltration attempt,false,false,false,true,false,56942,0,0,31484,1.98,6.72,DLP:0.500 NDR:0.500
+INC-202505-SSA01,2025-05,20,GOV-SSA,GOV,High,Cloud misconfiguration exposure,false,false,false,true,true,182706,167305,0,43756,0.51,14.21,Cloud Security:0.500 Vulnerability Mgmt:0.167 CTEM:0.167 DFIR:0.167
+INC-202505-SSA02,2025-05,23,GOV-SSA,GOV,Medium,Payment fraud,false,true,false,true,false,21177,0,0,6965,1.77,6.89,AI Agents:0.500 IAM/PAM:0.500
+INC-202505-SSA03,2025-05,30,GOV-SSA,GOV,Low,Malware,false,false,false,true,false,35829,0,0,2678,0.71,2.18,EDR/XDR:0.500 SOAR:0.500
+INC-202505-SSA04,2025-05,17,GOV-SSA,GOV,Medium,DDoS,false,false,false,true,true,53133,47018,0,15500,0.96,6.27,WAF:0.500 NDR:0.250 Firewall:0.250
+INC-202505-SSA05,2025-05,6,GOV-SSA,GOV,High,Business email compromise,false,true,false,true,false,177372,0,0,60234,1.54,7.21,SOC:0.500 AI Agents:0.125 DLP:0.125 SOAR:0.125 DFIR:0.125
+INC-202505-SSA06,2025-05,2,GOV-SSA,GOV,High,Shadow AI data exposure,true,false,false,true,true,361570,349857,0,35775,0.88,4.69,DLP:0.500 GRC:0.250 DFIR:0.250
+INC-202505-MUN01,2025-05,11,GOV-MUN,GOV,Low,Account takeover,false,true,false,true,false,18425,0,0,1738,2.13,3.99,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202505-MUN02,2025-05,31,GOV-MUN,GOV,Medium,Ransomware attempt,false,false,false,true,false,32376,0,0,19335,3.61,6.65,EDR/XDR:0.500 SOC:0.250 NDR:0.250
+INC-202505-MUN03,2025-05,31,GOV-MUN,GOV,Medium,Vulnerability exploitation,false,false,false,true,false,34603,0,0,9144,1.51,3.87,Vulnerability Mgmt:0.500 EDR/XDR:0.250 CTEM:0.250
+INC-202505-IT01,2025-05,7,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,false,false,116959,0,45204,13680,1.73,2.72,SOC:0.500 IAM/PAM:0.250 AI Agents:0.250
+INC-202505-IT02,2025-05,1,GSS-IT,GSS,Low,Cloud misconfiguration exposure,false,false,false,true,false,14225,0,0,8027,1.17,5.99,Cloud Security:0.500 CTEM:0.500
+INC-202505-IT03,2025-05,18,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,true,282456,199297,0,4302,2.78,5.02,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202505-IT04,2025-05,21,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,true,false,30591,0,0,14664,1.33,8.38,SOC:0.500 SOAR:0.500
+INC-202505-FHR01,2025-05,17,GSS-FHR,GSS,Low,Phishing / credential theft,false,false,false,true,false,7394,0,0,2315,0.53,2.61,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202506-RB01,2025-06,8,FIN-RB,FIN,Low,Business email compromise,false,true,false,true,false,2612,0,0,3827,2.05,3.17,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202506-RB02,2025-06,13,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,29606,0,0,2884,2.4,2.55,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202506-RB03,2025-06,20,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,49648,0,0,8911,0.99,1.66,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202506-RB04,2025-06,15,FIN-RB,FIN,Low,Phishing / credential theft,false,false,false,true,false,14983,0,0,2007,3.47,3.69,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202506-PAY01,2025-06,4,FIN-PAY,FIN,Low,Payment fraud,false,true,false,false,false,30134,0,13756,2581,3.32,4.87,AI Agents:0.500 SOC:0.500
+INC-202506-PAY02,2025-06,23,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,true,true,86832,63949,0,12554,1.57,2.42,SOC:0.500 DLP:0.167 AI Agents:0.167 SOAR:0.167
+INC-202506-PAY03,2025-06,11,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,3991,0,0,1507,1.84,7.52,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202506-PAY04,2025-06,26,FIN-PAY,FIN,Low,Data exfiltration attempt,false,false,false,true,false,10045,0,0,2633,1.75,3.58,DLP:0.500 Firewall:0.167 SOC:0.167 NDR:0.167
+INC-202506-PAY05,2025-06,1,FIN-PAY,FIN,High,Data exfiltration attempt,false,false,false,true,true,956052,765693,0,60663,2.45,3.35,DLP:0.500 SOC:0.125 Firewall:0.125 NDR:0.125 DFIR:0.125
+INC-202506-HOS01,2025-06,25,HLT-HOS,HLT,High,Insider misuse,false,false,false,true,true,651092,551750,0,61973,3.4,14.47,DLP:0.500 SOC:0.167 IAM/PAM:0.167 DFIR:0.167
+INC-202506-HOS02,2025-06,3,HLT-HOS,HLT,High,Business email compromise,false,true,false,true,true,343834,248007,0,34830,0.35,4.65,SOC:0.500 DLP:0.250 DFIR:0.250
+INC-202506-HOS03,2025-06,11,HLT-HOS,HLT,Low,DDoS,false,false,false,true,false,27231,0,0,2758,1.57,1.72,WAF:0.500 NDR:0.250 Firewall:0.250
+INC-202506-LAB01,2025-06,20,HLT-LAB,HLT,Medium,Agent unauthorized action,true,false,false,true,false,17167,0,0,7581,1.37,3.63,AI Agents:0.500 IAM/PAM:0.500
+INC-202506-LAB02,2025-06,9,HLT-LAB,HLT,Low,Cloud misconfiguration exposure,false,false,false,true,false,12600,0,0,3358,2.2,1.67,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202506-LAB03,2025-06,2,HLT-LAB,HLT,Medium,Vulnerability exploitation,false,false,false,true,false,18822,0,0,8666,0.95,5.31,Vulnerability Mgmt:0.500 WAF:0.250 EDR/XDR:0.250
+INC-202506-PWR01,2025-06,16,ENR-PWR,ENR,High,Business email compromise,false,true,false,false,false,588791,0,216321,55586,1.36,8.31,SOC:0.500 DLP:0.125 AI Agents:0.125 SOAR:0.125 DFIR:0.125
+INC-202506-PWR02,2025-06,23,ENR-PWR,ENR,High,Data exfiltration attempt,false,false,false,true,true,628477,460037,0,34539,1.97,9.54,DLP:0.500 Firewall:0.125 SOC:0.125 NDR:0.125 DFIR:0.125
+INC-202506-PWR03,2025-06,27,ENR-PWR,ENR,High,Ransomware attempt,false,false,false,true,true,300421,239163,0,86769,1.39,10.41,EDR/XDR:0.500 Backup:0.125 SOC:0.125 NDR:0.125 DFIR:0.125
+INC-202506-OGS01,2025-06,2,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,33504,0,0,3022,1.5,2.25,SOC:0.500 SOAR:0.500
+INC-202506-OGS02,2025-06,6,ENR-OGS,ENR,Medium,Insider misuse,false,false,false,true,true,75945,63497,0,13972,2.05,13.36,DLP:0.500 IAM/PAM:0.500
+INC-202506-OGS03,2025-06,23,ENR-OGS,ENR,Low,Vulnerability exploitation,false,false,false,true,false,9976,0,0,3175,0.83,3.38,Vulnerability Mgmt:0.500 EDR/XDR:0.500
+INC-202506-OGS04,2025-06,23,ENR-OGS,ENR,Medium,Malware,false,false,false,true,true,71845,62639,0,11042,1.12,6.95,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202506-SSA01,2025-06,7,GOV-SSA,GOV,Low,Phishing / credential theft,false,false,false,true,false,8102,0,0,3962,1.17,2.89,SOC:0.500 AI Agents:0.167 SOAR:0.167 IAM/PAM:0.167
+INC-202506-MUN01,2025-06,6,GOV-MUN,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,57838,41842,0,8790,0.71,4.13,DLP:0.500 NDR:0.167 Firewall:0.167 SOC:0.167
+INC-202506-MUN02,2025-06,17,GOV-MUN,GOV,Medium,Cloud misconfiguration exposure,false,false,false,true,true,142007,100581,0,8649,1.44,7.32,Cloud Security:0.500 CTEM:0.500
+INC-202506-MUN03,2025-06,18,GOV-MUN,GOV,Low,Insider misuse,false,false,false,true,false,23589,0,0,6720,1.63,1.58,DLP:0.500 SOC:0.500
+INC-202506-MUN04,2025-06,1,GOV-MUN,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,63821,59448,0,10587,0.68,13.48,DLP:0.500 NDR:0.167 Firewall:0.167 SOC:0.167
+INC-202506-MUN05,2025-06,4,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,true,64450,45261,0,10317,1.85,7.72,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202506-IT01,2025-06,5,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,22348,0,0,1823,0.64,4.5,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202506-IT02,2025-06,27,GSS-IT,GSS,Medium,Vulnerability exploitation,false,false,false,true,false,12940,0,0,19037,1.39,5.74,Vulnerability Mgmt:0.500 AppSec:0.250 WAF:0.250
+INC-202506-IT03,2025-06,25,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,true,false,126543,0,0,11307,1.22,3.34,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202506-IT04,2025-06,23,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,39293,0,0,12973,2.85,9.22,SOC:0.500 DLP:0.500
+INC-202506-IT05,2025-06,24,GSS-IT,GSS,High,Malware,false,false,false,true,true,89469,89186,0,37052,0.48,4.89,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202506-IT06,2025-06,15,GSS-IT,GSS,Medium,Malware,false,false,false,true,false,21046,0,0,26995,2.02,10.55,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202506-IT07,2025-06,9,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,true,true,166383,157896,0,8386,4.01,12.53,SOC:0.500 IAM/PAM:0.500
+INC-202506-IT08,2025-06,11,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,28826,0,0,1940,1.45,3.84,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202506-FHR01,2025-06,12,GSS-FHR,GSS,Medium,Phishing / credential theft,false,false,false,true,false,33609,0,0,14186,1.91,3.65,SOC:0.500 IAM/PAM:0.500
+INC-202507-RB01,2025-07,23,FIN-RB,FIN,High,Business email compromise,false,true,false,true,true,383380,303098,0,39935,1.07,13.5,SOC:0.500 AI Agents:0.125 DLP:0.125 SOAR:0.125 DFIR:0.125
+INC-202507-RB02,2025-07,1,FIN-RB,FIN,Medium,DDoS,false,false,false,true,false,89983,0,0,13046,1.28,7.64,WAF:0.500 NDR:0.250 Firewall:0.250
+INC-202507-PAY01,2025-07,5,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,true,false,41601,0,0,20656,1.69,2.9,SOC:0.500 SOAR:0.500
+INC-202507-PAY02,2025-07,10,FIN-PAY,FIN,High,Account takeover,false,true,false,true,true,311610,303582,0,20226,0.3,6.81,IAM/PAM:0.500 SOC:0.250 DFIR:0.250
+INC-202507-PAY03,2025-07,27,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,true,true,57622,50153,0,10731,1.67,7.02,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202507-PAY04,2025-07,9,FIN-PAY,FIN,Low,Malware,false,false,false,true,false,23182,0,0,5054,2.59,2.18,EDR/XDR:0.500 SOAR:0.500
+INC-202507-PAY05,2025-07,25,FIN-PAY,FIN,Low,Business email compromise,false,true,false,true,false,2939,0,0,1253,5.08,1.25,SOC:0.500 DLP:0.500
+INC-202507-PAY06,2025-07,25,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,true,true,51835,43277,0,12877,0.93,2.81,SOC:0.500 IAM/PAM:0.500
+INC-202507-HOS01,2025-07,22,HLT-HOS,HLT,Low,Ransomware attempt,false,false,false,true,false,19117,0,0,6300,2.03,2.51,EDR/XDR:0.500 SOC:0.167 NDR:0.167 Backup:0.167
+INC-202507-HOS02,2025-07,27,HLT-HOS,HLT,Low,Data exfiltration attempt,false,false,false,true,false,6808,0,0,5140,0.64,2.51,DLP:0.500 Firewall:0.500
+INC-202507-HOS03,2025-07,11,HLT-HOS,HLT,Medium,Business email compromise,false,true,false,true,false,23350,0,0,11422,0.69,11.67,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202507-HOS04,2025-07,29,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,28195,0,0,2869,0.73,1.4,SOC:0.500 SOAR:0.500
+INC-202507-HOS05,2025-07,24,HLT-HOS,HLT,Low,Business email compromise,false,true,false,true,false,11656,0,0,5123,0.86,2.99,SOC:0.500 SOAR:0.500
+INC-202507-LAB01,2025-07,28,HLT-LAB,HLT,Medium,Data exfiltration attempt,false,false,false,true,false,21251,0,0,10671,1.48,6.82,DLP:0.500 Firewall:0.500
+INC-202507-PWR01,2025-07,25,ENR-PWR,ENR,Medium,Insider misuse,false,false,false,true,false,102992,0,0,10742,0.59,5.97,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202507-PWR02,2025-07,19,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,true,179946,155704,0,4967,1.7,10.12,SOC:0.500 SOAR:0.500
+INC-202507-OGS01,2025-07,2,ENR-OGS,ENR,Medium,Ransomware attempt,false,false,false,true,true,174156,124375,0,8641,0.94,2.07,EDR/XDR:0.500 NDR:0.167 SOC:0.167 Backup:0.167
+INC-202507-OGS02,2025-07,18,ENR-OGS,ENR,Medium,Vulnerability exploitation,false,false,false,true,true,105032,91690,0,7325,2.55,1.39,Vulnerability Mgmt:0.500 CTEM:0.500
+INC-202507-OGS03,2025-07,16,ENR-OGS,ENR,Medium,Cloud misconfiguration exposure,false,false,false,false,false,242762,0,95017,10445,1.12,2.81,Cloud Security:0.500 Vulnerability Mgmt:0.250 CTEM:0.250
+INC-202507-SSA01,2025-07,9,GOV-SSA,GOV,Medium,Cloud misconfiguration exposure,false,false,false,false,false,102088,0,59459,12133,1.21,6.53,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202507-SSA02,2025-07,19,GOV-SSA,GOV,Low,Insider misuse,false,false,false,true,false,2734,0,0,3787,1.72,2.9,DLP:0.500 SOC:0.500
+INC-202507-SSA03,2025-07,11,GOV-SSA,GOV,Medium,Vulnerability exploitation,false,false,false,true,true,124148,87115,0,6836,1.67,4.84,Vulnerability Mgmt:0.500 EDR/XDR:0.250 AppSec:0.250
+INC-202507-SSA04,2025-07,30,GOV-SSA,GOV,Medium,Malware,false,false,false,true,true,137902,132314,0,13828,0.93,3.91,EDR/XDR:0.500 SOC:0.500
+INC-202507-MUN01,2025-07,15,GOV-MUN,GOV,Low,AI prompt injection,true,false,false,true,false,12745,0,0,2150,2.62,3.01,AI Agents:0.500 AppSec:0.500
+INC-202507-IT01,2025-07,16,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,12580,0,0,5544,0.65,2.04,SOC:0.500 SOAR:0.500
+INC-202507-IT02,2025-07,13,GSS-IT,GSS,Medium,Malware,false,false,false,true,false,27782,0,0,5449,1.66,2.52,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202507-IT03,2025-07,13,GSS-IT,GSS,Medium,Insider misuse,false,false,false,true,false,147856,0,0,13434,1.84,5.11,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202507-IT04,2025-07,30,GSS-IT,GSS,Low,Malware,false,false,false,true,false,8293,0,0,1895,0.8,3.99,EDR/XDR:0.500 SOC:0.500
+INC-202507-IT05,2025-07,29,GSS-IT,GSS,Low,Insider misuse,false,false,false,true,false,11238,0,0,1509,1.22,2.81,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202507-FHR01,2025-07,8,GSS-FHR,GSS,High,Payment fraud,false,true,false,true,true,397225,278499,0,54732,1.37,7.25,AI Agents:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202507-FHR02,2025-07,18,GSS-FHR,GSS,Medium,AI data leakage,true,false,false,true,false,317580,0,0,18175,2.45,5.31,DLP:0.500 GRC:0.250 AI Agents:0.250
+INC-202508-RB01,2025-08,18,FIN-RB,FIN,Low,Vulnerability exploitation,false,false,false,false,false,8816,0,2566,2585,3.07,0.94,Vulnerability Mgmt:0.500 CTEM:0.250 WAF:0.250
+INC-202508-RB02,2025-08,11,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,78326,0,0,10589,1.21,3.49,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202508-RB03,2025-08,4,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,25230,0,0,18571,1.16,9.78,SOC:0.500 DLP:0.500
+INC-202508-RB04,2025-08,19,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,true,126579,106684,0,15237,2,8.04,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202508-RB05,2025-08,4,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,8578,0,0,7489,1.91,2.39,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202508-PAY01,2025-08,1,FIN-PAY,FIN,High,Malware,false,false,false,true,true,266318,235470,0,58724,1.09,7.91,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202508-PAY02,2025-08,29,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,26030,0,0,3779,1.2,0.89,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202508-PAY03,2025-08,13,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,true,77380,58226,0,4153,1.56,7.22,AI Agents:0.500 IAM/PAM:0.500
+INC-202508-PAY04,2025-08,21,FIN-PAY,FIN,Low,Vulnerability exploitation,false,false,false,true,false,31288,0,0,2462,1.24,2.54,Vulnerability Mgmt:0.500 AppSec:0.500
+INC-202508-HOS01,2025-08,15,HLT-HOS,HLT,Low,DDoS,false,false,false,true,false,11566,0,0,2904,1.57,1.07,WAF:0.500 NDR:0.500
+INC-202508-HOS02,2025-08,5,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,10421,0,0,24363,0.98,4.86,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202508-HOS03,2025-08,18,HLT-HOS,HLT,Medium,Malware,false,false,false,true,true,101411,74041,0,15508,2.61,8.45,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202508-HOS04,2025-08,27,HLT-HOS,HLT,High,Business email compromise,false,true,false,true,true,523463,445541,0,47471,2.42,8.52,SOC:0.500 DLP:0.250 DFIR:0.250
+INC-202508-HOS05,2025-08,16,HLT-HOS,HLT,Medium,Insider misuse,false,false,false,true,false,229388,0,0,14490,1.22,2.79,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202508-HOS06,2025-08,20,HLT-HOS,HLT,Medium,AI data leakage,true,false,false,true,true,85427,74896,0,22489,0.48,6.11,DLP:0.500 AI Agents:0.250 GRC:0.250
+INC-202508-HOS07,2025-08,8,HLT-HOS,HLT,Low,Ransomware attempt,false,false,false,true,false,42665,0,0,6252,1.53,4.73,EDR/XDR:0.500 Backup:0.167 NDR:0.167 SOC:0.167
+INC-202508-LAB01,2025-08,26,HLT-LAB,HLT,Low,Phishing / credential theft,false,false,false,true,false,19689,0,0,1646,1.88,1.42,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202508-LAB02,2025-08,22,HLT-LAB,HLT,Medium,Ransomware attempt,false,false,false,true,false,35716,0,0,8486,1.15,8.46,EDR/XDR:0.500 SOC:0.500
+INC-202508-LAB03,2025-08,23,HLT-LAB,HLT,High,Ransomware attempt,false,false,false,true,false,420509,0,0,51242,2.02,7.01,EDR/XDR:0.500 Backup:0.125 NDR:0.125 SOC:0.125 DFIR:0.125
+INC-202508-PWR01,2025-08,25,ENR-PWR,ENR,Medium,Vulnerability exploitation,false,false,false,true,true,64822,56714,0,10659,1.41,3.44,Vulnerability Mgmt:0.500 EDR/XDR:0.500
+INC-202508-PWR02,2025-08,21,ENR-PWR,ENR,Low,Cloud misconfiguration exposure,false,false,false,true,false,49379,0,0,5261,2.15,5.25,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202508-PWR03,2025-08,14,ENR-PWR,ENR,Medium,Ransomware attempt,false,false,false,true,false,226672,0,0,10489,1.39,11.23,EDR/XDR:0.500 Backup:0.250 NDR:0.250
+INC-202508-OGS01,2025-08,4,ENR-OGS,ENR,Medium,Insider misuse,false,false,false,true,true,319135,257142,0,12916,0.73,8.29,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202508-OGS02,2025-08,25,ENR-OGS,ENR,Medium,Malware,false,false,false,true,true,83810,77859,0,10865,1.28,6.42,EDR/XDR:0.500 SOAR:0.500
+INC-202508-OGS03,2025-08,8,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,2883,0,0,3335,1.15,2.7,SOC:0.500 AI Agents:0.167 SOAR:0.167 IAM/PAM:0.167
+INC-202508-OGS04,2025-08,15,ENR-OGS,ENR,Medium,Business email compromise,false,true,false,true,false,31089,0,0,8308,3.84,3.03,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202508-SSA01,2025-08,12,GOV-SSA,GOV,Low,Data exfiltration attempt,false,false,false,true,false,10797,0,0,2219,0.73,2.04,DLP:0.500 NDR:0.167 Firewall:0.167 SOC:0.167
+INC-202508-SSA02,2025-08,19,GOV-SSA,GOV,Medium,Data exfiltration attempt,false,false,false,false,false,18007,0,8815,9878,1.73,4.35,DLP:0.500 Firewall:0.500
+INC-202508-SSA03,2025-08,5,GOV-SSA,GOV,Low,Phishing / credential theft,false,false,false,true,false,12338,0,0,4114,0.93,2.16,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202508-MUN01,2025-08,27,GOV-MUN,GOV,Low,Payment fraud,false,true,false,true,false,8376,0,0,2980,0.6,2.25,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202508-MUN02,2025-08,17,GOV-MUN,GOV,Medium,Business email compromise,false,true,false,true,false,65166,0,0,7081,2.5,1.93,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202508-MUN03,2025-08,14,GOV-MUN,GOV,Low,Account takeover,false,true,false,true,false,16112,0,0,2165,1.24,4.09,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202508-IT01,2025-08,3,GSS-IT,GSS,High,Ransomware attempt,false,false,false,true,false,467711,0,0,42396,1.76,4.3,EDR/XDR:0.500 Backup:0.167 SOC:0.167 DFIR:0.167
+INC-202508-IT02,2025-08,20,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,4795,0,0,1570,1.81,2.38,SOC:0.500 SOAR:0.167 AI Agents:0.167 DLP:0.167
+INC-202508-IT03,2025-08,25,GSS-IT,GSS,Low,Cloud misconfiguration exposure,false,false,false,true,false,3741,0,0,3760,1.92,1.26,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202508-IT04,2025-08,16,GSS-IT,GSS,Low,AI data leakage,true,false,false,true,true,54414,39262,0,4179,1.04,5.61,DLP:0.500 AI Agents:0.250 GRC:0.250
+INC-202508-IT05,2025-08,16,GSS-IT,GSS,Medium,Cloud misconfiguration exposure,false,false,false,true,true,118101,113230,0,13301,2.08,5.12,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202508-FHR01,2025-08,2,GSS-FHR,GSS,Medium,Malware,false,false,false,true,false,14606,0,0,7761,5.68,2.71,EDR/XDR:0.500 SOAR:0.500
+INC-202509-RB01,2025-09,11,FIN-RB,FIN,Medium,Malware,false,false,false,true,true,129711,96871,0,11486,3.67,3.13,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202509-RB02,2025-09,25,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,true,67285,63717,0,8983,0.74,7.16,SOC:0.500 SOAR:0.500
+INC-202509-RB03,2025-09,23,FIN-RB,FIN,Low,Phishing / credential theft,false,false,false,true,false,66163,0,0,2541,0.66,1.09,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202509-PAY01,2025-09,9,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,2624,0,0,1600,0.6,1.31,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202509-PAY02,2025-09,27,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,true,false,40507,0,0,6200,2.85,7.75,SOC:0.500 DLP:0.500
+INC-202509-PAY03,2025-09,2,FIN-PAY,FIN,High,AI data leakage,true,false,false,true,true,282521,231825,0,35992,1.11,4.15,DLP:0.500 GRC:0.167 AI Agents:0.167 DFIR:0.167
+INC-202509-PAY04,2025-09,28,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,121110,0,0,17747,1.58,6.8,AI Agents:0.500 SOC:0.500
+INC-202509-HOS01,2025-09,29,HLT-HOS,HLT,High,Phishing / credential theft,false,false,false,true,false,837856,0,0,67919,3.41,5.3,SOC:0.500 AI Agents:0.125 IAM/PAM:0.125 SOAR:0.125 DFIR:0.125
+INC-202509-LAB01,2025-09,24,HLT-LAB,HLT,Low,Business email compromise,false,true,false,false,false,3433,0,1687,3037,4.4,1.67,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202509-LAB02,2025-09,19,HLT-LAB,HLT,Low,Malware,false,false,false,true,false,21220,0,0,2232,1.47,1.36,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202509-PWR01,2025-09,16,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,15324,0,0,964,1.61,4.87,SOC:0.500 IAM/PAM:0.500
+INC-202509-PWR02,2025-09,11,ENR-PWR,ENR,Medium,Insider misuse,false,false,false,true,true,163394,135682,0,23970,0.6,3.72,DLP:0.500 IAM/PAM:0.500
+INC-202509-OGS01,2025-09,28,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,16552,0,0,3186,1.18,3.02,SOC:0.500 AI Agents:0.500
+INC-202509-SSA01,2025-09,1,GOV-SSA,GOV,Low,AI prompt injection,true,false,false,true,false,18837,0,0,5650,1.28,2.21,AI Agents:0.500 SOC:0.500
+INC-202509-SSA02,2025-09,26,GOV-SSA,GOV,Low,Malware,false,false,false,true,false,4393,0,0,1023,1.28,2.78,EDR/XDR:0.500 SOAR:0.500
+INC-202509-SSA03,2025-09,22,GOV-SSA,GOV,Medium,Malware,false,false,false,true,true,100573,80891,0,5853,2.44,2.09,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202509-SSA04,2025-09,5,GOV-SSA,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,4101,0,0,1937,0.94,3.59,Cloud Security:0.500 CTEM:0.500
+INC-202509-SSA05,2025-09,22,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,true,259696,210487,0,9775,2.11,4.11,SOC:0.500 IAM/PAM:0.500
+INC-202509-SSA06,2025-09,6,GOV-SSA,GOV,Medium,Payment fraud,false,true,false,true,false,50099,0,0,10169,0.53,7.23,AI Agents:0.500 SOC:0.500
+INC-202509-MUN01,2025-09,24,GOV-MUN,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,13991,0,0,4018,4.31,3.08,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202509-MUN02,2025-09,22,GOV-MUN,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,2035,0,0,3609,2.18,3.8,Cloud Security:0.500 CTEM:0.500
+INC-202509-MUN03,2025-09,30,GOV-MUN,GOV,High,Business email compromise,false,true,false,true,false,956029,0,0,71066,0.64,3.48,SOC:0.500 DLP:0.167 AI Agents:0.167 DFIR:0.167
+INC-202509-MUN04,2025-09,16,GOV-MUN,GOV,Low,Phishing / credential theft,false,false,false,false,false,7650,0,1727,2982,0.86,2.09,SOC:0.500 AI Agents:0.500
+INC-202509-IT01,2025-09,24,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,116928,0,0,8398,1.86,1.96,SOC:0.500 AI Agents:0.500
+INC-202509-FHR01,2025-09,21,GSS-FHR,GSS,Medium,Account takeover,false,true,false,true,true,111923,100159,0,20709,2.17,4.62,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202510-RB01,2025-10,18,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,8754,0,0,920,1.1,2.01,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202510-RB02,2025-10,18,FIN-RB,FIN,Medium,Vulnerability exploitation,false,false,false,true,false,45318,0,0,18912,4.04,8.84,Vulnerability Mgmt:0.500 EDR/XDR:0.250 WAF:0.250
+INC-202510-RB03,2025-10,27,FIN-RB,FIN,Medium,Vulnerability exploitation,false,false,false,true,true,76263,69824,0,14215,1.98,5.71,Vulnerability Mgmt:0.500 CTEM:0.500
+INC-202510-RB04,2025-10,9,FIN-RB,FIN,Medium,AI data leakage,true,false,false,true,true,165540,146562,0,7022,0.55,2.22,DLP:0.500 GRC:0.250 AI Agents:0.250
+INC-202510-PAY01,2025-10,26,FIN-PAY,FIN,Medium,Malware,false,false,false,true,false,98248,0,0,14879,1.27,4.57,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202510-PAY02,2025-10,6,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,41963,0,0,20455,0.92,1.35,AI Agents:0.500 SOC:0.500
+INC-202510-HOS01,2025-10,27,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,false,41085,0,0,12210,1.89,4.26,Vulnerability Mgmt:0.500 CTEM:0.500
+INC-202510-HOS02,2025-10,22,HLT-HOS,HLT,Medium,AI prompt injection,true,false,false,true,true,110702,99158,0,7627,2.71,5.73,AI Agents:0.500 SOC:0.250 AppSec:0.250
+INC-202510-HOS03,2025-10,25,HLT-HOS,HLT,Low,Ransomware attempt,false,false,false,true,false,10197,0,0,2263,1.11,2.16,EDR/XDR:0.500 Backup:0.500
+INC-202510-HOS04,2025-10,3,HLT-HOS,HLT,High,Business email compromise,false,true,false,true,false,299097,0,0,28500,2.32,3.19,SOC:0.500 DLP:0.167 SOAR:0.167 DFIR:0.167
+INC-202510-HOS05,2025-10,28,HLT-HOS,HLT,Low,Account takeover,false,true,false,true,false,8134,0,0,1732,1.58,4.12,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202510-HOS06,2025-10,17,HLT-HOS,HLT,Medium,Malware,false,false,false,true,false,45886,0,0,10445,0.51,9.25,EDR/XDR:0.500 SOAR:0.500
+INC-202510-LAB01,2025-10,21,HLT-LAB,HLT,Medium,Phishing / credential theft,false,false,false,true,false,7520,0,0,7959,1.65,3.23,SOC:0.500 SOAR:0.500
+INC-202510-LAB02,2025-10,8,HLT-LAB,HLT,Critical,Shadow AI data exposure,true,false,true,true,false,1228519,0,0,281426,0.97,11.35,DLP:0.500 GRC:0.250 DFIR:0.250
+INC-202510-LAB03,2025-10,21,HLT-LAB,HLT,Medium,Account takeover,false,true,false,true,false,11056,0,0,14072,0.97,3.77,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202510-LAB04,2025-10,26,HLT-LAB,HLT,Medium,Phishing / credential theft,false,false,false,true,false,15406,0,0,6256,0.52,7.29,SOC:0.500 SOAR:0.167 AI Agents:0.167 IAM/PAM:0.167
+INC-202510-LAB05,2025-10,31,HLT-LAB,HLT,Medium,Data exfiltration attempt,false,false,false,true,false,18508,0,0,10244,1.03,2.24,DLP:0.500 SOC:0.500
+INC-202510-PWR01,2025-10,8,ENR-PWR,ENR,High,Shadow AI data exposure,true,false,false,true,true,138658,105812,0,97141,3.51,7.35,DLP:0.500 GRC:0.167 Cloud Security:0.167 DFIR:0.167
+INC-202510-PWR02,2025-10,10,ENR-PWR,ENR,Low,Malware,false,false,false,true,false,13436,0,0,2331,2.27,2.55,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202510-PWR03,2025-10,11,ENR-PWR,ENR,Medium,Data exfiltration attempt,false,false,false,true,true,53091,45258,0,9801,2.07,3.77,DLP:0.500 SOC:0.500
+INC-202510-PWR04,2025-10,5,ENR-PWR,ENR,Medium,Account takeover,false,true,false,true,false,89633,0,0,9763,1.63,6.17,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202510-PWR05,2025-10,1,ENR-PWR,ENR,Low,Vulnerability exploitation,false,false,false,false,false,9599,0,2561,1488,5.14,5.26,Vulnerability Mgmt:0.500 AppSec:0.167 WAF:0.167 EDR/XDR:0.167
+INC-202510-PWR06,2025-10,16,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,false,false,65498,0,27665,14107,1.4,3.71,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202510-PWR07,2025-10,15,ENR-PWR,ENR,Critical,Vulnerability exploitation,false,false,true,true,true,1927389,1481260,0,676865,0.73,6.94,Vulnerability Mgmt:0.500 AppSec:0.167 CTEM:0.167 DFIR:0.167
+INC-202510-OGS01,2025-10,18,ENR-OGS,ENR,Low,Malware,false,false,false,true,false,17293,0,0,3689,3.64,2.82,EDR/XDR:0.500 SOAR:0.500
+INC-202510-OGS02,2025-10,1,ENR-OGS,ENR,Medium,Business email compromise,false,true,false,true,true,309590,232431,0,5927,1.79,3.34,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202510-OGS03,2025-10,22,ENR-OGS,ENR,Low,Malware,false,false,false,true,false,2263,0,0,5285,1.33,1.51,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202510-SSA01,2025-10,9,GOV-SSA,GOV,High,Phishing / credential theft,false,false,false,true,true,411284,326976,0,106634,0.67,2.97,SOC:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202510-SSA02,2025-10,28,GOV-SSA,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,13646,0,0,9043,1.02,1.6,Cloud Security:0.500 CTEM:0.500
+INC-202510-SSA03,2025-10,18,GOV-SSA,GOV,Medium,Ransomware attempt,false,false,false,true,true,83130,58286,0,15291,0.95,1.86,EDR/XDR:0.500 NDR:0.167 Backup:0.167 SOC:0.167
+INC-202510-MUN01,2025-10,18,GOV-MUN,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,66413,50705,0,7981,1.12,3.07,DLP:0.500 SOC:0.250 NDR:0.250
+INC-202510-MUN02,2025-10,26,GOV-MUN,GOV,Medium,Business email compromise,false,true,false,true,false,29964,0,0,8070,1.01,1.78,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202510-MUN03,2025-10,4,GOV-MUN,GOV,High,Ransomware attempt,false,false,false,false,false,482662,0,189297,59394,2.42,8.52,EDR/XDR:0.500 NDR:0.125 Backup:0.125 SOC:0.125 DFIR:0.125
+INC-202510-MUN04,2025-10,6,GOV-MUN,GOV,Medium,Cloud misconfiguration exposure,false,false,false,true,false,129176,0,0,15506,1.02,10.34,Cloud Security:0.500 CTEM:0.500
+INC-202510-MUN05,2025-10,22,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,true,106040,105663,0,15982,1.04,8.72,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202510-MUN06,2025-10,5,GOV-MUN,GOV,Medium,Vulnerability exploitation,false,false,false,false,false,27624,0,15037,14411,0.84,4.85,Vulnerability Mgmt:0.500 AppSec:0.250 WAF:0.250
+INC-202510-IT01,2025-10,4,GSS-IT,GSS,Low,Payment fraud,false,true,false,true,false,6500,0,0,3574,0.37,1.03,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202510-IT02,2025-10,29,GSS-IT,GSS,Medium,Insider misuse,false,false,false,true,false,217943,0,0,15460,3.57,2.4,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202510-FHR01,2025-10,8,GSS-FHR,GSS,High,Phishing / credential theft,false,false,false,true,true,244049,216626,0,32542,1.1,4.83,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 DFIR:0.167
+INC-202510-FHR02,2025-10,30,GSS-FHR,GSS,Low,Cloud misconfiguration exposure,false,false,false,true,false,3617,0,0,8542,2.21,2.86,Cloud Security:0.500 CTEM:0.500
+INC-202511-RB01,2025-11,24,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,true,72740,66282,0,8004,1.38,4.56,SOC:0.500 SOAR:0.500
+INC-202511-RB02,2025-11,6,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,8857,0,0,1068,2.97,2.78,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202511-RB03,2025-11,6,FIN-RB,FIN,Medium,Phishing / credential theft,false,false,false,true,false,24532,0,0,5713,1.31,2.3,SOC:0.500 SOAR:0.167 AI Agents:0.167 IAM/PAM:0.167
+INC-202511-RB04,2025-11,25,FIN-RB,FIN,Low,Cloud misconfiguration exposure,false,false,false,false,false,8726,0,3992,2432,0.86,1.04,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202511-PAY01,2025-11,4,FIN-PAY,FIN,Low,Insider misuse,false,false,false,true,false,10411,0,0,9080,1.47,1.43,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202511-PAY02,2025-11,3,FIN-PAY,FIN,Low,Business email compromise,false,true,false,false,false,14302,0,6151,2942,1.43,1.65,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202511-PAY03,2025-11,25,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,104365,0,0,11913,1.12,8.66,AI Agents:0.500 SOC:0.500
+INC-202511-PAY04,2025-11,23,FIN-PAY,FIN,Low,Malware,false,false,false,true,false,29249,0,0,1230,0.85,1.98,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202511-PAY05,2025-11,28,FIN-PAY,FIN,Critical,Data exfiltration attempt,false,false,true,false,false,1359919,0,389049,401065,1.64,8.4,DLP:0.500 SOC:0.167 NDR:0.167 DFIR:0.167
+INC-202511-PAY06,2025-11,30,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,true,true,83525,72289,0,20463,3.43,3.57,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202511-PAY07,2025-11,12,FIN-PAY,FIN,Low,Phishing / credential theft,false,false,false,true,false,13520,0,0,2309,1.91,1.61,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202511-PAY08,2025-11,14,FIN-PAY,FIN,High,Ransomware attempt,false,false,false,true,true,843007,698301,0,41365,2.42,26.92,EDR/XDR:0.500 Backup:0.167 SOC:0.167 DFIR:0.167
+INC-202511-HOS01,2025-11,20,HLT-HOS,HLT,Low,Insider misuse,false,false,false,true,false,8633,0,0,2342,2.59,1.51,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202511-HOS02,2025-11,15,HLT-HOS,HLT,High,Phishing / credential theft,false,false,false,true,true,795481,781360,0,60441,0.52,2.44,SOC:0.500 SOAR:0.125 AI Agents:0.125 IAM/PAM:0.125 DFIR:0.125
+INC-202511-HOS03,2025-11,9,HLT-HOS,HLT,Medium,Account takeover,false,true,false,true,false,52949,0,0,3918,2.23,5.92,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202511-LAB01,2025-11,24,HLT-LAB,HLT,Low,Vulnerability exploitation,false,false,false,true,false,7638,0,0,2386,1.62,2.25,Vulnerability Mgmt:0.500 CTEM:0.167 WAF:0.167 EDR/XDR:0.167
+INC-202511-LAB02,2025-11,23,HLT-LAB,HLT,Low,Business email compromise,false,true,false,true,false,2087,0,0,2467,1.96,1.85,SOC:0.500 AI Agents:0.500
+INC-202511-LAB03,2025-11,3,HLT-LAB,HLT,Low,Business email compromise,false,true,false,true,false,2780,0,0,5069,0.77,2.3,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202511-OGS01,2025-11,26,ENR-OGS,ENR,Medium,Ransomware attempt,false,false,false,true,true,147400,105133,0,14635,1.96,7.21,EDR/XDR:0.500 SOC:0.250 Backup:0.250
+INC-202511-OGS02,2025-11,16,ENR-OGS,ENR,High,AI prompt injection,true,false,false,true,true,297961,224788,0,48027,0.98,10.24,AI Agents:0.500 SOC:0.167 AppSec:0.167 DFIR:0.167
+INC-202511-OGS03,2025-11,4,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,false,false,8343,0,2778,4592,1.67,3.09,SOC:0.500 SOAR:0.500
+INC-202511-SSA01,2025-11,23,GOV-SSA,GOV,Low,Insider misuse,false,false,false,true,false,9341,0,0,3613,1.67,3.34,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202511-SSA02,2025-11,30,GOV-SSA,GOV,Medium,Cloud misconfiguration exposure,false,false,false,true,true,66292,65526,0,10508,1.11,6.25,Cloud Security:0.500 Vulnerability Mgmt:0.250 CTEM:0.250
+INC-202511-SSA03,2025-11,22,GOV-SSA,GOV,Medium,Ransomware attempt,false,false,false,true,false,123927,0,0,14522,1.7,3.06,EDR/XDR:0.500 Backup:0.167 SOC:0.167 NDR:0.167
+INC-202511-SSA04,2025-11,25,GOV-SSA,GOV,Medium,Business email compromise,false,true,false,true,true,82858,78880,0,8102,3.06,4.75,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202511-SSA05,2025-11,28,GOV-SSA,GOV,Low,Account takeover,false,true,false,true,false,3854,0,0,2659,2.57,2.71,IAM/PAM:0.500 SOC:0.500
+INC-202511-MUN01,2025-11,22,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,true,77874,62239,0,35928,1.68,2.89,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202511-MUN02,2025-11,1,GOV-MUN,GOV,Critical,Business email compromise,false,true,true,true,true,5227348,4664374,0,162497,0.96,9.32,SOC:0.500 AI Agents:0.167 DLP:0.167 DFIR:0.167
+INC-202511-IT01,2025-11,8,GSS-IT,GSS,Medium,Vulnerability exploitation,false,false,false,true,true,182684,130266,0,9600,0.95,7.27,Vulnerability Mgmt:0.500 AppSec:0.167 EDR/XDR:0.167 WAF:0.167
+INC-202511-IT02,2025-11,26,GSS-IT,GSS,Low,Payment fraud,false,true,false,true,false,6636,0,0,9548,1.61,1.25,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202511-IT03,2025-11,5,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,false,false,71135,0,28762,21983,1.24,4.33,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202511-IT04,2025-11,14,GSS-IT,GSS,Critical,Phishing / credential theft,false,false,true,true,false,4700228,0,0,221421,0.79,11.09,SOC:0.500 AI Agents:0.125 SOAR:0.125 IAM/PAM:0.125 DFIR:0.125
+INC-202511-IT05,2025-11,16,GSS-IT,GSS,Medium,Phishing / credential theft,false,false,false,true,true,64429,56808,0,5379,1.06,2.6,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202511-IT06,2025-11,16,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,true,true,730647,673635,0,79027,0.99,5.7,SOC:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202511-IT07,2025-11,18,GSS-IT,GSS,Medium,Malware,false,false,false,true,true,90720,86643,0,6575,1.78,11.08,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202511-IT08,2025-11,29,GSS-IT,GSS,Medium,Malware,false,false,false,true,false,131455,0,0,10015,1,6.48,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202511-FHR01,2025-11,16,GSS-FHR,GSS,Medium,Agent unauthorized action,true,false,false,true,false,72721,0,0,10250,1.24,3.77,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202512-RB01,2025-12,28,FIN-RB,FIN,High,Shadow AI data exposure,true,false,false,true,true,786179,666596,0,65771,0.86,13.55,DLP:0.500 GRC:0.167 Cloud Security:0.167 DFIR:0.167
+INC-202512-RB02,2025-12,5,FIN-RB,FIN,Medium,AI data leakage,true,false,false,true,false,46614,0,0,10589,1.12,5.38,DLP:0.500 AI Agents:0.500
+INC-202512-RB03,2025-12,12,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,4208,0,0,1814,1.05,1.13,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202512-RB04,2025-12,22,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,6533,0,0,2284,0.72,1.51,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202512-RB05,2025-12,15,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,true,53887,40307,0,6640,2.98,7.01,IAM/PAM:0.500 AI Agents:0.500
+INC-202512-PAY01,2025-12,25,FIN-PAY,FIN,Critical,Malware,false,false,true,true,false,2050393,0,0,154856,1.97,4.55,EDR/XDR:0.500 SOAR:0.167 SOC:0.167 DFIR:0.167
+INC-202512-PAY02,2025-12,2,FIN-PAY,FIN,High,Vulnerability exploitation,false,false,false,true,true,659324,478399,0,107997,1.15,5.31,Vulnerability Mgmt:0.500 WAF:0.167 AppSec:0.167 DFIR:0.167
+INC-202512-PAY03,2025-12,26,FIN-PAY,FIN,Low,Phishing / credential theft,false,false,false,true,false,12147,0,0,2459,2.16,3.21,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202512-PAY04,2025-12,17,FIN-PAY,FIN,Medium,Account takeover,false,true,false,true,true,102302,77794,0,13828,3.51,4.16,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202512-PAY05,2025-12,11,FIN-PAY,FIN,Low,Business email compromise,false,true,false,true,false,7730,0,0,3461,1.13,3.88,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202512-HOS01,2025-12,28,HLT-HOS,HLT,Medium,Data exfiltration attempt,false,false,false,true,false,43901,0,0,17167,3.37,9.88,DLP:0.500 SOC:0.167 Firewall:0.167 NDR:0.167
+INC-202512-HOS02,2025-12,29,HLT-HOS,HLT,High,Business email compromise,false,true,false,true,true,211710,158310,0,41318,1.57,5.68,SOC:0.500 AI Agents:0.167 DLP:0.167 DFIR:0.167
+INC-202512-HOS03,2025-12,5,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,37951,0,0,10479,1.48,5.6,SOC:0.500 IAM/PAM:0.500
+INC-202512-LAB01,2025-12,19,HLT-LAB,HLT,Medium,Malware,false,false,false,true,false,38653,0,0,23625,0.83,3.32,EDR/XDR:0.500 SOC:0.500
+INC-202512-PWR01,2025-12,15,ENR-PWR,ENR,Medium,Ransomware attempt,false,false,false,true,false,281083,0,0,7325,2.43,8.09,EDR/XDR:0.500 NDR:0.500
+INC-202512-OGS01,2025-12,15,ENR-OGS,ENR,Medium,Insider misuse,false,false,false,true,false,76904,0,0,14132,4.06,4.95,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202512-OGS02,2025-12,9,ENR-OGS,ENR,High,Phishing / credential theft,false,false,false,true,true,863537,779136,0,69489,2.68,3.15,SOC:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202512-OGS03,2025-12,2,ENR-OGS,ENR,Low,Phishing / credential theft,false,false,false,true,false,11065,0,0,1851,0.63,1.45,SOC:0.500 AI Agents:0.500
+INC-202512-OGS04,2025-12,14,ENR-OGS,ENR,Medium,Cloud misconfiguration exposure,false,false,false,true,true,65532,65096,0,10362,3.58,5.94,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202512-SSA01,2025-12,28,GOV-SSA,GOV,High,Insider misuse,false,false,false,true,true,890190,629179,0,126971,0.94,5.31,DLP:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202512-SSA02,2025-12,29,GOV-SSA,GOV,Medium,DDoS,false,false,false,true,true,51404,43983,0,24367,0.74,2.35,WAF:0.500 Firewall:0.250 NDR:0.250
+INC-202512-SSA03,2025-12,7,GOV-SSA,GOV,Low,Business email compromise,false,true,false,true,false,14681,0,0,2377,1.43,4.14,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202512-SSA04,2025-12,7,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,true,198285,175302,0,6016,1.17,9.91,SOC:0.500 SOAR:0.500
+INC-202512-SSA05,2025-12,19,GOV-SSA,GOV,Medium,AI data leakage,true,false,false,true,true,91379,73690,0,17024,1.81,9.65,DLP:0.500 AI Agents:0.500
+INC-202512-MUN01,2025-12,8,GOV-MUN,GOV,Medium,Vulnerability exploitation,false,false,false,true,false,14830,0,0,8394,0.43,3.72,Vulnerability Mgmt:0.500 WAF:0.250 AppSec:0.250
+INC-202512-MUN02,2025-12,30,GOV-MUN,GOV,Medium,Ransomware attempt,false,false,false,false,false,158775,0,57641,16551,1.43,4.16,EDR/XDR:0.500 Backup:0.167 NDR:0.167 SOC:0.167
+INC-202512-MUN03,2025-12,15,GOV-MUN,GOV,Medium,Ransomware attempt,false,false,false,true,true,106615,86015,0,9383,1.27,2.36,EDR/XDR:0.500 Backup:0.167 NDR:0.167 SOC:0.167
+INC-202512-IT01,2025-12,17,GSS-IT,GSS,Medium,Data exfiltration attempt,false,false,false,true,false,183211,0,0,37769,2.58,6.16,DLP:0.500 Firewall:0.500
+INC-202512-IT02,2025-12,11,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,18515,0,0,10312,1.07,3.7,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202512-IT03,2025-12,31,GSS-IT,GSS,Medium,AI prompt injection,true,false,false,true,false,130377,0,0,12132,1.01,5.53,AI Agents:0.500 SOC:0.500
+INC-202512-IT04,2025-12,3,GSS-IT,GSS,Low,AI prompt injection,true,false,false,true,false,6361,0,0,3081,1.7,3.1,AI Agents:0.500 AppSec:0.250 SOC:0.250
+INC-202512-IT05,2025-12,10,GSS-IT,GSS,Low,Vulnerability exploitation,false,false,false,true,false,8668,0,0,1030,1.58,2.02,Vulnerability Mgmt:0.500 CTEM:0.167 AppSec:0.167 EDR/XDR:0.167
+INC-202512-FHR01,2025-12,5,GSS-FHR,GSS,Low,Cloud misconfiguration exposure,false,false,false,true,false,3467,0,0,1618,1.33,5.97,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202601-RB01,2026-01,18,FIN-RB,FIN,Medium,Malware,false,false,false,true,false,83748,0,0,8793,0.47,4.2,EDR/XDR:0.500 SOAR:0.500
+INC-202601-RB02,2026-01,17,FIN-RB,FIN,Low,Cloud misconfiguration exposure,false,false,false,true,false,22253,0,0,6797,2.04,4.57,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202601-RB03,2026-01,25,FIN-RB,FIN,Medium,DDoS,false,false,false,true,true,74708,61182,0,25586,0.73,1.83,WAF:0.500 NDR:0.250 Firewall:0.250
+INC-202601-RB04,2026-01,15,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,46088,0,0,24660,2.37,8.2,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202601-RB05,2026-01,11,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,true,108150,89874,0,22826,1.07,4.6,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202601-RB06,2026-01,18,FIN-RB,FIN,Low,Vulnerability exploitation,false,false,false,true,false,34165,0,0,3143,1.75,1.88,Vulnerability Mgmt:0.500 CTEM:0.500
+INC-202601-PAY01,2026-01,6,FIN-PAY,FIN,Low,Malware,false,false,false,true,false,6913,0,0,2777,3.59,4.78,EDR/XDR:0.500 SOC:0.500
+INC-202601-HOS01,2026-01,10,HLT-HOS,HLT,Medium,Business email compromise,false,true,false,true,true,60111,53238,0,5510,1.25,3.16,SOC:0.500 SOAR:0.250 DLP:0.250
+INC-202601-HOS02,2026-01,13,HLT-HOS,HLT,High,AI prompt injection,true,false,false,true,false,343043,0,0,97046,1.18,7.82,AI Agents:0.500 SOC:0.250 DFIR:0.250
+INC-202601-HOS03,2026-01,3,HLT-HOS,HLT,Medium,AI prompt injection,true,false,false,true,false,17895,0,0,8138,2.91,5.36,AI Agents:0.500 AppSec:0.250 SOC:0.250
+INC-202601-HOS04,2026-01,12,HLT-HOS,HLT,Medium,Malware,false,false,false,true,false,68808,0,0,6283,1.35,3.29,EDR/XDR:0.500 SOC:0.500
+INC-202601-LAB01,2026-01,18,HLT-LAB,HLT,Critical,Ransomware attempt,false,false,true,true,false,1843119,0,0,358846,2.34,15.73,EDR/XDR:0.500 NDR:0.167 SOC:0.167 DFIR:0.167
+INC-202601-LAB02,2026-01,21,HLT-LAB,HLT,Low,Payment fraud,false,true,false,true,false,12918,0,0,5254,0.79,3.13,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202601-PWR01,2026-01,23,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,false,182241,0,0,10366,0.93,4.93,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202601-PWR02,2026-01,24,ENR-PWR,ENR,Low,Account takeover,false,true,false,true,false,10166,0,0,1947,1.7,2.89,IAM/PAM:0.500 SOC:0.500
+INC-202601-PWR03,2026-01,25,ENR-PWR,ENR,Medium,Malware,false,false,false,false,false,257883,0,49993,14041,0.8,2.32,EDR/XDR:0.500 SOC:0.500
+INC-202601-PWR04,2026-01,7,ENR-PWR,ENR,High,Malware,false,false,false,true,false,743072,0,0,148816,0.35,3.95,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202601-SSA01,2026-01,5,GOV-SSA,GOV,High,Vulnerability exploitation,false,false,false,false,false,253817,0,94887,90445,1.39,6.88,Vulnerability Mgmt:0.500 AppSec:0.125 WAF:0.125 CTEM:0.125 DFIR:0.125
+INC-202601-SSA02,2026-01,11,GOV-SSA,GOV,Low,DDoS,false,false,false,true,false,12026,0,0,6161,1.47,2.48,WAF:0.500 NDR:0.500
+INC-202601-SSA03,2026-01,3,GOV-SSA,GOV,Medium,Business email compromise,false,true,false,true,true,50134,47863,0,6752,1.47,5.5,SOC:0.500 DLP:0.167 AI Agents:0.167 SOAR:0.167
+INC-202601-SSA04,2026-01,28,GOV-SSA,GOV,Low,Malware,false,false,false,true,false,25967,0,0,3074,1.42,2.15,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202601-MUN01,2026-01,11,GOV-MUN,GOV,Low,Phishing / credential theft,false,false,false,true,false,15562,0,0,2960,3,2.28,SOC:0.500 SOAR:0.500
+INC-202601-IT01,2026-01,8,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,3443,0,0,2427,4.02,4.07,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202601-IT02,2026-01,19,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,true,50082,38768,0,9012,0.99,3.64,SOC:0.500 DLP:0.167 SOAR:0.167 AI Agents:0.167
+INC-202601-IT03,2026-01,29,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,26970,0,0,2607,1.08,1.64,SOC:0.500 AI Agents:0.500
+INC-202601-IT04,2026-01,22,GSS-IT,GSS,Low,Malware,false,false,false,true,false,21192,0,0,2467,1.85,2.63,EDR/XDR:0.500 SOC:0.500
+INC-202601-IT05,2026-01,13,GSS-IT,GSS,Low,Malware,false,false,false,true,false,38629,0,0,5627,2.01,1.92,EDR/XDR:0.500 SOC:0.500
+INC-202601-IT06,2026-01,4,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,6360,0,0,2827,2.86,2.62,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202601-IT07,2026-01,15,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,29126,0,0,2473,1.63,1.62,SOC:0.500 AI Agents:0.250 DLP:0.250
+INC-202601-IT08,2026-01,7,GSS-IT,GSS,Medium,Ransomware attempt,false,false,false,true,false,44641,0,0,15356,1.73,7.27,EDR/XDR:0.500 SOC:0.500
+INC-202601-IT09,2026-01,11,GSS-IT,GSS,Low,Payment fraud,false,true,false,true,false,40855,0,0,2701,1.12,5.51,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202601-FHR01,2026-01,26,GSS-FHR,GSS,Medium,Business email compromise,false,true,false,true,false,62122,0,0,15170,1.74,3.13,SOC:0.500 DLP:0.167 SOAR:0.167 AI Agents:0.167
+INC-202601-FHR02,2026-01,13,GSS-FHR,GSS,Low,Insider misuse,false,false,false,true,false,4625,0,0,5101,1.7,1.16,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202601-FHR03,2026-01,20,GSS-FHR,GSS,Medium,Business email compromise,false,true,false,true,false,510907,0,0,5311,1.02,7.38,SOC:0.500 AI Agents:0.500
+INC-202602-RB01,2026-02,3,FIN-RB,FIN,Low,Malware,false,false,false,true,false,6685,0,0,1272,1.84,1.03,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202602-RB02,2026-02,4,FIN-RB,FIN,Medium,Malware,false,false,false,true,false,286573,0,0,65457,0.6,3.75,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202602-PAY01,2026-02,23,FIN-PAY,FIN,Low,Vulnerability exploitation,false,false,false,true,false,5385,0,0,4774,4.56,4.19,Vulnerability Mgmt:0.500 EDR/XDR:0.250 WAF:0.250
+INC-202602-PAY02,2026-02,22,FIN-PAY,FIN,Low,Account takeover,false,true,false,true,false,33127,0,0,2085,1.42,5.39,IAM/PAM:0.500 AI Agents:0.500
+INC-202602-PAY03,2026-02,15,FIN-PAY,FIN,Low,Vulnerability exploitation,false,false,false,true,false,10816,0,0,3750,0.86,4.69,Vulnerability Mgmt:0.500 EDR/XDR:0.167 CTEM:0.167 AppSec:0.167
+INC-202602-PAY04,2026-02,19,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,true,false,49419,0,0,7226,1.36,11.78,SOC:0.500 SOAR:0.500
+INC-202602-PAY05,2026-02,27,FIN-PAY,FIN,High,Malware,false,false,false,true,false,179766,0,0,36019,1.36,6.57,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202602-PAY06,2026-02,23,FIN-PAY,FIN,Low,Insider misuse,false,false,false,true,false,12596,0,0,1908,2.29,1.96,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202602-PAY07,2026-02,8,FIN-PAY,FIN,Medium,Ransomware attempt,false,false,false,true,false,26782,0,0,6890,1.02,7.94,EDR/XDR:0.500 SOC:0.167 Backup:0.167 NDR:0.167
+INC-202602-HOS01,2026-02,16,HLT-HOS,HLT,Medium,Malware,false,false,false,true,true,163583,125458,0,12645,2.53,5.41,EDR/XDR:0.500 SOAR:0.500
+INC-202602-HOS02,2026-02,1,HLT-HOS,HLT,High,Ransomware attempt,false,false,false,true,false,120399,0,0,66833,1.34,6.7,EDR/XDR:0.500 SOC:0.125 Backup:0.125 NDR:0.125 DFIR:0.125
+INC-202602-HOS03,2026-02,21,HLT-HOS,HLT,High,Malware,false,false,false,true,false,530796,0,0,59944,0.71,9.58,EDR/XDR:0.500 SOAR:0.167 SOC:0.167 DFIR:0.167
+INC-202602-LAB01,2026-02,10,HLT-LAB,HLT,Medium,Data exfiltration attempt,false,false,false,true,true,83153,62858,0,14396,0.92,8.42,DLP:0.500 Firewall:0.167 NDR:0.167 SOC:0.167
+INC-202602-LAB02,2026-02,3,HLT-LAB,HLT,Medium,Cloud misconfiguration exposure,false,false,false,true,false,28067,0,0,17141,1.72,9.49,Cloud Security:0.500 CTEM:0.500
+INC-202602-LAB03,2026-02,13,HLT-LAB,HLT,High,Insider misuse,false,false,false,true,false,317173,0,0,85250,1.31,10.28,DLP:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202602-LAB04,2026-02,27,HLT-LAB,HLT,Low,Ransomware attempt,false,false,false,true,false,6096,0,0,3811,2.24,2.68,EDR/XDR:0.500 SOC:0.167 NDR:0.167 Backup:0.167
+INC-202602-LAB05,2026-02,16,HLT-LAB,HLT,Medium,Phishing / credential theft,false,false,false,true,true,90817,69307,0,4988,1,2.69,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202602-PWR01,2026-02,24,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,false,22850,0,0,10922,2.3,3.92,SOC:0.500 SOAR:0.500
+INC-202602-PWR02,2026-02,4,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,false,211033,0,0,9916,0.97,15.59,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202602-PWR03,2026-02,26,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,false,false,9590,0,4569,3520,2.82,5.49,SOC:0.500 SOAR:0.500
+INC-202602-PWR04,2026-02,16,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,true,51697,38753,0,18898,1.11,3.23,SOC:0.500 AI Agents:0.167 SOAR:0.167 IAM/PAM:0.167
+INC-202602-PWR05,2026-02,19,ENR-PWR,ENR,Low,Data exfiltration attempt,false,false,false,true,false,4594,0,0,2879,1.64,2.06,DLP:0.500 Firewall:0.250 SOC:0.250
+INC-202602-PWR06,2026-02,5,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,38141,0,0,3786,1.28,1.35,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202602-OGS01,2026-02,13,ENR-OGS,ENR,Low,Vulnerability exploitation,false,false,false,true,false,25367,0,0,4569,1.22,2.49,Vulnerability Mgmt:0.500 CTEM:0.167 EDR/XDR:0.167 WAF:0.167
+INC-202602-OGS02,2026-02,18,ENR-OGS,ENR,Low,Cloud misconfiguration exposure,false,false,false,true,false,32142,0,0,1377,1.42,3.66,Cloud Security:0.500 CTEM:0.500
+INC-202602-OGS03,2026-02,7,ENR-OGS,ENR,Critical,Business email compromise,false,true,true,true,false,2231648,0,0,241386,1.32,6.11,SOC:0.500 DLP:0.125 AI Agents:0.125 SOAR:0.125 DFIR:0.125
+INC-202602-SSA01,2026-02,5,GOV-SSA,GOV,High,Business email compromise,false,true,false,true,true,925111,814429,0,88611,1.9,3.04,SOC:0.500 DLP:0.167 SOAR:0.167 DFIR:0.167
+INC-202602-SSA02,2026-02,15,GOV-SSA,GOV,Low,Ransomware attempt,false,false,false,true,false,11309,0,0,2632,1.77,2.88,EDR/XDR:0.500 NDR:0.167 SOC:0.167 Backup:0.167
+INC-202602-SSA03,2026-02,17,GOV-SSA,GOV,High,Ransomware attempt,false,false,false,true,false,491853,0,0,47047,1.69,11.79,EDR/XDR:0.500 NDR:0.167 SOC:0.167 DFIR:0.167
+INC-202602-SSA04,2026-02,1,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,false,false,56759,0,26514,21436,0.89,6.29,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202602-SSA05,2026-02,15,GOV-SSA,GOV,High,Insider misuse,false,false,false,true,false,363011,0,0,133689,1.2,4.63,DLP:0.500 SOC:0.167 IAM/PAM:0.167 DFIR:0.167
+INC-202602-SSA06,2026-02,19,GOV-SSA,GOV,Low,DDoS,false,false,false,true,false,36992,0,0,2131,0.91,3.65,WAF:0.500 NDR:0.500
+INC-202602-SSA07,2026-02,25,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,true,160653,134613,0,10702,0.72,8.68,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202602-SSA08,2026-02,22,GOV-SSA,GOV,Medium,Cloud misconfiguration exposure,false,false,false,true,false,54840,0,0,11320,2.24,5.3,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202602-SSA09,2026-02,27,GOV-SSA,GOV,Critical,Vulnerability exploitation,false,false,true,true,true,2140950,1849682,0,132167,2.89,11.68,Vulnerability Mgmt:0.500 AppSec:0.167 EDR/XDR:0.167 DFIR:0.167
+INC-202602-MUN01,2026-02,1,GOV-MUN,GOV,Low,Data exfiltration attempt,false,false,false,true,false,8610,0,0,2261,1.73,1.77,DLP:0.500 Firewall:0.500
+INC-202602-MUN02,2026-02,6,GOV-MUN,GOV,Low,Business email compromise,false,true,false,true,false,11705,0,0,5106,0.62,5.88,SOC:0.500 SOAR:0.167 AI Agents:0.167 DLP:0.167
+INC-202602-IT01,2026-02,5,GSS-IT,GSS,Low,Insider misuse,false,false,false,true,false,30128,0,0,1903,1.83,1.14,DLP:0.500 SOC:0.500
+INC-202602-IT02,2026-02,16,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,true,83286,71134,0,8206,1.96,5.25,SOC:0.500 SOAR:0.167 DLP:0.167 AI Agents:0.167
+INC-202602-IT03,2026-02,28,GSS-IT,GSS,Medium,Vulnerability exploitation,false,false,false,true,false,43253,0,0,7850,1.78,10.56,Vulnerability Mgmt:0.500 WAF:0.500
+INC-202602-IT04,2026-02,28,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,16454,0,0,3544,0.97,3.36,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202602-IT05,2026-02,19,GSS-IT,GSS,Low,Insider misuse,false,false,false,true,false,5992,0,0,3542,1.56,2.37,DLP:0.500 SOC:0.500
+INC-202602-FHR01,2026-02,14,GSS-FHR,GSS,Low,Data exfiltration attempt,false,false,false,true,false,9712,0,0,5807,0.87,2.49,DLP:0.500 SOC:0.167 NDR:0.167 Firewall:0.167
+INC-202603-RB01,2026-03,11,FIN-RB,FIN,Medium,Insider misuse,false,false,false,true,true,142373,108116,0,5326,0.86,5.41,DLP:0.500 SOC:0.500
+INC-202603-RB02,2026-03,6,FIN-RB,FIN,Critical,Business email compromise,false,true,true,true,true,4043348,3049998,0,163318,1.17,4.46,SOC:0.500 SOAR:0.167 AI Agents:0.167 DFIR:0.167
+INC-202603-RB03,2026-03,3,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,false,19056,0,0,10829,1.44,3.49,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202603-RB04,2026-03,18,FIN-RB,FIN,Medium,Phishing / credential theft,false,false,false,true,false,42196,0,0,12488,2.96,2.34,SOC:0.500 IAM/PAM:0.250 SOAR:0.250
+INC-202603-RB05,2026-03,16,FIN-RB,FIN,High,Malware,false,false,true,true,true,3009589,2413804,0,28529,0.46,6.25,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202603-RB06,2026-03,9,FIN-RB,FIN,High,Payment fraud,false,true,false,true,false,518922,0,0,65309,1.1,2.19,AI Agents:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202603-RB07,2026-03,8,FIN-RB,FIN,High,DDoS,false,false,false,true,true,68795,59633,0,30211,2.07,12.49,WAF:0.500 Firewall:0.167 NDR:0.167 DFIR:0.167
+INC-202603-RB08,2026-03,28,FIN-RB,FIN,Medium,Ransomware attempt,false,false,false,true,true,68952,60472,0,16393,2.28,5.13,EDR/XDR:0.500 SOC:0.500
+INC-202603-RB09,2026-03,31,FIN-RB,FIN,Low,Cloud misconfiguration exposure,false,false,false,true,false,2893,0,0,1604,0.47,4.25,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202603-PAY01,2026-03,21,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,true,false,14683,0,0,15529,0.62,4.03,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202603-PAY02,2026-03,14,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,42274,0,0,8934,2.55,6.17,AI Agents:0.500 IAM/PAM:0.500
+INC-202603-PAY03,2026-03,27,FIN-PAY,FIN,Low,Account takeover,false,true,false,true,false,103324,0,0,2068,2.43,2.55,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202603-PAY04,2026-03,24,FIN-PAY,FIN,Low,DDoS,false,false,false,true,false,6346,0,0,1365,0.57,2.47,WAF:0.500 Firewall:0.250 NDR:0.250
+INC-202603-PAY05,2026-03,15,FIN-PAY,FIN,Low,Cloud misconfiguration exposure,false,false,false,true,false,18757,0,0,2556,1.07,3.43,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202603-PAY06,2026-03,16,FIN-PAY,FIN,High,Business email compromise,false,true,false,true,true,803639,799708,0,98125,1.77,6.56,SOC:0.500 DLP:0.125 AI Agents:0.125 SOAR:0.125 DFIR:0.125
+INC-202603-HOS01,2026-03,22,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,6968,0,0,1888,2.64,2.41,SOC:0.500 IAM/PAM:0.500
+INC-202603-HOS02,2026-03,24,HLT-HOS,HLT,High,Vulnerability exploitation,false,false,false,true,true,635963,616864,0,32948,1.1,4.86,Vulnerability Mgmt:0.500 EDR/XDR:0.167 AppSec:0.167 DFIR:0.167
+INC-202603-HOS03,2026-03,4,HLT-HOS,HLT,Low,Cloud misconfiguration exposure,false,false,false,true,false,11196,0,0,2524,4.06,2.8,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202603-HOS04,2026-03,5,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,true,50308,39508,0,8874,3.99,3.47,Vulnerability Mgmt:0.500 WAF:0.250 AppSec:0.250
+INC-202603-HOS05,2026-03,10,HLT-HOS,HLT,Low,Payment fraud,false,true,false,true,true,71131,70832,0,3647,1.7,1.89,AI Agents:0.500 SOC:0.500
+INC-202603-HOS06,2026-03,28,HLT-HOS,HLT,Medium,Account takeover,false,true,false,true,true,51117,48293,0,9976,1.23,5.28,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202603-HOS07,2026-03,2,HLT-HOS,HLT,High,Insider misuse,false,false,false,true,false,570758,0,0,99653,0.39,12.89,DLP:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202603-HOS08,2026-03,24,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,43559,0,0,24686,1.42,4.72,SOC:0.500 AI Agents:0.500
+INC-202603-HOS09,2026-03,12,HLT-HOS,HLT,Low,Malware,false,false,false,true,false,24144,0,0,4667,1.17,2.91,EDR/XDR:0.500 SOC:0.500
+INC-202603-HOS10,2026-03,20,HLT-HOS,HLT,Low,Data exfiltration attempt,false,false,false,true,false,7909,0,0,3103,1.8,7.31,DLP:0.500 Firewall:0.167 NDR:0.167 SOC:0.167
+INC-202603-LAB01,2026-03,5,HLT-LAB,HLT,Medium,Malware,false,false,false,true,false,20627,0,0,12481,0.81,3.73,EDR/XDR:0.500 SOAR:0.500
+INC-202603-LAB02,2026-03,30,HLT-LAB,HLT,Medium,Malware,false,false,false,true,true,102571,96244,0,8714,2.15,7.72,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202603-PWR01,2026-03,8,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,18029,0,0,5417,4.01,3.06,SOC:0.500 IAM/PAM:0.500
+INC-202603-PWR02,2026-03,11,ENR-PWR,ENR,Low,Business email compromise,false,true,false,true,false,21435,0,0,1793,0.76,2.06,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202603-PWR03,2026-03,25,ENR-PWR,ENR,Low,Cloud misconfiguration exposure,false,false,false,true,false,25701,0,0,1997,1.49,0.9,Cloud Security:0.500 Vulnerability Mgmt:0.250 CTEM:0.250
+INC-202603-PWR04,2026-03,17,ENR-PWR,ENR,High,Malware,false,false,false,true,true,623193,498351,0,21796,0.84,3.08,EDR/XDR:0.500 SOAR:0.167 SOC:0.167 DFIR:0.167
+INC-202603-PWR05,2026-03,8,ENR-PWR,ENR,High,Account takeover,false,true,false,true,false,214981,0,0,68048,0.78,10.94,IAM/PAM:0.500 SOC:0.167 AI Agents:0.167 DFIR:0.167
+INC-202603-PWR06,2026-03,30,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,false,237688,0,0,18245,1.56,1.51,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202603-PWR07,2026-03,30,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,true,56891,40232,0,15562,1.3,9.06,SOC:0.500 IAM/PAM:0.250 AI Agents:0.250
+INC-202603-PWR08,2026-03,1,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,26972,0,0,3921,2.27,1.77,SOC:0.500 SOAR:0.500
+INC-202603-OGS01,2026-03,1,ENR-OGS,ENR,High,Phishing / credential theft,false,false,false,true,true,152778,150736,0,99693,1.08,2.42,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 DFIR:0.167
+INC-202603-OGS02,2026-03,14,ENR-OGS,ENR,Low,Business email compromise,false,true,false,false,false,9396,0,2755,4310,0.47,2.82,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202603-OGS03,2026-03,27,ENR-OGS,ENR,Low,Account takeover,false,true,false,false,false,22899,0,13454,3116,5.06,2.86,IAM/PAM:0.500 AI Agents:0.500
+INC-202603-OGS04,2026-03,3,ENR-OGS,ENR,Low,Agent unauthorized action,true,false,false,true,false,7648,0,0,3053,2.18,1.49,AI Agents:0.500 IAM/PAM:0.500
+INC-202603-SSA01,2026-03,13,GOV-SSA,GOV,High,Ransomware attempt,false,false,false,true,true,565221,473504,0,60764,1.87,7.63,EDR/XDR:0.500 NDR:0.125 SOC:0.125 Backup:0.125 DFIR:0.125
+INC-202603-SSA02,2026-03,25,GOV-SSA,GOV,Medium,Account takeover,false,true,false,false,false,120307,0,49555,15860,2.45,3.87,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202603-SSA03,2026-03,24,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,true,76552,70705,0,12570,0.83,3.47,SOC:0.500 SOAR:0.500
+INC-202603-SSA04,2026-03,12,GOV-SSA,GOV,Medium,Vulnerability exploitation,false,false,false,true,false,36043,0,0,9089,1.55,2.88,Vulnerability Mgmt:0.500 CTEM:0.167 WAF:0.167 EDR/XDR:0.167
+INC-202603-MUN01,2026-03,8,GOV-MUN,GOV,Medium,Shadow AI data exposure,true,false,false,true,false,39223,0,0,10917,1.07,2.51,DLP:0.500 Cloud Security:0.500
+INC-202603-MUN02,2026-03,25,GOV-MUN,GOV,Low,Agent unauthorized action,true,false,false,true,false,2162,0,0,4059,0.75,5.42,AI Agents:0.500 IAM/PAM:0.500
+INC-202603-MUN03,2026-03,16,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,false,34687,0,0,13759,1.87,4.31,SOC:0.500 AI Agents:0.500
+INC-202603-MUN04,2026-03,15,GOV-MUN,GOV,Low,Business email compromise,false,true,false,true,false,6634,0,0,3013,1.29,3.52,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202603-IT01,2026-03,26,GSS-IT,GSS,High,Vulnerability exploitation,false,false,false,false,false,399780,0,66069,29834,2.8,11.09,Vulnerability Mgmt:0.500 EDR/XDR:0.125 WAF:0.125 CTEM:0.125 DFIR:0.125
+INC-202603-IT02,2026-03,20,GSS-IT,GSS,Low,Malware,false,false,false,true,false,13700,0,0,2493,0.57,2.31,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202603-IT03,2026-03,20,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,21984,0,0,6276,2.17,2.14,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202603-IT04,2026-03,27,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,10278,0,0,4860,1.59,2.44,SOC:0.500 SOAR:0.167 AI Agents:0.167 DLP:0.167
+INC-202603-IT05,2026-03,16,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,true,275760,219672,0,15394,0.51,4.06,SOC:0.500 DLP:0.500
+INC-202603-IT06,2026-03,3,GSS-IT,GSS,High,Payment fraud,false,true,false,true,false,769346,0,0,27954,1.18,6.91,AI Agents:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202603-IT07,2026-03,31,GSS-IT,GSS,Low,Malware,false,false,false,true,false,7739,0,0,7605,0.75,2.95,EDR/XDR:0.500 SOC:0.500
+INC-202603-IT08,2026-03,25,GSS-IT,GSS,Low,Data exfiltration attempt,false,false,false,true,false,6072,0,0,5862,0.95,2.19,DLP:0.500 NDR:0.167 SOC:0.167 Firewall:0.167
+INC-202603-IT09,2026-03,10,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,6759,0,0,2320,0.85,5.74,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202603-IT10,2026-03,9,GSS-IT,GSS,Medium,Payment fraud,false,true,false,true,true,146633,120484,0,11152,1.56,2.47,AI Agents:0.500 IAM/PAM:0.500
+INC-202603-FHR01,2026-03,22,GSS-FHR,GSS,Medium,AI prompt injection,true,false,false,true,false,177669,0,0,10348,1.33,3.82,AI Agents:0.500 SOC:0.250 AppSec:0.250
+INC-202603-FHR02,2026-03,18,GSS-FHR,GSS,Low,Business email compromise,false,true,false,true,false,6431,0,0,3344,1.61,1.74,SOC:0.500 AI Agents:0.250 DLP:0.250
+INC-202604-RB01,2026-04,17,FIN-RB,FIN,Medium,DDoS,false,false,false,true,true,106247,91750,0,25489,5.18,4.54,WAF:0.500 NDR:0.250 Firewall:0.250
+INC-202604-RB02,2026-04,10,FIN-RB,FIN,Medium,Payment fraud,false,true,false,true,true,303716,253674,0,16686,0.22,7.82,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202604-RB03,2026-04,9,FIN-RB,FIN,Medium,Ransomware attempt,false,false,false,true,false,74162,0,0,21584,0.83,8.18,EDR/XDR:0.500 SOC:0.250 Backup:0.250
+INC-202604-PAY01,2026-04,7,FIN-PAY,FIN,Low,DDoS,false,false,false,true,false,11704,0,0,2156,2.17,2.53,WAF:0.500 NDR:0.500
+INC-202604-PAY02,2026-04,30,FIN-PAY,FIN,Medium,Account takeover,false,true,false,true,false,11995,0,0,14893,3.01,5.19,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202604-PAY03,2026-04,10,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,true,107590,84011,0,5687,1.09,7.23,AI Agents:0.500 IAM/PAM:0.500
+INC-202604-PAY04,2026-04,20,FIN-PAY,FIN,High,Business email compromise,false,true,false,false,false,411173,0,88834,79235,0.48,9.35,SOC:0.500 DLP:0.125 SOAR:0.125 AI Agents:0.125 DFIR:0.125
+INC-202604-PAY05,2026-04,26,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,7522,0,0,10131,1.12,4.97,AI Agents:0.500 SOC:0.500
+INC-202604-PAY06,2026-04,7,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,15122,0,0,948,1.12,3.48,AI Agents:0.500 SOC:0.500
+INC-202604-PAY07,2026-04,26,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,4478,0,0,3827,0.7,2.81,AI Agents:0.500 IAM/PAM:0.500
+INC-202604-PAY08,2026-04,18,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,49521,0,0,21439,2.96,4.44,AI Agents:0.500 SOC:0.500
+INC-202604-PAY09,2026-04,3,FIN-PAY,FIN,High,Phishing / credential theft,false,false,false,false,false,388873,0,160055,77217,1.66,3.24,SOC:0.500 SOAR:0.250 DFIR:0.250
+INC-202604-HOS01,2026-04,14,HLT-HOS,HLT,Medium,Insider misuse,false,false,false,true,false,107678,0,0,10393,1.58,7.81,DLP:0.500 IAM/PAM:0.500
+INC-202604-HOS02,2026-04,28,HLT-HOS,HLT,High,Insider misuse,false,false,false,true,true,229870,197227,0,56206,0.29,6.97,DLP:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202604-HOS03,2026-04,20,HLT-HOS,HLT,Low,Payment fraud,false,true,false,true,false,7537,0,0,1522,1.09,1.71,AI Agents:0.500 IAM/PAM:0.500
+INC-202604-HOS04,2026-04,8,HLT-HOS,HLT,Low,Business email compromise,false,true,false,true,false,21964,0,0,2845,1.62,1.76,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202604-HOS05,2026-04,11,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,16276,0,0,2377,1.06,1.02,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202604-HOS06,2026-04,10,HLT-HOS,HLT,Low,Data exfiltration attempt,false,false,false,true,false,30985,0,0,3269,2.26,1.21,DLP:0.500 Firewall:0.250 SOC:0.250
+INC-202604-HOS07,2026-04,28,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,false,59676,0,0,7487,1.01,8.59,Vulnerability Mgmt:0.500 AppSec:0.250 EDR/XDR:0.250
+INC-202604-HOS08,2026-04,12,HLT-HOS,HLT,High,Payment fraud,false,true,false,true,true,542400,385379,0,86066,1.82,11.02,AI Agents:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202604-HOS09,2026-04,24,HLT-HOS,HLT,Low,Shadow AI data exposure,true,false,false,true,false,50069,0,0,3673,0.75,3.49,DLP:0.500 GRC:0.500
+INC-202604-PWR01,2026-04,19,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,false,39311,0,0,6330,0.62,4.73,SOC:0.500 DLP:0.250 AI Agents:0.250
+INC-202604-PWR02,2026-04,25,ENR-PWR,ENR,Low,Vulnerability exploitation,false,false,false,true,false,17968,0,0,3769,2.06,3.62,Vulnerability Mgmt:0.500 EDR/XDR:0.167 WAF:0.167 AppSec:0.167
+INC-202604-OGS01,2026-04,30,ENR-OGS,ENR,Medium,Business email compromise,false,true,false,true,false,22472,0,0,15033,1.96,5.1,SOC:0.500 DLP:0.500
+INC-202604-OGS02,2026-04,21,ENR-OGS,ENR,Low,Vulnerability exploitation,false,false,false,true,false,38735,0,0,2498,1.93,1.41,Vulnerability Mgmt:0.500 EDR/XDR:0.167 CTEM:0.167 AppSec:0.167
+INC-202604-OGS03,2026-04,29,ENR-OGS,ENR,Medium,Malware,false,false,false,true,false,78527,0,0,18083,1.04,7.4,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202604-SSA01,2026-04,30,GOV-SSA,GOV,Medium,Vulnerability exploitation,false,false,false,true,true,84575,61787,0,4542,1.18,4.22,Vulnerability Mgmt:0.500 EDR/XDR:0.167 CTEM:0.167 AppSec:0.167
+INC-202604-SSA02,2026-04,16,GOV-SSA,GOV,Critical,Ransomware attempt,false,false,true,true,true,1895773,1543113,0,144456,1.04,16.16,EDR/XDR:0.500 SOC:0.167 NDR:0.167 DFIR:0.167
+INC-202604-MUN01,2026-04,28,GOV-MUN,GOV,Low,Cloud misconfiguration exposure,false,false,false,true,false,10773,0,0,1162,1.56,2.94,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202604-MUN02,2026-04,5,GOV-MUN,GOV,Medium,Account takeover,false,true,false,true,true,71448,67157,0,20684,1.62,3.97,IAM/PAM:0.500 SOC:0.500
+INC-202604-MUN03,2026-04,25,GOV-MUN,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,77140,64526,0,13623,3.6,4.1,DLP:0.500 NDR:0.250 Firewall:0.250
+INC-202604-MUN04,2026-04,3,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,false,125431,0,0,13945,0.68,5.22,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202604-IT01,2026-04,5,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,true,true,518270,405350,0,50444,0.76,9.14,SOC:0.500 IAM/PAM:0.250 DFIR:0.250
+INC-202604-IT02,2026-04,15,GSS-IT,GSS,High,Business email compromise,false,true,false,true,false,317506,0,0,135561,0.99,8.36,SOC:0.500 DLP:0.125 SOAR:0.125 AI Agents:0.125 DFIR:0.125
+INC-202604-FHR01,2026-04,2,GSS-FHR,GSS,Low,Account takeover,false,true,false,true,false,23157,0,0,3199,1.36,1.91,IAM/PAM:0.500 AI Agents:0.500
+INC-202604-FHR02,2026-04,22,GSS-FHR,GSS,Medium,Vulnerability exploitation,false,false,false,true,true,90281,89351,0,14122,0.31,2.69,Vulnerability Mgmt:0.500 CTEM:0.250 EDR/XDR:0.250
+INC-202605-RB01,2026-05,15,FIN-RB,FIN,Medium,Vulnerability exploitation,false,false,false,true,true,92940,87642,0,27682,1.69,6.26,Vulnerability Mgmt:0.500 EDR/XDR:0.250 AppSec:0.250
+INC-202605-RB02,2026-05,5,FIN-RB,FIN,High,Vulnerability exploitation,false,false,false,true,true,520464,460434,0,33560,1.03,3.26,Vulnerability Mgmt:0.500 AppSec:0.125 EDR/XDR:0.125 CTEM:0.125 DFIR:0.125
+INC-202605-RB03,2026-05,2,FIN-RB,FIN,Low,Shadow AI data exposure,true,false,false,true,false,15509,0,0,3505,3.08,1.88,DLP:0.500 GRC:0.250 Cloud Security:0.250
+INC-202605-RB04,2026-05,11,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,false,43022,0,0,1425,1.01,3.35,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202605-RB05,2026-05,20,FIN-RB,FIN,Medium,DDoS,false,false,false,true,true,62961,60902,0,23389,1.48,5.25,WAF:0.500 Firewall:0.250 NDR:0.250
+INC-202605-RB06,2026-05,5,FIN-RB,FIN,High,Vulnerability exploitation,false,false,false,true,true,642123,465176,0,137435,1.62,7.19,Vulnerability Mgmt:0.500 WAF:0.167 EDR/XDR:0.167 DFIR:0.167
+INC-202605-RB07,2026-05,25,FIN-RB,FIN,Low,Vulnerability exploitation,false,false,false,true,true,130993,117634,0,3540,0.65,3.57,Vulnerability Mgmt:0.500 CTEM:0.250 EDR/XDR:0.250
+INC-202605-PAY01,2026-05,19,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,6264,0,0,1336,2.04,1.5,AI Agents:0.500 IAM/PAM:0.500
+INC-202605-PAY02,2026-05,6,FIN-PAY,FIN,High,Payment fraud,false,true,true,true,true,1602142,1224597,0,60223,3.45,4.17,AI Agents:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202605-HOS01,2026-05,26,HLT-HOS,HLT,Medium,AI prompt injection,true,false,false,true,true,57416,48118,0,5097,1.57,7.38,AI Agents:0.500 AppSec:0.250 SOC:0.250
+INC-202605-HOS02,2026-05,9,HLT-HOS,HLT,Low,Business email compromise,false,true,false,true,false,6693,0,0,3759,0.89,7.9,SOC:0.500 AI Agents:0.250 DLP:0.250
+INC-202605-HOS03,2026-05,16,HLT-HOS,HLT,Low,Ransomware attempt,false,false,false,true,false,12368,0,0,3989,1.39,4.9,EDR/XDR:0.500 Backup:0.167 NDR:0.167 SOC:0.167
+INC-202605-HOS04,2026-05,29,HLT-HOS,HLT,Low,Data exfiltration attempt,false,false,false,false,false,12906,0,3542,2302,3.27,3.48,DLP:0.500 NDR:0.167 Firewall:0.167 SOC:0.167
+INC-202605-HOS05,2026-05,11,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,4762,0,0,3052,2.5,2.53,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202605-HOS06,2026-05,16,HLT-HOS,HLT,Medium,AI prompt injection,true,false,false,true,false,35922,0,0,10383,0.89,3.13,AI Agents:0.500 AppSec:0.250 SOC:0.250
+INC-202605-PWR01,2026-05,9,ENR-PWR,ENR,High,Vulnerability exploitation,false,false,false,true,true,341282,295638,0,32457,0.51,5.17,Vulnerability Mgmt:0.500 EDR/XDR:0.250 DFIR:0.250
+INC-202605-PWR02,2026-05,18,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,false,88727,0,0,17294,0.77,4.18,SOC:0.500 DLP:0.500
+INC-202605-PWR03,2026-05,10,ENR-PWR,ENR,Low,Vulnerability exploitation,false,false,false,true,false,10911,0,0,1545,3.55,2.32,Vulnerability Mgmt:0.500 WAF:0.500
+INC-202605-OGS01,2026-05,7,ENR-OGS,ENR,Low,Vulnerability exploitation,false,false,false,true,false,26655,0,0,6788,0.93,2.13,Vulnerability Mgmt:0.500 WAF:0.500
+INC-202605-OGS02,2026-05,23,ENR-OGS,ENR,Low,Payment fraud,false,true,false,true,false,10858,0,0,3649,0.86,1.23,AI Agents:0.500 IAM/PAM:0.500
+INC-202605-OGS03,2026-05,9,ENR-OGS,ENR,Critical,Phishing / credential theft,false,false,true,true,false,1232574,0,0,276166,1.77,10.16,SOC:0.500 AI Agents:0.250 DFIR:0.250
+INC-202605-OGS04,2026-05,13,ENR-OGS,ENR,Medium,Phishing / credential theft,false,false,false,true,false,87284,0,0,19077,3.1,7.11,SOC:0.500 IAM/PAM:0.500
+INC-202605-OGS05,2026-05,1,ENR-OGS,ENR,Medium,Malware,false,false,false,false,false,37595,0,12921,24285,0.82,3.25,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202605-SSA01,2026-05,19,GOV-SSA,GOV,Low,Vulnerability exploitation,false,false,false,true,false,5370,0,0,2874,0.86,3.48,Vulnerability Mgmt:0.500 EDR/XDR:0.167 CTEM:0.167 AppSec:0.167
+INC-202605-SSA02,2026-05,21,GOV-SSA,GOV,Low,Account takeover,false,true,false,true,false,9361,0,0,4872,0.65,2.44,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202605-SSA03,2026-05,16,GOV-SSA,GOV,Medium,Agent unauthorized action,true,false,false,true,false,35001,0,0,10864,1.83,8.56,AI Agents:0.500 SOC:0.500
+INC-202605-SSA04,2026-05,6,GOV-SSA,GOV,Low,Data exfiltration attempt,false,false,false,true,false,13697,0,0,4686,1.18,2.93,DLP:0.500 Firewall:0.500
+INC-202605-SSA05,2026-05,20,GOV-SSA,GOV,Medium,Account takeover,false,true,false,true,true,224204,218041,0,8460,4.24,2.39,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202605-MUN01,2026-05,12,GOV-MUN,GOV,High,Insider misuse,false,false,false,true,true,564399,506728,0,38797,1.94,12.57,DLP:0.500 SOC:0.250 DFIR:0.250
+INC-202605-MUN02,2026-05,11,GOV-MUN,GOV,Low,Phishing / credential theft,false,false,false,true,false,22975,0,0,1726,2.4,0.81,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202605-MUN03,2026-05,22,GOV-MUN,GOV,Low,Vulnerability exploitation,false,false,false,true,false,23254,0,0,3970,1.98,1.39,Vulnerability Mgmt:0.500 EDR/XDR:0.167 CTEM:0.167 AppSec:0.167
+INC-202605-IT01,2026-05,29,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,16199,0,0,2408,4.26,6.93,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202605-IT02,2026-05,20,GSS-IT,GSS,Low,Malware,false,false,false,true,false,11214,0,0,3772,1.63,1.23,EDR/XDR:0.500 SOAR:0.500
+INC-202605-IT03,2026-05,26,GSS-IT,GSS,Critical,Business email compromise,false,true,true,true,true,2247963,1764161,0,177552,1.3,2.72,SOC:0.500 DLP:0.167 AI Agents:0.167 DFIR:0.167
+INC-202605-IT04,2026-05,14,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,9549,0,0,1935,1.8,1.5,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202605-IT05,2026-05,21,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,3385,0,0,1420,2.08,3.64,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202605-IT06,2026-05,24,GSS-IT,GSS,Medium,Malware,false,false,false,true,false,17987,0,0,7339,0.67,7.75,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202605-IT07,2026-05,6,GSS-IT,GSS,Low,Malware,false,false,false,true,false,8841,0,0,3519,0.73,5.08,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202605-IT08,2026-05,28,GSS-IT,GSS,High,Phishing / credential theft,false,false,false,true,true,554605,469250,0,58883,1.23,4.85,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 DFIR:0.167
+INC-202605-FHR01,2026-05,7,GSS-FHR,GSS,Low,Cloud misconfiguration exposure,false,false,false,true,false,18004,0,0,2168,1.99,1.55,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202605-FHR02,2026-05,13,GSS-FHR,GSS,Low,Phishing / credential theft,false,false,false,true,false,11378,0,0,10915,2,3.93,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202606-RB01,2026-06,22,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,true,97731,97482,0,17986,1.57,0.9,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202606-RB02,2026-06,8,FIN-RB,FIN,Low,Malware,false,false,false,true,false,20713,0,0,2981,1.63,4.4,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202606-RB03,2026-06,14,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,true,71238,70638,0,11992,2.53,8.84,IAM/PAM:0.500 AI Agents:0.500
+INC-202606-RB04,2026-06,10,FIN-RB,FIN,Medium,Account takeover,false,true,false,true,true,58751,56310,0,8490,1.26,2.1,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202606-PAY01,2026-06,13,FIN-PAY,FIN,High,Vulnerability exploitation,false,false,false,true,true,568454,488952,0,40998,0.87,2.26,Vulnerability Mgmt:0.500 AppSec:0.125 CTEM:0.125 EDR/XDR:0.125 DFIR:0.125
+INC-202606-PAY02,2026-06,4,FIN-PAY,FIN,Critical,Payment fraud,false,true,true,true,false,2645660,0,0,346920,0.33,11.07,AI Agents:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202606-HOS01,2026-06,29,HLT-HOS,HLT,High,Data exfiltration attempt,false,false,false,true,false,198940,0,0,47510,0.82,1.05,DLP:0.500 Firewall:0.125 NDR:0.125 SOC:0.125 DFIR:0.125
+INC-202606-HOS02,2026-06,28,HLT-HOS,HLT,Medium,Ransomware attempt,false,false,false,true,true,73325,65256,0,23534,2.28,3.97,EDR/XDR:0.500 SOC:0.500
+INC-202606-HOS03,2026-06,17,HLT-HOS,HLT,Medium,Shadow AI data exposure,true,false,false,true,true,64721,62363,0,13611,1.92,3.65,DLP:0.500 Cloud Security:0.500
+INC-202606-LAB01,2026-06,14,HLT-LAB,HLT,Low,Payment fraud,false,true,false,true,false,5665,0,0,1453,1.94,3.58,AI Agents:0.500 SOC:0.500
+INC-202606-LAB02,2026-06,20,HLT-LAB,HLT,Medium,Phishing / credential theft,false,false,false,true,false,118715,0,0,3200,1.29,1.64,SOC:0.500 AI Agents:0.167 SOAR:0.167 IAM/PAM:0.167
+INC-202606-PWR01,2026-06,22,ENR-PWR,ENR,Low,Business email compromise,false,true,false,true,false,23050,0,0,2960,1.37,5.91,SOC:0.500 AI Agents:0.167 SOAR:0.167 DLP:0.167
+INC-202606-PWR02,2026-06,19,ENR-PWR,ENR,Low,Vulnerability exploitation,false,false,false,true,true,68343,60630,0,1874,1.15,4.13,Vulnerability Mgmt:0.500 AppSec:0.250 EDR/XDR:0.250
+INC-202606-PWR03,2026-06,29,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,true,147173,145517,0,6382,0.82,4.24,SOC:0.500 IAM/PAM:0.500
+INC-202606-PWR04,2026-06,1,ENR-PWR,ENR,Medium,AI prompt injection,true,false,false,true,true,50991,43288,0,17798,1.03,10.37,AI Agents:0.500 SOC:0.500
+INC-202606-PWR05,2026-06,6,ENR-PWR,ENR,Low,Malware,false,false,false,true,false,18138,0,0,2264,0.37,2.09,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202606-OGS01,2026-06,21,ENR-OGS,ENR,Medium,Data exfiltration attempt,false,false,false,true,false,16907,0,0,9010,2.29,6.02,DLP:0.500 Firewall:0.500
+INC-202606-SSA01,2026-06,7,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,false,47967,0,0,9019,0.64,5.72,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202606-SSA02,2026-06,17,GOV-SSA,GOV,Medium,Malware,false,false,false,true,false,33629,0,0,10219,1.89,6.79,EDR/XDR:0.500 SOC:0.500
+INC-202606-SSA03,2026-06,25,GOV-SSA,GOV,Low,Phishing / credential theft,false,false,false,true,true,66512,55791,0,2842,0.54,2.31,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202606-MUN01,2026-06,11,GOV-MUN,GOV,Medium,Account takeover,false,true,false,true,false,46638,0,0,12868,0.44,4.84,IAM/PAM:0.500 SOC:0.250 AI Agents:0.250
+INC-202606-MUN02,2026-06,14,GOV-MUN,GOV,Low,Malware,false,false,false,true,false,27585,0,0,2558,0.81,6.01,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202606-IT01,2026-06,11,GSS-IT,GSS,Medium,Ransomware attempt,false,false,false,true,false,34451,0,0,11046,0.93,5.6,EDR/XDR:0.500 SOC:0.500
+INC-202606-IT02,2026-06,21,GSS-IT,GSS,Low,Data exfiltration attempt,false,false,false,true,false,28823,0,0,4285,1.25,3.44,DLP:0.500 NDR:0.167 SOC:0.167 Firewall:0.167
+INC-202606-IT03,2026-06,19,GSS-IT,GSS,High,Cloud misconfiguration exposure,false,false,true,true,true,1064385,960159,0,34815,2.35,4.11,Cloud Security:0.500 Vulnerability Mgmt:0.167 CTEM:0.167 DFIR:0.167
+INC-202606-FHR01,2026-06,14,GSS-FHR,GSS,Low,Phishing / credential theft,false,false,false,true,false,38921,0,0,1876,1.76,1.04,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202606-FHR02,2026-06,30,GSS-FHR,GSS,Medium,Vulnerability exploitation,false,false,false,false,false,27554,0,7130,3423,0.89,1.24,Vulnerability Mgmt:0.500 CTEM:0.167 EDR/XDR:0.167 AppSec:0.167
+INC-202607-RB01,2026-07,13,FIN-RB,FIN,Medium,Phishing / credential theft,false,false,false,false,false,45140,0,22676,12084,2.02,2.88,SOC:0.500 AI Agents:0.167 IAM/PAM:0.167 SOAR:0.167
+INC-202607-RB02,2026-07,29,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,30256,0,0,9854,4.15,3.46,SOC:0.500 AI Agents:0.500
+INC-202607-RB03,2026-07,15,FIN-RB,FIN,Low,Phishing / credential theft,false,false,false,true,false,22612,0,0,1717,1.79,1.62,SOC:0.500 IAM/PAM:0.167 SOAR:0.167 AI Agents:0.167
+INC-202607-RB04,2026-07,28,FIN-RB,FIN,Low,Business email compromise,false,true,false,true,true,53544,43900,0,1277,1.27,2.87,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202607-RB05,2026-07,17,FIN-RB,FIN,High,Business email compromise,false,true,false,true,true,226681,221867,0,62485,0.78,3.87,SOC:0.500 AI Agents:0.250 DFIR:0.250
+INC-202607-RB06,2026-07,16,FIN-RB,FIN,Medium,Malware,false,false,false,true,true,90946,76184,0,13884,1.18,3.93,EDR/XDR:0.500 SOAR:0.500
+INC-202607-PAY01,2026-07,7,FIN-PAY,FIN,Medium,Data exfiltration attempt,false,false,false,true,false,23018,0,0,10084,1.18,4.2,DLP:0.500 NDR:0.500
+INC-202607-PAY02,2026-07,28,FIN-PAY,FIN,Low,Phishing / credential theft,false,false,false,true,false,9516,0,0,2970,3.19,4.29,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202607-HOS01,2026-07,12,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,true,437621,321312,0,10811,2.26,8.41,Vulnerability Mgmt:0.500 CTEM:0.250 EDR/XDR:0.250
+INC-202607-HOS02,2026-07,22,HLT-HOS,HLT,High,Malware,false,false,false,true,false,206403,0,0,37704,0.75,6.64,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202607-HOS03,2026-07,4,HLT-HOS,HLT,Low,Insider misuse,false,false,false,true,false,10440,0,0,2474,0.38,3.3,DLP:0.500 IAM/PAM:0.500
+INC-202607-HOS04,2026-07,7,HLT-HOS,HLT,Low,DDoS,false,false,false,true,false,5278,0,0,1162,1.48,2.46,WAF:0.500 NDR:0.500
+INC-202607-HOS05,2026-07,26,HLT-HOS,HLT,Medium,Vulnerability exploitation,false,false,false,true,true,66601,65138,0,12191,0.48,3.02,Vulnerability Mgmt:0.500 WAF:0.167 CTEM:0.167 EDR/XDR:0.167
+INC-202607-LAB01,2026-07,29,HLT-LAB,HLT,Medium,Account takeover,false,true,false,true,true,116687,82376,0,10713,0.79,3.48,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202607-LAB02,2026-07,1,HLT-LAB,HLT,Low,Phishing / credential theft,false,false,false,true,false,11206,0,0,5196,0.8,2.15,SOC:0.500 IAM/PAM:0.250 SOAR:0.250
+INC-202607-LAB03,2026-07,15,HLT-LAB,HLT,Low,Business email compromise,false,true,false,true,false,1573,0,0,3442,2.32,1.89,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202607-PWR01,2026-07,30,ENR-PWR,ENR,Critical,DDoS,false,false,true,false,false,4754748,0,2638861,378990,0.91,5.87,WAF:0.500 NDR:0.167 Firewall:0.167 DFIR:0.167
+INC-202607-PWR02,2026-07,29,ENR-PWR,ENR,Medium,AI data leakage,true,false,false,true,true,111233,81001,0,15731,0.79,13.86,DLP:0.500 AI Agents:0.250 GRC:0.250
+INC-202607-PWR03,2026-07,7,ENR-PWR,ENR,Medium,Ransomware attempt,false,false,false,true,true,133828,122783,0,13342,1.65,2.29,EDR/XDR:0.500 NDR:0.250 SOC:0.250
+INC-202607-OGS01,2026-07,30,ENR-OGS,ENR,Low,DDoS,false,false,false,true,false,4867,0,0,5068,1.25,3.29,WAF:0.500 Firewall:0.500
+INC-202607-OGS02,2026-07,29,ENR-OGS,ENR,High,Phishing / credential theft,false,false,false,true,false,278188,0,0,79861,0.65,3.88,SOC:0.500 SOAR:0.250 DFIR:0.250
+INC-202607-SSA01,2026-07,27,GOV-SSA,GOV,High,Malware,false,false,false,true,true,417704,340745,0,122072,0.7,8.53,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202607-SSA02,2026-07,11,GOV-SSA,GOV,High,Business email compromise,false,true,false,true,true,881658,644286,0,55838,2.98,8.98,SOC:0.500 SOAR:0.250 DFIR:0.250
+INC-202607-SSA03,2026-07,21,GOV-SSA,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,181660,154498,0,38108,0.73,10.04,DLP:0.500 NDR:0.167 SOC:0.167 Firewall:0.167
+INC-202607-MUN01,2026-07,19,GOV-MUN,GOV,Low,Payment fraud,false,true,false,true,false,7251,0,0,3184,1.33,3.11,AI Agents:0.500 IAM/PAM:0.500
+INC-202607-MUN02,2026-07,9,GOV-MUN,GOV,Low,Business email compromise,false,true,false,false,false,3479,0,1869,5769,1.66,1.99,SOC:0.500 SOAR:0.500
+INC-202607-IT01,2026-07,12,GSS-IT,GSS,Medium,Payment fraud,false,true,false,true,true,103528,94393,0,23015,0.92,7.84,AI Agents:0.500 SOC:0.500
+INC-202607-IT02,2026-07,22,GSS-IT,GSS,Low,Phishing / credential theft,false,false,false,true,false,12399,0,0,1872,1.53,1.77,SOC:0.500 SOAR:0.167 IAM/PAM:0.167 AI Agents:0.167
+INC-202607-IT03,2026-07,28,GSS-IT,GSS,High,Cloud misconfiguration exposure,false,false,false,true,false,553179,0,0,64355,0.53,1.56,Cloud Security:0.500 Vulnerability Mgmt:0.167 CTEM:0.167 DFIR:0.167
+INC-202607-IT04,2026-07,6,GSS-IT,GSS,Low,Payment fraud,false,true,false,true,false,7541,0,0,1964,1.4,2.99,AI Agents:0.500 SOC:0.500
+INC-202607-IT05,2026-07,21,GSS-IT,GSS,Medium,Payment fraud,false,true,false,true,false,42877,0,0,15563,1.39,10.95,AI Agents:0.500 SOC:0.500
+INC-202607-IT06,2026-07,9,GSS-IT,GSS,High,AI prompt injection,true,false,false,true,true,776276,695064,0,62907,0.74,4.88,AI Agents:0.500 AppSec:0.250 DFIR:0.250
+INC-202607-IT07,2026-07,27,GSS-IT,GSS,Medium,AI data leakage,true,false,false,true,false,38409,0,0,10928,0.61,3.6,DLP:0.500 AI Agents:0.500
+INC-202607-FHR01,2026-07,20,GSS-FHR,GSS,Low,Malware,false,false,false,true,false,4880,0,0,3939,1.3,2.03,EDR/XDR:0.500 SOC:0.500
+INC-202607-FHR02,2026-07,13,GSS-FHR,GSS,Medium,Agent unauthorized action,true,false,false,false,false,99744,0,58281,6612,0.56,8.06,AI Agents:0.500 IAM/PAM:0.500
+INC-202607-FHR03,2026-07,3,GSS-FHR,GSS,High,Payment fraud,false,true,false,true,true,185491,174719,0,29154,2.64,2.85,AI Agents:0.500 SOC:0.250 DFIR:0.250
+INC-202608-RB01,2026-08,15,FIN-RB,FIN,Low,Payment fraud,false,true,false,true,true,55610,51596,0,1081,1.23,1.94,AI Agents:0.500 IAM/PAM:0.500
+INC-202608-RB02,2026-08,2,FIN-RB,FIN,Low,Account takeover,false,true,false,true,false,18354,0,0,3170,3.22,3.99,IAM/PAM:0.500 SOC:0.500
+INC-202608-RB03,2026-08,26,FIN-RB,FIN,Medium,Malware,false,false,false,true,false,46097,0,0,26327,0.6,9.23,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202608-RB04,2026-08,13,FIN-RB,FIN,High,Payment fraud,false,true,false,true,false,420025,0,0,76443,1.09,5.87,AI Agents:0.500 SOC:0.167 IAM/PAM:0.167 DFIR:0.167
+INC-202608-RB05,2026-08,19,FIN-RB,FIN,Medium,Payment fraud,false,true,false,true,false,29737,0,0,10992,1.37,4.77,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202608-PAY01,2026-08,26,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,true,false,16424,0,0,31824,2.1,2.63,SOC:0.500 AI Agents:0.250 SOAR:0.250
+INC-202608-PAY02,2026-08,14,FIN-PAY,FIN,Medium,Payment fraud,false,true,false,true,false,33949,0,0,17635,1.33,10.04,AI Agents:0.500 SOC:0.500
+INC-202608-PAY03,2026-08,26,FIN-PAY,FIN,Medium,Business email compromise,false,true,false,true,false,61035,0,0,14236,0.99,1.64,SOC:0.500 DLP:0.500
+INC-202608-PAY04,2026-08,18,FIN-PAY,FIN,Medium,DDoS,false,false,false,true,true,292218,223510,0,7134,0.91,2.87,WAF:0.500 NDR:0.250 Firewall:0.250
+INC-202608-PAY05,2026-08,25,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,false,false,195337,0,36957,7971,0.29,6.75,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202608-PAY06,2026-08,29,FIN-PAY,FIN,Medium,Phishing / credential theft,false,false,false,true,false,11612,0,0,10672,1,6.08,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202608-HOS01,2026-08,16,HLT-HOS,HLT,Medium,Ransomware attempt,false,false,false,false,false,51962,0,30178,13762,3.05,3.72,EDR/XDR:0.500 Backup:0.500
+INC-202608-HOS02,2026-08,25,HLT-HOS,HLT,Low,Business email compromise,false,true,false,true,false,16772,0,0,1945,2.28,2.7,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202608-HOS03,2026-08,20,HLT-HOS,HLT,Medium,Data exfiltration attempt,false,false,false,true,false,26394,0,0,12394,1.68,5.99,DLP:0.500 SOC:0.500
+INC-202608-HOS04,2026-08,30,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,31189,0,0,1755,1.67,1.79,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202608-LAB01,2026-08,20,HLT-LAB,HLT,Medium,Cloud misconfiguration exposure,false,false,false,true,true,135392,131541,0,10906,1.01,6.31,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202608-LAB02,2026-08,24,HLT-LAB,HLT,Medium,Account takeover,false,true,false,true,false,25255,0,0,30016,0.78,5.16,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202608-PWR01,2026-08,10,ENR-PWR,ENR,Low,Malware,false,false,false,true,false,7058,0,0,2838,3.31,3.24,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202608-PWR02,2026-08,9,ENR-PWR,ENR,Low,Phishing / credential theft,false,false,false,true,false,13818,0,0,10200,1.29,1.45,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202608-OGS01,2026-08,26,ENR-OGS,ENR,Medium,Vulnerability exploitation,false,false,false,true,false,39742,0,0,9703,5.92,5.54,Vulnerability Mgmt:0.500 AppSec:0.250 EDR/XDR:0.250
+INC-202608-OGS02,2026-08,15,ENR-OGS,ENR,High,Ransomware attempt,false,false,false,true,true,165952,126776,0,51498,2.5,4.54,EDR/XDR:0.500 NDR:0.250 DFIR:0.250
+INC-202608-OGS03,2026-08,19,ENR-OGS,ENR,Medium,Ransomware attempt,false,false,false,true,true,102910,94779,0,21351,0.42,6.67,EDR/XDR:0.500 SOC:0.250 NDR:0.250
+INC-202608-SSA01,2026-08,6,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,false,false,75865,0,12621,10054,1.71,3.37,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202608-SSA02,2026-08,22,GOV-SSA,GOV,Medium,Shadow AI data exposure,true,false,false,true,false,58140,0,0,9650,2.52,7.29,DLP:0.500 GRC:0.250 Cloud Security:0.250
+INC-202608-SSA03,2026-08,4,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,true,60455,51662,0,8297,4.17,6.02,SOC:0.500 AI Agents:0.250 IAM/PAM:0.250
+INC-202608-SSA04,2026-08,29,GOV-SSA,GOV,Medium,Business email compromise,false,true,false,true,false,158789,0,0,16372,3.79,4.82,SOC:0.500 DLP:0.167 SOAR:0.167 AI Agents:0.167
+INC-202608-MUN01,2026-08,21,GOV-MUN,GOV,Low,AI prompt injection,true,false,false,true,false,8124,0,0,2846,0.65,3.59,AI Agents:0.500 AppSec:0.250 SOC:0.250
+INC-202608-IT01,2026-08,7,GSS-IT,GSS,Medium,Data exfiltration attempt,false,false,false,true,true,103006,77929,0,7446,1.04,3.7,DLP:0.500 SOC:0.500
+INC-202608-IT02,2026-08,31,GSS-IT,GSS,Low,Business email compromise,false,true,false,true,false,4564,0,0,2226,1.73,2.79,SOC:0.500 AI Agents:0.500
+INC-202608-IT03,2026-08,19,GSS-IT,GSS,Medium,AI prompt injection,true,false,false,false,false,107840,0,46321,4714,1.31,3.76,AI Agents:0.500 AppSec:0.500
+INC-202608-IT04,2026-08,25,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,128587,0,0,11823,1.99,6.85,SOC:0.500 SOAR:0.167 AI Agents:0.167 DLP:0.167
+INC-202608-IT05,2026-08,28,GSS-IT,GSS,Medium,AI prompt injection,true,false,false,true,false,42411,0,0,8440,2.04,4.18,AI Agents:0.500 SOC:0.500
+INC-202608-FHR01,2026-08,23,GSS-FHR,GSS,Low,Cloud misconfiguration exposure,false,false,false,true,false,15533,0,0,3552,3.24,2.02,Cloud Security:0.500 Vulnerability Mgmt:0.250 CTEM:0.250
+INC-202608-FHR02,2026-08,17,GSS-FHR,GSS,Medium,Business email compromise,false,true,false,true,false,26696,0,0,11014,0.76,4.81,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202608-FHR03,2026-08,17,GSS-FHR,GSS,Low,Phishing / credential theft,false,false,false,true,false,3755,0,0,2425,2.32,3.84,SOC:0.500 AI Agents:0.167 SOAR:0.167 IAM/PAM:0.167
+INC-202608-FHR04,2026-08,22,GSS-FHR,GSS,Medium,Vulnerability exploitation,false,false,false,false,false,57668,0,32558,13478,0.53,7.21,Vulnerability Mgmt:0.500 EDR/XDR:0.250 WAF:0.250
+INC-202609-RB01,2026-09,20,FIN-RB,FIN,Low,DDoS,false,false,false,true,false,59256,0,0,4607,1.98,2.51,WAF:0.500 Firewall:0.500
+INC-202609-RB02,2026-09,13,FIN-RB,FIN,Medium,Ransomware attempt,false,false,false,true,true,72587,66237,0,9752,0.79,7.4,EDR/XDR:0.500 SOC:0.167 Backup:0.167 NDR:0.167
+INC-202609-RB03,2026-09,9,FIN-RB,FIN,High,Business email compromise,false,true,false,true,true,248416,223810,0,42296,0.86,2.74,SOC:0.500 AI Agents:0.125 DLP:0.125 SOAR:0.125 DFIR:0.125
+INC-202609-RB04,2026-09,24,FIN-RB,FIN,Medium,Payment fraud,false,true,false,true,true,72192,65814,0,5150,1.17,12.77,AI Agents:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202609-RB05,2026-09,22,FIN-RB,FIN,Medium,AI prompt injection,true,false,false,true,false,94936,0,0,18347,1.4,4.32,AI Agents:0.500 SOC:0.250 AppSec:0.250
+INC-202609-RB06,2026-09,1,FIN-RB,FIN,Low,Business email compromise,false,true,false,true,false,9824,0,0,2655,5.78,1.93,SOC:0.500 DLP:0.500
+INC-202609-RB07,2026-09,9,FIN-RB,FIN,High,Malware,false,false,true,true,true,1104764,835977,0,88379,0.46,5.42,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202609-PAY01,2026-09,27,FIN-PAY,FIN,High,Business email compromise,false,true,false,true,true,185169,138696,0,29374,1.28,3.16,SOC:0.500 DLP:0.167 AI Agents:0.167 DFIR:0.167
+INC-202609-PAY02,2026-09,23,FIN-PAY,FIN,Medium,Cloud misconfiguration exposure,false,false,false,true,false,36490,0,0,9317,2.3,3.74,Cloud Security:0.500 Vulnerability Mgmt:0.250 CTEM:0.250
+INC-202609-PAY03,2026-09,3,FIN-PAY,FIN,Low,AI data leakage,true,false,false,true,false,2681,0,0,6426,1.18,7.7,DLP:0.500 GRC:0.500
+INC-202609-PAY04,2026-09,10,FIN-PAY,FIN,High,AI prompt injection,true,false,false,true,true,210186,197347,0,95934,2.01,2.31,AI Agents:0.500 SOC:0.167 AppSec:0.167 DFIR:0.167
+INC-202609-HOS01,2026-09,11,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,false,32444,0,0,10933,1.46,7.54,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202609-HOS02,2026-09,9,HLT-HOS,HLT,Critical,Malware,false,false,true,true,true,4141019,3356590,0,175831,1.23,16.47,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202609-HOS03,2026-09,24,HLT-HOS,HLT,Medium,Ransomware attempt,false,false,false,true,false,45888,0,0,2596,1.9,5.03,EDR/XDR:0.500 Backup:0.167 NDR:0.167 SOC:0.167
+INC-202609-HOS04,2026-09,9,HLT-HOS,HLT,High,Ransomware attempt,false,false,false,true,true,527313,524142,0,67203,0.65,5.34,EDR/XDR:0.500 Backup:0.167 SOC:0.167 DFIR:0.167
+INC-202609-HOS05,2026-09,11,HLT-HOS,HLT,High,Account takeover,false,true,false,true,true,183852,134493,0,58122,0.97,4.42,IAM/PAM:0.500 AI Agents:0.250 DFIR:0.250
+INC-202609-HOS06,2026-09,2,HLT-HOS,HLT,High,Phishing / credential theft,false,false,false,false,false,930546,0,538153,51543,1.88,3.62,SOC:0.500 SOAR:0.167 AI Agents:0.167 DFIR:0.167
+INC-202609-LAB01,2026-09,11,HLT-LAB,HLT,Low,Business email compromise,false,true,false,true,false,4778,0,0,3575,0.72,2.31,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202609-LAB02,2026-09,15,HLT-LAB,HLT,Low,Vulnerability exploitation,false,false,false,true,false,12969,0,0,2386,1.22,3.15,Vulnerability Mgmt:0.500 AppSec:0.500
+INC-202609-LAB03,2026-09,19,HLT-LAB,HLT,Medium,Cloud misconfiguration exposure,false,false,false,true,false,46721,0,0,18309,0.56,4.06,Cloud Security:0.500 CTEM:0.250 Vulnerability Mgmt:0.250
+INC-202609-LAB04,2026-09,28,HLT-LAB,HLT,Low,Business email compromise,false,true,false,true,false,5302,0,0,2573,1.29,1.94,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202609-PWR01,2026-09,4,ENR-PWR,ENR,Medium,Business email compromise,false,true,false,true,false,31487,0,0,16296,3.77,4.64,SOC:0.500 DLP:0.500
+INC-202609-PWR02,2026-09,4,ENR-PWR,ENR,High,Ransomware attempt,false,false,false,true,true,460523,423264,0,57406,3.12,3.92,EDR/XDR:0.500 NDR:0.167 Backup:0.167 DFIR:0.167
+INC-202609-PWR03,2026-09,9,ENR-PWR,ENR,Medium,Insider misuse,false,false,false,true,false,91166,0,0,8592,0.4,5.65,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202609-OGS01,2026-09,10,ENR-OGS,ENR,Low,Cloud misconfiguration exposure,false,false,false,true,false,36240,0,0,2365,0.64,4.47,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202609-OGS02,2026-09,19,ENR-OGS,ENR,High,Vulnerability exploitation,false,false,false,true,true,260843,256472,0,85307,1.2,10.52,Vulnerability Mgmt:0.500 WAF:0.250 DFIR:0.250
+INC-202609-OGS03,2026-09,9,ENR-OGS,ENR,High,Insider misuse,false,false,false,true,true,672504,587842,0,23402,2.24,8.58,DLP:0.500 SOC:0.250 DFIR:0.250
+INC-202609-OGS04,2026-09,5,ENR-OGS,ENR,Medium,Vulnerability exploitation,false,false,false,true,false,26971,0,0,13266,0.28,12.33,Vulnerability Mgmt:0.500 EDR/XDR:0.167 WAF:0.167 CTEM:0.167
+INC-202609-OGS05,2026-09,17,ENR-OGS,ENR,Low,Insider misuse,false,false,false,true,false,24341,0,0,2674,0.7,1.93,DLP:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202609-SSA01,2026-09,11,GOV-SSA,GOV,Low,Phishing / credential theft,false,false,false,true,false,12789,0,0,3867,0.65,3.09,SOC:0.500 AI Agents:0.500
+INC-202609-SSA02,2026-09,9,GOV-SSA,GOV,Critical,Malware,false,false,true,true,true,2419790,2115812,0,332784,1.41,10.03,EDR/XDR:0.500 SOC:0.167 SOAR:0.167 DFIR:0.167
+INC-202609-SSA03,2026-09,6,GOV-SSA,GOV,High,Business email compromise,false,true,false,true,true,816345,788888,0,44485,0.71,4.75,SOC:0.500 SOAR:0.250 DFIR:0.250
+INC-202609-MUN01,2026-09,13,GOV-MUN,GOV,Medium,AI prompt injection,true,false,false,true,false,43841,0,0,4621,0.65,3.74,AI Agents:0.500 SOC:0.500
+INC-202609-MUN02,2026-09,27,GOV-MUN,GOV,Medium,Malware,false,false,false,true,false,24322,0,0,24179,0.89,2.28,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202609-MUN03,2026-09,8,GOV-MUN,GOV,Medium,Account takeover,false,true,false,true,true,53658,53080,0,9708,1.89,5.94,IAM/PAM:0.500 AI Agents:0.500
+INC-202609-MUN04,2026-09,28,GOV-MUN,GOV,Medium,Business email compromise,false,true,false,true,false,22559,0,0,5258,1.38,3.6,SOC:0.500 DLP:0.500
+INC-202609-MUN05,2026-09,10,GOV-MUN,GOV,High,Account takeover,false,true,false,true,false,592803,0,0,42723,2.82,4.17,IAM/PAM:0.500 AI Agents:0.167 SOC:0.167 DFIR:0.167
+INC-202609-MUN06,2026-09,21,GOV-MUN,GOV,Medium,Malware,false,false,false,true,true,173902,151535,0,9099,4.98,4.2,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202609-MUN07,2026-09,23,GOV-MUN,GOV,Low,Insider misuse,false,false,false,true,false,11447,0,0,8744,0.76,4.09,DLP:0.500 SOC:0.500
+INC-202609-IT01,2026-09,24,GSS-IT,GSS,High,Business email compromise,false,true,false,true,true,525100,416473,0,22829,2.14,1.75,SOC:0.500 AI Agents:0.167 DLP:0.167 DFIR:0.167
+INC-202609-IT02,2026-09,5,GSS-IT,GSS,High,Malware,false,false,false,true,false,424507,0,0,30198,2.79,7.74,EDR/XDR:0.500 SOC:0.250 DFIR:0.250
+INC-202609-IT03,2026-09,26,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,29086,0,0,23616,2.12,4.03,SOC:0.500 DLP:0.500
+INC-202609-IT04,2026-09,2,GSS-IT,GSS,Medium,Malware,false,false,false,true,true,211634,173480,0,8506,0.89,2.94,EDR/XDR:0.500 SOC:0.500
+INC-202609-IT05,2026-09,24,GSS-IT,GSS,Medium,DDoS,false,false,false,true,true,55343,43142,0,13928,0.55,4.19,WAF:0.500 NDR:0.500
+INC-202609-FHR01,2026-09,3,GSS-FHR,GSS,High,Malware,false,false,false,true,false,457960,0,0,69927,3.3,10.59,EDR/XDR:0.500 SOAR:0.167 SOC:0.167 DFIR:0.167
+INC-202609-FHR02,2026-09,18,GSS-FHR,GSS,Medium,Malware,false,false,false,true,false,134560,0,0,5813,1.24,5.34,EDR/XDR:0.500 SOC:0.500
+INC-202609-FHR03,2026-09,5,GSS-FHR,GSS,Medium,Insider misuse,false,false,false,false,false,45391,0,25649,13336,1.97,4.58,DLP:0.500 IAM/PAM:0.500
+INC-202609-FHR04,2026-09,18,GSS-FHR,GSS,Medium,Phishing / credential theft,false,false,false,true,true,62331,49763,0,14136,1.14,13.19,SOC:0.500 SOAR:0.167 AI Agents:0.167 IAM/PAM:0.167
+INC-202610-RB01,2026-10,26,FIN-RB,FIN,Medium,Business email compromise,false,true,false,true,false,120284,0,0,11088,1.25,2.47,SOC:0.500 DLP:0.500
+INC-202610-PAY01,2026-10,3,FIN-PAY,FIN,Low,Cloud misconfiguration exposure,false,false,false,true,false,5350,0,0,1390,1.55,4.03,Cloud Security:0.500 Vulnerability Mgmt:0.500
+INC-202610-PAY02,2026-10,29,FIN-PAY,FIN,Low,Payment fraud,false,true,false,true,false,5329,0,0,3516,1.38,1.23,AI Agents:0.500 IAM/PAM:0.250 SOC:0.250
+INC-202610-PAY03,2026-10,8,FIN-PAY,FIN,Low,Malware,false,false,false,true,false,6628,0,0,2682,1.11,2.54,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202610-PAY04,2026-10,21,FIN-PAY,FIN,High,DDoS,false,false,false,true,true,322954,275610,0,34518,2.68,6.32,WAF:0.500 Firewall:0.167 NDR:0.167 DFIR:0.167
+INC-202610-HOS01,2026-10,20,HLT-HOS,HLT,Medium,Malware,false,false,false,true,false,16806,0,0,15720,0.51,3.87,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202610-HOS02,2026-10,26,HLT-HOS,HLT,Medium,Insider misuse,false,false,false,true,false,69857,0,0,5696,0.75,2.88,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202610-HOS03,2026-10,1,HLT-HOS,HLT,Low,Phishing / credential theft,false,false,false,true,false,9647,0,0,1486,1.42,3.64,SOC:0.500 SOAR:0.250 IAM/PAM:0.250
+INC-202610-HOS04,2026-10,14,HLT-HOS,HLT,Low,Insider misuse,false,false,false,true,false,18296,0,0,3328,1.1,1.89,DLP:0.500 SOC:0.250 IAM/PAM:0.250
+INC-202610-HOS05,2026-10,14,HLT-HOS,HLT,Medium,Phishing / credential theft,false,false,false,true,true,66308,52268,0,13471,1.25,1.85,SOC:0.500 AI Agents:0.500
+INC-202610-LAB01,2026-10,13,HLT-LAB,HLT,High,Vulnerability exploitation,false,false,false,true,true,370931,264786,0,81637,0.92,3.32,Vulnerability Mgmt:0.500 AppSec:0.250 DFIR:0.250
+INC-202610-LAB02,2026-10,2,HLT-LAB,HLT,Critical,Ransomware attempt,false,false,true,true,true,1725629,1501997,0,293335,0.99,4.79,EDR/XDR:0.500 Backup:0.250 DFIR:0.250
+INC-202610-PWR01,2026-10,1,ENR-PWR,ENR,Low,Business email compromise,false,true,false,true,false,4210,0,0,2202,1.33,3.84,SOC:0.500 SOAR:0.250 AI Agents:0.250
+INC-202610-PWR02,2026-10,8,ENR-PWR,ENR,High,Insider misuse,false,false,false,true,true,642471,536720,0,31284,1.5,5.03,DLP:0.500 IAM/PAM:0.167 SOC:0.167 DFIR:0.167
+INC-202610-PWR03,2026-10,3,ENR-PWR,ENR,Medium,Phishing / credential theft,false,false,false,true,false,241417,0,0,5676,1.78,8.26,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202610-PWR04,2026-10,9,ENR-PWR,ENR,High,Ransomware attempt,false,false,false,true,true,279771,244556,0,68431,1.88,7.76,EDR/XDR:0.500 Backup:0.167 SOC:0.167 DFIR:0.167
+INC-202610-PWR05,2026-10,22,ENR-PWR,ENR,Low,Vulnerability exploitation,false,false,false,true,false,31517,0,0,4291,1.13,2.13,Vulnerability Mgmt:0.500 WAF:0.167 CTEM:0.167 EDR/XDR:0.167
+INC-202610-OGS01,2026-10,30,ENR-OGS,ENR,Medium,Business email compromise,false,true,false,true,false,287569,0,0,9810,2.21,2.9,SOC:0.500 AI Agents:0.167 DLP:0.167 SOAR:0.167
+INC-202610-OGS02,2026-10,6,ENR-OGS,ENR,Medium,Malware,false,false,false,true,true,103294,81664,0,10132,1.32,5.01,EDR/XDR:0.500 SOC:0.500
+INC-202610-SSA01,2026-10,13,GOV-SSA,GOV,High,Business email compromise,false,true,true,true,true,1995752,1511671,0,67377,4.14,1.77,SOC:0.500 AI Agents:0.250 DFIR:0.250
+INC-202610-SSA02,2026-10,15,GOV-SSA,GOV,Low,Vulnerability exploitation,false,false,false,true,false,17496,0,0,3096,3.26,3.64,Vulnerability Mgmt:0.500 AppSec:0.167 EDR/XDR:0.167 CTEM:0.167
+INC-202610-SSA03,2026-10,17,GOV-SSA,GOV,Medium,Phishing / credential theft,false,false,false,true,true,123006,99003,0,14663,1.51,11.81,SOC:0.500 AI Agents:0.500
+INC-202610-MUN01,2026-10,9,GOV-MUN,GOV,Medium,Phishing / credential theft,false,false,false,true,false,34126,0,0,6230,2.52,6.45,SOC:0.500 IAM/PAM:0.167 AI Agents:0.167 SOAR:0.167
+INC-202610-MUN02,2026-10,14,GOV-MUN,GOV,Medium,Vulnerability exploitation,false,false,false,true,false,22055,0,0,6533,1.57,5.37,Vulnerability Mgmt:0.500 CTEM:0.500
+INC-202610-MUN03,2026-10,25,GOV-MUN,GOV,Medium,Data exfiltration attempt,false,false,false,true,true,72783,51591,0,9290,1,4.06,DLP:0.500 Firewall:0.500
+INC-202610-MUN04,2026-10,27,GOV-MUN,GOV,Low,Vulnerability exploitation,false,false,false,true,false,13727,0,0,5352,0.96,2,Vulnerability Mgmt:0.500 CTEM:0.167 EDR/XDR:0.167 WAF:0.167
+INC-202610-MUN05,2026-10,25,GOV-MUN,GOV,Medium,Shadow AI data exposure,true,false,false,true,true,156102,122246,0,9950,1.29,13.45,DLP:0.500 GRC:0.250 Cloud Security:0.250
+INC-202610-MUN06,2026-10,28,GOV-MUN,GOV,Low,Account takeover,false,true,false,true,false,5090,0,0,2302,0.69,1.65,IAM/PAM:0.500 AI Agents:0.250 SOC:0.250
+INC-202610-IT01,2026-10,24,GSS-IT,GSS,Medium,Business email compromise,false,true,false,true,false,48687,0,0,20560,1,3.13,SOC:0.500 DLP:0.250 SOAR:0.250
+INC-202610-IT02,2026-10,29,GSS-IT,GSS,Low,AI prompt injection,true,false,false,true,false,5408,0,0,7673,1.21,3.47,AI Agents:0.500 AppSec:0.500
+INC-202610-IT03,2026-10,8,GSS-IT,GSS,Low,Malware,false,false,false,true,false,31059,0,0,2662,2.15,1.6,EDR/XDR:0.500 SOAR:0.250 SOC:0.250
+INC-202610-IT04,2026-10,29,GSS-IT,GSS,High,Business email compromise,false,true,false,true,false,298099,0,0,124926,1.42,6.34,SOC:0.500 AI Agents:0.125 DLP:0.125 SOAR:0.125 DFIR:0.125
+INC-202610-FHR01,2026-10,7,GSS-FHR,GSS,Medium,Business email compromise,false,true,false,false,false,23467,0,5439,13621,0.65,1.95,SOC:0.500 DLP:0.167 AI Agents:0.167 SOAR:0.167
+INC-202610-FHR02,2026-10,6,GSS-FHR,GSS,Medium,Malware,false,false,false,true,false,27659,0,0,10373,0.62,6.28,EDR/XDR:0.500 SOC:0.250 SOAR:0.250
+INC-202610-FHR03,2026-10,25,GSS-FHR,GSS,Medium,Phishing / credential theft,false,false,false,true,true,74606,59430,0,10525,0.95,9.87,SOC:0.500 IAM/PAM:0.500
