@@ -104,4 +104,10 @@ node scripts/monthly-report.js 2026-10
 
 ## Publishing on GitHub Pages
 
-The site is served from the `main` branch root (`.nojekyll` disables Jekyll processing). In the repository settings: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save.**
+The live site is published by GitHub Pages from the `gh-pages` branch, which carries the same commit as `main` (`.nojekyll` disables Jekyll processing). To publish a change, push it to `main` and then update `gh-pages`:
+
+```bash
+git push origin main:gh-pages
+```
+
+To serve directly from `main` instead: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main` / `(root)` → Save**, then delete the `gh-pages` branch.

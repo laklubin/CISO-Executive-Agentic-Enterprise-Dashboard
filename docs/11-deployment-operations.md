@@ -2,7 +2,7 @@
 
 ## 1. What is deployed today
 
-The repository is a static site (no build step) published with GitHub Pages from the `main` branch root:
+The repository is a static site (no build step) published with GitHub Pages from the `gh-pages` branch, which mirrors `main` (publish with `git push origin main:gh-pages`):
 
 | Path | Purpose |
 |---|---|
